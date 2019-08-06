@@ -114,9 +114,10 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
     background: url("../img/cicoe-background.jpg") no-repeat;
-    background-size: cover;
+    background-size: 3000px;
     background-attachment: fixed;
-    background-position-y: -17em;
+    background-position-y: -700px;
+    background-position-x: -100px;
     padding: 50px 0 150px 0;
     position: relative;
 }
