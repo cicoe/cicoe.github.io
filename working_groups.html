@@ -29,6 +29,9 @@ permalink: /working_groups/
             {% for n in site.data.working_groups %}
             <div class="col-md-6 col-sm-12">
                 <div class="wg">
+                    <div class="wg-icon">
+                        <i class="icon ion-{{ n.icon }}"></i>
+                    </div>
                     <h4>{{ n.title }}</h4>
                     <p>{{ n.description }}</p>
                 </div>

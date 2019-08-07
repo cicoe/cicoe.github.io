@@ -953,10 +953,27 @@ footer .footer-manu ul li a:hover {
     border-top: 0.5em solid #31b0d5;
     background-color: #f7f7f7;
     opacity: 0.8;
+    text-align: center;
 }
 
 .wg h4 {
     font-size: 20px;
     font-weight: bold;
+    text-align: left;
+}
+.wg p {
+    text-align: left;
 }
 
+.wg-icon {
+    float: left;
+    margin-right: 0.5em;
+    font-size: 3em;
+    background: #1D4B77;
+    color: #fff;
+    padding: 0.1em;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}

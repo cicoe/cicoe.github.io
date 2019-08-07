@@ -1,20 +1,27 @@
 - title: "Identity Management"
   description: "The Identity Management working group focuses on understanding current practice in authentication and authorization, and helping to mature practice across the NSF Large Facilities. We do this by maintaining and sharing awareness of best practices as well as current policy and technology options for implementing those practices. Through direct engagements with specific facilities, participation in the NSF Cybersecurity Summit and other events, and publishing experience papers, case studies, and other artifacts, we hope to accelerate the exchange of lessons learned in Identity Management across the NSF Large Facility ecosystem."
+  icon: "ios-locked"
 
 - title: "Data Capture"
   description: "This working group focuses on the multiple technology stacks required and challenges involved in: (i) data capture at the sensor front end, (ii) pre-process data at the edge, (iii) transport of data from sensors to central processing and archive sites, and (iv) deployment & maintenance of large scale remote sensor systems.  The goals of this group are to provide demonstrators and comparisons of the multiple architectures that might be used in accomplishing the above."
+  icon: "code-download"
 
 - title: "Data Processing"
   description: "The data processing group focuses on workflows and services related to processing of data, for example transforming raw sensor data from sensors to more specific data products."
+  icon: "ios-cog"
 
 - title: "Data Storage, Curation and Preservation"
   description: "The goals of this working group is to compare and be able to consult on different data storage, curation and preservation technologies. Current effort includes helping with metadata and applying schema.org schemas to data from large facilities."
+  icon: "cube"
 
 - title: "Data Visualization and Dissemination"
   description: "This working group focus on understanding the access, visualization and user interaction workflows in Large Facilities. In particular, we look at how the users explore and interface with the data (e.g., via APIs) for visualization and analysis purposes. Our goal is to learn best practices and provide solutions to improve the access and usability of the available data."
+  icon: "stats-bars"
 
 - title: "Disaster Recovery"
   description: "The goals of this working group are to (1) understand the current practices for Disaster Recovery (DR) for the NEON facility and other large facilities (LF) by studying the architectural elements of the CI used by LFs, and (2) develop a general set of DR requirements and policies that can inform the LFs about best practices for DR and how those can be adapted for specific facilities."
+  icon: "pull-request"
 
 - title: "Engagement with Large Facilities"
   description: "This working group aims to engage with Large Facilities and other large cyberinfrastructure projects to foster knowledge and effective practice sharing. It aims to define avenues of engagement, modes of engagement, and plan community activities."
+  icon: "ios-people"
