@@ -1,0 +1,41 @@
+---
+layout: page
+title: CI CoE Pilot - Working Groups
+permalink: /working_groups/
+---
+
+<section id="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-2">
+                <div class="block">
+                    <h1 class="animated fadeInUp">NSF PILOT STUDY</h1>
+                    <p class="animated fadeInUp">Cyberinfrastructure Center of Excellence</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h2>Working Groups</h2>
+                </div>
+            </div>
+            {% if site.data.working_groups.size > 0 %}
+            {% for n in site.data.working_groups %}
+            <div class="col-md-6 col-sm-12">
+                <div class="wg">
+                    <h4>{{ n.title }}</h4>
+                    <p>{{ n.description }}</p>
+                </div>
+            </div><!-- .col-md-5 close -->
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</section>
+
