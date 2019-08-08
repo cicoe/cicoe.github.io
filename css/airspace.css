@@ -977,3 +977,50 @@ footer .footer-manu ul li a:hover {
     height: 70px;
     vertical-align: middle;
 }
+
+.participant {
+    top: 2em;
+    padding: 2em;
+    margin-top: 2.5em;
+    margin-left: 1.5em;
+    border-top: 0.5em solid #81af3d;
+    background-color: #f7f7f7;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.participant img {
+    border-radius: 50%;
+    width: 4em;
+    float: left;
+    margin: .75em;
+}
+
+.participant h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.participant h5 {
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.3em;
+    margin-top: 0.5em;
+}
+
+.participant>h4 a,
+.participant h4 a:active,
+.participant h4 a:focus,
+.participant h4 a:active{
+    color: #333;
+}
+
+.participant p {
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.3em;
+}
