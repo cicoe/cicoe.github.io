@@ -940,8 +940,8 @@ footer .footer-manu ul li a:hover {
 }
 
 .news h4 {
-  font-size: 20px;
-  font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .wg {
@@ -961,6 +961,7 @@ footer .footer-manu ul li a:hover {
     font-weight: bold;
     text-align: left;
 }
+
 .wg p {
     text-align: left;
 }
@@ -1012,15 +1013,45 @@ footer .footer-manu ul li a:hover {
     margin-top: 0.5em;
 }
 
-.participant>h4 a,
+.participant > h4 a,
 .participant h4 a:active,
 .participant h4 a:focus,
-.participant h4 a:active{
+.participant h4 a:active {
     color: #333;
 }
 
 .participant p {
+    position: absolute;
     text-align: left;
     font-size: 1em;
     line-height: 1.3em;
+    overflow: hidden;
+    position: relative;
+    max-height: 9em;
+}
+
+.participant p:after {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.tooltip {
+    width: 24em;
+    visibility: hidden;
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.participant p:hover + .tooltip {
+    visibility: visible;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+    position: relative;
+    z-index: 10;
 }
