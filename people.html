@@ -47,6 +47,16 @@ permalink: /people/
                     <h3>Advisory Committee</h3>
                 </div>
             </div>
+            {% if site.data.advisory.size > 0 %}
+            {% for n in site.data.advisory %}
+            <div class="col-md-3 col-sm-12">
+                <div class="advisory">
+                    <h4>{{ n.name }}</h4>
+                    <h5>{{ n.institution }}</h5>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
         </div>
     </div>
 </section>

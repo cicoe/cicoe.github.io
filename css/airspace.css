@@ -1055,3 +1055,29 @@ footer .footer-manu ul li a:hover {
     position: relative;
     z-index: 10;
 }
+
+.advisory {
+    top: 1em;
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    border-top: 0.2em solid #ddcc00;
+    background-color: #f7f7f7;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.advisory h4 {
+    text-align: left;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.advisory h5 {
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.3em;
+    margin: 0;
+}

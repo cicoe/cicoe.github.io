@@ -1,0 +1,23 @@
+- name: "Stuart Anderson"
+  institution: "Caltech"
+
+- name: "Pete Beckman"
+  institution: "ANL, Northwestern University"
+
+- name: "Tom Gulbransen"
+  institution: "Battelle"
+
+- name: "Bonnie Hurwitz"
+  institution: "University of Arizona"
+
+- name: "Miron Livny"
+  institution: "University of Wisconsin, Madison"
+
+- name: "Ellen Rathje"
+  institution: "University of Texas at Austin"
+
+- name: "Von Welch"
+  institution: "Indiana University"
+
+- name: "Michael Zentner"
+  institution: "Purdue University"
