@@ -888,6 +888,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
+    margin-top: 4em;
     background: #dddddd;
     text-align: center;
     padding-top: 48px;
@@ -1013,7 +1014,7 @@ footer .footer-manu ul li a:hover {
     margin-top: 0.5em;
 }
 
-.participant > h4 a,
+.participant h4 a,
 .participant h4 a:active,
 .participant h4 a:focus,
 .participant h4 a:active {
@@ -1080,4 +1081,27 @@ footer .footer-manu ul li a:hover {
     text-align: left;
     line-height: 1.3em;
     margin: 0;
+}
+
+.partner {
+    top: 1em;
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    border-top: 0.2em solid #2a6496;
+    background-color: #f7f7f7;
+    opacity: 0.8;
+    text-align: center;
+}
+.partner h4 {
+    text-align: left;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.partner h4 a,
+.partner h4 a:active,
+.partner h4 a:focus,
+.partner h4 a:active {
+    color: #333;
 }

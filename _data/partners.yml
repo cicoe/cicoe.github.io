@@ -1,0 +1,17 @@
+- name: "Trusted CI: the NSF Cybersecurity Center of Excellence"
+  website: "https://trustedci.org/"
+
+- name: "SCiMMA - Scalable Cyberinfrastructure to support Multi-Messenger Astrophysics"
+  website: "https://scimma.org/"
+
+- name: "Research Security Operations Center (ResearchSOC)"
+  website: "https://researchsoc.iu.edu/"
+
+- name: "Science Gateways Community Institute (SGCI)"
+  website: "https://sciencegateways.org/"
+
+- name: "Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)"
+  website: "http://iris-hep.org/"
+
+- name: "Molecular Sciences Software Institute"
+  website: "https://molssi.org/"
