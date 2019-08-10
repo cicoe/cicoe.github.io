@@ -1105,3 +1105,40 @@ footer .footer-manu ul li a:hover {
 .partner h4 a:active {
     color: #333;
 }
+
+/* Style the button that is used to open and close the collapsible content */
+.lf .collapsible {
+    top: 2em;
+    padding: 2em;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    border: none;
+    border-top: 0.2em solid #81af3d;
+    background-color: #f7f7f7;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.lf .active, .lf .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.lf .content {
+    display: none;
+    overflow: scroll;
+    max-height: 30em;
+    background-color: #f1f1f1;
+    margin-left: 1.6em;
+    padding: 2em;
+}
+
+.lf .content ul {
+    margin-left: 2em;
+}

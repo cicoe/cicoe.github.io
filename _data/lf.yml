@@ -1,0 +1,339 @@
+- name: "National Superconducting Cyclotron Laboratory"
+  website: "https://www.nscl.msu.edu/"
+  description: "
+    The overall mission of the National Superconducting Cyclotron Laboratory (NSCL) at
+    Michigan State University is to provide forefront research opportunities with stable
+    and rare isotope beams. A broad research program is made possible by the large range
+    of accelerated primary and secondary (rare isotope) beams provided by the facility.
+    The major research thrust is to determine the nature and properties of atomic nuclei,
+    especially those near the limits of nuclear stability. Other major activities are
+    related to nuclear properties that influence stellar evolution, explosive phenomena
+    in the cosmos (e.g. supernovae and x-ray bursts), and the synthesis of the heavy
+    elements; and research and development in accelerator and instrumentation physics,
+    including the development of superconducting radiofrequency cavities and design
+    concepts for future accelerators for basic research and societal applications.
+    In all activities an important part of the NSCL program is the training of the next
+    generation of scientists. Upon completion of the DOE-funded Facility for Rare Isotope
+    Beams (FRIB), the laboratory will transition to programs with beams from this facility.
+    <br /><br />
+    NSCL operates two coupled cyclotrons, which accelerate stable ion beams to energies
+    of up 170 MeV/u. Rare isotope beams are produced by projectile fragmentation and
+    separated in-flight in the A1900 fragment separator. For experiments with high-quality
+    rare isotope beams at an energy of a few MeV/u, the high-energy rare isotope beams
+    are transported to a He gas cell for thermalization, and then sent to the ReA
+    linear post-accelerator for reacceleration. Rare isotope beams in this energy range
+    allow nuclear physics experiments such as low-energy Coulomb excitation and transfer
+    reaction studies as well as for the precise study of astrophysical reactions. The
+    facility has produced over 904 rare isotope beams for experiments, and 65 new isotopes
+    have been discovered at NSCL.
+    <br /><br />
+    NSCL is a national user facility and has a large user community with over 800 actual,
+    active users in a given year. Most experiments conducted at NSCL involve international
+    collaborations with about 75% of the experiments lead by a US spokesperson.
+    <br /><br />
+    NSCL provides beams to approximately 30 experiments per year. Experiments are short
+    (~3-7 days) with many changes during and in between experiments. Data acquisition and
+    analysis and simulation framework need to support fast online decision making.
+    Experiments have increased significantly in complexity with an increase of the number
+    of channels read out, often together with high-resolution digitized waveform data.
+    Each experiment can generate up to 10 TB of experimental data set. Storage and backup
+    systems must match such data sizes. Data sets are analyzed on-line during the data
+    acquisition and later off-line either at NSCL or at the spokesperson's institution.
+    Experiments with in-house spokespersons require long-term storage (usually a few years)
+    of the full data set and adequate computing resources for analysis. A computing cluster
+    in the order of 1000 cores dedicated for online analysis is foreseen. Network bandwidths
+    of 100 Gbit/s will be required. External data transfer capabilities must continue to
+    accommodate the needs of a large and distributed user community with increased data
+    set sizes. Data sets are provided to experimenters via magnetic tape, though other
+    methods are available.<br /><br />NSCL CI supports and enables the Laboratory overall
+    mission. CI includes a broad range of functional areas: business support information
+    technology, networking, accelerator controls, experimental controls and DAQ, and
+    offline simulation and analysis. Internally developed and commercial solutions are
+    used. Systems are primarily managed and maintained by Laboratory personnel. CI
+    challenges include increasing security requirements, Laboratory growth with FRIB
+    planning and construction, and increasing and foreseen experimental needs.
+    <br /><br />
+    The Business IT department provides a range of enterprise IT services directly
+    supporting business processes including an internally hosted ERP suite and other
+    customized COTS solutions. Windows based services including Active Directory, Exchange,
+    SharePoint are deployed. More than 500 Windows desktop PCs are maintained.
+    <br /><br />
+    Business IT department also maintains the Lab-wide network, servers and storage
+    used by DAQ and NSCL Controls and is responsible for overall IT security.
+    <br /><br />
+    Internet is provided via MSU with MSU assisting with Internet security. Laboratory
+    wired networks are managed internally with MSU supporting wireless access.
+    <br /><br />
+    The Controls department is responsible for hardware and software controls for
+    accelerators, beamlines, and other experimental equipment. The controls system
+    uses EPICS protocols with graphical monitoring using CS-Studio. NSCL personnel
+    are active in development of both projects. A number of associated systems provide
+    alarms, access controls, archiving etc. for EPICS.<br /><br />With construction of
+    the FRIB accelerator progressing, new accelerator and cryogenic controls networks
+    are being deployed. These are also EPICS based. The designs emphasis security with
+    FRIB Controls network isolated from other Laboratory systems.
+    <br /><br />
+    In house developed software forms the core of the DAQ systems. NSCLDAQ is a modular
+    system supporting a range of experiment arrangements. SpecTcl is a compatible
+    analysis software. DDAS is an internally developed digital-DAQ, supporting XIA
+    Pixie-16 Digitizer and compatible with NSCLDAQ. As a user facility, NSCL provides
+    DAQ assistance to visiting experimenters. Typical experiments produce approximately
+    100 GB of data per day with experiments storing digitized waveforms producing ~1 TB
+    per day. Currently, most experiments’ needs are met with 1GE networking and several
+    DAQ computers. Data is recorded to ZFS/Linux servers. Reliability is critical as
+    experiments' beam times are generally limited for less than one week. Visiting
+    experimenters may make use of DAQ systems while present at NSCL.
+    <br /><br />
+    Increasingly, flexible CPU and software systems are used for DAQ. One purpose is
+    distinguishing overlapping waveform signals from higher rate experiments. The
+    GRETINA experiment is active at NSCL currently utilizing a dedicated farm of
+    approximately 100 PC nodes (1000 cores) for selecting events based on digitized
+    waveforms.
+    <br /><br />
+    Offline simulations and analysis systems are provided for Laboratory students,
+    faculty and staff. Clustered interactive Linux hosts and a small (~50 node)
+    Linux SLURM batch system are available. Approximately 1 PB of networked research
+    storage is available using ZFS/Linux systems with NFS. Increasing detector complexity,
+    data volumes and analysis complexity require increasing simulation and analysis
+    capacity. Free and widely used applications such as ROOT and GEANT are the norm.
+    "
+
+- name: "The Cornell High Energy Synchrotron Source (CHESS)"
+  website: "https://www.chess.cornell.edu/"
+  description: "
+    The Cornell High Energy Synchrotron Source (CHESS) is a NSF-funded National User Facility
+    located on the Cornell University campus in Ithaca, New York.  The mission of CHESS is to
+    provide a national hard x-ray synchrotron radiation facility for individual investigators,
+    on a competitive, peer reviewed, proposal basis.  With 11 experimental stations, the facility
+    is used by approximately 1,100 investigators per year from over 150 academic, industrial,
+    government, non-profit, and international institutions.  CHESS impacts a wide range of
+    disciplines, serving researchers from the physical, biological, engineering, and life
+    sciences, as well as cultural specialists such as anthropologists and art historians.
+    CHESS users conduct studies encompassing, but not limited to, the atomic and nanoscale
+    structure, properties, operando, and time-resolved behavior of electronic, structural,
+    polymeric and biological materials, protein and virus crystallography, environmental science,
+    radiography  of  solids  and  fluids,  and  micro-elemental  analysis,  and  other
+    technologies  for  x-ray science.
+    <br /><br />
+    The CHESS facility is hosted by the Cornell Laboratory for Accelerator-based Sciences
+    and Education (CLASSE), which also operates the Cornell Electron Storage Ring (CESR) as
+    the x-ray source for CHESS. Computing services for CHESS are provided centrally by the
+    CLASSE-IT department.  The primary computing services used by CHESS are:
+    <br />
+    <ul>
+      <li>high-speed data acquisition for x-ray detectors at the CHESS experimental stations</li>
+      <li>access to and long-term storage of x-ray data collected by CHESS users</li>
+      <li>software libraries and parallel computation resources for CHESS staff and users.</li>
+    </ul>
+    <br />
+    <h4>CHESS Cyberinfrastructure</h4>
+    The CLASSE cyberinfrastructure (CI) consists of an interconnected series of high-availability
+    server clusters (HACs), data acquisition systems, control systems, compute farms, and workstations.
+    Most of these systems run either Scientific Linux or Windows on commodity 64-bit Intel-based
+    hardware and are centrally managed using Puppet.  The median age of key CI components is
+    approximately 5 years, with an average refresh rate of once every 10 years.  The CLASSE CI
+    components most relevant to CHESS are described below.
+    <br /><br />
+    <strong>Central Infrastructure</strong>
+    <br />
+    The  central  Linux  infrastructure  cluster  runs  the  core  CLASSE  infrastructure  services,
+    including  name services, file systems, databases, and web services. Recently, a dedicated oVIrt
+    cluster has been commissioned to run centrally-provisioned virtual machines.  These clusters
+    utilize shared 10Gb iSCSI storage domains, and they provide file systems and other basic services
+    to the rest of the lab.
+    <br /><br />
+    <h4>CHESS Data Acquisition (DAQ)</h4>
+    The CHESS data acquisition system runs on a dedicated HAC and provides 10Gb network connections
+    to each experimental station.  Data collected at the stations are written directly to the data
+    acquisition system over  either  NFS  or  Samba,  where  it  can  then  be  processed  on  the
+    CLASSE  Compute  Farm  or  end-user workstations.  CHESS users can also download their data
+    remotely using a Globus server endpoint or via SFTP.
+    <br /><br />
+    <h4>Compute Farm</h4>
+    The  CLASSE  Compute  Farm  is  a  central  resource  consisting  of  approximately  60
+    enterprise-class  Linux nodes (with around 400 cores) with a front-end queueing system that
+    distributes jobs across the Compute Farm nodes.  This queueing system supports interactive,
+    batch, parallel, and GPU jobs, and it ensures equal access to the Compute Farm for all users.
+    <br /><br />
+    <h4>CESR Control System</h4>
+    The CESR control system, responsible for running the particle accelerator that produces x-rays
+    for CHESS, consists of a dedicated Linux HAC. Although the CESR, CLASSE, and CHESS DAQ clusters
+    are essentially identical, the CESR cluster runs many more control system services and is able
+    to operate independently from the CLASSE central infrastructure.  This isolation ensures
+    continuity of CESR operations in the event of a power failure or general network outage.
+    <br /><br />
+    <h4>User Connectivity</h4>
+    Based on their requirements, CHESS users are either granted restricted \"external\" CLASSE
+    accounts (providing access to station computers and remote access to data) or full CLASSE
+    accounts (providing access to the CLASSE Compute Farm and full interactive desktops, both
+    local and remote).
+    <br /><br />
+    While  collecting  data  at  the  experimental  stations,  CHESS  users  generally  connect
+    their  instruments and experimental equipment to a private subnet that is selectively
+    firewalled from the rest of the CLASSE infrastructure.  If users require direct write access
+    to the CHESS DAQ filesystems, they may use dedicated station and kiosk computers located at
+    the experimental stations and in other restricted-access locations. Outside  the  experimental
+    stations,  CHESS  user  data  is  made  available  for  read-only  access  through  the
+    CLASSE public network.
+    "
+
+- name: "DesignSafe - Cyberinfrastructure for NSF Natural Hazards Engineering Research Infrastructure"
+  website: "https://www.designsafe-ci.org/"
+  description: "
+    Natural hazards engineering plays an important role in minimizing the effects of natural
+    hazards on society through the design of resilient and sustainable infrastructure. The
+    DesignSafe cyberinfrastructure has been developed to enable and facilitate transformative
+    research in natural hazards engineering, which necessarily spans across multiple disciplines
+    and can take advantage of advancements in computation, experimentation, and data analysis.
+    DesignSafe allows researchers to more effectively share and find data using cloud services,
+    perform numerical simulations using high performance computing, and integrate diverse
+    datasets such that researchers can make discoveries that were previously unattainable. This
+    white paper describes the design principles used in the cyberinfrastructure development
+    process, introduces the main components of the DesignSafe cyberinfrastructure, and
+    illustrates the architecture of the DesignSafe cyberinfrastructure.
+    <br /><br />
+    A cyberinfrastructure is a comprehensive environment for experimental, theoretical, and
+    computational engineering and science, providing a place not only to steward data from its
+    creation through archive, but also a workspace in which to understand, analyze, collaborate
+    and publish that data. Our vision is for DesignSafe to be an integral part of research
+    and discovery, providing researchers access to cloud-based tools that support their work
+    to analyze, visualize, and integrate diverse data types. DesignSafe builds on the core
+    strengths of the previously developed NEEShub cyberinfrastructure for the earthquake
+    engineering community, which includes a central data repository containing years of
+    experimental data. DesignSafe preserves and provides access to the existing content from
+    NEEShub and adds additional capabilities to build a comprehensive CI for engineering
+    discovery and innovation across natural hazards. DesignSafe has been developed along
+    the following principles:
+    <br /><br />
+    <strong>Create a flexible CI that can grow and change.</strong> DesignSafe is extensible,
+    with the ability to adapt to new analysis methods, new data types, and new workflows
+    over time. The CI is built using a modular approach that allows integration of new
+    community or user supplied tools and allows the CI to grow and change as the disciplines
+    grow and change.
+    <br /><br />
+    <strong>Provide support for the full data/research lifecycle.</strong> DesignSafe is not
+    solely a repository for sharing experimental data, but is a comprehensive environment for
+    experimental, simulation, and field data, from data creation to archive, with full support
+    for cloud-based data analysis, collaboration, and curation in between. Additionally, it
+    is the role of a cyberinfrastructure to continue to link curated data, data products, and
+    workflows during the post-publication phase to allow for research reproducibility and
+    future comparison and revision.
+    <br /><br />
+    <strong>Provide an enhanced user interface.</strong> DesignSafe supplies a comprehensive
+    range of user interfaces that provide a workspace for engineering discovery. Different
+    interface views that serve audiences from beginning students to computational experts
+    allow DesignSafe to move beyond being a \"data portal\" to become a true research environment.
+    <br /><br />
+    <strong>Embrace simulation.</strong> Experimental data management is a critical need
+    and vital function of the CI, but simulation also plays an essential role in modern
+    engineering and must be supported. Through DesignSafe, existing simulation codes, as
+    well as new codes developed by the community and SimCenter, are available to be invoked
+    directly within the CI interface, with the resulting data products entered into the
+    repository along with experimental and field data and accessible by the same analytics,
+    visualization, and collaboration tools.
+    <br /><br />
+    <strong>Provide a venue for internet-scale collaborative science.</strong> As both digital
+    data captured from experiments and the resolution of simulations grow, the amount of
+    data that must be stored, analyzed and manipulated by the modern engineer is rapidly
+    scaling beyond the capabilities of desktop computers. DesignSafe embraces a cloud
+    strategy for the big data generated in natural hazards engineering, with all data,
+    simulation, and analysis taking place on the server-side resources of the CI, accessible
+    and viewable from the desktop but without the limits of the desktop and costly, slow
+    data transfers.
+    <br /><br />
+    <strong>Develop skills for the cyber-enabled workforce in natural hazards engineering.</strong>
+    Computational skills are increasingly critical to the modern engineer, yet a degree in
+    computer science should not be a prerequisite for using the CI. Different interfaces
+    lower the barriers to HPC by exposing the CI’s functionality to users of all skill
+    levels, and best of breed technologies are used to deliver online learning throughout
+    the CI to build computational skills in users as they encounter needs for deeper learning.
+    <br /><br />
+    The DesignSafe infrastructure provides a comprehensive environment for experimental,
+    theoretical, and computational engineering and science, providing a place not only to
+    steward data from its creation through archive, but also the workspace in which to
+    understand, analyze, collaborate and publish that data. The CI can be described in
+    terms of the services it provides or in terms of the technical components that enable
+    those services.
+    <br /><br />
+    DesignSafe is architected to comprise the following services and components:
+    <ul>
+      <li><strong>DesignSafe</strong> front end web portal</li>
+      <li>The <strong>Data Depot</strong>, a multi-purpose data repository for experimental, simulation, and field data that uses a flexible data model applicable to diverse and large data sets and is accessible from other DesignSafe components. The Data Depot includes an intelligent search capability that allows dynamic creation of catalogs of the held data in an easily understandable way, and that can search ill-structured data with poor or incomplete metadata.</li>
+      <li>A <strong>Reconnaissance Integration Portal</strong> that facilitates sharing of reconnaissance data within a geospatial framework.</li>
+      <li>A web-based <strong>Discovery Workspace</strong> that represents a flexible, extensible environment for data access, analysis, and visualization.</li>
+      <li>A <strong>Learning Center</strong> that provides training and online access to tutorials.</li>
+      <li>A <strong>Developer’s Portal</strong> that provides a venue for power users to extend the Discovery Workspace or Reconnaissance Integration Portal, and to develop their own applications to take advantage of the DesignSafe infrastructure’s capabilities.</li>
+      <li>A foundation of <strong>storage and compute systems</strong> at the Texas Advanced Computing Center (TACC), to provide both on-demand computing and access to scalable computing resources.</li>
+      <li>A <strong>middleware layer</strong> to expose the capabilities of the CI to developers, and to enable construction of diverse web and mobile interfaces to data products and analysis capabilities</li>
+      <li>A marketplace of <strong>Community Defined Interfaces</strong>; the extension capability of the CI allows other projects to leverage DesignSafe to build an interface of their own choosing.</li>
+    </ul>
+    <br />
+    The CI development was initiated in July 2015 upon receiving the NSF award, and was first deployed May 2016. As of June 2017 we have more than 1,100 registered users spanning dozens of institutions around the world.
+  "
+
+- name: "Daniel K. Inouye Solar Telescope National Solar Observatory"
+  website: "http://dkist.nso.edu)/"
+  description: "
+    <h4>Introduction</h4>
+    The Daniel K. Inouye Solar Telescope (DKIST) is a four-meter, off-axis Gregorian solar telescope currently under construction by the National Solar Observatory and AURA on Haleakala, Maui, Hawai’i. When complete in 2019, it will be the largest solar telescope in the world, providing facility-class, high-resolution solar observations to a small but growing community of students, researchers, and the general public. In full operations, planned to last fifty years, the DKIST will house five complex instruments and a state-of-the-art adaptive optics system, generating over three petabytes of raw data annually. Key to its success, then, is a cyberinfrastructure providing facility and instrument control, scientific and operational data acquisition, and data management, processing, and distribution services. In this whitepaper, we provide a high-level description of primary components of the cyberinfrastructure.
+    <br /><br />
+    <h4>Cyberinfrastructure</h4>
+    The DKIST cyberinfrastructure is comprised of three primary components: the systems and infrastructure providing services to operate the telescope and its supporting subsystems (“Summit”), the core services and infrastructure needed to support science and engineering activities related to observatory operations and network services (“DKIST IT”), and the services and infrastructure performing long-term data management, processing, discovery, and distribution (“Data Center”). These components are highlighted in Figure 1, and discussed in more detail below.
+    <br /><br />
+    <strong>Summit</strong>. The DKIST Summit cyberinfrastructure comprises integrated facility, instrument control and safety systems, enabling telescope and dome control, optical alignment and routing, mechanical controls, observation execution and monitoring, instrument data acquisition, management, and distribution, and environmental monitoring and control. These systems are comprised of a High Level Software suite written primarily in Java and Python, utilizing CORBA. They are deployed through configuration-controlled provisioning stacks, including SaltStack, and sit atop an HPC architecture comprising many dedicated nodes interconnected through 10 Gb Ethernet and FDR InfiniBand. The Summit cyberinfrastructure is currently being readied for integration testing as a prelude to observatory integration efforts coming in the next 12-18 months.
+    <br /><br />
+    <strong>DKIST IT</strong>. The DKIST IT supports the observatory through deployment of core services such as routing, DNS, LDAP, and network maintenance and monitoring for the summit and a remote support building, as well ensuring SLAs and/or contracts with partner organizations (U. Hawai’I in Maui and U. Colorado in Boulder at the NSO Headquarters) are met and maintained. In addition, the DKIST IT provides operational support for physical infrastructure (optical fiber, Ethernet and InfiniBand networking, and routing hardware) on the Summit and the remote support building. Services are deployed through configuration-controlled provisioning stacks, sitting atop commodity equipment including Cisco switching. The DKIST IT is ramping its efforts, particularly with regard to network buildout on the Summit and the remote support facility.
+    <br /><br />
+    <strong>Data Center</strong>. The DKIST Data Center will provide long-term data management, scientific processing, search, and distribution services for the observatory. It will manage 3.2 PB of data per year, comprised of hundreds of millions of observations and tens of billions of metadata, exported by the Summit and, after calibration, intended for end-user consumption. Thus, data management and processing services must scale effectively with little rework, while data search depends on appropriate data modeling and well-developed use cases to allow end-users to effectively target data of interest. Key aspects of the architecture include a combined microservices and virtual machine deployment, provisioned through SaltStack and managed with Elastic and related tooling. While it is planned for the Data Center to reside at the NSO Headquarters, economies of scale are shifting, indicating a need to ensure “deploy-anywhere” (e.g., commercial cloud providers) can be supported effectively. The Data Center is currently completing its design phase, with development expected to occur in 2018-2020, with phased delivery of critical services occurring as DKIST comes online.
+    <br /><br />
+    When combined with a rigorous systems-engineering approach, including detailed requirements and interface controls, these three primary components will support DKIST use and scientific data exploitation. Despite the bespoke nature of the Summit CI, there is a significant focus on leveraging open source technologies in the DKIST, rather than relying on integration of commercial products. This is partly due to the long-term nature of the program and tight budgetary constraints. However, there are no free lunches – significant open source adoption without proactive forward replacement planning can leave obsolesced components underpinning critical systems. Given the long development timeline for the DKIST – the first CI work began in 2005 – these issues are already creeping into a yet-to-operate facility. Yet, the state of system development shows significant progress forward, and a bright future, for the DKIST CI.
+    <br /><br />
+    <h4>Summary</h4>
+    This whitepaper briefly discusses the DKIST end-to-end cyberinfrastructure, focusing on the three primary entities and their roles. Each is in a different developmental state, emphasizing the importance of clear requirements and interfaces, effective team communication strategies, and stakeholder management.
+  "
+
+- name: "Gemini Observatory"
+  website: "http://www.gemini.edu/"
+  description: "
+    <h4>Facility Description</h4>
+    The Gemini Observatory consists of twin 8.1-meter diameter optical/infrared telescopes located on two of the best observing sites in the world: Maunakea in Hawaii and Cerro Pachon in Chile. From these two locations, Gemini’s telescopes can collectively provide access to the entire sky. Gemini was built and is operated by an international partnership of five countries including the United States, Canada, Brazil, Argentina and Chile. These Participants and the University of Hawaii, which has regular access to Gemini, each maintain a “National Gemini Office” to support their local users. Any astronomer in these countries can apply for time on Gemini, which is allocated in proportion to each Partcipant's financial stake. For the US, Gemini provides the largest publicly-accessible optical/infrared telescopes.
+    <br /><br />
+    Formally, the Mission Statement is “To advance our knowledge of the Universe by providing the international Gemini Community with forefront access to the entire sky.” Gemini’s achieves this by supporting peer-reviewed science proposed by the astronomical communities in the participating nations, and providing competitive instrumentation and observing modes in doing so. Over the five-year period between 2012 and 2016, more than 1000 individual Principal Investigators applied for Gemini observing time, from more than 300 academic institutions across the Gemini Partnership.
+    <br /><br />
+    <h4>Key products/services</h4>
+    The direct product of Gemini observatory is observational data, taken in appropriate observing conditions, and placed in an archive for access by Principal Investigators (PIs). The service provided to PIs, jointly between the observatory and the NGOs, is to help prepare their observations, then to execute them on the telescopes or support the PI in executing them. Some PIs visit the telescope to make observations, others have their observations taken for them by staff operators. Gemini provides the preparation tool for PIs to create their observations. It also provides a data reduction package for all facility-class instruments. Currently this is based on the standard “IRAF” package distributed by NOAO.
+    <br /><br />
+    <h4>Facility CI</h4>
+    The Gemini Observatory CI (computers, storage and networking; we do not include software in the definition) addresses the combined requirements of telescope operations, data handling and administrative support functions. Each of the four Gemini sites operates identical key services; a redundant core network service to support the distributed network environment, a redundant data storage system capable of replicating data offsite/cross-site in real time, a virtual machine cluster, a physical server farm, a virtual tape library backup environment, which also replicates data offsite, and instrumentation support infrastructure - such as per-instrument server hardware, network connectivity, remote power management and system monitoring.
+    <br /><br />
+    The two main Gemini sites (Gemini North and Gemini South) are connected via site-to-site VPN tunnels, that utilize the Internet 2 network infrastructure in the US, with interconnections to the REUNA research network in Chile.
+    <br /><br />
+    Additionally the two base facility sites in La Serena, Chile and Hilo, Hawaii are equipped with high power computers. These units offer Gemini scientist the possibility of efficiently processing data locally to support their research. While for the most part the consumption of these key services and components is separated, non-operational functions, such as research, project and document management, telecommunications and internet access, enjoy the benefits of increased redundancy and high availability.
+    <br /><br />
+    The median age of these key CI components is largely dictated by the manufacturers recommendations and enterprise support capabilities and experience in the field. These numbers are in turn transposed to the observatories longevity/obsolescence plan and are therefore understood in advance of the budget cycles. The networking equipment, for example, has a general operating age of around eight years, at which point the support contracts are no longer offered and spares are difficult to procure. The current core network hardware was replaced in 2014 and is set to be replaced in 2022. Similar examples can be made for each key CI component within Gemini, ensuring that the technology will also meet the observatory’s long term requirements.
+  "
+
+- name: "IceCube"
+  website: "http://icecube.wisc.edu/"
+  description: "
+    IceCube is a neutrino detector built at the South Pole by instrumenting about a cubic kilometer of ice with 5160 light sensors. It uses Cherenkov light, emitted by charged particles moving through the ice to realize the enormous detection volume required for detecting neutrinos. One of the primary goals for IceCube is to elucidate the mechanisms for production of high-energy cosmic rays by detecting high-energy neutrinos from astrophysical sources. The Detector construction started in 2005 and finished in December 2010. Data taking started in 2006 and it is expected to be operated for at least 20 years. The United States National Science Foundation (NSF) supplied funds for the design, construction, and operations of the detector. As the host institution, the University of Wisconsin-Madison, with support from the NSF, has responsibility on the maintenance and operations of the detector. The scientific exploitation is carried out by an international Collaboration of about 300 researchers from 48 institutions in 12 countries.
+    <br /><br />
+    The IceCube data processing is divided in two regimes: online at the South Pole and offline at the UW-Madison main data processing center. Computing equipment is lifecycle replaced on average every ~4 years at the South Pole and ~5 years at UW-Madison. Several collaborating institutions also contribute to the offline computing infrastructure at different levels. Two Tier1 sites provide tape storage services for the long term preservation of the IceCube data products: NERSC in the US and DESY-Zeuthen in Germany. About 20 additional IceCube sites in the US, Canada, Europe and Asia provide computing resources for simulation and analysis.
+    <br /><br />
+    <h4>Online Computing Infrastructure</h4>
+    Aggregation of data from the light sensors begins in the IceCube Laboratory (ICL), a central computing facility located on top of the detector hosting about 100 custom readout DOMHubs and 50 commodity servers. Data is collected from the array at a rate of 150 MB/s. After triggering and event building, the data is split into two independent paths. First, RAW data products are written to disks at a rate of about 1 TB/day, awaiting physical transfer north once per year. In addition, an online compute farm of 22 servers does near-real-time processing, event reconstruction, and filtering. Neutrino candidates and other event signatures of interest are identified within minutes, and notifications are dispatched to other astrophysical observatories worldwide via the Iridium satellite system. Approximately 100 GB/day of filtered events are queued for daily transmission to the main data processing facility at UW–Madison via high-bandwidth satellite links. Once in Madison, filtered data is further processed to a level suitable for scientific analysis.
+    <br /><br />
+    <h4>Offline Computing Infrastructure</h4>
+    The main data processing facility at UW-Madison currently consists of ~7600 CPU cores, ~400 GPUs and ~6 PB of disk. This facility is used mainly for user analysis, but also for data processing and simulation production. Data products that need to be preserved for long time are replicated to two different locations: NERSC and DESY-Zeuthen.
+    <br /><br />
+    Conversion of event rates into physical fluxes ultimately relies on knowledge of detector characteristics numerically evaluated by running Monte Carlo simulations that model fundamental particle physics, the interaction of particles with matter, transport of optical photons through the ice, and detector response and electronics. Large amounts of simulations of background and signal events must be produced for use by the data analysts. The computationally expensive numerical models necessitate a distributed computing model that can make efficient use of a large number of clusters at many different locations.
+    <br /><br />
+    Up to 50% of the computing resources used by IceCube simulation and analysis are distributed (i.e. not at UW-Madison). The HTCondor software is used to federate these heterogeneous resources and present users a single consistent interface to all of them:
+    <br /><br />
+    <ul>
+      <li>Local clusters at IceCube collaborating institutions</li>
+      <li>UW campus shared clusters</li>
+      <li>Open Science Grid</li>
+      <li>XSEDE supercomputers</li>
+    </ul>
+  "

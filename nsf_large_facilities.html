@@ -1,0 +1,48 @@
+---
+layout: page
+title: CI CoE Pilot - NSF Large Facilities
+permalink: /nsf_large_facilities/
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h2>NSF Large Facilities</h2>
+                </div>
+            </div>
+            {% if site.data.lf.size > 0 %}
+            {% for n in site.data.lf %}
+            <div class="col-md-12 col-sm-12">
+                <div class="lf">
+                    <button class="collapsible"><strong>{{ n.name }}</strong></button>
+                    <div class="content">
+                        <h4>{{ n.name }}</h4>
+                        <p><a href="{{ n.website }}" target="_blank"><i class="icon ion-link"></i> Website</a></p>
+                        <p>{{ n.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
