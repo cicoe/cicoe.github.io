@@ -14,13 +14,13 @@ permalink: /nsf_large_facilities/
             </div>
             {% if site.data.lf.size > 0 %}
             {% for n in site.data.lf %}
-            <div class="col-md-12 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <div class="lf">
                     <button class="collapsible"><strong>{{ n.name }}</strong></button>
                     <div class="content">
                         <h4>{{ n.name }}</h4>
                         <p><a href="{{ n.website }}" target="_blank"><i class="icon ion-link"></i> Website</a></p>
-                        <p>{{ n.description }}</p>
+                        <div>{{ n.description }}</div>
                     </div>
                 </div>
             </div>
