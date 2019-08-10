@@ -1142,3 +1142,8 @@ footer .footer-manu ul li a:hover {
 .lf .content ul {
     margin-left: 2em;
 }
+
+.lf .content .quote {
+    border-left: 0.2em solid #666;
+    padding-left: 1em;
+}
