@@ -1,0 +1,100 @@
+---
+layout: page
+title: CI CoE Pilot - NSF Large Facilities
+permalink: /materials/
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h2>Materials</h2>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 space">
+                <div class="section-title">
+                    <h3>Press</h3>
+                    {% if site.data.press.size > 0 %}
+                    {% for n in site.data.press %}
+                    <div class="materialpress">
+                        <ul>
+                            <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                        </ul>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 space">
+                <div class="section-title">
+                    <h3>NSF Large Facilities Cyberinfrastructure Workshop</h3>
+                </div>
+                {% if site.data.workshop.size > 0 %}
+                {% for n in site.data.workshop %}
+                <div class="materialpress">
+                    <ul>
+                        <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                    </ul>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="intro" style="background-color: #f7f7f7">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">
+                <div class="section-title">
+                    <h3>Resources</h3>
+                </div>
+                {% if site.data.resources.size > 0 %}
+                {% for n in site.data.resources %}
+                <div class="materialpress">
+                    <ul>
+                        <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                    </ul>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h3>Relevant Papers</h3>
+                </div>
+                {% if site.data.relevantpapers.size > 0 %}
+                {% for n in site.data.relevantpapers %}
+                <div class="papers">
+                    ({{ n.year }}) <a href="{{ n.link }}" target="_blank">{{ n.title }}</a></li><br />
+                    <span style="color: #999">{{ n.authors }}</span>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <div class="col-md-6 col-sm-12 space">
+                <div class="section-title">
+                    <h3>Relevant Projects</h3>
+                    {% if site.data.relevantprojects.size > 0 %}
+                    {% for n in site.data.relevantprojects %}
+                    <div class="materialpress">
+                        <ul>
+                            <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                        </ul>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1177,3 +1177,22 @@ footer .footer-manu ul li a:hover {
     opacity: 0.8;
     text-align: left;
 }
+
+.materialpress ul {
+    padding-left: 2em;
+}
+
+.materialpress li {
+    font-size: 1.1em;
+}
+
+.space {
+    padding-bottom: 2em;
+}
+
+.papers {
+    margin-left: 2em;
+    border-left: 0.2em solid #666;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
