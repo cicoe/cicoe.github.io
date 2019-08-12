@@ -113,15 +113,18 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-    background: url("../img/cicoe-background-fixed.jpg") no-repeat;
+    background: url("../img/cicoe-background-2-fixed.png") no-repeat;
     background-size: cover;
-    padding: 50px 0 150px 0;
+    padding: 20px 0 0px 0;
     height: 300px;
     position: relative;
+    text-align: center;
 }
 
 #slider .block {
-    color: #1D4B77;
+    /*color: #1D4B77;*/
+    color: #fff;
+    text-shadow: 2px 2px #999;
 }
 
 #slider .block h1 {
