@@ -1216,27 +1216,41 @@ footer .footer-manu ul li a:hover {
     margin: 0;
 }
 
+.event-category {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 2.1em;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
 .event .active, .event .collapsible:hover {
     background-color: #666;
     color: #fff;
 }
 
-.event .content {
+.event-content {
     display: none;
     overflow: scroll;
     max-height: 30em;
-    background-color: #f1f1f1;
-    margin-left: 1.6em;
+    background-color: #fcfcfc;
+    top: -0.1em;
+    border: 0.1em solid #666;
+    border-top: 0;
+    margin-left: 1.8em;
+    margin-right: 0;
     padding: 2em;
     line-height: 1.3em;
 }
 
-.event .content ul {
+.event-content ul {
     margin-left: 2em;
     line-height: 1.2em;
 }
 
-.event .content .quote {
+.event-content .quote {
     border-left: 0.2em solid #666;
     padding-left: 1em;
 }
