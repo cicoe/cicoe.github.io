@@ -1,3 +1,25 @@
+- title: "2019 NSF Large Facilities Cyberinfrastructure Workshop"
+  website: "http://facilitiesci.org/"
+  category: "Workshop"
+  date: "September 16, 2019 - September 17, 2019"
+  venue: "Alexandria, CA"
+  description: "
+  Cyberinfrastructure (CI) is the fabric of modern science. Large collaborations and individual scientists rely on CI to support the entire data lifecycle from data capture and processing to data storage and archiving and finally to data access, visualization, and dissemination. The Large Facilities (LFs), the biggest scientific investments made by the National Science Foundation, are relying on existing CI and building new CI capabilities and solutions to support their scientific communities.
+  <br /><br />
+  The NSF Large Facilities Cyberinfrastructure Workshop (LFCI Workshop) found that: "There is also a lack of a facilities’ CI community that can collectively address CI sustainability and help provide continuity between existing and future facilities."
+  <br /><br />
+  In 2017, the LFCI workshop brought together members of LFs and CI providers and practitioners to discuss possible avenues of collaboration, share common experiences, and discuss common challenges. This workshop aims to continue the discussion started in 2017 and to provide a forum for the cyberinfrastructure experts to share ideas and experiences and discuss the future of CI and the CI workforce.
+  <br /><br />
+  Goals:
+  <ul>
+    <li>Identifying common cyberinfrastructure challenges among LFs</li>
+    <li>Understanding the LF data lifecycle, including the commonalities and differences between data lifecycle stages</li>
+    <li>Exploring opportunities for joint training and education among LFs and large CI projects</li>
+    <li>Sharing experiences in CI project management</li>
+    <li>Discussing approaches to building a community of CI professionals among others</li>
+  </ul>
+  "
+
 - title: "2019 NSF Cybersecurity Summit"
   website: "https://trustedci.org/2019-nsf-cybersecurity-summit"
   category: "Workshop"
