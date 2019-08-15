@@ -49,6 +49,20 @@ permalink: /materials/
         <div class="row">
             <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">
                 <div class="section-title">
+                    <h3>Presentations</h3>
+                </div>
+                {% if site.data.materials_presentations.size > 0 %}
+                {% for n in site.data.materials_presentations %}
+                <div class="materialpress">
+                    <ul>
+                        <li><a href="/presentations/{{ n.file }}" target="_blank">{{ n.title }}</a></li>
+                    </ul>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">
+                <div class="section-title">
                     <h3>Resources</h3>
                 </div>
                 {% if site.data.resources.size > 0 %}
