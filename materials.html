@@ -55,7 +55,7 @@ permalink: /materials/
                     <ul>
                     {% if site.data.templates.size > 0 %}
                     {% for n in site.data.templates %}
-                        <li><a href="{{ n.link }}" target="_blank">{{ n.title }}</a></li><br />
+                        <li><a href="{{ n.link }}" target="_blank">{{ n.title }}</a><br />
                         <span style="color: #999">{{ n.desc }}</span></li>
                     {% endfor %}
                     {% endif %}
@@ -111,7 +111,7 @@ permalink: /materials/
                 {% if site.data.relevantpapers.size > 0 %}
                 {% for n in site.data.relevantpapers %}
                 <div class="papers">
-                    ({{ n.year }}) <a href="{{ n.link }}" target="_blank">{{ n.title }}</a></li><br />
+                    ({{ n.year }}) <a href="{{ n.link }}" target="_blank">{{ n.title }}</a><br />
                     <span style="color: #999">{{ n.authors }}</span>
                 </div>
                 {% endfor %}
