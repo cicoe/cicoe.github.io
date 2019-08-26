@@ -55,8 +55,15 @@ permalink: /materials/
                     <ul>
                     {% if site.data.templates.size > 0 %}
                     {% for n in site.data.templates %}
-                        <li><a href="{{ n.link }}" target="_blank">{{ n.title }}</a><br />
-                        <span style="color: #999">{{ n.desc }}</span></li>
+                    <li><b>{{ n.title }}</b><br />
+                        <span style="color: #999">{{ n.desc }}</span>
+                        {% if n.doc_link.size > 0 %}
+                        [<a href="{{ n.doc_link }}" target="_blank">doc</a>]
+                        {% endif %}
+                        {% if n.pdf_link.size > 0 %}
+                        [<a href="{{ n.pdf_link }}" target="_blank">pdf</a>]
+                        {% endif %}
+                        </li>
                     {% endfor %}
                     {% endif %}
                     </ul>
