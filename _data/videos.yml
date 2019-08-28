@@ -1,0 +1,10 @@
+- title: "Data Life Cycle & Disaster Recovery Planning"
+  desc: "A webinar on best disaster recovery planning practices for NSF Large Facilities. Slides are available under presentations."
+  youtube_id: "qS4TpwuUoCY"
+  working_group: "Data Life Cycle and Disaster Recovery"
+
+- title: "Demonstration of the AOP Viewer Integration on the NEON Portal's Data Product page"
+  desc: "On the NEON Data Portal, load the Data Product Page for an AOP product that has streaming data provided by Visus. Navigate to the Visualizations section of the page.<br><br>The AOP Data Viewer is presented. Imagery for the most recent year of the first alphabetical site—Abbey Road—is loaded by default. The imagery can be navigated using the mouse wheel to zoom and mouse dragging to pan.<br><br>Different flyovers for the same site can be viewed by changing the Year Slider. Other sites can be loaded by using the Site Selector. When a new site is loaded, only the years with available data for that site are shown on the Year Slider.<br><br>In the viewer, a Region of Interest can be selected. This can then be downloaded as an image with a configurable resolution."
+  youtube_id: "09DWwEhUlWc"
+  working_group: "Data Visualization and Dissemination"
+

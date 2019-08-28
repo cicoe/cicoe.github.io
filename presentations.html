@@ -1,50 +1,28 @@
 ---
 layout: page
-title: CI CoE Pilot - NSF Large Facilities
-permalink: /presentations/
+title: CI CoE Pilot - Presentations
+permalink: /materials/presentations
 ---
 
-<section id="intro">
+<section id="intro" style="background-color: #f7f7f7">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12">
+            <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">
                 <div class="section-title">
-                    <h2>Presentations</h2>
+                    <h1>Presentations</h1>
                 </div>
-            </div>
-            {% if site.data.presentations.size > 0 %}
-            {% for n in site.data.presentations %}
-            <div class="col-md-6 col-sm-12">
-                <div class="presentation">
-                    <h4><a href="/presentations/{{ n.file }}" target="_blank">{{ n.title }}</a></h4>
-                    <span class="author">{{ n.author }}</span><br />
-                    {{ n.venue }}
+                {% if site.data.presentations.size > 0 %}
+                {% for n in site.data.presentations %}
+                <div class="material">
+                    <ul>
+                        <li><b><a href="/presentations/{{ n.file }}" target="_blank">{{ n.title }}</a></b><br>
+                            {{ n.venue }} - {{ n.author }}
+                    </ul>
                 </div>
+                {% endfor %}
+                {% endif %}
             </div>
-            {% endfor %}
-            {% endif %}
         </div>
     </div>
 </section>
 
-<section id="intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="section-title">
-                    <h2>Posters</h2>
-                </div>
-            </div>
-            {% if site.data.posters.size > 0 %}
-            {% for n in site.data.posters %}
-            <div class="col-md-6 col-sm-12">
-                <div class="poster">
-                    <h4><a href="/posters/{{ n.file }}" target="_blank">{{ n.title }}</a></h4>
-                    {{ n.venue }}
-                </div>
-            </div>
-            {% endfor %}
-            {% endif %}
-        </div>
-    </div>
-</section>

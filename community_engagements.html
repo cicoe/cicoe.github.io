@@ -1,0 +1,26 @@
+---
+layout: page
+title: CI CoE Pilot - Relevant Projects
+permalink: /materials/community_engagements
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h1>Community Engagements</h1>
+                </div>
+                    {% for n in site.data.community_engagements %}
+                    <div class="material">
+                        <ul>
+                            <li><a href="{{ n.link }}" target="_blank">{{ n.title }}</a> - {{ n.desc }}</li>
+                        </ul>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

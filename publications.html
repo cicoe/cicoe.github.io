@@ -1,0 +1,47 @@
+---
+layout: page
+title: CI CoE Pilot - Publications
+permalink: /materials/publications
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h1>Publications</h1>
+                </div>
+                <div class="material">
+                    <ul>
+                    {% for n in site.data.publications %}
+                    <li><b>{{ n.title }}</b><br />
+                        Abstract: <span style="color: #999">{{ n.abstract }}</span>
+                        {% if n.venue.size > 0 %}
+                        <br>Venue: <span style="color: #999">{{ n.venue }}</span>
+                        {% endif %}
+                        {% if n.link.size > 0 %}
+                        <br>[<a href="{{ n.link }}" target="_blank">link</a>]
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">
+                <div class="section-title">
+                    <h3>Relevant publications from outside CICoE</h3>
+                </div>
+                {% if site.data.resources.size > 0 %}
+                {% for n in site.data.resources %}
+                <div class="material">
+                    <ul>
+                        <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                    </ul>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
