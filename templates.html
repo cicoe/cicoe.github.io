@@ -1,0 +1,35 @@
+---
+layout: page
+title: CI CoE Pilot - Templates
+permalink: /materials/templates
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h3>Templates</h3>
+                </div>
+                <div class="material">
+                    <ul>
+                    {% if site.data.templates.size > 0 %}
+                    {% for n in site.data.templates %}
+                    <li><b>{{ n.title }}</b><br />
+                        <span style="color: #999">{{ n.desc }}</span>
+                        {% if n.doc_link.size > 0 %}
+                        [<a href="{{ n.doc_link }}" target="_blank">doc</a>]
+                        {% endif %}
+                        {% if n.pdf_link.size > 0 %}
+                        [<a href="{{ n.pdf_link }}" target="_blank">pdf</a>]
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                    {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

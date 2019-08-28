@@ -1,0 +1,28 @@
+---
+layout: page
+title: CI CoE Pilot - Videos
+permalink: /materials/videos
+---
+
+<section id="intro" style="background-color: #f7f7f7">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">
+                <div class="section-title">
+                    <h1>Videos</h1>
+                </div>
+                <div class="material">
+                {% if site.data.videos.size > 0 %}
+                {% for n in site.data.videos %}
+                    <h3>{{ n.title }}</h3>
+                    <p>{{ n.desc }}</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ n.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>&nbsp;</p>
+                {% endfor %}
+                {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

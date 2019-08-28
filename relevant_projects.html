@@ -1,0 +1,27 @@
+---
+layout: page
+title: CI CoE Pilot - Relevant Projects
+permalink: /materials/projects
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h1>Relevant Projects</h1>
+                </div>
+                    {% if site.data.relevantprojects.size > 0 %}
+                    {% for n in site.data.relevantprojects %}
+                    <div class="material">
+                        <ul>
+                            <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                        </ul>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

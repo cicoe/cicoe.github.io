@@ -2,3 +2,16 @@
   desc: "Engagement plan template for new CI CoE and Large Facilities engagements."
   doc_link: "https://github.com/cicoe/engagement-templates/blob/master/CICoE-Pilot-Engagement-Plan-Template.odt?raw=true"
   pdf_link: "https://github.com/cicoe/engagement-templates/blob/master/CICoE-Pilot-Engagement-Plan-Template.pdf?raw=true"
+  working_group: "Engagement with Large Facilities"
+
+- title: "Disaster Recovery Plan"
+  desc: "Disaster recovery plan template for Large Facilities"
+  doc_link: "https://github.com/cicoe/disaster-recovery-templates/raw/master/DR-ExampleTemplate.docx"
+  pdf_link: 
+  working_group: "Data Life Cycle and Disaster Recovery"
+
+- title: "Disaster Recovery Plan - IceCube Example"
+  desc: "This is an example of the disaster recovery plan, filled out for the IceCube Project"
+  doc_link: 
+  pdf_link: "https://github.com/cicoe/disaster-recovery-templates/raw/master/IceCube-DR-ExampleTemplate.pdf"
+  working_group: "Data Life Cycle and Disaster Recovery"

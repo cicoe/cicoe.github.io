@@ -968,6 +968,11 @@ footer .footer-manu ul li a:hover {
     text-align: left;
 }
 
+.wg li {
+    text-align: left;
+    margin-left: 2.5em;
+}
+
 .wg-icon {
     float: left;
     margin-right: 0.5em;
@@ -1179,11 +1184,13 @@ footer .footer-manu ul li a:hover {
     text-align: left;
 }
 
-.materialpress ul {
+.material ul {
     padding-left: 2em;
 }
 
-.materialpress li {
+.material li {
+    padding-top: 1em;
+    padding-bottom: 1em;
     font-size: 1.1em;
 }
 

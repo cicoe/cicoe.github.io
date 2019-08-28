@@ -14,13 +14,62 @@ permalink: /working_groups/
             </div>
             {% if site.data.working_groups.size > 0 %}
             {% for n in site.data.working_groups %}
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-12 col-sm-12">
                 <div class="wg">
                     <div class="wg-icon">
                         <i class="icon ion-{{ n.icon }}"></i>
                     </div>
                     <h4>{{ n.title }}</h4>
                     <p>{{ n.description }}</p>
+
+                    <p><b>Related materials:</b></p>
+                    <p>
+                    <ul>
+                    
+                    <!-- Presentations -->
+                    {% for p in site.data.presentations %}
+                        {% if p.working_group == n.title %}
+                               <li>Presentation: <b><a href="{{ site.baseurl }}/materials/presentations">{{ p.title }}</a></b></li>
+                        {% endif %}
+                    {% endfor %}
+
+                    <!-- Videos -->
+                    {% for v in site.data.videos %}
+                        {% if v.working_group == n.title %}
+                               <li>Video: <b><a href="{{ site.baseurl }}/materials/videos">{{ v.title }}</a></b></li>
+                        {% endif %}
+                    {% endfor %}
+                    
+                    <!-- Software -->
+                    {% for s in site.data.software %}
+                        {% if s.working_group == n.title %}
+                        <li>Software: <b><a href="{{ site.baseurl }}/materials/software">{{ s.title }}</a></b></li>
+                        {% endif %}
+                    {% endfor %}
+                    
+                    <!-- Templates -->
+                    {% for t in site.data.templates %}
+                        {% if t.working_group == n.title %}
+                        <li>Template: <b><a href="{{ site.baseurl }}/materials/templates">{{ t.title }}</a></b></li>
+                        {% endif %}
+                    {% endfor %}
+                    
+                    <!-- Community Egnagements -->
+                    {% for t in site.data.community_engagements %}
+                        {% if t.working_group == n.title %}
+                        <li>Community Engagement: <b><a href="{{ site.baseurl }}/materials/community_engagements">{{ t.title }}</a></b></li>
+                        {% endif %}
+                    {% endfor %}
+                    
+                    <!-- Publications -->
+                    {% for t in site.data.publications %}
+                        {% if t.working_group == n.title %}
+                        <li>Publication: <b><a href="{{ site.baseurl }}/materials/publications">{{ t.title }}</a></b></li>
+                        {% endif %}
+                    {% endfor %}
+
+                    </ul>
+                    </p>
                 </div>
             </div><!-- .col-md-5 close -->
             {% endfor %}
