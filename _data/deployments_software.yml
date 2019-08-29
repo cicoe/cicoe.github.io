@@ -1,0 +1,36 @@
+
+- title: "CICoE Pilot GitHub Repository"
+  desc: "A respository for CICoE produced software and templates"
+  link: "https://github.com/cicoe"
+  working_group: ""
+
+- title: "Interactive access and visualization of high-resolution orthorectified camera imagery mosaic - NEON Prototype"
+  desc: "Level 1 high-resolution orthorectified camera images are mosaiced and tiled into 1 km by 1 km data sets. Mosiac is output onto a fixed, uniform spatial grid using nearest-neighbor resampling; spatial resolution is maintained at 0.1 m."
+  link: "https://cert-data.neonscience.org/data-products/DP3.30010.001"
+  working_group: "Data Visualization and Dissemination"
+
+- title: "CI Logion NEON Production Deployment"
+  desc: "A production deployment of using CI Logon for NEON data downloads. This enables customers to use existing university / organization credentials for authentication."
+  link: "https://cert-data.neonscience.org/home"
+  working_group: "Identity Management"
+
+- title: "SensorThingsGost-Balena"
+  desc: "Demonstrator of using Balena for deployment and logging data to a Gost instance"
+  github_link: "https://github.com/cicoe/SensorThingsGost-Balena"
+  working_group: "Data Capture"
+
+- title: "trifid-fuseki-neon"
+  desc: "Docker based deployment environment for Fuseki and neon-trifid"
+  github_link: "https://github.com/cicoe/trifid-fuseki-neon"
+  working_group: "Data Storage, Curation and Preservation"
+
+- title: "trifid-neon"
+  desc: "Containerized version of Trifid (https://github.com/zazuko/trifid) linked data explorer that can be potentially customized to resemble NEON landing pages."
+  github_link: "https://github.com/cicoe/trifid-neon"
+  working_group: "Data Storage, Curation and Preservation"
+
+- title: "geosparql-fuseki"
+  desc: "Containerized version of Apache Fuseki with GeoSPARQL extensions."
+  github_link: "https://github.com/galbiston/geosparql-fuseki"
+  working_group: "Data Storage, Curation and Preservation"
+
