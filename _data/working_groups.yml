@@ -22,6 +22,10 @@
   description: "The goals of this working group are to (1) understand the current practices for Data Life Cycle (DLC) stages and Disaster Recovery (DR) for the NEON facility and other large facilities (LF) by studying the architectural elements of the CI used by LFs, and (2) develop a general set of DR requirements and policies that can inform the LFs about best practices for DR and how those can be adapted for specific facilities."
   icon: "pull-request"
 
+- title: "Workforce Development"
+  description: "This working group focus on development, training, retention, career paths, and diversity, as well as the overall career paths for CI-related personnel."
+  icon: "ios-people"
+
 - title: "Engagement with Large Facilities"
   description: "This working group aims to engage with Large Facilities and other large cyberinfrastructure projects to foster knowledge and effective practice sharing. It aims to define avenues of engagement, modes of engagement, and plan community activities."
   icon: "ios-people"
