@@ -4,7 +4,7 @@
   link: "https://github.com/cicoe"
   working_group: ""
 
-- title: "High-resolution orthorectified camera imagery mosaic - NEON Prototype"
+- title: "Interactive access and visualization of high-resolution orthorectified camera imagery mosaic - NEON Prototype"
   desc: "Level 1 high-resolution orthorectified camera images are mosaiced and tiled into 1 km by 1 km data sets. Mosiac is output onto a fixed, uniform spatial grid using nearest-neighbor resampling; spatial resolution is maintained at 0.1 m."
   link: "https://cert-data.neonscience.org/data-products/DP3.30010.001"
   working_group: "Data Visualization and Dissemination"
