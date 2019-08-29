@@ -9,6 +9,11 @@
   link: "https://cert-data.neonscience.org/data-products/DP3.30010.001"
   working_group: "Data Visualization and Dissemination"
 
+- title: "CI Logion NEON Production Deployment"
+  desc: "A production deployment of using CI Logon for NEON data downloads. This enables customers to use existing university / organization credentials for authentication."
+  link: "https://cert-data.neonscience.org/home"
+  working_group: "Identity Management"
+
 - title: "SensorThingsGost-Balena"
   desc: "Demonstrator of using Balena for deployment and logging data to a Gost instance"
   github_link: "https://github.com/cicoe/SensorThingsGost-Balena"

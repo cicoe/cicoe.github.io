@@ -40,10 +40,10 @@ permalink: /working_groups/
                         {% endif %}
                     {% endfor %}
                     
-                    <!-- Software -->
-                    {% for s in site.data.software %}
+                    <!-- Deployments and Software -->
+                    {% for s in site.data.deployments_software %}
                         {% if s.working_group == n.title %}
-                        <li>Software: <b><a href="{{ site.baseurl }}/materials/software">{{ s.title }}</a></b></li>
+                        <li>Deployments and Software: <b><a href="{{ site.baseurl }}/materials/deployments_software">{{ s.title }}</a></b></li>
                         {% endif %}
                     {% endfor %}
                     
