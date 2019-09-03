@@ -9,7 +9,7 @@
   link: "https://cert-data.neonscience.org/data-products/DP3.30010.001"
   working_group: "Data Visualization and Dissemination"
 
-- title: "CI Logion NEON Production Deployment"
+- title: "CI Logon NEON Production Deployment"
   desc: "A production deployment of using CI Logon for NEON data downloads. This enables customers to use existing university / organization credentials for authentication."
   link: "https://cert-data.neonscience.org/home"
   working_group: "Identity Management"
