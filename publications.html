@@ -18,9 +18,13 @@ permalink: /materials/publications
                         Abstract: <span style="color: #999">{{ n.abstract }}</span>
                         {% if n.venue.size > 0 %}
                         <br>Venue: <span style="color: #999">{{ n.venue }}</span>
+                        <br>Authors: <span style="color: #999">{{ n.authors }}</span>
                         {% endif %}
                         {% if n.link.size > 0 %}
                         <br>[<a href="{{ n.link }}" target="_blank">link</a>]
+                        {% endif %}
+                        {% if n.pdf.size > 0 %}
+                        <br>[<a href="/publications/{{ n.pdf }}" target="_blank">PDF</a>]
                         {% endif %}
                         </li>
                     {% endfor %}
