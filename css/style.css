@@ -32,3 +32,24 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.material-video {
+    margin: 1em;
+    background-color: #f7f7f7;
+    border-left: 0.3em solid #c0a16b;
+}
+
+.material-video-l p {
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+.material-video-l h3 {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+.material-video-r {
+    padding: 1em;
+}
