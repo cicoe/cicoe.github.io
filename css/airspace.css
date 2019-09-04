@@ -1157,22 +1157,6 @@ footer .footer-manu ul li a:hover {
     padding-left: 1em;
 }
 
-.presentation {
-    top: 1em;
-    padding: 1em;
-    margin-top: 1.5em;
-    margin-left: 1.5em;
-    border-left: 0.2em solid #ddcc00;
-    background-color: #f7f7f7;
-    opacity: 0.8;
-    text-align: left;
-}
-
-.presentation .author {
-    font-style: italic;
-    font-weight: bold;
-}
-
 .poster {
     top: 1em;
     padding: 1em;

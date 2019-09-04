@@ -4,23 +4,26 @@ title: CI CoE Pilot - Presentations
 permalink: /materials/presentations
 ---
 
-<section id="intro" style="background-color: #f7f7f7">
+<section id="intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">
+            <div class="col-md-12 col-sm-12 space">
                 <div class="section-title">
                     <h1>Presentations</h1>
                 </div>
-                {% if site.data.presentations.size > 0 %}
-                {% for n in site.data.presentations %}
-                <div class="material">
-                    <ul>
-                        <li><b><a href="/presentations/{{ n.file }}" target="_blank">{{ n.title }}</a></b><br>
-                            {{ n.venue }} - {{ n.author }}
-                    </ul>
+                <div class="col-md-12 col-sm-12 space">
+                    {% if site.data.presentations.size > 0 %}
+                    {% for n in site.data.presentations %}
+                    <div class="col-md-6 col-sm-6">
+                        <div class="presentation">
+                            <a href="/presentations/{{ n.file }}" target="_blank"><strong>{{ n.title }}</strong></a><br />
+                            <span class="author"><i class="fas fa-user"></i> {{ n.author }}</span><br />
+                            {{ n.venue }}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
                 </div>
-                {% endfor %}
-                {% endif %}
             </div>
         </div>
     </div>
