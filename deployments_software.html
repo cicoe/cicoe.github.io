@@ -9,22 +9,22 @@ permalink: /materials/deployments_software
         <div class="row">
             <div class="col-md-12 col-sm-12 space">
                 <div class="section-title">
-                    <h3>Deployments and Software</h3>
+                    <h2>Deployments and Software</h2>
                 </div>
-                <div class="material">
-                    <ul>
+                <div class="material" style="margin-top:3em">
                     {% for n in site.data.deployments_software %}
-                    <li><b>{{ n.title }}</b><br />
-                        <span style="color: #999">{{ n.desc }}</span>
-                        {% if n.link.size > 0 %}
-                        [<a href="{{ n.link }}" target="_blank">link</a>]
-                        {% endif %}
-                        {% if n.github_link.size > 0 %}
-                        [<a href="{{ n.github_link }}" target="_blank">github</a>]
-                        {% endif %}
+                    <div class="software">
+                        <strong>{{ n.title }}</strong><br />
+                            <span style="color: #999">{{ n.desc }}</span>
+                            {% if n.link.size > 0 %}
+                            <br /><i class="fas fa-external-link-alt"></i> <a href="{{ n.link }}" target="_blank">Link</a>
+                            {% endif %}
+                            {% if n.github_link.size > 0 %}
+                            <br /><i class="fab fa-github"></i> <a href="{{ n.github_link }}" target="_blank">GitHub</a>
+                            {% endif %}
                         </li>
+                    </div>
                     {% endfor %}
-                    </ul>
                 </div>
             </div>
         </div>
