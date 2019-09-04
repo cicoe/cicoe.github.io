@@ -9,24 +9,25 @@ permalink: /materials/templates
         <div class="row">
             <div class="col-md-12 col-sm-12 space">
                 <div class="section-title">
-                    <h3>Templates</h3>
+                    <h2>Templates</h2>
                 </div>
-                <div class="material">
-                    <ul>
+                <div class="material" style="margin-top: 3em">
                     {% if site.data.templates.size > 0 %}
                     {% for n in site.data.templates %}
-                    <li><b>{{ n.title }}</b><br />
-                        <span style="color: #999">{{ n.desc }}</span>
-                        {% if n.doc_link.size > 0 %}
-                        [<a href="{{ n.doc_link }}" target="_blank">doc</a>]
-                        {% endif %}
-                        {% if n.pdf_link.size > 0 %}
-                        [<a href="{{ n.pdf_link }}" target="_blank">pdf</a>]
-                        {% endif %}
-                        </li>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="template">
+                            <strong>{{ n.title }}</strong><br/>
+                            <span style="color: #999">{{ n.desc }}</span><br />
+                            {% if n.doc_link.size > 0 %}
+                            <i class="fas fa-file-word"></i> <a href="{{ n.doc_link }}" target="_blank">DOC</a>&nbsp;&nbsp;
+                            {% endif %}
+                            {% if n.pdf_link.size > 0 %}
+                            <i class="fas fa-file-pdf"></i> <a href="{{ n.pdf_link }}" target="_blank">PDF</a>
+                            {% endif %}
+                        </div>
+                    </div>
                     {% endfor %}
                     {% endif %}
-                    </ul>
                 </div>
             </div>
         </div>
