@@ -3,8 +3,8 @@
   abstract: "This paper details experience from collaborative efforts between the NSF Cyberinfrastructure Center of Excellence (CI CoE) Pilot’s Identity Management Working Group and staff from the National Ecological Observatory Network (NEON) to develop improvements to the NEON Data Portal as well as the products of these collaborative efforts."
   authors: "R. Kiser, T. Fleury, C. Laney, J. Sampson, S. Sons"
   venue: "2019 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure"
-  pdf: ""
-  link: ""
+  pdf: "NEON-IdM-Experience-Paper.pdf"
+  link: "https://scholarworks.iu.edu/dspace/handle/2022/23854"
   working_group: "Identity Management"
 
 - title: "Cyberinfrastructure Center of Excellence Pilot: Connecting Large Facilities Cyberinfrastructure"
