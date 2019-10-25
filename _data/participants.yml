@@ -67,3 +67,12 @@
   role: "Sr. Personnel"
   institution: "Indiana University"
   description: "Software engineer and cybersecurity expert with extensive experience supporting the security of NSF Large Facilities and other NSF CI. As Senior Personnel on Trusted CI, Susan has worked with numerous Large Facilities to evaluate their cybersecurity programs and to solve technical and programmatic challenges. Additionally, Sons serves as the Information Security Officer of Open Science Grid, Interim Chief Information Security Officer of DHS-funded Software Assurance Marketplace, and President of the Internet Civil Engineering Institute. In addition to running these security programs and organizations, Sons has technical foci in software engineering, security architecture, and industrial control system security."
+
+- name: "Karan Vahi"
+  photo: "vahi.jpg"
+  website:  "https://scitech.isi.edu/people"
+  role: "Sr. Personnel"
+  institution: "University of Southern California"
+  description: "Karan Vahi is a Computer Scientist in the Science Automation Technologies group, at the Advanced Systems Division, ISI. He is the lead developer of Pegasus and is in charge of the core development. Karan has been working on Pegasus since 2002."
+
+
