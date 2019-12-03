@@ -8,7 +8,7 @@ permalink: /
 <section id="service">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-8 col-sm-12" style="padding-right: 4em">
                 <div class="section-title">
                     <h2>Goal</h2>
                     <p>
@@ -45,27 +45,10 @@ permalink: /
                     </div>
                 </div>
             </div>
-            <section id="testimonial">
-            <div class="col-md-6 col-sm-12">
-                <div class="col-md-12">
-                    {% if site.data.news.size > 0 %}
-                    <div class="testimonial-carousel">
-                        <div id="testimonial-slider" class="owl-carousel">
-                            {% for n in site.data.news %}
-                            <div style="height: 400px">
-                                <img src="{{ n.image }}" width="300px" />
-                                <div class="news">
-                                    <h4>{{ n.title }}</h4>
-                                    <p>{{ n.text }}</p>
-                                    <p>[<a href="{{ n.link }}" target="_blank">Read more</i></a>]</p>
-                                </div>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
+
+              <div class="col-md-4 col-sm-12" style="padding-top: 2em">
+                  <a class="twitter-timeline" data-lang="en" data-height="35em" data-width="100%" data-theme="light" href="https://twitter.com/ci_coe?ref_src=twsrc%5Etfw">Tweets by ci_coe</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
             </section>
         </div>
     </div>
@@ -74,11 +57,11 @@ permalink: /
 <section id="intro" style="background-color: #f7f7f7">
     <div class="container">
         <div class="row">
-            <div class="col-md-9 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <div class="section-title">
                     <h3>NSF Abstract</h3>
                 </div>
-                <div class="block">
+                <div class="block" style="padding-right: 1em">
                     <p>
                         NSF's major multi-user research facilities (large facilities) are sophisticated research
                         instruments and platforms - such as large telescopes, interferometers and distributed sensor
@@ -93,6 +76,10 @@ permalink: /
                         building and sharing and applies knowledge of best practices and innovative solutions for
                         facility CI.
                     </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="block" style="padding-top: 4.2em; padding-left: 1em">
                     <p>
                         The pilot project will explore how such a center would facilitate CI improvements for existing
                         facilities and for the design of new facilities that exploit advanced CI architecture designs
@@ -108,9 +95,28 @@ permalink: /
                     </p>
                 </div>
             </div><!-- .col-md-7 close -->
-            <div class="col-md-3 col-sm-12" style="padding-top: 2em">
-                <a class="twitter-timeline" data-lang="en" data-height="40em" data-width="100%" data-theme="light" href="https://twitter.com/ci_coe?ref_src=twsrc%5Etfw">Tweets by ci_coe</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
+            <!-- <section id="testimonial"> -->
+              <!-- <div class="col-md-6 col-sm-12"> -->
+                  <!-- <div class="col-md-12"> -->
+                      <!-- {% if site.data.news.size > 0 %} -->
+                      <!-- <div class="testimonial-carousel"> -->
+                          <!-- <div id="testimonial-slider" class="owl-carousel"> -->
+                              <!-- {% for n in site.data.news %} -->
+                              <!-- <div style="height: 400px"> -->
+                                  <!-- <img src="{{ n.image }}" width="300px" /> -->
+                                  <!-- <div class="news"> -->
+                                      <!-- <h4>{{ n.title }}</h4> -->
+                                      <!-- <p>{{ n.text }}</p> -->
+                                      <!-- <p>[<a href="{{ n.link }}" target="_blank">Read more</i></a>]</p> -->
+                                  <!-- </div> -->
+                              <!-- </div> -->
+                              <!-- {% endfor %} -->
+                          <!-- </div> -->
+                      <!-- </div> -->
+                      <!-- {% endif %} -->
+                  <!-- </div> -->
+              <!-- </div> -->
+            <!-- </<section> -->
         </div>
     </div>
 </section>
