@@ -75,9 +75,9 @@
   institution: "University of Southern California"
   description: "Karan Vahi is a Computer Scientist in the Science Automation Technologies group, at the Advanced Systems Division, ISI. He is the lead developer of Pegasus and is in charge of the core development. Karan has been working on Pegasus since 2002."
 
-- name: "Rafael Ferreira da Silva"
+- name: "Rafael F. da Silva"
   photo: "ferreiradasilva.png"
   website: "https://rafaelsilva.com"
   role: "Sr. Personnel"
   institution: "University of Southern California"
-  description: "Expert in modeling and simulation of parallel and distributed computing systems, and efficient execution of scientific workflows on heterogeneous distributed systems (e.g., clouds, grids, and HPC)."
+  description: "Expert in modeling and simulation of parallel and distributed computing systems, and efficient execution of scientific workflows on heterogeneous distributed systems (e.g., clouds, grids, and HPC). Rafael Ferreira da Silva is a Research Assistant Professor in the Department of Computer Science at University of Southern California, and a Research Lead in the Science Automation Technologies group at the USC Information Sciences Institute."
