@@ -1,0 +1,30 @@
+---
+layout: page
+title: CI CoE - Mailing Lists
+permalink: /mailinglists/
+---
+
+<!-- contact form start -->
+<section id="contact-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h1>Mailing Lists</h1>
+                </div>
+                <div class="material">
+                    <ul>
+                    {% for n in site.data.mailinglists %}
+                    <li><b>{{ n.title }}</b><br />
+                        <span style="color: #999">{{ n.summary }}</span>
+                        {% if n.subscribe..size > 0 %}
+                        <br>[<a href="{{ n.subscribe }}" target="_blank">subscribe</a>]
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
