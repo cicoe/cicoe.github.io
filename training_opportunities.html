@@ -1,0 +1,51 @@
+---
+layout: page
+title: CI CoE Pilot - Training Opportunities
+permalink: /training_opportunities/
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h2>CI Training Opportunities</h2>
+                </div>
+            </div>
+            {% if site.data.training_opportunities.size > 0 %}
+            {% for n in site.data.training_opportunities %}
+            <div class="col-md-6 col-sm-12">
+                <div class="event">
+                    <div class="collapsible">
+                        <h4>{{ n.title }}</h4>
+                        {{ n.date }}
+                        <div class="event-category">{{ n.category }}</div>
+                    </div>
+                    <div class="event-content">
+                        <p><a href="{{ n.website }}" target="_blank"><i class="icon ion-link"></i> Website</a></p>
+                        <div>{{ n.description }}</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
