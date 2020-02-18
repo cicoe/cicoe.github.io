@@ -39,9 +39,8 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3534/register"
 - categroy: Workshop
   date: February 19, 2020 - February 20, 2020
-  title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (Yale Center for Research
-    Computing)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3537/register"
+  title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (East Carolina University)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3536/register"
 - categroy: Workshop
   date: February 19, 2020 - February 20, 2020
   title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (Texas Tech University)
@@ -93,8 +92,9 @@
   website: "Registration closed"
 - categroy: Workshop
   date: February 19, 2020 - February 20, 2020
-  title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (East Carolina University)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3536/register"
+  title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (Yale Center for Research
+    Computing)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3537/register"
 - categroy: Workshop
   date: February 20, 2020
   title: 'XSEDE Webinar: GPU-Accelerated Computing With CUDA Python'
