@@ -1,9 +1,5 @@
 - categroy: Workshop
   date: February 19, 2020 - February 20, 2020
-  title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (Pennsylvania State University)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3540/register"
-- categroy: Workshop
-  date: February 19, 2020 - February 20, 2020
   title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (University of California,
     Los Angeles)
   website: "Registration closed"
@@ -96,6 +92,10 @@
   title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (New York University)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3539/register"
 - categroy: Workshop
+  date: February 19, 2020 - February 20, 2020
+  title: XSEDE HPC Workshop Big Data - February 19-20, 2020 (Pennsylvania State University)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2016/session/3540/register"
+- categroy: Workshop
   date: February 20, 2020
   title: 'XSEDE Webinar: GPU-Accelerated Computing With CUDA Python'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2010/session/3521/register"
@@ -104,18 +104,6 @@
   title: CSULA Student Training Series 2020- Introduction and New User Training (Cal
     State LA)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2012/session/3523/register"
-- categroy: Workshop
-  date: March 03, 2020
-  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (Northwestern University)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3560/register"
-- categroy: Workshop
-  date: March 03, 2020
-  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of South Carolina)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3561/register"
-- categroy: Workshop
-  date: March 03, 2020
-  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of Delaware)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3562/register"
 - categroy: Workshop
   date: March 03, 2020
   title: XSEDE HPC Workshop OpenACC - March 3, 2020 (Ohio Supercomputer Center)
@@ -144,6 +132,15 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3597/register"
 - categroy: Workshop
   date: March 03, 2020
+  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of California, Los
+    Angeles)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3559/register"
+- categroy: Workshop
+  date: March 03, 2020
+  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (Northwestern University)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3560/register"
+- categroy: Workshop
+  date: March 03, 2020
   title: XSEDE HPC Workshop OpenACC - March 3, 2020 (Pittsburgh Supercomputing Center)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3549/register"
 - categroy: Workshop
@@ -164,9 +161,8 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3553/register"
 - categroy: Workshop
   date: March 03, 2020
-  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of Houston - Clear
-    Lake)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3555/register"
+  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (Purdue University)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3554/register"
 - categroy: Workshop
   date: March 03, 2020
   title: XSEDE HPC Workshop OpenACC - March 3, 2020 (East Carolina University)
@@ -181,13 +177,17 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3558/register"
 - categroy: Workshop
   date: March 03, 2020
-  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (Purdue University)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3554/register"
+  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of South Carolina)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3561/register"
 - categroy: Workshop
   date: March 03, 2020
-  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of California, Los
-    Angeles)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3559/register"
+  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of Delaware)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3562/register"
+- categroy: Workshop
+  date: March 03, 2020
+  title: XSEDE HPC Workshop OpenACC - March 3, 2020 (University of Houston - Clear
+    Lake)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2017/session/3555/register"
 - categroy: Workshop
   date: March 07, 2020
   title: CSULA Student Training Series 2020- XSEDE Intro to Linux/Unix (Cal State
