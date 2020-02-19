@@ -159,7 +159,7 @@
     <br /><br />
     The JRSO is responsible for overseeing the science operations of the riserless drilling vessel JOIDES Resolution (JR), archiving the scientific data, samples and logs that are collected, and disseminated via web applications and online publications. The drillship travels throughout the oceans sampling the sediments and rocks beneath the seafloor. The scientific samples and data are used to study Earth’s past history, including plate tectonics, ocean currents, climate changes, evolutionary characteristics and extinctions of marine life, and mineral deposits.
     <br /><br />
-    The JR is an NSF large facility that serves the global geosciences community. In addition to NSF funding through a cooperative agreement, JRSO operations are partly funded by 22 IODP member nations, including Australia, Austria, Brazil, Canada, China, Denmark, Finland, France, Germany, India, Ireland, Italy, Japan, Korea, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, and the United Kingdom.
+    The JR is an NSF major facility that serves the global geosciences community. In addition to NSF funding through a cooperative agreement, JRSO operations are partly funded by 22 IODP member nations, including Australia, Austria, Brazil, Canada, China, Denmark, Finland, France, Germany, India, Ireland, Italy, Japan, Korea, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, and the United Kingdom.
     <br /><br />
     The cyberinfrastructure team supports a split based operations construct, providing cyberinfrastructure, cybersecurity and data management services at sea on board the JR and on shore in College Station, TX. VSAT (very small aperture terminal) satellite services are used to provide connectivity services between ship and shore. Currently, this is a dedicated asynchronous wide area network circuit offering 2 Mbps down to the ship and 1 Mbps up.
     <br /><br />
@@ -915,4 +915,3 @@
 #- name: "Rolling Deck to Repository (R2R)"
 #  website: "https://www.rvdata.us"
 #  description: ""
-
