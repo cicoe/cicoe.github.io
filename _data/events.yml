@@ -1,3 +1,10 @@
+- title: "2020 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure"
+  website: "https://trustedci.org/2020-nsf-summit"
+  category: "Meeting"
+  date: "September 22-24, 2020"
+  venue: "Bloomington, IN"
+  description: "he NSF cyberinfrastructure ecosystem presents an aggregate of complex cybersecurity needs (e.g., scientific data and instruments, unique computational and storage resources, complex collaborations) as compared to other organizations and sectors. This community has a unique opportunity to develop information security practices tailored to these needs, as well as break new ground on efficient, effective ways to protect information assets while supporting science. The Summit will bring together leaders in NSF cyberinfrastructure and cybersecurity to continue the process initiated in 2013, 2014, 2015, 2016, 2017, 2018 & 2019: Building a trusting, collaborative community, and seriously addressing that community's core cybersecurity challenges."
+
 - title: "PEARC20"
   website: "https://pearc.acm.org/pearc20/"
   category: "Conference"
@@ -7,7 +14,7 @@
 
 - title: "2020 ESIP Summer Meeting"
   website: "https://www.esipfed.org/meetings/upcoming-meetings"
-  category: "Workshop"
+  category: "Meeting"
   date: "July 14-17, 2020"
   venue: "Burlington, VT"
   description: ""
