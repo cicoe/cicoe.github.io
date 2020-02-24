@@ -1,7 +1,14 @@
+- title: "2020 ESIP Summer Meeting"
+  website: "https://www.esipfed.org/meetings/upcoming-meetings"
+  category: "Workshop"
+  date: "July 14-17, 2020"
+  venue: "Burlington, VT"
+  description: ""
+
 - title: "2020 NSF Large Facilities Workshop"
   website: "https://www.largefacilitiesworkshop.com"
   category: "Workshop"
-  date: "April 14 - 16, 2020"
+  date: "April 14-16, 2020"
   venue: "Alexandria, VA"
   description: "
   The workshop is a collaborative forum for the National Science Foundation’s Large Facilities and other complex scientific facilities and organizations. Desired outcomes to support NSF’s mission and promote the scientific endeavor include:
@@ -17,7 +24,7 @@
 - title: "2019 NSF Large Facilities Cyberinfrastructure Workshop"
   website: "http://facilitiesci.org/"
   category: "Workshop"
-  date: "September 16, 2019 - September 17, 2019"
+  date: "September 16-17, 2019"
   venue: "Alexandria, CA"
   description: "
   Cyberinfrastructure (CI) is the fabric of modern science. Large collaborations and individual scientists rely on CI to support the entire data lifecycle from data capture and processing to data storage and archiving and finally to data access, visualization, and dissemination. The Large Facilities (LFs), the biggest scientific investments made by the National Science Foundation, are relying on existing CI and building new CI capabilities and solutions to support their scientific communities.
@@ -39,7 +46,7 @@
 - title: "2019 NSF Cybersecurity Summit"
   website: "https://trustedci.org/2019-nsf-cybersecurity-summit"
   category: "Workshop"
-  date: "October 15, 2019 - October 17, 2019"
+  date: "October 15-17, 2019"
   venue: "Catamaran Resort Hotel, San Diego, CA"
   description: "
   <strong>Who:</strong> Attendees will include cybersecurity practitioners, technical leaders, and risk owners from within the NSF Large Facilities and CI Community, as well as key stakeholders and thought leaders from the broader scientific and information security communities.
