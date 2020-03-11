@@ -40,28 +40,12 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3645/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
-  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (Yale Center for Research Computing)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3647/register"
-- categroy: Workshop
-  date: April 07, 2020 - April 08, 2020
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (East Carolina University)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3646/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
-  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of Houston)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3652/register"
-- categroy: Workshop
-  date: April 07, 2020 - April 08, 2020
-  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of South Carolina)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3653/register"
-- categroy: Workshop
-  date: April 07, 2020 - April 08, 2020
-  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (Ohio Supercomputer Center)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3655/register"
-- categroy: Workshop
-  date: April 07, 2020 - April 08, 2020
-  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of Delaware)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3654/register"
+  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (Yale Center for Research Computing)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3647/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (Pomona College)
@@ -71,6 +55,10 @@
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of Tennessee Knoxville
     - NICS)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3657/register"
+- categroy: Workshop
+  date: April 07, 2020 - April 08, 2020
+  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (Ohio Supercomputer Center)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3655/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (National Center for Supercomputing
@@ -87,9 +75,8 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3662/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
-  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of California,
-    Los Angeles)
-  website: "Registration opens"
+  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of Delaware)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3654/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (Pittsburgh Supercomputing
@@ -121,6 +108,18 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3643/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
+  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of Houston)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3652/register"
+- categroy: Workshop
+  date: April 07, 2020 - April 08, 2020
+  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of South Carolina)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3653/register"
+- categroy: Workshop
+  date: April 07, 2020 - April 08, 2020
+  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (The University of Utah)
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3648/register"
+- categroy: Workshop
+  date: April 07, 2020 - April 08, 2020
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (New York University)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3649/register"
 - categroy: Workshop
@@ -129,8 +128,9 @@
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3650/register"
 - categroy: Workshop
   date: April 07, 2020 - April 08, 2020
-  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (The University of Utah)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2041/session/3648/register"
+  title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (University of California,
+    Los Angeles)
+  website: "Registration opens"
 - categroy: Workshop
   date: April 16, 2020
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
