@@ -131,7 +131,7 @@
 }
 
 .alert h1 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -142,5 +142,10 @@
 }
 
 .alert p {
-    line-height: 1.3em !important;
+    line-height: 1.4em !important;
+    margin-bottom: 0.5em;
+}
+
+.alert ul {
+    padding-left: 2em;
 }
