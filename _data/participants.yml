@@ -130,3 +130,11 @@
   role: "Sr. Personnel"
   institution: "University of Southern California"
   description: "Loïc Pottier is a Postdoctoral Scholar - Research Associate in the Science Automation Technologies group at the USC Information Sciences Institute. Dr. Loïc Pottier received his PhD in Computer Science from ENS de Lyon, France, in 2018.His research interests include scheduling and performance models for HPC systems, scientific workflows management and parallel algorithms in general."
+  
+- name: "Marina Kogan"
+  photo: "marina.jpg"
+  website: "http://www.mkoganresearch.com/"
+  role: "Sr. Personnel"
+  institution: "University of Utah"
+  description: "Assistant Professor in the School of Computing at the University of Utah. Research interests in Crisis Informatics, Social Computing, and Network Science. Marina completed her PhD in Computer Science at the University of Colorado Boulder in Human Centered Computing under the advisement of Professor Leysia Palen. Then spent a year and a half as an Assistant Professor of Computer Science at University of New Mexico."
+
