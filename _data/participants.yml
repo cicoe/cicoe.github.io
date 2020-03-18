@@ -118,8 +118,15 @@
   description: "Erik Scott is a Senior Research Software Developer at RENCI. He is an expert in Data Science and External Engagement."
   
 - name: "Laura Christopherson"
-  photo: "MissingPhoto.jpg"
+  photo: "Laurac.jpg"
   website: "https://renci.org/mission-and-vision/"
   role: "Sr. Personnel"
   institution: "RENCI"
   description: "Laura Christopherson is a Senior Data Scientist and Research Writer for RENCI. Laura supports RENCI's goal to be a leader in data science and an essential catalyst for data-driven discoveries leading to better health, a safer environment, and improved economic and business successes."
+ 
+- name: "Loïc Pottier"
+  photo: "Loic.jpg"
+  website: "https://scitech.isi.edu/people"
+  role: "Sr. Personnel"
+  institution: "University of Southern California"
+  description: "Loïc Pottier is a Postdoctoral Scholar - Research Associate in the Science Automation Technologies group at the USC Information Sciences Institute. Dr. Loïc Pottier received his PhD in Computer Science from ENS de Lyon, France, in 2018.His research interests include scheduling and performance models for HPC systems, scientific workflows management and parallel algorithms in general."
