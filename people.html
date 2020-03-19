@@ -21,7 +21,9 @@ permalink: /people/
             {% for n in site.data.participants %}
             <div class="col-md-4 col-sm-12">
                 <div class="participant">
-                    <img src="/img/people/{{ n.photo }}">
+                    <div class="img-participant">
+                        <img src="/img/people/{{ n.photo }}">
+                    </div>
                     <h4><a href="{{ n.website }}" target="_blank">{{ n.name }}</a></h4>
                     <h5>
                         {{ n.role }}<br/>

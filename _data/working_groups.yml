@@ -1,5 +1,5 @@
 - title: "Identity Management"
-  description: "The Identity Management working group focuses on understanding current practice in authentication and authorization, and helping to mature practice across the NSF Large Facilities. We do this by maintaining and sharing awareness of best practices as well as current policy and technology options for implementing those practices. Through direct engagements with specific facilities, participation in the NSF Cybersecurity Summit and other events, and publishing experience papers, case studies, and other artifacts, we hope to accelerate the exchange of lessons learned in Identity Management across the NSF Large Facility ecosystem."
+  description: "The Identity Management working group focuses on understanding current practice in authentication and authorization, and helping to mature practice across the NSF Major Facilities. We do this by maintaining and sharing awareness of best practices as well as current policy and technology options for implementing those practices. Through direct engagements with specific facilities, participation in the NSF Cybersecurity Summit and other events, and publishing experience papers, case studies, and other artifacts, we hope to accelerate the exchange of lessons learned in Identity Management across the NSF Major Facility ecosystem."
   icon: "ios-locked"
 
 - title: "Data Capture"
@@ -11,21 +11,21 @@
   icon: "ios-cog"
 
 - title: "Data Storage, Curation and Preservation"
-  description: "The goals of this working group is to compare and be able to consult on different data storage, curation and preservation technologies. Current effort includes helping with metadata and applying schema.org schemas to data from large facilities."
+  description: "The goals of this working group is to compare and be able to consult on different data storage, curation and preservation technologies. Current effort includes helping with metadata and applying schema.org schemas to data from major facilities."
   icon: "cube"
 
 - title: "Data Visualization and Dissemination"
-  description: "This working group focus on understanding the access, visualization and user interaction workflows in Large Facilities. In particular, we look at how the users explore and interface with the data (e.g., via APIs) for visualization and analysis purposes. Our goal is to learn best practices and provide solutions to improve the access and usability of the available data."
+  description: "This working group focus on understanding the access, visualization and user interaction workflows in Major Facilities. In particular, we look at how the users explore and interface with the data (e.g., via APIs) for visualization and analysis purposes. Our goal is to learn best practices and provide solutions to improve the access and usability of the available data."
   icon: "stats-bars"
 
 - title: "Data Life Cycle and Disaster Recovery"
-  description: "The goals of this working group are to (1) understand the current practices for Data Life Cycle (DLC) stages and Disaster Recovery (DR) for the NEON facility and other large facilities (LF) by studying the architectural elements of the CI used by LFs, and (2) develop a general set of DR requirements and policies that can inform the LFs about best practices for DR and how those can be adapted for specific facilities."
+  description: "The goals of this working group are to (1) understand the current practices for Data Life Cycle (DLC) stages and Disaster Recovery (DR) for the NEON facility and other major facilities (LF) by studying the architectural elements of the CI used by LFs, and (2) develop a general set of DR requirements and policies that can inform the LFs about best practices for DR and how those can be adapted for specific facilities."
   icon: "pull-request"
 
 - title: "Workforce Development"
   description: "This working group focus on development, training, retention, career paths, and diversity, as well as the overall career paths for CI-related personnel."
   icon: "ios-people"
 
-- title: "Engagement with Large Facilities"
-  description: "This working group aims to engage with Large Facilities and other large cyberinfrastructure projects to foster knowledge and effective practice sharing. It aims to define avenues of engagement, modes of engagement, and plan community activities."
+- title: "Engagement with Major Facilities"
+  description: "This working group aims to engage with Major Facilities and other large cyberinfrastructure projects to foster knowledge and effective practice sharing. It aims to define avenues of engagement, modes of engagement, and plan community activities."
   icon: "ios-people"

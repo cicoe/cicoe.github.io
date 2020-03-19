@@ -1,7 +1,44 @@
+- title: "2020 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure"
+  website: "https://trustedci.org/2020-nsf-summit"
+  category: "Meeting"
+  date: "September 22-24, 2020"
+  venue: "Bloomington, IN"
+  description: "The NSF cyberinfrastructure ecosystem presents an aggregate of complex cybersecurity needs (e.g., scientific data and instruments, unique computational and storage resources, complex collaborations) as compared to other organizations and sectors. This community has a unique opportunity to develop information security practices tailored to these needs, as well as break new ground on efficient, effective ways to protect information assets while supporting science. The Summit will bring together leaders in NSF cyberinfrastructure and cybersecurity to continue the process initiated in 2013, 2014, 2015, 2016, 2017, 2018 & 2019: Building a trusting, collaborative community, and seriously addressing that community's core cybersecurity challenges."
+
+- title: "PEARC20"
+  website: "https://pearc.acm.org/pearc20/"
+  category: "Conference"
+  date: "July 26-30, 2020"
+  venue: "Portland, OR"
+  description: "The Practice and Experience in Advanced Research Computing (PEARC) Conference Series is a community-driven effort built on the successes of the past, with the aim to grow and be more inclusive by involving additional local, regional, national, and international cyberinfrastructure and research computing partners spanning academia, government and industry. The PEARC Conference Series is working to integrate and meet the collective interests of our growing community by providing a forum for discussing challenges, opportunities and solutions among the broad range of participants in the research computing community. The PEARC Conferences are organized by a group of dedicated volunteers from the community and are sponsored by the Association for Computing Machinery (ACM), the world’s largest educational and scientific computing society."
+
+- title: "2020 ESIP Summer Meeting"
+  website: "https://www.esipfed.org/meetings/upcoming-meetings"
+  category: "Meeting"
+  date: "July 14-17, 2020"
+  venue: "Burlington, VT"
+  description: ""
+
+- title: "2020 NSF Large Facilities Workshop"
+  website: "https://www.largefacilitiesworkshop.com"
+  category: "Workshop"
+  date: "April 14-16, 2020"
+  venue: "Alexandria, VA"
+  description: "
+  The workshop is a collaborative forum for the National Science Foundation’s Large Facilities and other complex scientific facilities and organizations. Desired outcomes to support NSF’s mission and promote the scientific endeavor include:
+  <ul>
+    <li>Provide a forum to collect and share best practices and lessons learned</li>
+    <li>Discuss new initiatives and collect community input</li>
+    <li>Demonstrate project management, operations, and business-related tools and techniques</li>
+    <li>Expand our community of practice by connecting colleagues across disciplines and organizations to promote collaboration between facilities</li>
+  </ul>
+  Attendance is especially beneficial for those who have a role in the development, planning, construction or operation of large complex scientific facilities. Attendees will have the opportunity to participate in various networking events with their colleagues.
+  "
+
 - title: "2019 NSF Large Facilities Cyberinfrastructure Workshop"
   website: "http://facilitiesci.org/"
   category: "Workshop"
-  date: "September 16, 2019 - September 17, 2019"
+  date: "September 16-17, 2019"
   venue: "Alexandria, CA"
   description: "
   Cyberinfrastructure (CI) is the fabric of modern science. Large collaborations and individual scientists rely on CI to support the entire data lifecycle from data capture and processing to data storage and archiving and finally to data access, visualization, and dissemination. The Large Facilities (LFs), the biggest scientific investments made by the National Science Foundation, are relying on existing CI and building new CI capabilities and solutions to support their scientific communities.
@@ -23,7 +60,7 @@
 - title: "2019 NSF Cybersecurity Summit"
   website: "https://trustedci.org/2019-nsf-cybersecurity-summit"
   category: "Workshop"
-  date: "October 15, 2019 - October 17, 2019"
+  date: "October 15-17, 2019"
   venue: "Catamaran Resort Hotel, San Diego, CA"
   description: "
   <strong>Who:</strong> Attendees will include cybersecurity practitioners, technical leaders, and risk owners from within the NSF Large Facilities and CI Community, as well as key stakeholders and thought leaders from the broader scientific and information security communities.
