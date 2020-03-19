@@ -101,7 +101,7 @@
   website: "https://crc.nd.edu/about/people/charles-vardeman/"
   role: "Sr. Personnel"
   institution: "University of Notre Dame"
-  description: "Charles F. Vardeman II is a computational scientist at the Center for Research Computing (CRC) and a research assistant professor in the Department of Computer Science and Engineering. He graduated from Notre Dame with a B.S. in chemistry and Ph.D. in theoretical chemistry, with a research focus on molecular dynamics simulations of nano-metallic and glassy-metallic systems."
+  description: "Dr. Vardeman is a Computational Scientist in Notre Dame's Center for Research Computing (CRC) and a Research Assistant Professor in the Department of Computer Science and Engineering. Originally trained as a theoretical chemist, after joining the CRC Dr. Vardeman became interested in research to more effectively connect data to computational models. His expertise includes the development of linked-data applications in cyberinfrastructure, semantic and knowledge graph-based technologies, and knowledge engineering through a pattern-based approach to ontology development for scientific applications. Dr. Vardeman is active in the Earth Science Information Partners (ESIP) Semantic Technologies Committee, science-on-schema cluster and the semantic harmonization cluster where he is collaboratively developing methods to bridge earth science-related vocabularies and ontologies to provide interoperability between different earth science related domains."
   
 - name: "Josh Drake"
   photo: "Josh-headshot-1.JPG"
@@ -118,7 +118,7 @@
   description: "Erik Scott is a Senior Research Software Developer at RENCI. He is an expert in Data Science and External Engagement."
   
 - name: "Laura Christopherson"
-  photo: "laurac.jpg"
+  photo: "laurac2.jpg"
   website: "https://renci.org/mission-and-vision/"
   role: "Sr. Personnel"
   institution: "RENCI"
