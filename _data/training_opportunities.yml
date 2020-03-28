@@ -31,6 +31,11 @@
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
 - categroy: Workshop
+  date: '2020-05-21 00:00:00'
+  source: XSEDE
+  title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
+- categroy: Workshop
   date: 2020-06-01 00:00:00 - 2020-06-05 00:00:00
   source: XSEDE
   title: Computational Chemistry for Chemistry Educators Workshop (Mount Saint Mary
