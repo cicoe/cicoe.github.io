@@ -20,6 +20,11 @@
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020
   website: "Multiple"
 - categroy: Workshop
+  date: '2020-04-08 00:00:00'
+  source: XSEDE
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3667/register"
+- categroy: Workshop
   date: '2020-04-16 00:00:00'
   source: XSEDE
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
