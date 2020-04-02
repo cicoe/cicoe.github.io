@@ -4,12 +4,6 @@
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020 (Arizona State University)
   website: "Registration closed"
 - categroy: Workshop
-  date: '2020-04-02 00:00:00'
-  source: XSEDE
-  title: Introduction to Research Computing Using the Illinois Campus Cluster (Illini
-    Hall, University of Illinois at Urbana-Champaign)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2039/session/3634/register"
-- categroy: Workshop
   date: 2020-04-07 00:00:00 - 2020-04-08 00:00:00
   source: XSEDE
   title: XSEDE HPC Workshop Big Data - April 7-8, 2020
@@ -22,14 +16,14 @@
 - categroy: Workshop
   date: '2020-04-16 00:00:00'
   source: XSEDE
-  title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
-- categroy: Workshop
-  date: '2020-04-16 00:00:00'
-  source: XSEDE
   title: 'XSEDE Webinar: Comet 101: Accessing and Running Jobs on Comet, April 16,
     2020, 11am-12pm PDT'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2050/session/3666/register"
+- categroy: Workshop
+  date: '2020-04-16 00:00:00'
+  source: XSEDE
+  title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
 - categroy: Workshop
   date: '2020-05-21 00:00:00'
   source: XSEDE
