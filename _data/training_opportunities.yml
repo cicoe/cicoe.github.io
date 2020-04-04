@@ -16,14 +16,14 @@
 - categroy: Workshop
   date: '2020-04-16 00:00:00'
   source: XSEDE
-  title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
-- categroy: Workshop
-  date: '2020-04-16 00:00:00'
-  source: XSEDE
   title: 'XSEDE Webinar: Comet 101: Accessing and Running Jobs on Comet, April 16,
     2020, 11am-12pm PDT'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2050/session/3666/register"
+- categroy: Workshop
+  date: '2020-04-16 00:00:00'
+  source: XSEDE
+  title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
 - categroy: Workshop
   date: '2020-05-21 00:00:00'
   source: XSEDE
