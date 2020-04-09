@@ -1,37 +1,30 @@
 - categroy: Workshop
-  date: '2020-04-16 00:00:00'
+  end_date: April 16, 2020
   source: XSEDE
-  title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
-- categroy: Workshop
-  date: '2020-04-16 00:00:00'
-  source: XSEDE
+  start_date: April 16, 2020
+  time: ''
   title: 'XSEDE Webinar: Comet 101: Accessing and Running Jobs on Comet, April 16,
     2020, 11am-12pm PDT'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2050/session/3666/register"
 - categroy: Workshop
-  date: '2020-05-21 00:00:00'
+  end_date: May 21, 2020
+  source: LCI
+  start_date: May 19, 2020
+  time: ''
+  title: LCI Advanced Workshop
+  website: "http://linuxclustersinstitute.org/workshops/advanced20/register.php"
+- categroy: Workshop
+  end_date: May 21, 2020
   source: XSEDE
+  start_date: May 21, 2020
+  time: ''
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
 - categroy: Workshop
-  date: 2020-06-01 00:00:00 - 2020-06-05 00:00:00
+  end_date: June 05, 2020
   source: XSEDE
+  start_date: June 01, 2020
+  time: ''
   title: Computational Chemistry for Chemistry Educators Workshop (Mount Saint Mary
     College)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2038/session/3633/register"
-- categroy: Workshop
-  date: March 20th, 2020 1pm-3pm CT
-  source: TACC
-  title: BOINC@TACC
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=85"
-- categroy: Workshop
-  date: March 23-27, 2020
-  source: LCI
-  title: LCI Intermediate Workshop
-  website: "http://linuxclustersinstitute.org/workshops/interm20/register.php"
-- categroy: Workshop
-  date: May 19-21, 2020
-  source: LCI
-  title: LCI Advanced Workshop
-  website: "http://linuxclustersinstitute.org/workshops/advanced20/register.php"
