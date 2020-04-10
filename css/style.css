@@ -93,6 +93,8 @@
     border: 0.5em solid #fff;
     margin: 2em;
     padding: 2em;
+    min-height: 37em;
+    max-height: 37em;
 }
 
 .testimonial blockquote {
@@ -155,6 +157,8 @@
     margin: 2em;
     padding: 2em;
     min-height: 37em;
+    max-height: 37em;
+    overflow: scroll;
 }
 
 .training h3 {

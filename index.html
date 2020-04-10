@@ -115,19 +115,24 @@ permalink: /
             </div>
             <div class="col-md-7 col-sm-12">
                 <div class="training">
-                    <h3><i class="fas fa-chalkboard-teacher"></i> Training Opportunities</h3>
-                    {% assign training_items = site.data.training_opportunities %}
-                    {% for n in training_items limit: 6 %}
-                    <a href="{{ n.website }}" target="_blank">
-                    <div class="training-item">
-                        <div class="training-date">
-                            <div class="month">{{ n.start_date | date_to_string | slice: 3,3 }}</div>
-                            <div class="day">{{ n.start_date | date_to_string | slice: 0,2 }}</div>
-                            <div class="year">{{ n.start_date | date_to_string | slice: 7,4 }}</div>
+                    <div>
+                        <h3><i class="fas fa-chalkboard-teacher"></i> Training Opportunities</h3>
+                        <div style="position: absolute; top: 4em; right: 5em">
+                            <p style="text-align: right;color: #ccc; font-weight: bold; font-size: 0.8em; line-height: 1em">From the<br/>Community</p>
                         </div>
-                        <span style="color: #777; font-size: 0.8em">[{{ n.categroy }}]</span>
-                        {{ n.title }}<br/>
                     </div>
+                    {% assign training_items = site.data.training_opportunities %}
+                    {% for n in training_items %}
+                    <a href="{{ n.website }}" target="_blank">
+                        <div class="training-item">
+                            <div class="training-date">
+                                <div class="month">{{ n.start_date | date_to_string | slice: 3,3 }}</div>
+                                <div class="day">{{ n.start_date | date_to_string | slice: 0,2 }}</div>
+                                <div class="year">{{ n.start_date | date_to_string | slice: 7,4 }}</div>
+                            </div>
+                            <span style="color: #777; font-size: 0.8em">[{{ n.categroy }}]</span>
+                            {{ n.title }}<br/>
+                        </div>
                     </a>
                     {% endfor %}
                 </div>
