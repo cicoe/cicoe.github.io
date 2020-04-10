@@ -176,7 +176,8 @@
 .training-item {
     padding: 1em;
     border-bottom: 1px solid #DDd;
-    min-height: 5em;
+    min-height: 5.5em;
+    max-height: 5.5em;
 }
 
 .training-item:hover {
