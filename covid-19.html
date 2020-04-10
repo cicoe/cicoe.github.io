@@ -1,0 +1,64 @@
+---
+layout: page
+title: CI CoE Pilot - COVID-19
+permalink: /covid-19/
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h3>Priority Help Available for COVID-19 Researchers</h3>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <p>
+                    The <a href="http://cicoe-pilot.org" target="_blank">NSF Cyberinfrastructure Center of Excellence
+                    Pilot</a>, <a href="https://trustedci.org" target="_blank">Trusted CI</a>, and the
+                    <a href="https://sciencegateways.org" target="_blank">Science Gateways Community Institute</a>
+                    are all available to help the science community tackle research to address the coronavirus disease
+                    2019 (COVID-19) outbreak. If your project could benefit from expert cyberinfrastructure consulting
+                    in:
+                </p>
+                <ul style="margin-left: 2em">
+                    <li>data management and visualization,</li>
+                    <li>workflow management,</li>
+                    <li>use of cloud resources, high-performance clusters, or distributed resources;</li>
+                    <li>science gateway technology,</li>
+                    <li>cybersecurity, or</li>
+                    <li>compliance,</li>
+                </ul>
+                <p>
+                    please contact us for priority assistance. We are here to help.
+                </p>
+                <p>
+                    To request assistance, please send an email to
+                    <a href="mailto:covid19@trustedci.org?subject=COVID-19">covid19@trustedci.org</a> and we will
+                    be in contact.
+                </p>
+                <p>
+                    Help with writing proposals related to COVID-19 is also available, but priority will be given to
+                    active projects.
+                </p>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h3>Other Resources for Researchers</h3>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <ul style="margin-left: 2em">
+                    {% for n in site.data.covid-19-resources %}
+                    <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

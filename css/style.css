@@ -210,3 +210,28 @@
     text-align: center;
     font-size: 0.6em;
 }
+
+.covid-button {
+    height: 60px;
+    border-radius: 10px;
+    /*border: solid 3px #CCCCCC;*/
+    background: #cc0000;
+    width: 120px;
+    line-height: 32px;
+    -webkit-transform: rotate(-90deg);
+    font-weight: 600;
+    color: white;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    text-align: center;
+    font-size: 17px;
+    position: fixed;
+    right: -40px;
+    top: 45%;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    z-index: 999;
+    cursor: pointer;
+    padding-top: 0.5em;
+    box-shadow: -5px 5px 5px #aaaaaa;
+}
