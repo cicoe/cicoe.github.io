@@ -149,3 +149,64 @@
 .alert ul {
     padding-left: 2em;
 }
+
+.training {
+    background: #fff;
+    margin: 2em;
+    padding: 2em;
+    min-height: 37em;
+}
+
+.training h3 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.training h3>i {
+    color: #666;
+    padding-right: 0.5em;
+}
+
+.training-item {
+    padding: 1em;
+    border-bottom: 1px solid #DDd;
+    min-height: 5em;
+}
+
+.training-item:hover {
+    background-color: rgba(130, 176, 61, 0.2);
+}
+
+.training a {
+    color: #5E7F2D;
+}
+
+.training-date {
+    float: left;
+    border: 1px solid #666;
+    min-width: 4em;
+    margin-right: 1em;
+}
+
+.training-date .month {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.training-date .day {
+    text-align: center;
+    color: #999;
+    background-color: #fff;
+}
+
+.training-date .year {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    font-size: 0.6em;
+}
