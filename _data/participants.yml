@@ -126,7 +126,7 @@
  
 - name: "Loïc Pottier"
   photo: "loic.jpeg"
-  website: "https://scitech.isi.edu/people"
+  website: "https://lpottier.github.io"
   role: "Sr. Personnel"
   institution: "University of Southern California"
   description: "Loïc Pottier is a Postdoctoral Scholar - Research Associate in the Science Automation Technologies group at the USC Information Sciences Institute. Dr. Loïc Pottier received his PhD in Computer Science from ENS de Lyon, France, in 2018.His research interests include scheduling and performance models for HPC systems, scientific workflows management and parallel algorithms in general."
