@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CI CoE Pilot - NSF Major Facilities
-permalink: /nsf_large_facilities/
+permalink: /nsf_major_facilities/
 ---
 
 <section id="intro">
@@ -12,37 +12,37 @@ permalink: /nsf_large_facilities/
                     <h2>NSF Major Facilities</h2>
                 </div>
             </div>
-            {% if site.data.lf.size > 0 %}
-            {% for n in site.data.lf %}
-            <div class="col-md-6 col-sm-12">
-                <div class="lf">
-                    <button class="collapsible"><strong>{{ n.name }}</strong></button>
+        </div>
+        <div class="row" style="margin-top: 2em">
+            {% assign lf_items = site.data.lf %}
+            {% for n in lf_items %}
+            <div class="col-md-3 col-sm-12">
+                <div class="lf" onclick="window.open('{{ n.website }}', 'new_window');">
                     <div class="content">
-                        <h4>{{ n.name }}</h4>
-                        <p><a href="{{ n.website }}" target="_blank"><i class="icon ion-link"></i> Website</a></p>
-                        <div>{{ n.description }}</div>
+                        <p><strong>{{ n.name }}</strong></p>
+                        <span class="dir">{{ n.directorate }}</span>
+                        <span class="stage">{{ n.stage }}</span>
                     </div>
                 </div>
             </div>
             {% endfor %}
-            {% endif %}
         </div>
     </div>
 </section>
 
-<script type="text/javascript">
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
+<!--<script type="text/javascript">-->
+<!--    var coll = document.getElementsByClassName("collapsible");-->
+<!--    var i;-->
 
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        });
-    }
-</script>
+<!--    for (i = 0; i < coll.length; i++) {-->
+<!--        coll[i].addEventListener("click", function() {-->
+<!--            this.classList.toggle("active");-->
+<!--            var content = this.nextElementSibling;-->
+<!--            if (content.style.display === "block") {-->
+<!--                content.style.display = "none";-->
+<!--            } else {-->
+<!--                content.style.display = "block";-->
+<!--            }-->
+<!--        });-->
+<!--    }-->
+<!--</script>-->
