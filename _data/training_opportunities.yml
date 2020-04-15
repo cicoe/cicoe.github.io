@@ -28,6 +28,13 @@
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
 - categroy: Workshop
+  end_date: June 10, 2020
+  source: XSEDE
+  start_date: June 01, 2020
+  time: ''
+  title: Computational Chemistry for Chemistry Educators Workshop
+  website: "Registration closed"
+- categroy: Workshop
   end_date: June 05, 2020
   source: XSEDE
   start_date: June 01, 2020
@@ -35,10 +42,3 @@
   title: Computational Chemistry for Chemistry Educators Workshop (Mount Saint Mary
     College)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2038/session/3633/register"
-- categroy: Workshop
-  end_date: June 10, 2020
-  source: XSEDE
-  start_date: June 01, 2020
-  time: ''
-  title: Computational Chemistry for Chemistry Educators Workshop
-  website: "Registration closed"
