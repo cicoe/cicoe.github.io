@@ -123,29 +123,48 @@
 }
 
 .alert {
-    margin-top: 2em;
+    margin-top: 1em;
     background-color: rgb(240, 173, 78, 0.3);
-    border: 1px solid #f0ad4e;
     padding: 1.5em 2em 1.5em 2em;
     border-radius: 10px;
     color: #9e4a1b;
     text-align: left;
+    box-shadow: 3px 3px 3px #ccc;
 }
 
-.alert h1 {
-    font-size: 1.5em;
+.alert-info {
+    margin-top: 1em;
+    background-color: rgb(200, 200, 200, 0.3);
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 10px;
+    color: #666;
+    text-align: left;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+.alert h1,
+.alert-info h1 {
+    font-size: 1.4em;
     font-weight: bold;
+    margin-top: 0;
 }
 
-.alert a {
+.alert a,
+.alert-info a {
     color: #9e4a1b;
     text-decoration: underline !important;
     font-weight: bold;
 }
 
-.alert p {
+.alert-info a {
+    color: #666 !important;
+}
+
+.alert p,
+.alert-info p {
     line-height: 1.4em !important;
     margin-bottom: 0.5em;
+    font-size: 1em;
 }
 
 .alert ul {
