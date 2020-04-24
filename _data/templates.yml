@@ -21,3 +21,9 @@
   doc_link:
   pdf_link: "https://github.com/cicoe/data-capture-engagement-templates/raw/master/Data-Capture-Engagement-Plan-Template.pdf"
   working_group: "Data Capture"
+
+- title: "Trusted CI: Templates"
+  desc: "Guide to Developing Cybersecurity Programs for NSF Science and Engineering Projects"
+  pdf_link: "https://trustedci.org/guide/"
+  doc_link: ""
+  working_group: ""
