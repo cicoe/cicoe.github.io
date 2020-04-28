@@ -3,14 +3,14 @@
   source: XSEDE
   start_date: May 04, 2020
   time: ''
-  title: Cal State San Bernadino- Introduction to XSEDE for Educators
+  title: Cal State San Bernadino- Introduction to XSEDE
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2052/session/3669/register"
 - categroy: Workshop
   end_date: May 04, 2020
   source: XSEDE
   start_date: May 04, 2020
   time: ''
-  title: Cal State San Bernadino- Introduction to XSEDE
+  title: Cal State San Bernadino- Introduction to XSEDE for Educators
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2052/session/3669/register"
 - categroy: Workshop
   end_date: May 06, 2020
@@ -34,6 +34,13 @@
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Comet'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2042/session/3661/register"
 - categroy: Workshop
+  end_date: June 10, 2020
+  source: XSEDE
+  start_date: June 01, 2020
+  time: ''
+  title: Computational Chemistry for Chemistry Educators Workshop
+  website: "Registration closed"
+- categroy: Workshop
   end_date: June 05, 2020
   source: XSEDE
   start_date: June 01, 2020
@@ -42,9 +49,9 @@
     College)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2038/session/3633/register"
 - categroy: Workshop
-  end_date: June 10, 2020
+  end_date: June 05, 2020
   source: XSEDE
-  start_date: June 01, 2020
+  start_date: June 02, 2020
   time: ''
-  title: Computational Chemistry for Chemistry Educators Workshop
-  website: "Registration closed"
+  title: XSEDE HPC Workshop Summer Boot Camp - June 2-5, 2020
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2054/session/3671/register"
