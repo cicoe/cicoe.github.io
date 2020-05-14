@@ -71,6 +71,14 @@ permalink: /working_groups/
                     </ul>
                     </p>
                 </div>
+                {% if n.current and n.current != "" %}
+                <div class="wg-current">
+                    <span>Current Activities</span>
+                    <p>
+                    {{ n.current }}
+                    </p>
+                </div>
+                {% endif %}
             </div><!-- .col-md-5 close -->
             {% endfor %}
             {% endif %}
