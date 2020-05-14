@@ -1,17 +1,17 @@
 - categroy: Workshop
-  end_date: May 21, 2020
-  source: LCI
-  start_date: May 19, 2020
-  time: ''
-  title: LCI Advanced Workshop
-  website: "http://linuxclustersinstitute.org/workshops/advanced20/register.php"
-- categroy: Workshop
   end_date: May 19, 2020
   source: XSEDE
   start_date: May 19, 2020
   time: ''
   title: SPICE Data Science Institute New User Training
   website: "Registration opens"
+- categroy: Workshop
+  end_date: May 21, 2020
+  source: LCI
+  start_date: May 19, 2020
+  time: ''
+  title: LCI Advanced Workshop
+  website: "http://linuxclustersinstitute.org/workshops/advanced20/register.php"
 - categroy: Workshop
   end_date: May 21, 2020
   source: XSEDE
