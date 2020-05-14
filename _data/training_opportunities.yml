@@ -1,17 +1,17 @@
 - categroy: Workshop
-  end_date: May 21, 2020
-  source: LCI
-  start_date: May 19, 2020
-  time: ''
-  title: LCI Advanced Workshop
-  website: "http://linuxclustersinstitute.org/workshops/advanced20/register.php"
-- categroy: Workshop
   end_date: May 19, 2020
   source: XSEDE
   start_date: May 19, 2020
   time: ''
   title: SPICE Data Science Institute New User Training
   website: "Registration opens"
+- categroy: Workshop
+  end_date: May 21, 2020
+  source: LCI
+  start_date: May 19, 2020
+  time: ''
+  title: LCI Advanced Workshop
+  website: "http://linuxclustersinstitute.org/workshops/advanced20/register.php"
 - categroy: Workshop
   end_date: May 21, 2020
   source: XSEDE
@@ -34,13 +34,6 @@
   title: 'XSEDE Webinar: Python and Performance'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2055/session/3672/register"
 - categroy: Workshop
-  end_date: June 10, 2020
-  source: XSEDE
-  start_date: June 01, 2020
-  time: ''
-  title: Computational Chemistry for Chemistry Educators Workshop
-  website: "Registration closed"
-- categroy: Workshop
   end_date: June 05, 2020
   source: XSEDE
   start_date: June 01, 2020
@@ -48,6 +41,13 @@
   title: Computational Chemistry for Chemistry Educators Workshop (Mount Saint Mary
     College)
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2038/session/3633/register"
+- categroy: Workshop
+  end_date: June 10, 2020
+  source: XSEDE
+  start_date: June 01, 2020
+  time: ''
+  title: Computational Chemistry for Chemistry Educators Workshop
+  website: "Registration closed"
 - categroy: Workshop
   end_date: June 05, 2020
   source: XSEDE
