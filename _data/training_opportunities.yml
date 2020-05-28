@@ -1,4 +1,11 @@
 - categroy: Workshop
+  end_date: May 29, 2020
+  source: CyVerse
+  start_date: May 18, 2020
+  time: ''
+  title: Research Bazaar Tucson 2020
+  website: "https://cyverse.org/resbaz2020"
+- categroy: Workshop
   end_date: June 05, 2020
   source: XSEDE
   start_date: June 01, 2020
@@ -21,12 +28,26 @@
   title: XSEDE HPC Workshop Summer Boot Camp - June 2-5, 2020
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2054/session/3671/register"
 - categroy: Workshop
+  end_date: June 12, 2020
+  source: CyVerse
+  start_date: June 09, 2020
+  time: ''
+  title: Virtual iRODS User Group Meeting
+  website: "https://cyverse.org/virtual-irods-user-group-meeting"
+- categroy: Workshop
   end_date: June 18, 2020
   source: XSEDE
   start_date: June 18, 2020
   time: ''
   title: 'XSEDE Webinar: Introduction to Expanse'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2058/session/3674/register"
+- categroy: Workshop
+  end_date: July 21, 2020
+  source: CyVerse
+  start_date: July 19, 2020
+  time: ''
+  title: Bioinformatics Community Conference
+  website: "https://cyverse.org/bcc2020"
 - categroy: Workshop
   end_date: July 24, 2020
   source: XSEDE
