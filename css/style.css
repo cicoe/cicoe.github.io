@@ -178,6 +178,7 @@
     min-height: 37em;
     max-height: 37em;
     overflow: scroll;
+    border: 1em solid #fff;
 }
 
 .training h3 {
@@ -210,8 +211,25 @@
 .training-date {
     float: left;
     border: 1px solid #666;
-    min-width: 4em;
+    min-width: 3em;
     margin-right: 1em;
+}
+
+.training-date .start {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+}
+
+.training-date .end {
+    text-align: center;
+    color: #999;
+    background-color: #fff;
+    font-size: 0.8em;
+    padding: 0.3em 0.5em 0.3em 0.5em;
 }
 
 .training-date .month {

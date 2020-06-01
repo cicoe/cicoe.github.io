@@ -160,12 +160,19 @@ permalink: /
                     <a href="{{ n.website }}" target="_blank">
                         <div class="training-item">
                             <div class="training-date">
-                                <div class="month">{{ n.start_date | date_to_string | slice: 3,3 }}</div>
-                                <div class="day">{{ n.start_date | date_to_string | slice: 0,2 }}</div>
-                                <div class="year">{{ n.start_date | date_to_string | slice: 7,4 }}</div>
+                                <div class="start">
+                                    {{ n.start_date | date_to_string | slice: 3,3 }}
+                                    {{ n.start_date | date_to_string | slice: 0,2 }}
+                                    {{ n.start_date | date_to_string | slice: 7,4 }}
+                                </div>
+                                <div class="end">
+                                    {{ n.end_date | date_to_string | slice: 3,3 }}
+                                    {{ n.end_date | date_to_string | slice: 0,2 }}
+                                    {{ n.end_date | date_to_string | slice: 7,4 }}
+                                </div>
                             </div>
                             <span style="color: #777; font-size: 0.8em">[{{ n.categroy }}]</span>
-                            {{ n.title }}<br/>
+                            {{ n.title }}
                             <p style="color: #999; font-size: 0.7em; line-height: 1.5em">Source: {{ n.source }}</p>
                         </div>
                     </a>
