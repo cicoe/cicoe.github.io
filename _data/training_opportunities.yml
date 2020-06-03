@@ -42,6 +42,14 @@
   title: 'XSEDE Webinar: Introduction to Expanse'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2058/session/3674/register"
 - categroy: Workshop
+  end_date: July 16, 2020
+  source: XSEDE
+  start_date: July 16, 2020
+  time: ''
+  title: 'XSEDE Webinar: Indispensable Security: Tips to Use SDSC''s HPC Resources
+    Securely'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2063/session/3680/register"
+- categroy: Workshop
   end_date: July 21, 2020
   source: CyVerse
   start_date: July 19, 2020
