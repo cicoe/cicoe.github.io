@@ -28,6 +28,13 @@
   title: Virtual iRODS User Group Meeting
   website: "https://cyverse.org/virtual-irods-user-group-meeting"
 - categroy: Workshop
+  end_date: June 17, 2020
+  source: XSEDE
+  start_date: June 17, 2020
+  time: ''
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3679/register"
+- categroy: Workshop
   end_date: June 18, 2020
   source: XSEDE
   start_date: June 18, 2020
