@@ -1,0 +1,29 @@
+---
+layout: page
+title: CI CoE Pilot - Library Tools
+permalink: /materials/library_tools
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h2>Library: CI CoE Tools for Major Facilities</h2>
+                </div>
+                <div class="col-md-12 col-sm-12 space" style="padding-top: 2em">
+                    {% if site.data.library.size > 0 %}
+                    {% for n in site.data.library_tools %}
+                    <div class="col-md-6 col-sm-6">
+                        <div class="presentation" style="min-height: 8em">
+                            <a href="{{ n.url }}" target="_blank"><strong>{{ n.title }}</strong></a><br/>
+                            <p style="line-height: 1.3em; font-size: 0.9em">{{ n.description }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

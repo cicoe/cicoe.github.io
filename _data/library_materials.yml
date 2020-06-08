@@ -1,0 +1,19 @@
+- title: "NSF Workshop on Smart Cyberinfrastructure"
+  url: "http://smartci.sci.utah.edu"
+  description: "Developing a roadmap towards the Next Generation of Smart Cyberinfrastructure: Efficiency and Productivity through Artificial Intelligence, ML, and Smart Technologies."
+
+- title: "NSF’s Blueprint for a National Cyberinfrastructure Ecosystem for Science and Engineering in the 21st Century"
+  url: "https://www.nsf.gov/cise/oac/vision/blueprint-2019/"
+  description: "Transforming Science Through Cyberinfrastructure."
+
+- title: "Data Carpentry Workshops"
+  url: "https://datacarpentry.org/lessons/"
+  description: "Lessons for Data Carpentry workshops distributed under the CC-BY license and are free for re-use or adaptation, with attribution."
+
+- title: "Library Carpentry Workshops"
+  url: "https://librarycarpentry.org/lessons/"
+  description: "Library Carpentry workshops teach people working in library- and information-related roles."
+
+- title: "Software Carpentry Workshops"
+  url: "https://software-carpentry.org/lessons/"
+  description: "A Software Carpentry workshop is taught by at least one trained and badged instructor. Over two days, instructors teach our three core topics: the Unix shell, version control with Git, and a programming language (Python or R)."
