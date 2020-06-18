@@ -1,11 +1,4 @@
 - categroy: Workshop
-  end_date: June 18, 2020
-  source: XSEDE
-  start_date: June 18, 2020
-  time: ''
-  title: 'XSEDE Webinar: Introduction to Expanse'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2058/session/3674/register"
-- categroy: Workshop
   end_date: June 24, 2020
   source: XSEDE
   start_date: June 24, 2020
@@ -32,14 +25,14 @@
   source: XSEDE
   start_date: July 20, 2020
   time: ''
-  title: ACSC Faculty Curriculum Development Workshop
+  title: ACSC Faculty New User Training
   website: "Registration opens"
 - categroy: Workshop
   end_date: July 24, 2020
   source: XSEDE
   start_date: July 20, 2020
   time: ''
-  title: ACSC Faculty New User Training
+  title: ACSC Faculty Curriculum Development Workshop
   website: "Registration opens"
 - categroy: Workshop
   end_date: July 31, 2020
