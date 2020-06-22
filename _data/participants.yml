@@ -65,7 +65,7 @@
   photo: "sons.jpg"
   website:  "https://cacr.iu.edu/about/people/susan-sons.html"
   role: "Sr. Personnel"
-  institution: "Indiana University"
+  institution: "Trusted CI"
   description: "Software engineer and cybersecurity expert with extensive experience supporting the security of NSF Major Facilities and other NSF CI. As Senior Personnel on Trusted CI, Susan has worked with numerous Major Facilities to evaluate their cybersecurity programs and to solve technical and programmatic challenges. Additionally, Sons serves as the Information Security Officer of Open Science Grid, Interim Chief Information Security Officer of DHS-funded Software Assurance Marketplace, and President of the Internet Civil Engineering Institute. In addition to running these security programs and organizations, Sons has technical foci in software engineering, security architecture, and industrial control system security."
 
 - name: "Karan Vahi"
@@ -107,7 +107,7 @@
   photo: "Josh-headshot-1.JPG"
   website: "https://cacr.iu.edu/about/people/Josh_Drake.html"
   role: "Sr. Personnel"
-  institution: "Indiana University"
+  institution: "Trusted CI"
   description: "Josh Drake is a Senior Security Analyst at the Indiana University Center for Applied Cybersecurity Research (CACR), focused on improving information security program security at NSF facilities. Over his 15 year career Josh has worked in applications support, project management, systems and security analysis, and network and systems administration in several industries such as municipal government, energy, and healthcare."
   
 - name: "Erik Scott"
