@@ -26,7 +26,7 @@
 - title: "Data Life Cycle and Disaster Recovery"
   description: "The goals of this working group are to (1) understand the current practices for Data Life Cycle (DLC) stages and Disaster Recovery (DR) for the NEON facility and other major facilities (LF) by studying the architectural elements of the CI used by LFs, and (2) develop a general set of DR requirements and policies that can inform the LFs about best practices for DR and how those can be adapted for specific facilities."
   icon: "pull-request"
-  current: ''
+  current: 'Conducting interviews. To see example questions, <a href="/presentations/InterviewQuestions_DLC.pdf">click here</a>. If you are a manager in a Major Facility and would like to participate, please <a href="/contact">contact us</a>.'
 
 - title: "Workforce Development"
   description: "This working group focus on development, training, retention, career paths, and diversity, as well as the overall career paths for CI-related personnel."
