@@ -327,3 +327,10 @@
     box-shadow: 5px 5px 5px #ddd;
     padding: 1.5em;
 }
+
+.publication {
+    padding: 2em;
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 5px #ddd;
+    border: 1px solid #eee;
+}

@@ -12,23 +12,31 @@ permalink: /materials/publications
                     <h1>Publications</h1>
                 </div>
                 <div class="material">
-                    <ul>
                     {% for n in site.data.publications %}
-                    <li><b>{{ n.title }}</b><br />
-                        Abstract: <span style="color: #999">{{ n.abstract }}</span>
+                    <div class="publication">
+                        <strong>
+                            {% if n.link.size > 0 %}
+                            <a href="{{ n.link }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            {% endif %}
+                            {% if n.pdf.size > 0 %}
+                            <a href="/publications/{{ n.pdf }}" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            {% endif %}
+                            {{ n.title }}
+                        </strong><br/>
+                        <span style="color: #666">{{ n.authors }}</span><br/>
                         {% if n.venue.size > 0 %}
-                        <br>Venue: <span style="color: #999">{{ n.venue }}</span>
-                        <br>Authors: <span style="color: #999">{{ n.authors }}</span>
+                        <span style="color: #666">{{ n.venue }}</span><br/>
                         {% endif %}
-                        {% if n.link.size > 0 %}
-                        <br>[<a href="{{ n.link }}" target="_blank">link</a>]
+                        <div style="background-color: #f7f7f7; padding: 1em; margin-top: 1em">
+                            <span style="color: #999">{{ n.abstract }}</span>
+                        </div>
+                        {% if n.bibtex.size > 0 %}
+                        <div style='background-color: #f2f2f2; padding: 1em; font-size: 0.8em; font-family: Menlo, Monaco, Consolas, "Courier New", monospace'>
+                            {{ n.bibtex }}
+                        </div>
                         {% endif %}
-                        {% if n.pdf.size > 0 %}
-                        <br>[<a href="/publications/{{ n.pdf }}" target="_blank">PDF</a>]
-                        {% endif %}
-                        </li>
+                    </div>
                     {% endfor %}
-                    </ul>
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 space" style="background-color: #f7f7f7">

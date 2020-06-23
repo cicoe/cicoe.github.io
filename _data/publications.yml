@@ -8,18 +8,40 @@
   working_group: "Identity Management"
 
 - title: "Cyberinfrastructure Center of Excellence Pilot: Connecting Large Facilities Cyberinfrastructure"
-  abstract: "The National Science Foundation’s Large Facilities are major, multi-user research facilities that operate and manage sophisticated and diverse research instruments and platforms (e.g., large telescopes, interferometers, distributed sensor arrays) that serve a variety of scientific disciplines, from astronomy and physics to geology and biology and beyond. Large Facilities are increasingly dependent on advanced cyberinfrastructure (i.e., computing, data, and software systems; networking; and associ- ated human capital) to enable the broad delivery and analysis of facility-generated data. These cyberinfrastructure tools enable scientists and the public to gain new insights into fundamental questions about the structure and history of the universe, the world we live in today, and how our environment may change in the coming decades. This paper describes a pilot project that aims to develop a model for a Cyberinfrastructure Center of Excellence (CI CoE) that facilitates community building and knowledge sharing, and that disseminates and applies best practices and innovative solutions for facility CI."
+  abstract: "The National Science Foundation's Large Facilities are major, multi-user research facilities that operate and manage sophisticated and diverse research instruments and platforms (e.g., large telescopes, interferometers, distributed sensor arrays) that serve a variety of scientific disciplines, from astronomy and physics to geology and biology and beyond. Large Facilities are increasingly dependent on advanced cyberinfrastructure (i.e., computing, data, and software systems; networking; and associated human capital) to enable the broad delivery and analysis of facility-generated data. These cyberinfrastructure tools enable scientists and the public to gain new insights into fundamental questions about the structure and history of the universe, the world we live in today, and how our environment may change in the coming decades. This paper describes a pilot project that aims to develop a model for a Cyberinfrastructure Center of Excellence (CI CoE) that facilitates community building and knowledge sharing and that disseminates and applies best practices and innovative solutions for facility CI."
   authors: "E. Deelman, A. Mandal, V. Pascucci, S. Sons, J. Wyngaard, C. F. Vardeman II, S. Petruzza, I. Baldin, L. Christopherson, R. Mitchell, L. Pottier, M. Rynge, E. Scott†, K Vahi, M. Kogank, J. A. Mann, T. Gulbransen, D. Allen, D. Barlow, S. Bonarrigo, C. Clark, L. Goldman, T. Goulden, P. Harvey, D. Hulsander, S. Jacobs, C. Laney, I. Lobo-Padilla, J. Sampson, J. Staarmann, S. Stone"
-  venue: "Escience 2019"
+  venue: "2019 15th International Conference on eScience (eScience)"
   pdf: "e_Science_2019.pdf"
-  link: ""
+  link: "https://doi.org/10.1109/eScience.2019.00058"
   working_group: ""
+  bibtex: "
+  @inproceedings{deelman2019cyberinfrastructure,<br/>
+  &nbsp;&nbsp;title={Cyberinfrastructure Center of Excellence Pilot: Connecting Large Facilities Cyberinfrastructure},<br/>
+  &nbsp;&nbsp;author={Deelman, Ewa and Mandal, Anirban and Pascucci, Valerio and Sons, Susan and Wyngaard, Jane and Vardeman, Charles and Petruzza, Steve and Baldin, Ilya and Christopherson, Laura and Mitchell, Ryan and others},<br/>
+  &nbsp;&nbsp;booktitle={2019 15th International Conference on eScience (eScience)},<br/>
+  &nbsp;&nbsp;pages={449--457},<br/>
+  &nbsp;&nbsp;year={2019},<br/>
+  &nbsp;&nbsp;organization={IEEE},<br/>
+  &nbsp;&nbsp;doi={10.1109/eScience.2019.00058}<br/>
+  }
+  "
 
 - title: "Exploration of Workflow Management Systems Emerging Features from Users Perspectives"
-  abstract: "There has been a recent emergence of new workflowapplications  focused  on  data  analytics  and  machine  learning.This   emergence   has   precipitated   a   change   in   the   workflowmanagement  landscape,  causing  the  development  of  new  data-oriented  workflow  management  systems  (WMSs)  as  opposed  tothe  earlier  standard  of  task-oriented  WMSs.  In  this  paper,  wesummarize  three  general  workflow  use-cases  and  explore  theunique  requirements  of  each  use-case  in  order  to  understandhow   WMSs   from   both   workflow   management   models   (task-driven workflow management models and data-driven workflowmanagement  models)  meet  the  requirements  of  each  workflowuse-case from the user’s perspective. We analyze the applicabilityof  the  two  main  workflow  models  by  carefully  describing  eachmodel and by providing an examination of the different variationsof  WMSs  that  fall  under  the  task-driven  model.  To  illustratethe  strengths  and  weaknesses  of  each  workflow  managementmodel, we summarize the key features of four production-readyWMSs:  Pegasus,  Makeflow,  Apache  Airflow,  and  Pachyderm.Of  these  production-ready  WMSs,  three  belong  to  the  task-driven  workflow  management  model  (i.e.,  Pegasus,  Makeflow,Apache  Airflow)  and  one  belongs  to  the  data-driven  workflowmanagement  model  (i.e.,  Pachyderm).  To  deepen  our  analysisof  the  four  WMSs  examined  in  this  paper,  we  implement  threereal-world  use-cases  to  highlight  the  specifications  and  featuresof  each  WMS.  The  application  of  these  real-world  use-casesdemonstrates  how  each  workflow  management  model  operateswith  the  different  applications.  We  present  our  final  assessmentof  each  WMS  after  considering  the  following  factors:  usability,performance, ease of deployment, and relevance. The purpose ofthis work is to offer insights from the user’s perspective into theresearch challenges that WMSs currently face due to the evolvingworkflow  landscape."
+  abstract: "There has been a recent emergence of new workflow applications focused on data analytics and machine learning. This emergence has precipitated a change in the workflow management landscape, causing the development of new dataoriented workflow management systems (WMSs) in addition to the earlier standard of task-oriented WMSs. In this paper, we summarize three general workflow use-cases and explore the unique requirements of each use-case in order to understand how WMSs from both workflow management models meet the requirements of each workflow use-case from the user's perspective. We analyze the applicability of the two models by carefully describing each model and by providing an examination of the different variations of WMSs that fall under the task driven model. To illustrate the strengths and weaknesses of each workflow management model, we summarize the key features of four production-ready WMSs: Pegasus, Makeflow, Apache Airflow, and Pachyderm. To deepen our analysis of the four WMSs examined in this paper,we implement three real-world use-cases to highlight the specifications and features of each WMS. We present our final assessment of each WMS after considering the following factors: usability, performance, ease of deployment, and relevance. The purpose of this work is to offer insights from the user's perspective into the research challenges that WMSs currently face due to the evolving workflow landscape."
   authors: "R. Mitchell, L. Pottier, S. Jacobs, R. Ferreira da Silva, M. Rynge, K. Vahi, E. Deelman"
-  venue: "First International Workshop on Big Data Tools, Methods, and Use Cases for Innovative Scientific Discovery (BTSD), 2019."
+  venue: "2019 IEEE International Conference on Big Data (Big Data)"
   pdf: "2019-wms-exploration.pdf"
-  link: "https://sites.google.com/view/btsd2019/home"
+  link: "https://doi.org/10.1109/BigData47090.2019.9005494"
   working_group: "Data Processing"
+  bibtex: "
+  @inproceedings{mitchell2019exploration,<br/>
+  &nbsp;&nbsp;title={Exploration of Workflow Management Systems Emerging Features from Users Perspectives},<br/>
+  &nbsp;&nbsp;author={Mitchell, Ryan and Pottier, Loїc and Jacobs, Steve and Ferreira da Silva, Rafael and Rynge, Mats and Vahi, Karan and Deelman, Ewa},<br/>
+  &nbsp;&nbsp;booktitle={2019 IEEE International Conference on Big Data (Big Data)},<br/>
+  &nbsp;&nbsp;pages={4537--4544},<br/>
+  &nbsp;&nbsp;year={2019},<br/>
+  &nbsp;&nbsp;organization={IEEE},<br/>
+  &nbsp;&nbsp;doi={10.1109/BigData47090.2019.9005494}<br/>
+  }
+  "
 
