@@ -129,42 +129,68 @@ permalink: /
 <section id="intro" style="background-color: #f7f7f7">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <div class="testimonial col-md-12">
                     <h3>Testimonials</h3>
-                    <blockquote>
-                        <img src="img/people/bonan.jpg"/>
-                        Overall, the CI CoE was very proactive in enabling and advancing constructive conversations 
-                        during the development of the NCAR-NEON cyberinfrastructure technical plan and in providing 
-                        feedback that improved the quality of the plan. The CI CoE facilitated weekly telecons among 
-                        NCAR, NEON, and the CI CoE to discuss the proposed project and to provide guidance. Discussions
-                        during the telecom were mostly high level, helping to identify needs and priorities for the 
-                        cyberinfrastructure collaborations, but also identifying gaps in the technical plan as well as 
-                        providing overviews of various alternative implementation strategies. The discussions were always 
-                        constructive, collaborative, and respectful of all participants. The CI CoE also undertook written 
-                        feedback on the technical plan at several stages of development. Again, the comments were constructive 
-                        and improved the quality of the final document. The CI CoE’s engagement was critical to preparing 
-                        the final technical plan, in part because of the CI CoE’s familiarity with NEON’s data 
-                        cyberinfrastructure, but also as external computer science experts familiar with the computational 
-                        needs of the modeling (NCAR) and the data (NEON) and serving to bridge the two different areas 
-                        of expertise. 
-                    </blockquote>
-                    <span><i>– Gordon Bonan, National Center for Atmospheric Research (NCAR)</i></span>
-                    <blockquote>
-                        <img src="img/people/tom-gulbransen.png"/>
-                        The CI CoE had four types of profound influence on NEON developers. First, as we transitioned
-                        from construction to operations, our developers benefited from greater awareness of the wider
-                        NSF CI community practices. Second, deep engagement with CI CoE experts produced three major
-                        technologies insertions into NEON CI, remarkably within 6 months. Third, open dialog and
-                        prototyping with CI CoE experts affirmed our workflow-based sensor message handling strategy and
-                        built our confidence to invest in this novel method. NEON's CI and Data Sciences team mission
-                        includes advancing methods and ecological science; interaction with CI CoE nudged our efforts
-                        ahead significantly through community workgroup involvement, presentations and publications.
-                    </blockquote>
-                    <span><i>– Tom Gulbransen, NEON</i></span>
+                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active" style="max-height: 40em; overflow: auto">
+                                <blockquote>
+                                    <img src="img/people/bonan.jpg"/>
+                                    Overall, the CI CoE was very proactive in enabling and advancing constructive conversations
+                                    during the development of the NCAR-NEON cyberinfrastructure technical plan and in providing
+                                    feedback that improved the quality of the plan. The CI CoE facilitated weekly telecons among
+                                    NCAR, NEON, and the CI CoE to discuss the proposed project and to provide guidance. Discussions
+                                    during the telecom were mostly high level, helping to identify needs and priorities for the
+                                    cyberinfrastructure collaborations, but also identifying gaps in the technical plan as well as
+                                    providing overviews of various alternative implementation strategies. The discussions were always
+                                    constructive, collaborative, and respectful of all participants. The CI CoE also undertook written
+                                    feedback on the technical plan at several stages of development. Again, the comments were constructive
+                                    and improved the quality of the final document. The CI CoE’s engagement was critical to preparing
+                                    the final technical plan, in part because of the CI CoE’s familiarity with NEON’s data
+                                    cyberinfrastructure, but also as external computer science experts familiar with the computational
+                                    needs of the modeling (NCAR) and the data (NEON) and serving to bridge the two different areas
+                                    of expertise.
+                                </blockquote>
+                                <span><i>– Gordon Bonan, National Center for Atmospheric Research (NCAR)</i></span>
+                            </div>
+
+                            <div class="item">
+                                <blockquote>
+                                    <img src="img/people/tom-gulbransen.png"/>
+                                    The CI CoE had four types of profound influence on NEON developers. First, as we transitioned
+                                    from construction to operations, our developers benefited from greater awareness of the wider
+                                    NSF CI community practices. Second, deep engagement with CI CoE experts produced three major
+                                    technologies insertions into NEON CI, remarkably within 6 months. Third, open dialog and
+                                    prototyping with CI CoE experts affirmed our workflow-based sensor message handling strategy and
+                                    built our confidence to invest in this novel method. NEON's CI and Data Sciences team mission
+                                    includes advancing methods and ecological science; interaction with CI CoE nudged our efforts
+                                    ahead significantly through community workgroup involvement, presentations and publications.
+                                </blockquote>
+                                <span><i>– Tom Gulbransen, NEON</i></span>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#testimonialCarousel" data-slide="prev">
+                            <span class="fas fa-arrow-left" style="color: black; float: left; padding-left: 0.5em"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#testimonialCarousel" data-slide="next">
+                            <span class="fas fa-arrow-right" style="color: black"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-7 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <div class="training">
                     <div>
                         <h3><i class="fas fa-chalkboard-teacher"></i> Training Opportunities</h3>

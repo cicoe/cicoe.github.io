@@ -92,10 +92,10 @@
 
 .testimonial {
     border: 0.5em solid #fff;
-    margin: 2em;
-    padding: 2em;
-    min-height: 37em;
-    max-height: 37em;
+    margin: 0em 2em 0em 0em;
+    padding: 1em;
+    min-height: 40em;
+    max-height: 40em;
 }
 
 .testimonial blockquote {
@@ -174,10 +174,10 @@
 
 .training {
     background: #fff;
-    margin: 2em;
-    padding: 2em;
-    min-height: 37em;
-    max-height: 37em;
+    margin: 0 2em 0 0;
+    padding: 1em;
+    min-height: 40em;
+    max-height: 40em;
     overflow: scroll;
     border: 1em solid #fff;
 }
@@ -189,7 +189,7 @@
     margin-top: 0;
 }
 
-.training h3>i {
+.training h3 > i {
     color: #666;
     padding-right: 0.5em;
 }
@@ -333,4 +333,12 @@
     margin-bottom: 2em;
     box-shadow: 5px 5px 5px #ddd;
     border: 1px solid #eee;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none !important;
+}
+
+.testimonial .item {
+ .transition(10s ease-in-out left);
 }
