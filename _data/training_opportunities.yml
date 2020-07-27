@@ -1,43 +1,14 @@
 - categroy: Workshop
-  end_date: July 07, 2020
-  source: XSEDE
-  start_date: July 07, 2020
-  time: ''
-  title: 'XSEDE Webinar: Python and Performance'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2055/session/3683/register"
-- categroy: Workshop
-  end_date: July 16, 2020
-  source: XSEDE
-  start_date: July 16, 2020
-  time: ''
-  title: 'XSEDE Webinar: Indispensable Security: Tips to Use SDSC''s HPC Resources
-    Securely'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2063/session/3680/register"
-- categroy: Workshop
-  end_date: July 21, 2020
-  source: CyVerse
-  start_date: July 19, 2020
-  time: ''
-  title: Bioinformatics Community Conference
-  website: "https://cyverse.org/bcc2020"
-- categroy: Workshop
-  end_date: July 24, 2020
-  source: XSEDE
-  start_date: July 20, 2020
-  time: ''
-  title: ACSC Faculty New User Training
-  website: "Registration opens"
-- categroy: Workshop
-  end_date: July 24, 2020
-  source: XSEDE
-  start_date: July 20, 2020
-  time: ''
-  title: ACSC Faculty Curriculum Development Workshop
-  website: "Registration opens"
-- categroy: Workshop
   end_date: July 31, 2020
   source: CyVerse
   start_date: July 27, 2020
   time: ''
   title: Plant Biology 2020
   website: "https://cyverse.org/plant-biology-2020"
+- categroy: Workshop
+  end_date: August 05, 2020
+  source: XSEDE
+  start_date: August 04, 2020
+  time: ''
+  title: 'XSEDE HPC Workshop: Big Data and Machine Learning - August 4-5, 2020'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2067/session/3685/register"
