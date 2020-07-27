@@ -12,3 +12,24 @@
   time: ''
   title: 'XSEDE HPC Workshop: Big Data and Machine Learning - August 4-5, 2020'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2067/session/3685/register"
+- categroy: Workshop
+  end_date: September 17, 2020
+  source: TACC
+  start_date: September 17, 2020
+  time: ''
+  title: TACCSTER 2020
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=92"
+- categroy: Workshop
+  end_date: October 22, 2020
+  source: TACC
+  start_date: October 22, 2020
+  time: ''
+  title: High Performance Computing on Frontera Day 1
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=94"
+- categroy: Workshop
+  end_date: October 29, 2020
+  source: TACC
+  start_date: October 29, 2020
+  time: ''
+  title: High Performance Computing on Frontera Day 2
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
