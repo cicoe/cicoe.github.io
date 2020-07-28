@@ -6,6 +6,13 @@
   title: Plant Biology 2020
   website: "https://cyverse.org/plant-biology-2020"
 - categroy: Workshop
+  end_date: July 31, 2020
+  source: PEARC
+  start_date: July 27, 2020
+  time: 04:00
+  title: PEARC20
+  website: "https://pearc.acm.org/pearc20/registration/"
+- categroy: Workshop
   end_date: August 05, 2020
   source: XSEDE
   start_date: August 04, 2020
