@@ -5,6 +5,24 @@
   venue: "PEARC '20: Practice and Experience in Advanced Research Computing"
   link: "https://dl.acm.org/doi/abs/10.1145/3311790.3396636"
   working_group: "Data Life Cycle and Disaster Recovery"
+  bibtex: "
+  @inproceedings{10.1145/3311790.3396636,<br />
+  &nbsp;&nbsp;author = {Christopherson, Laura and Mandal, Anirban and Scott, Erik and Baldin, Ilya},<br />
+  &nbsp;&nbsp;title = {Toward a Data Lifecycle Model for NSF Large Facilities},<br />
+  &nbsp;&nbsp;year = {2020},<br />
+  &nbsp;&nbsp;isbn = {9781450366892},<br />
+  &nbsp;&nbsp;publisher = {Association for Computing Machinery},<br />
+  &nbsp;&nbsp;address = {New York, NY, USA},<br />
+  &nbsp;&nbsp;url = {https://doi.org/10.1145/3311790.3396636},<br />
+  &nbsp;&nbsp;doi = {10.1145/3311790.3396636},<br />
+  &nbsp;&nbsp;booktitle = {Practice and Experience in Advanced Research Computing},<br />
+  &nbsp;&nbsp;pages = {168–175},<br />
+  &nbsp;&nbsp;numpages = {8},<br />
+  &nbsp;&nbsp;keywords = {data lifecycle, large facilities, disaster recovery, cyberinfrastructure, data management, research computing},<br />
+  &nbsp;&nbsp;location = {Portland, OR, USA},<br />
+  &nbsp;&nbsp;series = {PEARC '20}<br />
+  }
+  "
 
 - title: "NEON IdM Experiences - Working with the CI CoE Pilot to Solve Identity Management Challenges"
   abstract: "This paper details experience from collaborative efforts between the NSF Cyberinfrastructure Center of Excellence (CI CoE) Pilot’s Identity Management Working Group and staff from the National Ecological Observatory Network (NEON) to develop improvements to the NEON Data Portal as well as the products of these collaborative efforts."
