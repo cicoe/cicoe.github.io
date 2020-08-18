@@ -20,6 +20,9 @@ permalink: /materials/presentations
                             <a href="/presentations/{{ n.file }}" target="_blank"><strong>{{ n.title }}</strong></a><br />
                             <span class="author"><i class="fas fa-user"></i> {{ n.author }}</span><br />
                             {{ n.venue }}
+                            {% if n.video_link.size > 0 %}
+                                - <a href="{{ n.video_link }}">Video Recording</a>
+                            {% endif %}
                         </div>
                     </div>
                     {% endfor %}
