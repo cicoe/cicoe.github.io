@@ -5,6 +5,20 @@
   venue: "Bloomington, IN"
   description: "The NSF cyberinfrastructure ecosystem presents an aggregate of complex cybersecurity needs (e.g., scientific data and instruments, unique computational and storage resources, complex collaborations) as compared to other organizations and sectors. This community has a unique opportunity to develop information security practices tailored to these needs, as well as break new ground on efficient, effective ways to protect information assets while supporting science. The Summit will bring together leaders in NSF cyberinfrastructure and cybersecurity to continue the process initiated in 2013, 2014, 2015, 2016, 2017, 2018 & 2019: Building a trusting, collaborative community, and seriously addressing that community's core cybersecurity challenges."
 
+- title: "CI Workforce Development Workshop 2020"
+  website: "https://www.rcac.purdue.edu/ciworkforce2020/"
+  category: "Workshop"
+  date: "Session I (August 19), Session II (August 25), Session III (September 9)"
+  venue: "Virtual"
+  description: "This workshop, conducted virtually, seeks to facilitate a discussion among the affinity groups who collectively participate in the research enterprise, specifically targeting issues related to building and enhancing the cyberinfrastructure professional workforce (e.g. research software engineers, research data science professionals, advanced cyberinfrastructure systems professionals, etc.) with the goal of identifying problem areas, discussing and identifying potential solutions, and to develop a set of recommendations for consideration by the national research community and the NSF. The primary goal of this workshop is to explore the challenges and potential strategies and solutions to address the need for an advanced CI research innovation workforce that is essential to advancing the frontiers of computational and data-intensive scientific research." 
+
+- title: "CI/CS Workshop 2020"
+  website: "https://cics-workshop.org/"
+  category: "Workshop"
+  date: "August 18 and August 20"
+  venue: "Virtual"
+  description: "The Community Together. Hosted by ResearchSOC and the CI CoE Pilot. This workshop complements the upcoming 2020 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure. Both address the topics of cyberinfrastructure and cybersecurity. Security Log Analysis training, long-featured at the NSF Summit, will also be available at the CI/CS Workshop this year. With the exception of this workshop, content and format differ. The CI/CS Workshop is a series of short talks, open forums/office hours, and one panel. Both events are of value to cybersecurity and cyberinfrastructure professionals supporting NSF research, and both would make excellent elements to include in a professional development and training program." 
+
 - title: "PEARC20"
   website: "https://pearc.acm.org/pearc20/"
   category: "Conference"
