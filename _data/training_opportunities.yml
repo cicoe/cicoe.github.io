@@ -13,6 +13,13 @@
   title: TACCSTER 2020
   website: "https://learn.tacc.utexas.edu/course/view.php?id=92"
 - categroy: Workshop
+  end_date: September 29, 2020
+  source: XSEDE
+  start_date: September 29, 2020
+  time: ''
+  title: 'Expanse 101: Accessing and Running Jobs on Expanse'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2073/session/3700/register"
+- categroy: Workshop
   end_date: October 15, 2020
   source: TACC
   start_date: October 15, 2020
@@ -24,26 +31,26 @@
   source: TACC
   start_date: October 22, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 2
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=97"
+  title: High Performance Computing on Frontera Day 1
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=94"
 - categroy: Workshop
   end_date: October 22, 2020
   source: TACC
   start_date: October 22, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 1
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=94"
+  title: High Performance Computing on Frontera Day 2
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=97"
 - categroy: Workshop
   end_date: October 29, 2020
   source: TACC
   start_date: October 29, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 3
+  title: High Performance Computing on Frontera Day 2
   website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
 - categroy: Workshop
   end_date: October 29, 2020
   source: TACC
   start_date: October 29, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 2
+  title: High Performance Computing on Frontera Day 3
   website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
