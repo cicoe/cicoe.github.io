@@ -6,6 +6,13 @@
   title: TACCSTER 2020
   website: "https://learn.tacc.utexas.edu/course/view.php?id=92"
 - categroy: Workshop
+  end_date: September 24, 2020
+  source: XSEDE
+  start_date: September 24, 2020
+  time: ''
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3730/register"
+- categroy: Workshop
   end_date: September 29, 2020
   source: XSEDE
   start_date: September 29, 2020
