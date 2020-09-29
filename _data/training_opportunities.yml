@@ -13,6 +13,13 @@
   title: 'XSEDE HPC Workshop: Big Data and Machine Learning - October 6-7, 2020'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2101/session/3729/register"
 - categroy: Workshop
+  end_date: October 07, 2020
+  source: XSEDE
+  start_date: October 07, 2020
+  time: ''
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3795/register"
+- categroy: Workshop
   end_date: October 08, 2020
   source: XSEDE
   start_date: October 08, 2020
@@ -31,15 +38,15 @@
   source: TACC
   start_date: October 22, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 1
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=94"
+  title: High Performance Computing on Frontera Day 2
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=97"
 - categroy: Workshop
   end_date: October 22, 2020
   source: TACC
   start_date: October 22, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 2
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=97"
+  title: High Performance Computing on Frontera Day 1
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=94"
 - categroy: Workshop
   end_date: October 29, 2020
   source: TACC
