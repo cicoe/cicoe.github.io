@@ -1,11 +1,4 @@
 - categroy: Workshop
-  end_date: September 30, 2020
-  source: XSEDE
-  start_date: September 30, 2020
-  time: ''
-  title: XSEDE Code Performance and Scaling Training
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2134/session/3762/register"
-- categroy: Workshop
   end_date: October 07, 2020
   source: XSEDE
   start_date: October 06, 2020
@@ -38,15 +31,15 @@
   source: TACC
   start_date: October 22, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 1
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=94"
+  title: High Performance Computing on Frontera Day 2
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=97"
 - categroy: Workshop
   end_date: October 22, 2020
   source: TACC
   start_date: October 22, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 2
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=97"
+  title: High Performance Computing on Frontera Day 1
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=94"
 - categroy: Workshop
   end_date: October 29, 2020
   source: TACC
