@@ -21,13 +21,6 @@
   website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
 - categroy: Workshop
   end_date: October 29, 2020
-  source: TACC
-  start_date: October 29, 2020
-  time: ''
-  title: High Performance Computing on Frontera Day 3
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
-- categroy: Workshop
-  end_date: October 29, 2020
   source: XSEDE
   start_date: October 29, 2020
   time: ''
@@ -35,9 +28,24 @@
     \ 2:30pm PDT"
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2167/session/3828/register"
 - categroy: Workshop
+  end_date: October 29, 2020
+  source: TACC
+  start_date: October 29, 2020
+  time: ''
+  title: High Performance Computing on Frontera Day 3
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
+- categroy: Workshop
   end_date: November 03, 2020
   source: XSEDE
   start_date: November 03, 2020
   time: ''
   title: 'XSEDE HPC Workshop: OpenMP - November 3, 2020'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2168/session/3829/register"
+- categroy: Workshop
+  end_date: December 10, 2020
+  source: XSEDE
+  start_date: December 10, 2020
+  time: ''
+  title: 'XSEDE Webinar: Running Jupyter Notebooks on Expanse, Thursday, December
+    10, 2020, 11am-noon PST'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2200/session/3861/register"
