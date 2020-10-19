@@ -14,13 +14,6 @@
   website: "https://learn.tacc.utexas.edu/course/view.php?id=97"
 - categroy: Workshop
   end_date: October 29, 2020
-  source: TACC
-  start_date: October 29, 2020
-  time: ''
-  title: High Performance Computing on Frontera Day 2
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
-- categroy: Workshop
-  end_date: October 29, 2020
   source: XSEDE
   start_date: October 29, 2020
   time: ''
@@ -33,6 +26,13 @@
   start_date: October 29, 2020
   time: ''
   title: High Performance Computing on Frontera Day 3
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
+- categroy: Workshop
+  end_date: October 29, 2020
+  source: TACC
+  start_date: October 29, 2020
+  time: ''
+  title: High Performance Computing on Frontera Day 2
   website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
 - categroy: Workshop
   end_date: November 03, 2020
