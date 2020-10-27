@@ -3,7 +3,7 @@
   source: TACC
   start_date: October 29, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 2
+  title: High Performance Computing on Frontera Day 3
   website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
 - categroy: Workshop
   end_date: October 29, 2020
@@ -18,7 +18,7 @@
   source: TACC
   start_date: October 29, 2020
   time: ''
-  title: High Performance Computing on Frontera Day 3
+  title: High Performance Computing on Frontera Day 2
   website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
 - categroy: Workshop
   end_date: November 03, 2020
@@ -35,3 +35,38 @@
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Expanse, Thursday, December
     10, 2020, 11am-noon PST'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2200/session/3861/register"
+- categroy: Workshop
+  end_date: February 02, 2021
+  source: TACC
+  start_date: February 02, 2021
+  time: ''
+  title: Introduction to Machine Learning at TACC
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=99"
+- categroy: Workshop
+  end_date: February 09, 2021
+  source: TACC
+  start_date: February 09, 2021
+  time: ''
+  title: Introduction to Deep Learning at TACC
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=100"
+- categroy: Workshop
+  end_date: February 10, 2021
+  source: TACC
+  start_date: February 10, 2021
+  time: ''
+  title: Introduction to Linux
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=101"
+- categroy: Workshop
+  end_date: February 18, 2021
+  source: TACC
+  start_date: February 18, 2021
+  time: ''
+  title: C++ for C Programmers
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=102"
+- categroy: Workshop
+  end_date: February 25, 2021
+  source: TACC
+  start_date: February 25, 2021
+  time: ''
+  title: MPL Object-Oriented Interface to MPI
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=103"
