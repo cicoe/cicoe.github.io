@@ -1,13 +1,5 @@
 - categroy: Workshop
   end_date: October 29, 2020
-  source: XSEDE
-  start_date: October 29, 2020
-  time: ''
-  title: "Comet to Expanse Transition Tutorial, Thursday, Oct. 29, 2020, 11am \u2013\
-    \ 2:30pm PDT"
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2167/session/3828/register"
-- categroy: Workshop
-  end_date: October 29, 2020
   source: TACC
   start_date: October 29, 2020
   time: ''
@@ -20,6 +12,14 @@
   time: ''
   title: High Performance Computing on Frontera Day 2
   website: "https://learn.tacc.utexas.edu/course/view.php?id=95"
+- categroy: Workshop
+  end_date: October 29, 2020
+  source: XSEDE
+  start_date: October 29, 2020
+  time: ''
+  title: "Comet to Expanse Transition Tutorial, Thursday, Oct. 29, 2020, 11am \u2013\
+    \ 2:30pm PDT"
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2167/session/3828/register"
 - categroy: Workshop
   end_date: November 03, 2020
   source: XSEDE
