@@ -6,6 +6,20 @@
   title: 'XSEDE HPC Workshop: OpenMP - November 3, 2020'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2168/session/3829/register"
 - categroy: Workshop
+  end_date: December 01, 2020
+  source: XSEDE
+  start_date: December 01, 2020
+  time: ''
+  title: Jetstream Training Session for ECSS Consultants
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2234/session/3895/register"
+- categroy: Workshop
+  end_date: December 08, 2020
+  source: XSEDE
+  start_date: December 08, 2020
+  time: ''
+  title: AMD Training for ECSS Consultants
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2235/session/3896/register"
+- categroy: Workshop
   end_date: December 10, 2020
   source: XSEDE
   start_date: December 10, 2020
