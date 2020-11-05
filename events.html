@@ -12,21 +12,54 @@ permalink: /events/
                     <h2>Events</h2>
                 </div>
             </div>
+            <p>&nbsp;</p>
             {% if site.data.events.size > 0 %}
             {% for n in site.data.events %}
+            {% if n.upcoming %}
             <div class="col-md-6 col-sm-12">
                 <div class="event">
-                    <div class="collapsible">
-                        <h4>{{ n.title }}</h4>
-                        {{ n.date }}
-                        <div class="event-category">{{ n.category }}</div>
+                    <div class="event-category">{{ n.category }}</div>
+                    <div class="title">
+                        <a href="{{ n.website }}" target="_blank"><h4>{{ n.title }}</h4></a>
                     </div>
-                    <div class="event-content">
-                        <p><a href="{{ n.website }}" target="_blank"><i class="icon ion-link"></i> Website</a></p>
-                        <div>{{ n.description }}</div>
+                    <div class="content">
+                        {{ n.date }}<br/>
+                        <i class="icon ion-location"></i> {{ n.venue }}
+                        &nbsp;&nbsp;
+                        <a href="{{ n.website }}" target="_blank"><i class="icon ion-link"></i> Website</a>
                     </div>
                 </div>
             </div>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+        </div>
+
+        <div class="row" style="margin-top: 3em">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h3>Past Events</h3>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            {% if site.data.events.size > 0 %}
+            {% for n in site.data.events %}
+            {% unless n.upcoming %}
+            <div class="col-md-6 col-sm-12">
+                <div class="event">
+                    <div class="event-category">{{ n.category }}</div>
+                    <div class="title">
+                        <a href="{{ n.website }}" target="_blank"><h4>{{ n.title }}</h4></a>
+                    </div>
+                    <div class="content">
+                        {{ n.date }}<br/>
+                        <i class="icon ion-location"></i> {{ n.venue }}
+                        &nbsp;&nbsp;
+                        <a href="{{ n.website }}" target="_blank"><i class="icon ion-link"></i> Website</a>
+                    </div>
+                </div>
+            </div>
+            {% endunless %}
             {% endfor %}
             {% endif %}
         </div>
@@ -38,7 +71,7 @@ permalink: /events/
     var i;
 
     for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
+        coll[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var content = this.nextElementSibling;
             if (content.style.display === "block") {

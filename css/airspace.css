@@ -1187,6 +1187,39 @@ footer .footer-manu ul li a:hover {
     margin-bottom: 1em;
 }
 
+.event {
+    box-shadow: #ccc 2px 2px 2px;
+    border: 1px solid #ddd;
+    margin-bottom: 2em;
+}
+
+.event .title {
+    padding: 1em 1.5em;
+    min-height: 4em;
+}
+
+.event .title a {
+    color: #333;
+}
+
+.event .content {
+    background-color: #f7f7f7;
+    padding: 0.5em 1.5em;
+}
+
+.event-category {
+    position: absolute;
+    right: 1.2em;
+    top: 0;
+    margin-top: 0em;
+    padding: 0.5em 1em;
+    border-bottom-left-radius: 1em;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #fff;
+    background: #666;
+}
+
 .event .collapsible {
     padding: 1em;
     margin-top: 2em;
@@ -1206,16 +1239,6 @@ footer .footer-manu ul li a:hover {
 .event .collapsible h4 {
     font-size: 1.2em;
     margin: 0;
-}
-
-.event-category {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 2.1em;
-    font-style: italic;
-    font-size: 0.9em;
-    color: #ccc;
 }
 
 .event .active, .event .collapsible:hover {

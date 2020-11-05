@@ -1,87 +1,118 @@
-- title: "2020 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure"
+- title: "SuperComputing (SC20)"
+  website: "https://sc20.supercomputing.org"
+  category: "Conference"
+  date: "November 9-19, 2020"
+  venue: "Virtual"
+  upcoming: true
+
+- title: "CHPC National Conference"
+  website: "https://chpcconf.co.za"
+  category: "Conference"
+  date: "November 30 - December 2, 2020"
+  venue: "Virtual"
+  upcoming: true
+
+- title: "AGU Fall Meeting"
+  website: "https://www.agu.org/Fall-Meeting"
+  category: "Meeting"
+  date: "December 1-17, 2020"
+  venue: "Virtual"
+  upcoming: true
+
+- title: "237th AAS Meeting"
+  website: "https://aas.org/meetings/aas237"
+  category: "Meeting"
+  date: "January 11-15, 2021"
+  venue: "Virtual"
+  upcoming: true
+
+- title: "Collaborations Workshop 2021 (CW21)"
+  website: "https://www.software.ac.uk/cw21"
+  category: "Workshop"
+  date: "March 30 - April 1, 2020"
+  venue: "Virtual"
+  upcoming: true
+
+- title: "SCIMMA Events"
+  website: "https://scimma.org/events.html"
+  category: "Events"
+  date: "2020-2021"
+  venue: "Virtual"
+  upcoming: true
+
+- title: "Middleware And Grid Interagency Coordination (MAGIC)"
+  website: "https://www.nitrd.gov/nitrdgroups/index.php?title=MAGIC-Meetings-2020"
+  category: "Meeting"
+  date: "2020"
+  venue: "Virtual"
+  upcoming: true
+
+- title: "2020 NSF Large Facilities Workshop"
+  website: "https://largefacilitiesworkshop.com"
+  category: "Workshop"
+  date: "October 28, 2020"
+  venue: "Virtual"
+  upcoming: false
+
+- title: "2020 Virtual RVTEC Meeting"
+  website: "https://www.unols.org/event/meeting/2020-virtual-rvtec-meeting"
+  category: "Meeting"
+  date: "October 26-30, 2020"
+  venue: "Virtual"
+  upcoming: false
+
+- title: "2020 NSF Cybersecurity Summit for LFs and CI"
   website: "https://trustedci.org/2020-nsf-summit"
   category: "Meeting"
   date: "September 22-24, 2020"
-  venue: "Bloomington, IN"
-  description: "The NSF cyberinfrastructure ecosystem presents an aggregate of complex cybersecurity needs (e.g., scientific data and instruments, unique computational and storage resources, complex collaborations) as compared to other organizations and sectors. This community has a unique opportunity to develop information security practices tailored to these needs, as well as break new ground on efficient, effective ways to protect information assets while supporting science. The Summit will bring together leaders in NSF cyberinfrastructure and cybersecurity to continue the process initiated in 2013, 2014, 2015, 2016, 2017, 2018 & 2019: Building a trusting, collaborative community, and seriously addressing that community's core cybersecurity challenges."
+  venue: "Virtual"
+  upcoming: false
+
+- title: "TACCSTER: TACC Symposium for Texas Researchers"
+  website: "https://www.tacc.utexas.edu/taccster?"
+  category: "Symposium"
+  date: "September 17-18, 2020"
+  venue: "Virtual"
+  upcoming: false
 
 - title: "CI Workforce Development Workshop 2020"
   website: "https://www.rcac.purdue.edu/ciworkforce2020/"
   category: "Workshop"
   date: "Session I (August 19), Session II (August 25), Session III (September 9)"
   venue: "Virtual"
-  description: "This workshop, conducted virtually, seeks to facilitate a discussion among the affinity groups who collectively participate in the research enterprise, specifically targeting issues related to building and enhancing the cyberinfrastructure professional workforce (e.g. research software engineers, research data science professionals, advanced cyberinfrastructure systems professionals, etc.) with the goal of identifying problem areas, discussing and identifying potential solutions, and to develop a set of recommendations for consideration by the national research community and the NSF. The primary goal of this workshop is to explore the challenges and potential strategies and solutions to address the need for an advanced CI research innovation workforce that is essential to advancing the frontiers of computational and data-intensive scientific research." 
+  upcoming: false
 
 - title: "CI/CS Workshop 2020"
   website: "https://cics-workshop.org/"
   category: "Workshop"
-  date: "August 18 and August 20"
+  date: "August 18 and August 20, 2020"
   venue: "Virtual"
-  description: "The Community Together. Hosted by ResearchSOC and the CI CoE Pilot. This workshop complements the upcoming 2020 NSF Cybersecurity Summit for Large Facilities and Cyberinfrastructure. Both address the topics of cyberinfrastructure and cybersecurity. Security Log Analysis training, long-featured at the NSF Summit, will also be available at the CI/CS Workshop this year. With the exception of this workshop, content and format differ. The CI/CS Workshop is a series of short talks, open forums/office hours, and one panel. Both events are of value to cybersecurity and cyberinfrastructure professionals supporting NSF research, and both would make excellent elements to include in a professional development and training program." 
+  upcoming: false
 
 - title: "PEARC20"
   website: "https://pearc.acm.org/pearc20/"
   category: "Conference"
   date: "July 26-30, 2020"
-  venue: "Portland, OR"
-  description: "The Practice and Experience in Advanced Research Computing (PEARC) Conference Series is a community-driven effort built on the successes of the past, with the aim to grow and be more inclusive by involving additional local, regional, national, and international cyberinfrastructure and research computing partners spanning academia, government and industry. The PEARC Conference Series is working to integrate and meet the collective interests of our growing community by providing a forum for discussing challenges, opportunities and solutions among the broad range of participants in the research computing community. The PEARC Conferences are organized by a group of dedicated volunteers from the community and are sponsored by the Association for Computing Machinery (ACM), the world’s largest educational and scientific computing society."
+  venue: "Virtual"
+  upcoming: false
 
 - title: "2020 ESIP Summer Meeting"
   website: "https://www.esipfed.org/meetings/upcoming-meetings"
   category: "Meeting"
-  date: "July 14-17, 2020"
-  venue: "Burlington, VT"
-  description: ""
+  date: "July, 2020"
+  venue: "Virtual"
+  upcoming: false
 
-- title: "2020 NSF Large Facilities Workshop"
-  website: "https://www.largefacilitiesworkshop.com"
+- title: "NSF Workshop on Smart Cyberinfrastructure"
+  website: "http://smartci.sci.utah.edu"
   category: "Workshop"
-  date: "April 14-16, 2020"
-  venue: "Alexandria, VA"
-  description: "
-  The workshop is a collaborative forum for the National Science Foundation’s Large Facilities and other complex scientific facilities and organizations. Desired outcomes to support NSF’s mission and promote the scientific endeavor include:
-  <ul>
-    <li>Provide a forum to collect and share best practices and lessons learned</li>
-    <li>Discuss new initiatives and collect community input</li>
-    <li>Demonstrate project management, operations, and business-related tools and techniques</li>
-    <li>Expand our community of practice by connecting colleagues across disciplines and organizations to promote collaboration between facilities</li>
-  </ul>
-  Attendance is especially beneficial for those who have a role in the development, planning, construction or operation of large complex scientific facilities. Attendees will have the opportunity to participate in various networking events with their colleagues.
-  "
+  date: "February 25-27, 2020"
+  venue: "Arlington, VA"
+  upcoming: false
 
 - title: "2019 NSF Large Facilities Cyberinfrastructure Workshop"
   website: "http://facilitiesci.org/"
   category: "Workshop"
   date: "September 16-17, 2019"
   venue: "Alexandria, CA"
-  description: "
-  Cyberinfrastructure (CI) is the fabric of modern science. Large collaborations and individual scientists rely on CI to support the entire data lifecycle from data capture and processing to data storage and archiving and finally to data access, visualization, and dissemination. The Large Facilities (LFs), the biggest scientific investments made by the National Science Foundation, are relying on existing CI and building new CI capabilities and solutions to support their scientific communities.
-  <br /><br />
-  The NSF Large Facilities Cyberinfrastructure Workshop (LFCI Workshop) found that: \"There is also a lack of a facilities’ CI community that can collectively address CI sustainability and help provide continuity between existing and future facilities.\"
-  <br /><br />
-  In 2017, the LFCI workshop brought together members of LFs and CI providers and practitioners to discuss possible avenues of collaboration, share common experiences, and discuss common challenges. This workshop aims to continue the discussion started in 2017 and to provide a forum for the cyberinfrastructure experts to share ideas and experiences and discuss the future of CI and the CI workforce.
-  <br /><br />
-  Goals:
-  <ul>
-    <li>Identifying common cyberinfrastructure challenges among LFs</li>
-    <li>Understanding the LF data lifecycle, including the commonalities and differences between data lifecycle stages</li>
-    <li>Exploring opportunities for joint training and education among LFs and large CI projects</li>
-    <li>Sharing experiences in CI project management</li>
-    <li>Discussing approaches to building a community of CI professionals among others</li>
-  </ul>
-  "
-
-- title: "2019 NSF Cybersecurity Summit"
-  website: "https://trustedci.org/2019-nsf-cybersecurity-summit"
-  category: "Workshop"
-  date: "October 15-17, 2019"
-  venue: "Catamaran Resort Hotel, San Diego, CA"
-  description: "
-  <strong>Who:</strong> Attendees will include cybersecurity practitioners, technical leaders, and risk owners from within the NSF Large Facilities and CI Community, as well as key stakeholders and thought leaders from the broader scientific and information security communities.
-  <br /><br />
-  <strong>Opportunities to Share:</strong> The NSF cyberinfrastructure ecosystem presents an aggregate of complex cybersecurity needs (e.g., scientific data and instruments, unique computational and storage resources, complex collaborations) as compared to other organizations and sectors. This community has a unique opportunity to develop information security practices tailored to these needs, as well as break new ground on efficient, effective ways to protect information assets while supporting science. The Summit will bring together leaders in NSF cyberinfrastructure and cybersecurity to continue the process initiated in 2013, 2014, 2015, 2016, 2017 & 2018: Building a trusting, collaborative community, and seriously addressing that community's core cybersecurity challenges.
-  <br /><br />
-  The Summit seeks proposals for presentations, breakout and training sessions. It offers opportunities for student scholarships.
-  <br /><br />
-  If you are interested in presenting at the Summit, please respond to the 2019 Call for Proposals when released. The Summit organizers welcome proposals from all individuals and agencies.
-  "
+  upcoming: false
