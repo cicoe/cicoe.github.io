@@ -18,12 +18,12 @@ permalink: /materials/library
                 <div class="col-md-12 col-sm-12 space" style="padding-top: 2em">
                     {% if site.data.library.size > 0 %}
                     {% for n in site.data.library %}
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-6 col-sm-6" style="margin-bottom: 2em">
                         <div class="library" style="min-height: 7.5em">
                             <div style="float: left; min-height: 2em; padding-right: 1em; font-size: 2em; color: #999">
                                 <i class="{{ n.icon }}"></i>
                             </div>
-                            <a href="/materials/{{ n.page }}"><strong>{{ n.title }}</strong></a><br/>
+                            <a href="{{ n.page }}"><strong>{{ n.title }}</strong></a><br/>
                             <p style="line-height: 1.3em; font-size: 0.9em">{{ n.description }}</p>
                         </div>
                     </div>

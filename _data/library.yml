@@ -1,9 +1,14 @@
 - title: "CI CoE Tools for Major Facilities"
-  page: "library_tools"
+  page: "/materials/library_tools"
   description: "Collection of tools developed by the CI CoE team for assisting Major Facilities."
   icon: "ion-hammer"
 
 - title: "Outside Relevant Materials"
-  page: "library_materials"
+  page: "/materials/library_materials"
   description: "Collection of documents published by third-party entities that are relevant to Major Facilities."
   icon: "ion-document-text"
+
+- title: "Events"
+  page: "/events"
+  description: "Relevant events to the Large Facilities and Cyberinfrastructure communities."
+  icon: "ion-calendar"
