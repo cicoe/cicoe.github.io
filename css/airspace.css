@@ -1269,3 +1269,36 @@ footer .footer-manu ul li a:hover {
     border-left: 0.2em solid #666;
     padding-left: 1em;
 }
+
+.workshop {
+    margin: 2em 0.5em 0em 0.5em;
+    padding: 2em;
+    box-shadow: #ccc 3px 3px 3px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.workshop h1 {
+    font-size: 1.3em;
+    color: #333;
+    margin: 0;
+}
+
+.workshop-materials {
+    background-color: #999;
+    color: #fff;
+    margin: 0em 0.5em 0em 0.5em;
+    padding: 1em 2em;
+    box-shadow: #ccc 3px 3px 3px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.workshop-materials ul {
+    margin-left: 2em;
+}
+
+.workshop-materials a {
+    color: #fff;
+}

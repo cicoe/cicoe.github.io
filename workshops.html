@@ -13,10 +13,21 @@ permalink: /materials/workshops
                 </div>
                 {% if site.data.workshop.size > 0 %}
                 {% for n in site.data.workshop %}
-                <div class="material">
-                    <ul>
-                        <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a>, {{ n.location }}</li>
-                    </ul>
+                <div class="col-md-12 col-sm-12">
+                    <div class="workshop">
+                        <h1><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></h1>
+                        {{ n.date }}, {{ n.location }}
+                    </div>
+                    {% if n.materials %}
+                    <div class="workshop-materials">
+                        <strong>Materials:</strong>
+                        <ul>
+                            {% for m in n.materials %}
+                            <li><a href="{{ m.link }}" target="_blank">{{ m.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
                 </div>
                 {% endfor %}
                 {% endif %}

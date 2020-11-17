@@ -1,11 +1,25 @@
+- title: "2020 Cyberinfrastructure/Cybersecurity Workshop"
+  location: "Virtual Event"
+  date: "August 18 and August 20, 2020"
+  website: "https://cics-workshop.org/"
+  materials:
+    - title: "CI CS Workshop: Dos & Don’ts of Hosting a Virtual Workshop"
+      link: "https://cics-workshop.org/materials/cics-workshop-do-dont.pdf"
+
 - title: "2019 NSF Large Facilities Cyberinfrastructure Workshop"
   location: "Alexandria, VA"
+  date: "September 16-17, 2019"
   website: "http://facilitiesci.org"
+  materials:
+    - title: "Workshop Report"
+      link: "http://dx.doi.org/10.25549/0ZBF-8M77"
 
 - title: "2019 NSF Large Facilities Workshop"
   location: "Austin, TX"
-  website: "https://www.largefacilitiesworkshop.com"
+  date: "April 2-4, 2019"
+  website: "https://www.largefacilitiesworkshop.com/19workshop/"
 
 - title: "2017 NSF Large Facilities Cyberinfrastructure Workshop"
   location: "Alexandria, VA"
-  website: "http://facilitiesci.org/assets/reports/facilitiesci-workshop-report-11-17.pdf"
+  date: "September 6-7, 2017"
+  website: "https://facilitiesci.github.io/2017"
