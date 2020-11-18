@@ -271,7 +271,7 @@
     font-size: 17px;
     position: fixed;
     right: -40px;
-    top: 45%;
+    top: 40%;
     font-family: "Roboto", helvetica, arial, sans-serif;
     z-index: 999;
     cursor: pointer;
@@ -360,7 +360,7 @@
     font-size: 17px;
     position: fixed;
     right: -40px;
-    top: 60%;
+    top: 55%;
     font-family: "Roboto", helvetica, arial, sans-serif;
     z-index: 999;
     cursor: pointer;
