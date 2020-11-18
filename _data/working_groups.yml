@@ -5,7 +5,7 @@
   
 - title: "Cloud Infrastructure"
   description: "This working group aims to (1) understand the current practices for Cloud Infrastructure used by MFs, (2) research alternative solutions and keep up to date with emerging cloud technologies, and (3) develop a general set of best practices that can inform the MFs and how those can be adapted for specific facilities."
-  icon: "cloud-outline"
+  icon: "cloud"
   current: ''
   
 - title: "Data Storage, Curation and Preservation"
