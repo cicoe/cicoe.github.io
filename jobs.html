@@ -1,0 +1,31 @@
+---
+layout: page
+title: CI CoE Pilot - Job Listings
+permalink: /jobs
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h2>Job Listings</h2>
+                </div>
+                <div class="col-md-12 col-sm-12 space" style="padding-top: 5em">
+                    {% if site.data.job_listings.size > 0 %}
+                    {% assign jobs = site.data.job_listings | sort: 'date' | reverse %}
+                    {% for j in jobs %}
+                    <div class="col-md-12 col-sm-12" style="margin-bottom: 2em">
+                        <div class="job">
+                            <h1>{{ j.title }}</h1>
+                            {{ j.desc }}
+                        </div>
+                        <div class="event-category">{{ j.date | date: "%B %d, %Y" }}</div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
