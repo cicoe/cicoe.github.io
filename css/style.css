@@ -174,12 +174,15 @@
 
 .training {
     background: #fff;
-    margin: 0 2em 0 0;
-    padding: 1em;
-    min-height: 40em;
-    max-height: 40em;
-    overflow: scroll;
+    padding: 1em 0.5em;
     border: 1em solid #fff;
+}
+
+.training-block {
+    background: #fff;
+    min-height: 33em;
+    max-height: 33em;
+    overflow: scroll;
 }
 
 .training h3 {
@@ -195,10 +198,10 @@
 }
 
 .training-item {
-    padding: 1em;
     border-bottom: 1px solid #DDd;
-    min-height: 5.5em;
-    max-height: 5.5em;
+    min-height: 5em;
+    max-height: 5em;
+    padding-top: 0.8em;
 }
 
 .training-item:hover {
@@ -379,10 +382,26 @@
     font-weight: bold;
 }
 
-.job h2 {
-    font-size: 1.2em;
+.job h3 {
+    font-size: 1.5em;
 }
 
 .job {
     color: #666;
+}
+
+.job-list {
+    padding: 0.5em 0em;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 1em;
+}
+
+.job-summary {
+    border-left: 3px solid #72959D;
+    padding: 0 0.5em;
+}
+
+.job-summary a {
+    /*color: #2B4363;*/
+    color: #86AE52;
 }
