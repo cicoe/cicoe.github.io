@@ -1,17 +1,17 @@
 - categroy: Workshop
-  end_date: December 02, 2020
-  source: XSEDE
-  start_date: December 01, 2020
-  time: ''
-  title: 'XSEDE HPC Workshop: Big Data and Machine Learning - December 1-2, 2020'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2236/session/3897/register"
-- categroy: Workshop
   end_date: December 01, 2020
   source: XSEDE
   start_date: December 01, 2020
   time: ''
   title: Jetstream Training Session for ECSS Consultants
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2234/session/3895/register"
+- categroy: Workshop
+  end_date: December 02, 2020
+  source: XSEDE
+  start_date: December 01, 2020
+  time: ''
+  title: 'XSEDE HPC Workshop: Big Data and Machine Learning - December 1-2, 2020'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2236/session/3897/register"
 - categroy: Workshop
   end_date: December 04, 2020
   source: InCommon
