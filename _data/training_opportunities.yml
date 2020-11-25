@@ -20,6 +20,13 @@
   title: Shibboleth Training
   website: "https://incommon.org/academy/shibboleth/"
 - categroy: Workshop
+  end_date: December 11, 2020
+  source: InCommon
+  start_date: December 08, 2020
+  time: ''
+  title: midPoint Virtual Training
+  website: "https://incommon.org/academy/midpoint-evolveum/"
+- categroy: Workshop
   end_date: December 08, 2020
   source: XSEDE
   start_date: December 08, 2020
@@ -27,12 +34,12 @@
   title: AMD Training for ECSS Consultants
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2235/session/3896/register"
 - categroy: Workshop
-  end_date: December 11, 2020
-  source: InCommon
-  start_date: December 08, 2020
+  end_date: December 10, 2020
+  source: XSEDE
+  start_date: December 10, 2020
   time: ''
-  title: midPoint Virtual Training
-  website: "https://incommon.org/academy/midpoint-evolveum/"
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3898/register"
 - categroy: Workshop
   end_date: December 10, 2020
   source: XSEDE
@@ -41,13 +48,6 @@
   title: 'XSEDE Webinar: Running Jupyter Notebooks on Expanse, Thursday, December
     10, 2020, 11am-noon PST'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2200/session/3861/register"
-- categroy: Workshop
-  end_date: December 10, 2020
-  source: XSEDE
-  start_date: December 10, 2020
-  time: ''
-  title: Writing a Successful XSEDE Allocation Proposal
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3898/register"
 - categroy: Workshop
   end_date: February 02, 2021
   source: TACC
