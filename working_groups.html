@@ -16,6 +16,9 @@ permalink: /working_groups/
             {% for n in site.data.working_groups %}
             <div class="col-md-12 col-sm-12">
                 <div class="wg">
+                    {% if n.active == false %}
+                    <div class="inactive">&nbsp;&nbsp;Inactive&nbsp;&nbsp;</div>
+                    {% endif %}
                     <div class="wg-icon">
                         <i class="icon ion-{{ n.icon }}"></i>
                     </div>

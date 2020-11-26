@@ -37,8 +37,10 @@
   description: "This working group focuses on the multiple technology stacks required and challenges involved in: (i) data capture at the sensor front end, (ii) pre-process data at the edge, (iii) transport of data from sensors to central processing and archive sites, and (iv) deployment & maintenance of large scale remote sensor systems.  The goals of this group are to provide demonstrators and comparisons of the multiple architectures that might be used in accomplishing the above."
   icon: "code-download"
   current: ''
+  active: false
 
 - title: "Data Processing"
   description: "The data processing group focuses on workflows and services related to processing of data, for example transforming raw sensor data from sensors to more specific data products."
   icon: "ios-cog"
   current: ''
+  active: false
