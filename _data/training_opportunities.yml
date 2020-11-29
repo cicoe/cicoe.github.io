@@ -1,11 +1,4 @@
 - categroy: Workshop
-  end_date: December 02, 2020
-  source: XSEDE
-  start_date: December 01, 2020
-  time: ''
-  title: 'XSEDE HPC Workshop: Big Data and Machine Learning - December 1-2, 2020'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2236/session/3897/register"
-- categroy: Workshop
   end_date: December 04, 2020
   source: InCommon
   start_date: December 01, 2020
@@ -20,12 +13,12 @@
   title: Jetstream Training Session for ECSS Consultants
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2234/session/3895/register"
 - categroy: Workshop
-  end_date: December 11, 2020
-  source: InCommon
-  start_date: December 08, 2020
+  end_date: December 02, 2020
+  source: XSEDE
+  start_date: December 01, 2020
   time: ''
-  title: midPoint Virtual Training
-  website: "https://incommon.org/academy/midpoint-evolveum/"
+  title: 'XSEDE HPC Workshop: Big Data and Machine Learning - December 1-2, 2020'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2236/session/3897/register"
 - categroy: Workshop
   end_date: December 08, 2020
   source: XSEDE
@@ -33,6 +26,13 @@
   time: ''
   title: AMD Training for ECSS Consultants
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2235/session/3896/register"
+- categroy: Workshop
+  end_date: December 11, 2020
+  source: InCommon
+  start_date: December 08, 2020
+  time: ''
+  title: midPoint Virtual Training
+  website: "https://incommon.org/academy/midpoint-evolveum/"
 - categroy: Workshop
   end_date: December 09, 2020
   source: TACC
@@ -45,16 +45,16 @@
   source: XSEDE
   start_date: December 10, 2020
   time: ''
-  title: Writing a Successful XSEDE Allocation Proposal
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3898/register"
+  title: 'XSEDE Webinar: Running Jupyter Notebooks on Expanse, Thursday, December
+    10, 2020, 11am-noon PST'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2200/session/3861/register"
 - categroy: Workshop
   end_date: December 10, 2020
   source: XSEDE
   start_date: December 10, 2020
   time: ''
-  title: 'XSEDE Webinar: Running Jupyter Notebooks on Expanse, Thursday, December
-    10, 2020, 11am-noon PST'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2200/session/3861/register"
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3898/register"
 - categroy: Workshop
   end_date: February 02, 2021
   source: TACC
