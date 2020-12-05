@@ -1,17 +1,17 @@
 - categroy: Workshop
-  end_date: December 11, 2020
-  source: InCommon
-  start_date: December 08, 2020
-  time: ''
-  title: midPoint Virtual Training
-  website: "https://incommon.org/academy/midpoint-evolveum/"
-- categroy: Workshop
   end_date: December 08, 2020
   source: XSEDE
   start_date: December 08, 2020
   time: ''
   title: AMD Training for ECSS Consultants
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2235/session/3896/register"
+- categroy: Workshop
+  end_date: December 11, 2020
+  source: InCommon
+  start_date: December 08, 2020
+  time: ''
+  title: midPoint Virtual Training
+  website: "https://incommon.org/academy/midpoint-evolveum/"
 - categroy: Workshop
   end_date: December 09, 2020
   source: TACC
