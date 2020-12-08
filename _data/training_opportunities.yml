@@ -17,16 +17,16 @@
   source: XSEDE
   start_date: December 10, 2020
   time: ''
-  title: 'XSEDE Webinar: Running Jupyter Notebooks on Expanse, Thursday, December
-    10, 2020, 11am-noon PST'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2200/session/3861/register"
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3898/register"
 - categroy: Workshop
   end_date: December 10, 2020
   source: XSEDE
   start_date: December 10, 2020
   time: ''
-  title: Writing a Successful XSEDE Allocation Proposal
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/3898/register"
+  title: 'XSEDE Webinar: Running Jupyter Notebooks on Expanse, Thursday, December
+    10, 2020, 11am-noon PST'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2200/session/3861/register"
 - categroy: Workshop
   end_date: February 02, 2021
   source: TACC
