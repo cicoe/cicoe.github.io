@@ -6,6 +6,13 @@
   title: midPoint Virtual Training
   website: "https://incommon.org/academy/midpoint-evolveum/"
 - categroy: Workshop
+  end_date: January 12, 2021
+  source: XSEDE
+  start_date: January 12, 2021
+  time: ''
+  title: 'XSEDE HPC Workshop: OpenMP - January 12, 2021'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2237/session/3899/register"
+- categroy: Workshop
   end_date: February 02, 2021
   source: TACC
   start_date: February 02, 2021
