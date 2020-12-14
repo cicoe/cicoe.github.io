@@ -36,6 +36,14 @@
   website: "https://learn.tacc.utexas.edu/course/view.php?id=101"
 - categroy: Workshop
   end_date: February 18, 2021
+  source: XSEDE
+  start_date: February 18, 2021
+  time: ''
+  title: 'XSEDE Webinar: Performance Tuning and Single Processor Optimization, Thursday,
+    Feb. 18, 2021, 11am-12pm PT'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2239/session/3901/register"
+- categroy: Workshop
+  end_date: February 18, 2021
   source: TACC
   start_date: February 18, 2021
   time: ''
