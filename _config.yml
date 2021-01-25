@@ -14,10 +14,8 @@ keep_files:
 
 # Site settings
 title: CI CoE Pilot
-subtitle: "A free HTML5 agency template"
+subtitle: "NSF Pilot Study Cyberinfrastructure Center of Excellence"
 
 # Build settings
 markdown: kramdown
-
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+permalink: pretty
