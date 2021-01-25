@@ -1,0 +1,121 @@
+---
+layout: page
+title: CI CoE Pilot - Materials
+permalink: /materials
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h2>Materials</h2>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title" style="margin-bottom: 2em">
+                    <h4><a href="/materials/publications">Publications</a></h4>
+                </div>
+                {% if site.data.publications.size > 0 %}
+                {% for n in site.data.publications %}
+                <div class="col-md-12 col-sm-12">
+                    <div class="materials">
+                        <strong>
+                            {% if n.pdf.size > 0 %}
+                            <a href="/publications/{{ n.pdf }}" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            {% endif %}
+                            {{ n.title }}
+                        </strong>,
+                        <i>{{ n.authors }}</i>, {{ n.venue }}
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title" style="margin-top: 4em; margin-bottom: 2em">
+                    <h4><a href="/materials/presentations">Presentations</a></h4>
+                </div>
+                {% if site.data.presentations.size > 0 %}
+                {% for n in site.data.presentations %}
+                <div class="col-md-12 col-sm-12">
+                    <div class="materials">
+                        <strong>
+                            <a href="/presentations/{{ n.file }}" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            {% if n.video_link.size > 0 %}
+                            <a href="{{ n.video_link }}" target="_blank"><i class="fab fa-youtube"
+                                                                            style="color: #990000"></i></a>
+                            {% endif %}
+                            {{ n.title }}
+                        </strong>,
+                        <i>{{ n.author }}</i>, {{ n.venue }}, {{ n.date }}
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            {% if site.data.videos.size > 0 %}
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title" style="margin-top: 4em; margin-bottom: 2em">
+                    <h4><a href="/materials/videos">Videos</a></h4>
+                </div>
+                {% for n in site.data.videos %}
+                <div class="col-md-12 col-sm-12">
+                    <div class="materials">
+                        <a href="https://www.youtube.com/embed/{{ n.youtube_id }}" target="_blank">
+                            <i class="fab fa-youtube" style="color: #990000"></i></a>
+                        <strong>{{ n.title }}</strong>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if site.data.deployments_software.size > 0 %}
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title" style="margin-top: 4em; margin-bottom: 2em">
+                    <h4><a href="/materials/deployments_software">Deployments and Software</a></h4>
+                </div>
+                {% for n in site.data.deployments_software %}
+                <div class="col-md-12 col-sm-12">
+                    <div class="materials">
+                        {% if n.link.size > 0 %}
+                        <a href="{{ n.link }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        {% endif %}
+                        {% if n.github_link.size > 0 %}
+                        <a href="{{ n.github_link }}" target="_blank"><i class="fab fa-github"></i></a>
+                        {% endif %}
+                        <strong>{{ n.title }}</strong>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if site.data.templates.size > 0 %}
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title" style="margin-top: 4em; margin-bottom: 2em">
+                    <h4><a href="/materials/templates">Templates</a></h4>
+                </div>
+                {% for n in site.data.templates %}
+                <div class="col-md-12 col-sm-12">
+                    <div class="materials">
+                        {% if n.doc_link.size > 0 %}
+                        <a href="{{ n.doc_link }}" target="_blank">
+                            <i class="fas fa-file-word" style="color: #1D4B77"></i></a>&nbsp;
+                        {% endif %}
+                        {% if n.pdf_link.size > 0 %}
+                        <a href="{{ n.pdf_link }}" target="_blank">
+                            <i class="fas fa-file-pdf" style="color: #9e4a1b"></i></a>
+                        {% endif %}
+                        <strong>{{ n.title }}</strong>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>

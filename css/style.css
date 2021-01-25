@@ -70,24 +70,24 @@
 }
 
 .software {
-    margin: 0.5em;
+    margin-bottom: 1em;
     padding: 1em;
     border-left: 0.2em solid #31b0d5;
     background-color: #f7f7f7;
     opacity: 0.8;
     text-align: left;
-    min-height: 6em;
+    box-shadow: #ccc 3px 3px 3px;
 }
 
 .template {
     margin: 0.5em;
     padding: 1em;
-    border: 1px solid #ddd;
     border-left: 0.2em solid #d58512;
     background-color: #fafafa;
     opacity: 0.8;
     text-align: left;
     min-height: 8em;
+    box-shadow: #ccc 3px 3px 3px;
 }
 
 .testimonial {
@@ -404,4 +404,11 @@
 .job-summary a {
     /*color: #2B4363;*/
     color: #86AE52;
+}
+
+.materials {
+    margin-bottom: 0.5em;
+    background-color: #f7f7f7;
+    padding: 0.5em 1em;
+    box-shadow: #ccc 2px 2px 2px;
 }
