@@ -1,7 +1,7 @@
 - title: "Identity Management"
   description: "The Identity Management working group focuses on understanding current practice in authentication and authorization, and helping to mature practice across the NSF Major Facilities. We do this by maintaining and sharing awareness of best practices as well as current policy and technology options for implementing those practices. Through direct engagements with specific facilities, participation in the NSF Cybersecurity Summit and other events, and publishing experience papers, case studies, and other artifacts, we hope to accelerate the exchange of lessons learned in Identity Management across the NSF Major Facility ecosystem."
   icon: "ios-locked"
-  current: ''
+  current: 'Monthly Topic Discussion. See <a href="https://cicoe-pilot.org/materials/presentations">Presentations</a> for products.'
   
 - title: "Cloud Infrastructure"
   description: "This working group aims to (1) understand the current practices for Cloud Infrastructure used by MFs, (2) research alternative solutions and keep up to date with emerging cloud technologies, and (3) develop a general set of best practices that can inform the MFs and how those can be adapted for specific facilities."
@@ -21,12 +21,12 @@
 - title: "Data Life Cycle and Disaster Recovery"
   description: "The goals of this working group are to (1) understand the current practices for Data Life Cycle (DLC) stages and Disaster Recovery (DR) for the NEON facility and other major facilities (LF) by studying the architectural elements of the CI used by LFs, and (2) develop a general set of DR requirements and policies that can inform the LFs about best practices for DR and how those can be adapted for specific facilities."
   icon: "pull-request"
-  current: 'Conducting interviews. To see example questions, <a href="/presentations/InterviewQuestions_DLC.pdf">click here</a>. If you are a manager in a Major Facility and would like to participate, please <a href="/contact">contact us</a>.'
+  current: ''
 
 - title: "Workforce Development"
   description: "This working group focus on development, training, retention, career paths, and diversity, as well as the overall career paths for CI-related personnel."
   icon: "ios-people"
-  current: 'Conducting interviews. To see example questions, <a href="/presentations/CICoEManagerInterviewQuestions.pdf">click here</a>. If you are a manager in a Major Facility and would like to participate, please <a href="/contact">contact us</a>.'
+  current: ''
 
 - title: "Engagement with Major Facilities"
   description: "This working group aims to engage with Major Facilities and other large cyberinfrastructure projects to foster knowledge and effective practice sharing. It aims to define avenues of engagement, modes of engagement, and plan community activities."
