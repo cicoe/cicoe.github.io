@@ -17,7 +17,12 @@ permalink: /materials/presentations
                     <div class="col-md-6 col-sm-6">
                         <div class="presentation">
                             <span style="color: #666; font-size: 0.8em"><strong>{{ n.date }}</strong></span><br />
-                            <a href="/presentations/{{ n.file }}" target="_blank"><strong>{{ n.title }}</strong></a><br />
+                            {% if n.file %}
+                            <a href="/presentations/{{ n.file }}" target="_blank"><strong>{{ n.title }}</strong></a>
+                            {% else %}
+                            <strong>{{ n.title }}</strong>
+                            {% endif %}
+                            <br/>
                             <span class="author"><i class="fas fa-user"></i> {{ n.author }}</span><br />
                             {{ n.venue }}
                             {% if n.video_link.size > 0 %}
