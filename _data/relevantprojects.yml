@@ -24,6 +24,21 @@
 
 - title: "CI4Resilience"
   website: "https://ci4resilience.org/"
+
+- title: "SCIMMA"
+  website: "https://scimma.org/"
+  
+- title: "IRIS HEP"
+  website: "https://www.iris.edu/hq/"
+
+- title: "XSEDE"
+  website: "https://www.xsede.org/"
+
+- title: "CloudLab"
+  website: "https://www.cloudlab.us/"
+  
+- title: "Jetstream"
+  website: "https://jetstream-cloud.org/"
   
 - title: "CARCC: Campus Research Computing Consortium"
   website: "https://carcc.org/"
