@@ -18,6 +18,9 @@
   location: "Austin, TX"
   date: "April 2-4, 2019"
   website: "https://www.largefacilitiesworkshop.com/19workshop/"
+  materials:
+    - title: "Workshop Raw Notes"
+      link: "https://www.largefacilitiesworkshop.com/wp-content/uploads/2019/10/LFW19_NoteSheet_Final-Facilities-CI-AD.pdf"
 
 - title: "2017 NSF Large Facilities Cyberinfrastructure Workshop"
   location: "Alexandria, VA"
