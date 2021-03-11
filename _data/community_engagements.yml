@@ -10,32 +10,32 @@
   working_group: ""
   
 - title: "PEARC"
-  desc: ""
+  desc: "Participation and presentation at annual meeting in support of a forum for discussing challenges, opportunities, and solutions among the broad range of participants in the research computing community."
   link: "https://pearc.acm.org/"
   working_group: ""
   
 - title: "Gateways"
-  desc: ""
+  desc: "This gathering for gateway creators and enthusiasts features hands-on tutorials, demos, keynotes, presentations, panels, posters, and plenty of opportunities to connect with colleagues"
   link: "https://sciencegateways.org/web/gateways2020"
   working_group: ""
   
 - title: "LFO Workshop"
-  desc: ""
-  link: "https://www.nsf.gov/bfa/lfo/"
+  desc: "The knowledge sharing gateway serves as a portal connecting the NSF Large facilities community to shared best management practices and lessons learned presentations."
+  link: "https://largefacilitiesworkshop.com/"
   working_group: ""
 
 - title: "Trusted CI Summit"
-  desc: ""
+  desc: "The Summit will bring together leaders in NSF cyberinfrastructure and cybersecurity to continue the processes initiated in 2013: building a trusting, collaborative community and seriously addressing that community’s core cybersecurity challenges."
   link: "https://www.trustedci.org/cfp-2020"
   working_group: ""
 
 - title: "SC"
-  desc: ""
+  desc: "The International Conference for High Performance Computing, Networking, Storage, and Analysis"
   link: "https://supercomputing.org/"
   working_group: ""
 
 - title: "PATh AHM"
-  desc: ""
+  desc: "PATh brings together the Center for High Throughput Computing and the Open Science Grid in order to advance the nation’s campuses and science communities through the use of distributed High Throughput Computing."
   link: "https://path-cc.io/"
   working_group: ""
   
