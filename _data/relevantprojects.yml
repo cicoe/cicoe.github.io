@@ -1,3 +1,30 @@
+- title: "Science Gateways SGCI"
+  website: "https://sciencegateways.org/"
+
+- title: "Trusted CI"
+  website: "https://www.trustedci.org/"
+  
+- title: "OSG/PATh"
+  website: "https://opensciencegrid.org/"
+  
+- title: "Chameleon"
+  website: "https://chameleoncloud.org/"
+  
+- title: "FABRIC"
+  website: "https://fabric-testbed.net/"
+
+- title: "ResearchSOC"
+  website: "https://researchsoc.iu.edu/"
+  
+- title: "EPOC"
+  website: "https://epoc.global/"
+
+- title: "Alliance4CI"
+  website: "https://alliance4ci.org/"
+
+- title: "CI4Resilience"
+  website: "https://ci4resilience.org/"
+  
 - title: "CARCC: Campus Research Computing Consortium"
   website: "https://carcc.org/"
 
