@@ -1,6 +1,46 @@
 
-- title: "Earth Science Information Partners (ESIP) Semantic Technologies Committee"
+- title: "RDA - Research Data Alliance"
+  desc: "Participation in meetings in support of RDA's mission to build the social and technical bridges that enable the open sharing of data use and re-use."
+  link: "https://www.rd-alliance.org/"
+  working_group: ""
+  
+- title: "AGU"
+  desc: "Participation in townhall and other annual meetings in support of an inclusive community of Earth and space scientists and partners dedicated to discovery and solutions to societal challenges."
+  link: "https://www.agu.org/"
+  working_group: ""
+  
+- title: "PEARC"
   desc: ""
+  link: "https://pearc.acm.org/"
+  working_group: ""
+  
+- title: "Gateways"
+  desc: ""
+  link: "https://sciencegateways.org/web/gateways2020"
+  working_group: ""
+  
+- title: "LFO Workshop"
+  desc: ""
+  link: "https://www.nsf.gov/bfa/lfo/"
+  working_group: ""
+
+- title: "Trusted CI Summit"
+  desc: ""
+  link: "https://www.trustedci.org/cfp-2020"
+  working_group: ""
+
+- title: "SC"
+  desc: ""
+  link: "https://supercomputing.org/"
+  working_group: ""
+
+- title: "PATh AHM"
+  desc: ""
+  link: "https://path-cc.io/"
+  working_group: ""
+  
+- title: "Earth Science Information Partners (ESIP) Semantic Technologies Committee"
+  desc: "Monlthy discussion to promote research and development of semantic technologies in support of Earth science data discovery, dissemination, and analysis"
   link: "http://wiki.esipfed.org/index.php/Semantic_Technologies"
   working_group: "Data Storage, Curation and Preservation"
 
