@@ -21,6 +21,9 @@ permalink: /materials/
                 <div class="col-md-12 col-sm-12">
                     <div class="materials">
                         <strong>
+                            {% if n.link.size > 0 %}
+                            <a href="{{ n.link }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            {% endif %}
                             {% if n.pdf.size > 0 %}
                             <a href="/publications/{{ n.pdf }}" target="_blank"><i class="fas fa-file-pdf"></i></a>
                             {% endif %}
