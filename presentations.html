@@ -20,9 +20,6 @@ permalink: /materials/presentations
                             <div class="date">
                                 {{ n.date }}
                             </div>
-                            {% if n.video_link.size > 0 %}
-                            <a href="{{ n.video_link }}"><i class="fab fa-youtube"></i></a>
-                            {% endif %}
                             {% if n.file %}
                             <a href="/presentations/{{ n.file }}" target="_blank"><strong>{{ n.title }}</strong></a>
                             {% elsif n.presentation_link %}
@@ -33,6 +30,10 @@ permalink: /materials/presentations
                             <br/>
                             <span class="author"><i class="fas fa-user"></i> {{ n.author }}</span><br/>
                             {{ n.venue }}
+                            {% if n.video_link.size > 0 %}
+                            <br/>
+                            <a href="{{ n.video_link }}" target="_blank"><i class="fab fa-youtube"></i> Video Recording</a>
+                            {% endif %}
                         </div>
                     </div>
                     {% endfor %}
