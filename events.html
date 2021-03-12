@@ -17,7 +17,8 @@ permalink: /events/
             {% for n in site.data.events %}
             {% if n.upcoming %}
             <div class="col-md-6 col-sm-12">
-                <div class="event">
+                <div class="event"
+                     style="border-left: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #999 {% endif %}">
                     <div class="event-category">{{ n.category }}</div>
                     <div class="title">
                         <a href="{{ n.website }}" target="_blank"><h4>{{ n.title }}</h4></a>
@@ -46,7 +47,8 @@ permalink: /events/
             {% for n in site.data.events %}
             {% unless n.upcoming %}
             <div class="col-md-6 col-sm-12">
-                <div class="event">
+                <div class="event"
+                     style="border-left: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #999 {% endif %}">
                     <div class="event-category">{{ n.category }}</div>
                     <div class="title">
                         <a href="{{ n.website }}" target="_blank"><h4>{{ n.title }}</h4></a>
