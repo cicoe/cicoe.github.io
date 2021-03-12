@@ -15,19 +15,20 @@ permalink: /materials/presentations
                     {% if site.data.presentations.size > 0 %}
                     {% for n in site.data.presentations %}
                     <div class="col-md-6 col-sm-6">
-                        <div class="presentation">
-                            <span style="color: #666; font-size: 0.8em"><strong>{{ n.date }}</strong></span><br />
+                        <div class="presentation"
+                             style="border-left: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #ddcc00 {% endif %}">
+                            <span style="color: #666; font-size: 0.8em"><strong>{{ n.date }}</strong></span><br/>
                             {% if n.file %}
+                            {% if n.video_link.size > 0 %}
+                            <a href="{{ n.video_link }}"><i class="fab fa-youtube"></i></a>
+                            {% endif %}
                             <a href="/presentations/{{ n.file }}" target="_blank"><strong>{{ n.title }}</strong></a>
                             {% else %}
                             <strong>{{ n.title }}</strong>
                             {% endif %}
                             <br/>
-                            <span class="author"><i class="fas fa-user"></i> {{ n.author }}</span><br />
+                            <span class="author"><i class="fas fa-user"></i> {{ n.author }}</span><br/>
                             {{ n.venue }}
-                            {% if n.video_link.size > 0 %}
-                                - <a href="{{ n.video_link }}">Video Recording</a>
-                            {% endif %}
                         </div>
                     </div>
                     {% endfor %}
