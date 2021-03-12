@@ -3,35 +3,35 @@
   category: "Conference"
   date: "November 9-19, 2020"
   venue: "Virtual"
-  upcoming: true
+  upcoming: false
 
 - title: "CHPC National Conference"
   website: "https://chpcconf.co.za"
   category: "Conference"
   date: "November 30 - December 2, 2020"
   venue: "Virtual"
-  upcoming: true
+  upcoming: false
 
 - title: "AGU Fall Meeting"
   website: "https://www.agu.org/Fall-Meeting"
   category: "Meeting"
   date: "December 1-17, 2020"
   venue: "Virtual"
-  upcoming: true
+  upcoming: false
 
 - title: "237th AAS Meeting"
   website: "https://aas.org/meetings/aas237"
   category: "Meeting"
   date: "January 11-15, 2021"
   venue: "Virtual"
-  upcoming: true
+  upcoming: false
 
 - title: "Collaborations Workshop 2021 (CW21)"
   website: "https://www.software.ac.uk/cw21"
   category: "Workshop"
   date: "March 30 - April 1, 2020"
   venue: "Virtual"
-  upcoming: true
+  upcoming: false
 
 - title: "SCIMMA Events"
   website: "https://scimma.org/events.html"
@@ -45,7 +45,7 @@
   category: "Meeting"
   date: "2020"
   venue: "Virtual"
-  upcoming: true
+  upcoming: false
 
 - title: "2020 NSF Large Facilities Workshop"
   website: "https://largefacilitiesworkshop.com"
@@ -85,6 +85,7 @@
 - title: "CI/CS Workshop 2020"
   website: "https://cics-workshop.org/"
   category: "Workshop"
+  color: 028A0F
   date: "August 18 and August 20, 2020"
   venue: "Virtual"
   upcoming: false
