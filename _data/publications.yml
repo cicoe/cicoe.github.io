@@ -4,8 +4,8 @@
   venue: ""
   link: "https://zenodo.org/record/4323403#.YEq31mhKg2w"
   working_group: ""
-  bibtex: "@misc{adams_andrew_2020_4323403,
-  author       = {Adams, Andrew and
+  bibtex: "@misc{adams_andrew_2020_4323403,<br/>
+  &nbsp;&nbsp;author       = {Adams, Andrew and
                   Avila, Kay and
                   Basney, Jim and
                   Christopherson, Laura and
@@ -21,14 +21,13 @@
                   Sakai, Scott and
                   Thompson, Sandra and
                   Vahi, Karan and
-                  Zage, John},
-  title        = {{Guidance for Trustworthy Data Management in 
-                   Science Projects}},
-  month        = dec,
-  year         = 2020,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.4323403},
-  url          = {https://doi.org/10.5281/zenodo.4323403}
+                  Zage, John},<br/>
+  &nbsp;&nbsp;title        = {{Guidance for Trustworthy Data Management in 
+                   Science Projects}},<br/>
+  &nbsp;&nbsp;year         = 2020,<br/>
+  &nbsp;&nbsp;publisher    = {Zenodo},<br/>
+  &nbsp;&nbsp;doi          = {10.5281/zenodo.4323403},<br/>
+  &nbsp;&nbsp;url          = {https://doi.org/10.5281/zenodo.4323403}<br/>
 }"
   
 - title: "Scientific Data Security Concerns and Practices: A survey of the community by the Trustworthy Data Working Group"
@@ -37,8 +36,8 @@
   venue: ""
   link: "https://zenodo.org/record/4323141#.YEq1h2hKg2w"
   working_group: ""
-  bibtex: "@misc{adams_andrew_2020_4323141,
-  author       = {Adams, Andrew and
+  bibtex: "@misc{adams_andrew_2020_4323141,<br/>
+  &nbsp;&nbsp;author       = {Adams, Andrew and
                   Avila, Kay and
                   Basney, Jim and
                   Cragin, Melissa and
@@ -54,15 +53,14 @@
                   Thompson, Sandra and
                   Vahi, Karan and
                   Whitcup, Wendy and
-                  Zage, John},
-  title        = {{Scientific Data Security Concerns and Practices: A 
+                  Zage, John},<br/>
+  &nbsp;&nbsp;title        = {{Scientific Data Security Concerns and Practices: A 
                    survey of the community by the Trustworthy Data
-                   Working Group}},
-  month        = dec,
-  year         = 2020,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.4323141},
-  url          = {https://doi.org/10.5281/zenodo.4323141}
+                   Working Group}},<br/>
+  &nbsp;&nbsp;year         = 2020,<br/>
+  &nbsp;&nbsp;publisher    = {Zenodo},<br/>
+  &nbsp;&nbsp;doi          = {10.5281/zenodo.4323141},<br/>
+  &nbsp;&nbsp;url          = {https://doi.org/10.5281/zenodo.4323141}<br/>
 } "
   
 - title: "Toward a Data Lifecycle Model for NSF Large Facilities"
