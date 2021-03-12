@@ -39,6 +39,172 @@
   date: "Sept 2020"
   video_link: "https://iu.mediaspace.kaltura.com/media/CI+CoE+Pilot+-+TrustedCI+Identity+Management+Working+Group+-+The+Policy+Lifecycle+/1_69yuddyt"
   
+- title: "Office Hours: Patch Management"
+  author: "Josh Drake"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/11zmK7AUwns"
+  
+- title: "Office Hours: FAIR Data"
+  presentation_link: "https://cics-workshop.org/presentations/OH_FAIR_ChuckVardeman.pdf"
+  author: "Chuck Vardeman"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/xKuEIU8BB2s"
+  
+- title: "Office Hours: Cloud Migration"
+  presentation_link: "https://cics-workshop.org/presentations/OH_Cloud_Migration_RobRicci.pdf"
+  author: "Rob Ricci"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/PFPQpUIfHO0"
+  
+- title: "Office Hours: ConOps"
+  presentation_link: "https://cics-workshop.org/presentations/OH_ConOps_RafaeldaSilva.pdf"
+  author: "Rafael Ferreira da Silva"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/UmupWkB417U"
+  
+- title: "Office Hours: Workflows"
+  presentation_link: "https://cics-workshop.org/presentations/OH_Workflows_MatsRynge.pdf"
+  author: "Mats Rynge"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/JKjvUEgx2c4"
+  
+- title: "Panel: Ups and downs of cloud computing in open science"
+  presentation_link: "https://cics-workshop.org/presentations/Panel_DavidHancock.pdf"
+  author: "Panelist: David Hancock"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/xzUj4ezcFxs"
+ 
+- title: "Panel: Ups and downs of cloud computing in open science"
+  presentation_link: "https://cics-workshop.org/presentations/Panel_MikeStanfield.pdf"
+  author: "Panelist: Mike Stanfield"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/xzUj4ezcFxs"
+  
+- title: "Panel: Ups and downs of cloud computing in open science"
+  presentation_link: "https://cics-workshop.org/presentations/Panel_BenediktRiedel.pdf"
+  author: "Panelist: Benedikt Riedel"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/xzUj4ezcFxs"
+
+- title: "Panel: Ups and downs of cloud computing in open science"
+  presentation_link: "https://cics-workshop.org/presentations/Panel_Intro_IlyaBaldin.pdf"
+  author: "Moderator: Ilya Baldin"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/xzUj4ezcFxs"
+  
+- title: "End-to-end workflow execution and monitoring"
+  presentation_link: "https://cics-workshop.org/presentations/End_to_End_Workflow_RyanTanaka.pdf"
+  author: "Ryan Tanaka"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/ZkzELR_4LFQ"
+  
+- title: "NEON/Pachyderm"
+  presentation_link: "https://cics-workshop.org/presentations/Pachyderm_NEON_SteveJacobs.pdf"
+  author: "Steve Jacobs"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/ZkzELR_4LFQ"
+  
+- title: "How to devise a network monitoring strategy"
+  presentation_link: "https://cics-workshop.org/presentations/Developing_a_NetworkMonitoringStrategy_ScottOrr.pdf"
+  author: "Mark Krenz and Scott Orr"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/eVhO8JRcHas"
+
+- title: "Closing thoughts and next steps; moving forward together"
+  presentation_link: "https://cics-workshop.org/presentations/Closing_EwaDeelman.pdf"
+  author: "Ewa Deelman"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 20 2020"
+  video_link: "https://youtu.be/PN8UW64mZY4"
+
+- title: "Office Hours: Visualization"
+  presentation_link: "https://cics-workshop.org/presentations/OH_Visualization_ValerioPascucci.pdf"
+  author: "Valerio Pascucci"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/_sm8nTbODXg"
+  
+- title: "Office Hours: Workforce Development"
+  presentation_link: "https://cics-workshop.org/presentations/OH_Workforce_Development_SusanSons.pdf"
+  author: "Susan Sons"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/-CbWKxx3RbU"
+
+- title: "Office Hours: Data Lifecycle"
+  presentation_link: "https://cics-workshop.org/presentations/OH_DLC_AnirbanMandal.pdf"
+  author: "Anirban Mandal"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/-T7JBqHu8_w"
+  
+- title: "Day 1: Welcome and Introductions"
+  author: "Susan Sons"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/dPihcelG-hE"
+  
+- title: "Patching patch management: Fixes and tools for the understaffed"
+  presentation_link: "https://cics-workshop.org/presentations/Patching_Patch_Management_JoshDrake.pdf"
+  author: "Josh Drake"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/shcRiNN2F54"
+  
+- title: "Workforce Development: The NCSA Cyberinfrastructure Internship Professional Program"
+  presentation_link: "https://cics-workshop.org/presentations/Workforce_Development_DanielLapine.pdf"
+  author: "Daniel Lapine"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/IcJu2JE3QCI"
+  
+- title: "Low-cost, interactive access and visualization of large scale scientific data"
+  presentation_link: "https://cics-workshop.org/presentations/Visualization_ValerioPascucci.pdf"
+  author: "Valerio Pascucci, Steve Petruzza, and Giorgio Scorzelli"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/LCd2j4kYobA"
+  
+- title: "What is FAIR for research data?"
+  presentation_link: "https://cics-workshop.org/presentations/FAIR_Data_ChuckVardeman.pdf"
+  author: "Charles Vardeman"
+  venue: "CI/CS Workshop"
+  color: 00FF00
+  date: "Aug 18 2020"
+  video_link: "https://youtu.be/UzWKXkn8GsE"
+  
 - title: "CI CoE Pilot - TrustedCI Identity Management Working Groups"
   file: "US ARF Update.pdf"
   author: "Josh Drake"
