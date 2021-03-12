@@ -17,7 +17,9 @@ permalink: /materials/presentations
                     <div class="col-md-6 col-sm-6">
                         <div class="presentation"
                              style="border-left: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #ddcc00 {% endif %}">
-                            <span style="color: #666; font-size: 0.8em"><strong>{{ n.date }}</strong></span><br/>
+                            <div class="date">
+                                {{ n.date }}
+                            </div>
                             {% if n.video_link.size > 0 %}
                             <a href="{{ n.video_link }}"><i class="fab fa-youtube"></i></a>
                             {% endif %}
