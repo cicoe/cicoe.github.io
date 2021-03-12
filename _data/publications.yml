@@ -1,6 +1,39 @@
+- title: "Guidance for Trustworthy Data Management in Science Projects"
+  abstract: "In April and May of 2020, the Trustworthy Data Working Group conducted a survey of the scientific community about data security concerns and practices. 111 participants completed the survey from a wide range of positions and roles within their organizations and projects, respectively. The working group analyzed the survey results with an eye for patterns, themes, correlations, and aggregates and produced a report in June 2020 detailing the process, survey methodology, and their analysis. Several key findings emerged from the report, including: 1) Data owners, maintainers and users are concerned about the trustworthiness of data throughout the lifecycle of the scientific process, especially with regard to the loss of reputation if data trustworthiness isn’t preserved. 2) Data owners and maintainers welcome help in securing trustworthy data workflows with encryption, provenance, and regulatory compliance (e.g., FERPA, HIPAA, FISMA). 3) Trustworthiness is not precisely defined in the scientific community.<b> This document, a follow-up to the analysis report mentioned above, delves into the key findings identified, explores the concerns reported and provides recommendations of existing solutions to address the survey participants’ concerns regarding trustworthiness of data."
+  authors: "Andrew Adams, Kay Avila, Jim Basney, Laura Christopherson, Melissa Cragin, Jeanetter Dopheide, Terry Fleury, Calvin Frye, Florence Hudson, Manisha Kanodia, Jenna Kim, W. John MacMullen, Mats Rynge, Scott Sakai, Sandra Thompson, Karna Vahi, John Zage"
+  venue: ""
+  link: "https://zenodo.org/record/4323403#.YEq31mhKg2w"
+  working_group: ""
+  bibtex: "@misc{adams_andrew_2020_4323403,
+  author       = {Adams, Andrew and
+                  Avila, Kay and
+                  Basney, Jim and
+                  Christopherson, Laura and
+                  Cragin, Melissa and
+                  Dopheide, Jeannette and
+                  Fleury, Terry and
+                  Frye, Calvin and
+                  Hudson, Florence and
+                  Kanodia, Manisha and
+                  Kim, Jenna and
+                  MacMullen, W. John and
+                  Rynge, Mats and
+                  Sakai, Scott and
+                  Thompson, Sandra and
+                  Vahi, Karan and
+                  Zage, John},
+  title        = {{Guidance for Trustworthy Data Management in 
+                   Science Projects}},
+  month        = dec,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.4323403},
+  url          = {https://doi.org/10.5281/zenodo.4323403}
+}"
+  
 - title: "Scientific Data Security Concerns and Practices: A survey of the community by the Trustworthy Data Working Group"
   abstract: "In April and May of 2020, the Trustworthy Data Working Group conducted a survey of scientific data security concerns and practices in the scientific community. This report provides an analysis of the survey results."
-  authors: "Andrew Adams, Kay Avila, Jim Basney, Melissa Cragin, Jeanetter Dopheide, Terry Fleury, Florence Hudson, Jenna Kim, W. John MacMullem Gary Motz, Sean Peisert, Mats Rynge, Scott Sakai, Sandra Thompson, Karna Vahi, Wendy Whitcup, John Zage"
+  authors: "Andrew Adams, Kay Avila, Jim Basney, Melissa Cragin, Jeanetter Dopheide, Terry Fleury, Florence Hudson, Jenna Kim, W. John MacMullen, Gary Motz, Sean Peisert, Mats Rynge, Scott Sakai, Sandra Thompson, Karna Vahi, Wendy Whitcup, John Zage"
   venue: ""
   link: "https://zenodo.org/record/4323141#.YEq1h2hKg2w"
   working_group: ""
