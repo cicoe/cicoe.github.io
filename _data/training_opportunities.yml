@@ -1,51 +1,36 @@
 - categroy: Workshop
-  end_date: January 21, 2021
+  end_date: March 18, 2021
   source: XSEDE
-  start_date: January 21, 2021
+  start_date: March 18, 2021
   time: ''
-  title: 'XSEDE Webinar: An Introduction to Singularity: Containers for Scientific
-    and High-Performance Computing'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2238/session/3900/register"
+  title: 'XSEDE Webinar: Profiling Tools, Thursday, March 18, 2021, 11am-12pm PT'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2310/session/3970/register"
 - categroy: Workshop
-  end_date: February 02, 2021
-  source: TACC
-  start_date: February 02, 2021
-  time: ''
-  title: Introduction to Machine Learning at TACC
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=99"
-- categroy: Workshop
-  end_date: February 09, 2021
-  source: TACC
-  start_date: February 09, 2021
-  time: ''
-  title: Introduction to Deep Learning at TACC
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=100"
-- categroy: Workshop
-  end_date: February 10, 2021
-  source: TACC
-  start_date: February 10, 2021
-  time: ''
-  title: Introduction to Linux
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=101"
-- categroy: Workshop
-  end_date: February 18, 2021
+  end_date: March 26, 2021
   source: XSEDE
-  start_date: February 18, 2021
+  start_date: March 26, 2021
   time: ''
-  title: 'XSEDE Webinar: Performance Tuning and Single Processor Optimization, Thursday,
-    Feb. 18, 2021, 11am-12pm PT'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2239/session/3901/register"
+  title: An Introduction to Anvil at Purdue
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2312/session/3972/register"
 - categroy: Workshop
-  end_date: February 18, 2021
-  source: TACC
-  start_date: February 18, 2021
+  end_date: April 07, 2021
+  source: XSEDE
+  start_date: April 06, 2021
   time: ''
-  title: C++ for C Programmers
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=102"
+  title: 'XSEDE HPC Workshop: Big Data and Machine Learning - April 6-7, 2021'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2313/session/3973/register"
 - categroy: Workshop
-  end_date: February 25, 2021
-  source: TACC
-  start_date: February 25, 2021
+  end_date: April 15, 2021
+  source: XSEDE
+  start_date: April 15, 2021
   time: ''
-  title: MPL Object-Oriented Interface to MPI
-  website: "https://learn.tacc.utexas.edu/course/view.php?id=103"
+  title: New User Training- University of Central Florida
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2303/session/3963/register"
+- categroy: Workshop
+  end_date: April 21, 2021
+  source: XSEDE
+  start_date: April 21, 2021
+  time: ''
+  title: 'XSEDE Webinar: AMD EPYC Advanced User Training on Expanse, Wednesday, April
+    21, 2021, 9am-1:30pm PT'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2311/session/3971/register"
