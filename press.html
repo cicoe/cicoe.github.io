@@ -11,15 +11,18 @@ permalink: /materials/press
                 <div class="section-title">
                     <h1>Press</h1>
                 </div>
+                <div class="row" style="margin-top: 3em">
                     {% if site.data.press.size > 0 %}
                     {% for n in site.data.press %}
-                    <div class="material">
-                        <ul>
-                            <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
-                        </ul>
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="press">
+                            <span class="date">{{ n.date }}</span>
+                            <a href="{{ n.website }}" target="_blank">{{ n.title }}</a>
+                        </div>
                     </div>
                     {% endfor %}
                     {% endif %}
+                </div>
             </div>
         </div>
     </div>

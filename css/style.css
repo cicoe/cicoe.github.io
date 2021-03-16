@@ -417,7 +417,7 @@
     color: #800000;
 }
 
-.presentation .date {
+.presentation .date, .press .date {
     position: relative;
     top: -1.25em;
     right: -1.25em;
@@ -430,10 +430,22 @@
     border-radius: 0 0 0 10px;
 }
 
-.engagement {
+.engagement, .press {
     padding: 1em 2em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     border: 1px solid #ccc;
     box-shadow: #ccc 3px 3px 3px;
     border-left: 0.4em solid #3c763d;
+    background-color: #fafafa;
 }
+
+.press {
+    border-left: 0.4em solid #f0ad4e;
+    min-height: 5em;
+}
+
+.press .date {
+    right: -2.5em;
+    background-color: #666;
+}
+
