@@ -36,7 +36,8 @@
 .material-video {
     margin: 1em;
     background-color: #f7f7f7;
-    border-left: 0.3em solid #c0a16b;
+    border-left: 0.4em solid #c0a16b;
+    box-shadow: #ccc 3px 3px 3px;
 }
 
 .material-video-l p {
@@ -427,4 +428,12 @@
     font-weight: bold;
     font-size: 0.8em;
     border-radius: 0 0 0 10px;
+}
+
+.engagement {
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    box-shadow: #ccc 3px 3px 3px;
+    border-left: 0.4em solid #3c763d;
 }

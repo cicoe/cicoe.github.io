@@ -1275,8 +1275,8 @@ footer .footer-manu ul li a:hover {
     padding: 2em;
     box-shadow: #ccc 3px 3px 3px;
     background-color: #f2f2f2;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
+    /*border-top-left-radius: 0.5em;*/
+    /*border-top-right-radius: 0.5em;*/
 }
 
 .workshop h1 {
@@ -1291,8 +1291,8 @@ footer .footer-manu ul li a:hover {
     margin: 0em 0.5em 0em 0.5em;
     padding: 1em 2em;
     box-shadow: #ccc 3px 3px 3px;
-    border-bottom-left-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
 }
 
 .workshop-materials ul {

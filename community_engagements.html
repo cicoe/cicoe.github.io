@@ -11,11 +11,12 @@ permalink: /materials/community_engagements
                 <div class="section-title">
                     <h1>Community Engagements</h1>
                 </div>
+                <div style="margin-top: 3em">
                     {% for n in site.data.community_engagements %}
-                    <div class="material">
-                        <ul>
-                            <li><a href="{{ n.link }}" target="_blank">{{ n.title }}</a> - {{ n.desc }}</li>
-                        </ul>
+                    <div class="engagement">
+                        <strong><a href="{{ n.link }}" target="_blank">{{ n.title }}</a></strong>
+                        <br/>
+                        {{ n.desc }}
                     </div>
                     {% endfor %}
                 </div>
