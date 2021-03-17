@@ -292,15 +292,11 @@
     padding-left: 1em;
     line-height: 1.5em;
     border: 1px solid #eee;
-    min-height: 10em;
+    border-top: 0.4em solid #f0ad4e;
+    min-height: 8em;
     cursor: pointer;
     box-shadow: 5px 5px 5px #ddd;
-}
-
-.lf .content:hover {
-    border: 1px solid rgb(130, 176, 61, 0.5);;
-    background-color: #fff;
-    box-shadow: 5px 5px 5px rgb(130, 176, 61, 0.3);
+    background-color: #fafafa;
 }
 
 .lf .content .dir {
@@ -475,6 +471,7 @@
     border-top-right-radius: 0.5em;
 }
 
-.engagement:hover, .press:hover, .presentation:hover, .activity:hover {
+.engagement:hover, .press:hover, .presentation:hover, .activity:hover, .lf .content:hover {
     box-shadow: #999 3px 3px 3px;
+    background-color: #fff;
 }

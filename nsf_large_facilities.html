@@ -14,11 +14,12 @@ permalink: /nsf_major_facilities/
             </div>
         </div>
         <div class="row" style="margin-top: 2em">
-            {% assign lf_items = site.data.lf %}
+            {% assign lf_items = site.data.lf | sort: 'name' %}
             {% for n in lf_items %}
-            <div class="col-md-3 col-sm-12">
+            <div class="col-md-4 col-sm-12">
                 <div class="lf" onclick="window.open('{{ n.website }}', 'new_window');">
-                    <div class="content">
+                    <div class="content"
+                         style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #f0ad4e {% endif %}">
                         <p><strong>{{ n.name }}</strong></p>
                         <span class="dir">{{ n.directorate }}</span>
                         <span class="stage">{{ n.stage }}</span>
@@ -29,20 +30,3 @@ permalink: /nsf_major_facilities/
         </div>
     </div>
 </section>
-
-<!--<script type="text/javascript">-->
-<!--    var coll = document.getElementsByClassName("collapsible");-->
-<!--    var i;-->
-
-<!--    for (i = 0; i < coll.length; i++) {-->
-<!--        coll[i].addEventListener("click", function() {-->
-<!--            this.classList.toggle("active");-->
-<!--            var content = this.nextElementSibling;-->
-<!--            if (content.style.display === "block") {-->
-<!--                content.style.display = "none";-->
-<!--            } else {-->
-<!--                content.style.display = "block";-->
-<!--            }-->
-<!--        });-->
-<!--    }-->
-<!--</script>-->

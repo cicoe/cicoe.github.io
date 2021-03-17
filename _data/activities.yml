@@ -72,14 +72,8 @@
     - title: WBS
       timeframe: 9/16/2020 - 10/1/2020
 
-- facility: Trustworthy Data WG (TrustedCI)
-  active: false
-  activities:
-    - title:
-      timeframe: 2/3/2020 - 12/14/2020
-
 - facility: TrustedCI IDM WG
-  active: false
+  active: true
   activities:
     - title: IDM Monthly WG
       timeframe: 7/13/2020 - 2/8/2021
