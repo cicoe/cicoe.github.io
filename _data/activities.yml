@@ -72,11 +72,9 @@
     - title: WBS
       timeframe: 9/16/2020 - 10/1/2020
 
-- facility: TrustedCI IDM WG
+- facility: TrustedCI IDM Monthly WG
   active: true
   activities:
-    - title: IDM Monthly WG
-      timeframe: 7/13/2020 - 2/8/2021
     - title: Shibboleth Deep Dive
       timeframe: 3/8/2021
     - title: Research Concerns for development of IDM Standards
