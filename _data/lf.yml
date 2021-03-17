@@ -12,6 +12,7 @@
   website: "http://outreach.naic.edu/ao/"
   directorate: "MPS/AST, GEO/AGS"
   stage: "Operations"
+  color: "666"
 
 - name: "Academic Research Fleet (ARF)"
   website: "https://www.unols.org/documents/academic-research-fleet"
@@ -67,16 +68,19 @@
   website: "http://www.neonscience.org/"
   directorate: "BIO/DBI"
   stage: "Operations"
+  color: "142C70"
 
 - name: "Geodetic Facility for the Advancement of Geoscience (GAGE)"
   website: "http://www.unavco.org/"
   directorate: "GEO/EAR"
   stage: "Operations"
+  color: "B93B31"
 
 - name: "Seismological Facility for the Advancement of GEoscience (SAGE)"
   website: "https://www.iris.edu/hq/"
   directorate: "GEO/EAR"
   stage: "Operations"
+  color: "543F93"
 
 - name: "National High Magnetic Field Laboratory (NHMFL)"
   website: "https://nationalmaglab.org"
@@ -122,3 +126,4 @@
   website: "https://oceanobservatories.org/"
   directorate: "GEO/OCE"
   stage: "Operations"
+  color: "4BA5E0"
