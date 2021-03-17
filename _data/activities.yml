@@ -9,6 +9,18 @@
   activities:
     - title: ""
       timeframe: 4/8/20 - 8/27/2020
+      
+- facility: CI CoE DLC Interviews
+  active: false
+  activities:
+    - title: ""
+      timeframe: ""
+      
+- facility: CI CoE WFD Interviews
+  active: false
+  activities:
+    - title: ""
+      timeframe: ""
 
 - facility: ARF
   active: false
