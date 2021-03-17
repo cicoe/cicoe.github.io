@@ -71,7 +71,13 @@
   activities:
     - title: WBS
       timeframe: 9/16/2020 - 10/1/2020
-
+      
+- facility: Trustworthy Data WG
+  active: false
+  activities:
+    - title: Survey Report and Guidance Report Research, Discussion, & Writing
+      timeframe: 2/3/2020 - 12/14/2020
+  
 - facility: TrustedCI IDM Monthly WG
   active: true
   activities:
