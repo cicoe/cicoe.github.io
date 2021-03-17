@@ -449,7 +449,32 @@
     background-color: #666;
 }
 
-.engagement:hover, .press:hover, .presentation:hover {
-    box-shadow: #999 3px 3px 3px;
+.activity {
+    border: 1px solid #ccc;
+    box-shadow: #ccc 3px 3px 3px;
+    margin-bottom: 1.5em;
+    border-radius: 0.5em;
+    border-collapse: separate;
+    background-color: #fafafa;
 }
 
+.activity .title {
+    padding: 0.5em 1em;
+    font-weight: bold !important;
+    font-size: 1.3em;
+    border-bottom: 1px solid #eee;
+}
+
+.activity .content {
+    padding: 1em;
+}
+
+.activity .inactive {
+    top: -0.5em;
+    right: 0;
+    border-top-right-radius: 0.5em;
+}
+
+.engagement:hover, .press:hover, .presentation:hover, .activity:hover {
+    box-shadow: #999 3px 3px 3px;
+}

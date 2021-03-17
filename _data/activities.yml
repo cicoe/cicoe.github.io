@@ -1,0 +1,105 @@
+- facility: SAGE/GAGE
+  active: true
+  activities:
+    - title: T2 Data Flows and Use Cases
+      timeframe: 7/20/20 - 9/10/20
+    - title: T3 ConOps
+      timeframe: 5/8/20 - 11/17/20
+    - title: T4 High Level Requirements
+      timeframe: 5/15/20 - 2/5/21
+    - title: T6 Platform Design
+      timeframe: 5/7/20 - 1/7/21
+    - title: Data Collection
+      timeframe: 2/3/21 - present
+    - title: Data Archiving
+      timeframe: 2/3/21 - present
+    - title: Data Distribution
+      timeframe: 2/3/21 - present
+    - title: Process Orchestration
+      timeframe: 2/3/21 - present
+    - title: Identity Management
+      timeframe: 2/3/21 - present
+    - title: Cloud Provider Analysis
+      timeframe: 1/26/21 - present
+
+- facility: GAGE
+  active: true
+  activities:
+    - title: Identity Management (IdM)
+      timeframe: 7/1/2020-1/13/2021
+
+- facility: OOI
+  active: false
+  activities:
+    - title: ""
+      timeframe: 4/8/20 - 8/27/2020
+
+- facility: ARF
+  active: false
+  activities:
+    - title: Identity Management (IdM)
+      timeframe: 3/1/2020 - 8/31/2021
+
+- facility: ARF-R2R
+  active: false
+  activities:
+    - title:
+      timeframe: 2/12/2020 - 6/30/2020
+
+- facility: CHESS
+  active: false
+  activities:
+    - title:
+      timeframe: 4/8/2020
+
+- facility: AO (Arecibo)
+  active: true
+  activities:
+    - title: Arecibo/CI CoE
+      timeframe: 8/28/20 - present
+    - title: All Hands Meeting (AHM)
+      timeframe: 8/28/20 - present
+
+- facility: NCAR/NEON
+  active: true
+  activities:
+    - title: Proposal Engagement
+      timeframe: 11/1/2020 - 10/31/2021
+
+- facility: NHERI SimCenter
+  active: false
+  activities:
+    - title: WBS
+      timeframe: 9/16/2020 - 10/1/2020
+
+- facility: Trustworthy Data WG (TrustedCI)
+  active: false
+  activities:
+    - title:
+      timeframe: 2/3/2020 - 12/14/2020
+
+- facility: TrustedCI IDM WG
+  active: false
+  activities:
+    - title: IDM Monthly WG
+      timeframe: 7/13/2020 - 2/8/2021
+    - title: Shibboleth Deep Dive
+      timeframe: 3/8/2021
+    - title: Research Concerns for development of IDM Standards
+      timeframe: 2/8/2021
+    - title: IDM Topics for 2021 Discussion
+      timeframe: 1/11/2021
+    - title: Year in Review, 2021 trends and topics
+      timeframe: 12/14/2020
+    - title: Internet2’s IAM Community Opportunities
+      timeframe: 11/9/2020
+    - title: Baseline Control Sets for IAM operations
+      timeframe: 10/12/2020
+    - title: Trusted CI Framework discussion with Ryan Kiser and Craig Jackson
+      timeframe: 9/14/2020
+    - title: US ARF engagement update, Policy/Framework development presentation by Trusted CI
+      timeframe: 8/10/2020
+    - title: Presentation - REFEDS and International Federations with Tom Barton and Christopher Whalen
+      timeframe: 7/13/2021
+
+

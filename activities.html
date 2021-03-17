@@ -1,0 +1,74 @@
+---
+layout: page
+title: Activities - CI CoE Pilot
+permalink: /activities
+---
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 space">
+                <div class="section-title">
+                    <h2>Activities</h2>
+                </div>
+                <div style="padding-top: 2em">
+                    {% if site.data.activities.size > 0 %}
+                    {% assign activities = site.data.activities | sort: 'facility' %}
+                    {% assign activities = activities | where: 'active', true %}
+                    {% for n in activities %}
+                    <div class="col-md-12 col-sm-12">
+                        <div class="activity"
+                             style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #0086B3 {% endif %}">
+                            {% if n.active == false %}
+                            <span class="inactive">Inactive</span>
+                            {% endif %}
+                            <div class="title">
+                                {{ n.facility }}
+                            </div>
+                            <div class="row content">
+                                {% for a in n.activities %}
+                                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 0.5em">
+                                    <strong>{{ a.title }}</strong><br/>
+                                    <span style="color: #999; margin-left: 1em">
+                                        <i class="far fa-clock"></i> {{ a.timeframe }}
+                                    </span>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                    {% if site.data.activities.size > 0 %}
+                    {% assign activities = site.data.activities | sort: 'facility' %}
+                    {% assign activities = activities | where: 'active', false %}
+                    {% for n in activities %}
+                    <div class="col-md-12 col-sm-12">
+                        <div class="activity"
+                             style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #0086B3 {% endif %}">
+                            {% if n.active == false %}
+                            <span class="inactive">Inactive</span>
+                            {% endif %}
+                            <div class="title">
+                                {{ n.facility }}
+                            </div>
+                            <div class="row content">
+                                {% for a in n.activities %}
+                                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 0.5em">
+                                    <strong>{{ a.title }}</strong><br/>
+                                    <span style="color: #999; margin-left: 1em">
+                                        <i class="far fa-clock"></i> {{ a.timeframe }}
+                                    </span>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

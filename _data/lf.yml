@@ -2,717 +2,123 @@
   website: "https://www.usap.gov"
   directorate: "GEO/PLR"
   stage: "Operations"
-  description: ""
 
 - name: "Antarctic Infrastructure Modernization for Science (AIMS)"
   website: "https://future.usap.gov"
   directorate: "GEO/PLR"
   stage: "Construction"
-  description: "
-    The Antarctic Infrastructure Modernization for Science (AIMS) project is a part of the Future USAP long range investment program for McMurdo Station.
-    <br /><br />
-    Due to the large scale of this project, specific funding will be requested from Congress through the National Science Foundation's (NSF) Major Research Equipment and Facilities Construction Funding (MREFC) process. If approved, AIMS will unfold over the next several years, and will be a key component of Future USAP over the coming years. A major prerequisite for AIMS is that its planning and construction process must have minimal impact on the science that will continue to take place at this critical research outpost.
-    <br /><br />
-    <h4>Project Phases</h4>
-    To reflect this timeline, AIMS has been broken into a number of stages, consisting of three design and planning phases, followed by the construction phase.
-    <br /><br />
-    Each planning phase will allow the project team to further refine the architectural and logistical plans associated with the construction phase. This will be done through an internal planning process as well as an external socialization and collaborative partnership with the scientist-grantees and the diverse group of other government agencies doing work in Antarctica.
-    <br /><br />
-    Each research station has its own Master Plan, which serves as a \"living document\" and reflects its purpose, goals and future plans. As the work under AIMS will only take place at McMurdo, any relevant changes will be incorporated into the McMurdo Master Plan, as appropriate.
-  "
 
 - name: "Arecibo Observatory (AO)"
   website: "http://outreach.naic.edu/ao/"
   directorate: "MPS/AST, GEO/AGS"
   stage: "Operations"
-  description: ""
 
 - name: "Academic Research Fleet (ARF)"
   website: "https://www.unols.org/documents/academic-research-fleet"
   directorate: "GEO/OCE"
   stage: "Operations"
-  description: ""
 
 - name: "Regional Class Research Vessel (RCRV)"
   website: "https://ceoas.oregonstate.edu/ships/rcrv/"
   directorate: "GEO/OCE"
   stage: "Construction"
-  description: ""
 
 - name: "Green Bank Observatory"
   website: "https://greenbankobservatory.org"
   directorate: "MPS/AST"
   stage: "Operations"
-  description: "
-  Green Bank Observatory enables leading edge research at radio wavelengths by offering telescope, facility and advanced instrumentation access to the astronomy community as well as to other basic and applied research communities. With radio astronomy as its foundation, the Green Bank Observatory is a world leader in advancing research, innovation, and education.
-  <br /><br />
-  <h4>Our Facility</h4>
-  The first trailblazers of American radio astronomy called Green Bank Observatory home over 60 years ago. Today, their legacy is alive and well. Nestled in the mountain ranges and farmland of West Virginia, within the National Quiet Zone, radio astronomers are listening to the remote whispers of the universe, in order to discover answers to our most astounding astronomical questions.
-  <br /><br />
-  Specifically, the Green Bank Observatory:
-  <br /><br />
-  <ul>
-    <li>provides state-of-the-art telescopes, instrumentation and expertise</li>
-    <li>trains the next generation of scientists, engineers, and technicians;</li>
-    <li>promotes science, technology and engineering to foster a more scientifically literate society;</li>
-    <li>provides the tools and facilities to advance science and technology nationally and internationally.</li>
-  </ul>
-  "
 
 - name: "IceCube Neutrino Observatory"
   website: "http://icecube.wisc.edu/"
   directorate: "GEO/PLR, MPS/PHY"
   stage: "Operations"
-  description: "
-    IceCube is a neutrino detector built at the South Pole by instrumenting about a cubic kilometer of ice with 5160 light sensors. It uses Cherenkov light, emitted by charged particles moving through the ice to realize the enormous detection volume required for detecting neutrinos. One of the primary goals for IceCube is to elucidate the mechanisms for production of high-energy cosmic rays by detecting high-energy neutrinos from astrophysical sources. The Detector construction started in 2005 and finished in December 2010. Data taking started in 2006 and it is expected to be operated for at least 20 years. The United States National Science Foundation (NSF) supplied funds for the design, construction, and operations of the detector. As the host institution, the University of Wisconsin-Madison, with support from the NSF, has responsibility on the maintenance and operations of the detector. The scientific exploitation is carried out by an international Collaboration of about 300 researchers from 48 institutions in 12 countries.
-    <br /><br />
-    The IceCube data processing is divided in two regimes: online at the South Pole and offline at the UW-Madison main data processing center. Computing equipment is lifecycle replaced on average every ~4 years at the South Pole and ~5 years at UW-Madison. Several collaborating institutions also contribute to the offline computing infrastructure at different levels. Two Tier1 sites provide tape storage services for the long term preservation of the IceCube data products: NERSC in the US and DESY-Zeuthen in Germany. About 20 additional IceCube sites in the US, Canada, Europe and Asia provide computing resources for simulation and analysis.
-    <br /><br />
-    <h4>Online Computing Infrastructure</h4>
-    Aggregation of data from the light sensors begins in the IceCube Laboratory (ICL), a central computing facility located on top of the detector hosting about 100 custom readout DOMHubs and 50 commodity servers. Data is collected from the array at a rate of 150 MB/s. After triggering and event building, the data is split into two independent paths. First, RAW data products are written to disks at a rate of about 1 TB/day, awaiting physical transfer north once per year. In addition, an online compute farm of 22 servers does near-real-time processing, event reconstruction, and filtering. Neutrino candidates and other event signatures of interest are identified within minutes, and notifications are dispatched to other astrophysical observatories worldwide via the Iridium satellite system. Approximately 100 GB/day of filtered events are queued for daily transmission to the main data processing facility at UW–Madison via high-bandwidth satellite links. Once in Madison, filtered data is further processed to a level suitable for scientific analysis.
-    <br /><br />
-    <h4>Offline Computing Infrastructure</h4>
-    The main data processing facility at UW-Madison currently consists of ~7600 CPU cores, ~400 GPUs and ~6 PB of disk. This facility is used mainly for user analysis, but also for data processing and simulation production. Data products that need to be preserved for long time are replicated to two different locations: NERSC and DESY-Zeuthen.
-    <br /><br />
-    Conversion of event rates into physical fluxes ultimately relies on knowledge of detector characteristics numerically evaluated by running Monte Carlo simulations that model fundamental particle physics, the interaction of particles with matter, transport of optical photons through the ice, and detector response and electronics. Large amounts of simulations of background and signal events must be produced for use by the data analysts. The computationally expensive numerical models necessitate a distributed computing model that can make efficient use of a large number of clusters at many different locations.
-    <br /><br />
-    Up to 50% of the computing resources used by IceCube simulation and analysis are distributed (i.e. not at UW-Madison). The HTCondor software is used to federate these heterogeneous resources and present users a single consistent interface to all of them:
-    <br /><br />
-    <ul>
-      <li>Local clusters at IceCube collaborating institutions</li>
-      <li>UW campus shared clusters</li>
-      <li>Open Science Grid</li>
-      <li>XSEDE supercomputers</li>
-    </ul>
-  "
 
 - name: "JOIDES Resolution Science Operator"
   website: "http://iodp.tamu.edu/"
   directorate: "GEO/OCE"
   stage: "Operations"
-  description: "
-    The JOIDES Resolution Science Operator (JRSO) manages and operates the riserless drillship, JOIDES Resolution, for the International Ocean Discovery Program (IODP). The JRSO is based in the College of Geosciences at Texas A&M University.
-    <br /><br />
-    The JRSO is responsible for overseeing the science operations of the riserless drilling vessel JOIDES Resolution (JR), archiving the scientific data, samples and logs that are collected, and disseminated via web applications and online publications. The drillship travels throughout the oceans sampling the sediments and rocks beneath the seafloor. The scientific samples and data are used to study Earth’s past history, including plate tectonics, ocean currents, climate changes, evolutionary characteristics and extinctions of marine life, and mineral deposits.
-    <br /><br />
-    The JR is an NSF major facility that serves the global geosciences community. In addition to NSF funding through a cooperative agreement, JRSO operations are partly funded by 22 IODP member nations, including Australia, Austria, Brazil, Canada, China, Denmark, Finland, France, Germany, India, Ireland, Italy, Japan, Korea, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, and the United Kingdom.
-    <br /><br />
-    The cyberinfrastructure team supports a split based operations construct, providing cyberinfrastructure, cybersecurity and data management services at sea on board the JR and on shore in College Station, TX. VSAT (very small aperture terminal) satellite services are used to provide connectivity services between ship and shore. Currently, this is a dedicated asynchronous wide area network circuit offering 2 Mbps down to the ship and 1 Mbps up.
-    <br /><br />
-    The JRSO’s Laboratory Information Management System (LIMS) architecture (see picture below) is designed to capture, archive, process, manage, and disseminate data using several JRSO-developed instrument uploaders, client applications and web application tools. LIMS comprises the database that stores the data, the web services that pull and push the data, and the applications and hardware that capture and disseminate the data. One JRSO goal is to make this data, along with the data stored a legacy system (JANUS), more human and machine discoverable. JRSO is hopeful that the NSF-funded Open Core Data project will soon provide the data discovery capability it is seeking.
-    <br /><br />
-    The cyberinfrastructure team serves approximately 115 internal JRSO staff, 150 international scientists who sail on the JR each year, and the broader global geosciences community.
-    <br /><br />
-    Under its capital equipment replacement program, the JRSO routinely updates infrastructure services on ship and shore (i.e., servers, storage, backup services, battery backup, and high-speed network). The median age for JRSO infrastructure equipment is approximately six years.
-    <br /><br />
-    JRSO leverages Texas A&M University policies and tools to maintain its cybersecurity program. JRSO conducts a security self-assessment once per year using RSA Archer GRC in order to remain in compliance with university and state regulations.
-    <br /><br />
-    JRSO science data is permanently archived at the NCEI facility in Boulder, CO.
-  "
 
 - name: "Leadership‐Class Computing Facility (LCCF)"
   website: "https://lccf.tacc.utexas.edu"
   directorate: "CISE"
   stage: "Design"
-  description: ""
 
 - name: "Large Hadron Collider"
   website: "https://home.cern/science/accelerators/large-hadron-collider"
   directorate: "MPS/PHY"
   stage: "Operations/Design"
-  description: "
-  The Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator. It first started up on 10 September 2008, and remains the latest addition to CERN’s accelerator complex. The LHC consists of a 27-kilometre ring of superconducting magnets with a number of accelerating structures to boost the energy of the particles along the way.
-  <br /><br />
-  Inside the accelerator, two high-energy particle beams travel at close to the speed of light before they are made to collide. The beams travel in opposite directions in separate beam pipes – two tubes kept at ultrahigh vacuum. They are guided around the accelerator ring by a strong magnetic field maintained by superconducting electromagnets. The electromagnets are built from coils of special electric cable that operates in a superconducting state, efficiently conducting electricity without resistance or loss of energy. This requires chilling the magnets to ‑271.3°C – a temperature colder than outer space. For this reason, much of the accelerator is connected to a distribution system of liquid helium, which cools the magnets, as well as to other supply services.
-  <br /><br />
-  Thousands of magnets of different varieties and sizes are used to direct the beams around the accelerator. These include 1232 dipole magnets 15 metres in length which bend the beams, and 392 quadrupole magnets, each 5–7 metres long, which focus the beams. Just prior to collision, another type of magnet is used to \"squeeze\" the particles closer together to increase the chances of collisions. The particles are so tiny that the task of making them collide is akin to firing two needles 10 kilometres apart with such precision that they meet halfway.
-  <br /><br />
-  All the controls for the accelerator, its services and technical infrastructure are housed under one roof at the CERN Control Centre. From here, the beams inside the LHC are made to collide at four locations around the accelerator ring, corresponding to the positions of four particle detectors – <a href=\"https://atlas.cern\" target=\"_blank\">ATLAS</a>, <a href=\"http://cms.web.cern.ch\" target=\"_blank\">CMS</a>, ALICE and LHCb.
-  "
 
 - name: "Laser Interferometer Gravitational-wave Observatory (LIGO)"
   website: "https://www.ligo.caltech.edu/"
   directorate: "MPS/PHY"
   stage: "Operations"
-  description: "
-    The Laser Interferometer Gravitational-wave Observatory (LIGO) comprises a distributed NSF facility with two 4 km x 4 km interferometers, separated by a baseline for 3,002 km, located on the DOE Hanford Nuclear Reservation north of Richland, WA and north of Livingston, LA. LIGO Laboratory is operated jointly by the California Institute of Technology and the Massachusetts Institute of Technology for the NSF under a cooperative agreement with Caltech and MIT as a sub-awardee. LIGO also includes major research facilities on the Caltech and MIT campuses.
-    <br /><br />
-    The two gravitational wave detectors are operated in coincidence. LIGO detected gravitational waves from the inspiral and merger of a binary black hole system on 14 September 2015, heralding the opening of a new observational window on the Universe using gravitational waves to detect and study the most violent events in the cosmos.
-    <br /><br />
-    LIGO serves the worldwide gravitational wave community through the LIGO Scientific Collaboration, consisting of over 40 institutions in 15 countries. This international collaboration comprises about 1,100 members. LIGO also has MOUs covering joint operations with the EU Virgo Collaboration and the Japanese KAGRA Collaboration.
-    <br /><br />
-    <h4>Key products/services</h4>
-    The key data product generated by LIGO is a time series recording relative changes in length between the two 4km arms of each LIGO interferometer. These strain measurements (~3 TByte/y) record audio-frequency perturbations in the local spacetime metric at each Observatory at the level of 1 part in 1022. This is the primary observable from the LIGO experiment, recording the signature of gravitational waves passing through each detector. To inform data analysis efforts searching the strain data for gravitational waves, and to understand and improve the performance of the LIGO instruments, an additional ~200k channels of environmental monitors and internal instrument channels are recorded (1.5 PByte/y). The strain data are distributed in low-latency (seconds) to computing clusters running analysis pipelines to generate gravitational-wave triggers for external Astronomical observations for transient events on a timescale of 1 minute. The bulk data are locally archived at each LIGO Observatory and distributed over the Internet to a central data archive on a timescale of 30 minutes. The central data archive currently holds 7 PByte of LIGO observations in perpetuity.
-    <br /><br />
-    LIGO data analysis software is released using native Linux packaging (.rpm and .deb) and pre-installed on dedicated computing resources via standard Linux software repositories. For computing on shared resources the software is distributed via the CERN Virtual Machine Filesystem (CVMFS) and containerized with Docker, Singularity, or Shifter. Similarly, the key science data are pre-staged on dedicated computing resources ahead of analysis, and distributed to shared computing resources via CVMFS or GridFTP as needed by computing tasks. Metadata that describe LIGO observations and candidate signals from data analysis are stored in databases with custom tools for ingestion and querying.
-    <br /><br />
-    LIGO data analysis computing overwhelmingly consists of embarrassingly parallel workflows executed on high-throughput (HTC) resources. The majority of LIGO computing is provided by internal LIGO Scientific Collaboration (LSC)-managed clusters, but a growing fraction is provided by external shared resources. These resources are integrated into LIGO’s computing environment via the Open Science Grid, and consist of a variety of dedicated and opportunistic campus, regional, and national clusters, Virgo scientific collaboration resources, and XSEDE allocations.
-    <br /><br />
-    LIGO relies on HTCondor for its internal job scheduling, and uses both DAGMan and the Pegasus WMS for large-scale workflow management on top of HTCondor. In addition, LIGO uses the BOINC infrastructure to manage its single largest data analysis task (the search for continuous wave signals) via Einstein@Home running on volunteer computers as a screen saver. For Single Sign-On and other Identity and Access Management functions, LIGO relies on Shibboleth, Grouper, InCommon, and CILogon. The underlying authentication infrastructure is built on Kerberos and authorization information if reflected in LDAP.
-    <br /><br />
-    For distributed data management, LIGO relies on CVMFS, StashCache/Xrootd, Globus GridFTP, and a variety of in-house CI tools and services to complement and integrate these tools.
-  "
 
 - name: "National Center for Atmospheric Research (NCAR)"
   website: "https://ncar.ucar.edu"
   directorate: "GEO/AGS"
   stage: "Operations"
-  description: ""
 
 - name: "NSF Natural Hazards Engineering Research Infrastructure"
   website: "https://www.designsafe-ci.org/"
   directorate: "ENG/CMMI"
   stage: "Operations"
-  description: "
-    Natural hazards engineering plays an important role in minimizing the effects of natural
-    hazards on society through the design of resilient and sustainable infrastructure. The
-    DesignSafe cyberinfrastructure has been developed to enable and facilitate transformative
-    research in natural hazards engineering, which necessarily spans across multiple disciplines
-    and can take advantage of advancements in computation, experimentation, and data analysis.
-    DesignSafe allows researchers to more effectively share and find data using cloud services,
-    perform numerical simulations using high performance computing, and integrate diverse
-    datasets such that researchers can make discoveries that were previously unattainable. This
-    white paper describes the design principles used in the cyberinfrastructure development
-    process, introduces the main components of the DesignSafe cyberinfrastructure, and
-    illustrates the architecture of the DesignSafe cyberinfrastructure.
-    <br /><br />
-    A cyberinfrastructure is a comprehensive environment for experimental, theoretical, and
-    computational engineering and science, providing a place not only to steward data from its
-    creation through archive, but also a workspace in which to understand, analyze, collaborate
-    and publish that data. Our vision is for DesignSafe to be an integral part of research
-    and discovery, providing researchers access to cloud-based tools that support their work
-    to analyze, visualize, and integrate diverse data types. DesignSafe builds on the core
-    strengths of the previously developed NEEShub cyberinfrastructure for the earthquake
-    engineering community, which includes a central data repository containing years of
-    experimental data. DesignSafe preserves and provides access to the existing content from
-    NEEShub and adds additional capabilities to build a comprehensive CI for engineering
-    discovery and innovation across natural hazards. DesignSafe has been developed along
-    the following principles:
-    <br /><br />
-    <strong>Create a flexible CI that can grow and change.</strong> DesignSafe is extensible,
-    with the ability to adapt to new analysis methods, new data types, and new workflows
-    over time. The CI is built using a modular approach that allows integration of new
-    community or user supplied tools and allows the CI to grow and change as the disciplines
-    grow and change.
-    <br /><br />
-    <strong>Provide support for the full data/research lifecycle.</strong> DesignSafe is not
-    solely a repository for sharing experimental data, but is a comprehensive environment for
-    experimental, simulation, and field data, from data creation to archive, with full support
-    for cloud-based data analysis, collaboration, and curation in between. Additionally, it
-    is the role of a cyberinfrastructure to continue to link curated data, data products, and
-    workflows during the post-publication phase to allow for research reproducibility and
-    future comparison and revision.
-    <br /><br />
-    <strong>Provide an enhanced user interface.</strong> DesignSafe supplies a comprehensive
-    range of user interfaces that provide a workspace for engineering discovery. Different
-    interface views that serve audiences from beginning students to computational experts
-    allow DesignSafe to move beyond being a \"data portal\" to become a true research environment.
-    <br /><br />
-    <strong>Embrace simulation.</strong> Experimental data management is a critical need
-    and vital function of the CI, but simulation also plays an essential role in modern
-    engineering and must be supported. Through DesignSafe, existing simulation codes, as
-    well as new codes developed by the community and SimCenter, are available to be invoked
-    directly within the CI interface, with the resulting data products entered into the
-    repository along with experimental and field data and accessible by the same analytics,
-    visualization, and collaboration tools.
-    <br /><br />
-    <strong>Provide a venue for internet-scale collaborative science.</strong> As both digital
-    data captured from experiments and the resolution of simulations grow, the amount of
-    data that must be stored, analyzed and manipulated by the modern engineer is rapidly
-    scaling beyond the capabilities of desktop computers. DesignSafe embraces a cloud
-    strategy for the big data generated in natural hazards engineering, with all data,
-    simulation, and analysis taking place on the server-side resources of the CI, accessible
-    and viewable from the desktop but without the limits of the desktop and costly, slow
-    data transfers.
-    <br /><br />
-    <strong>Develop skills for the cyber-enabled workforce in natural hazards engineering.</strong>
-    Computational skills are increasingly critical to the modern engineer, yet a degree in
-    computer science should not be a prerequisite for using the CI. Different interfaces
-    lower the barriers to HPC by exposing the CI’s functionality to users of all skill
-    levels, and best of breed technologies are used to deliver online learning throughout
-    the CI to build computational skills in users as they encounter needs for deeper learning.
-    <br /><br />
-    The DesignSafe infrastructure provides a comprehensive environment for experimental,
-    theoretical, and computational engineering and science, providing a place not only to
-    steward data from its creation through archive, but also the workspace in which to
-    understand, analyze, collaborate and publish that data. The CI can be described in
-    terms of the services it provides or in terms of the technical components that enable
-    those services.
-    <br /><br />
-    DesignSafe is architected to comprise the following services and components:
-    <ul>
-      <li><strong>DesignSafe</strong> front end web portal</li>
-      <li>The <strong>Data Depot</strong>, a multi-purpose data repository for experimental, simulation, and field data that uses a flexible data model applicable to diverse and large data sets and is accessible from other DesignSafe components. The Data Depot includes an intelligent search capability that allows dynamic creation of catalogs of the held data in an easily understandable way, and that can search ill-structured data with poor or incomplete metadata.</li>
-      <li>A <strong>Reconnaissance Integration Portal</strong> that facilitates sharing of reconnaissance data within a geospatial framework.</li>
-      <li>A web-based <strong>Discovery Workspace</strong> that represents a flexible, extensible environment for data access, analysis, and visualization.</li>
-      <li>A <strong>Learning Center</strong> that provides training and online access to tutorials.</li>
-      <li>A <strong>Developer’s Portal</strong> that provides a venue for power users to extend the Discovery Workspace or Reconnaissance Integration Portal, and to develop their own applications to take advantage of the DesignSafe infrastructure’s capabilities.</li>
-      <li>A foundation of <strong>storage and compute systems</strong> at the Texas Advanced Computing Center (TACC), to provide both on-demand computing and access to scalable computing resources.</li>
-      <li>A <strong>middleware layer</strong> to expose the capabilities of the CI to developers, and to enable construction of diverse web and mobile interfaces to data products and analysis capabilities</li>
-      <li>A marketplace of <strong>Community Defined Interfaces</strong>; the extension capability of the CI allows other projects to leverage DesignSafe to build an interface of their own choosing.</li>
-    </ul>
-    <br />
-    The CI development was initiated in July 2015 upon receiving the NSF award, and was first deployed May 2016. As of June 2017 we have more than 1,100 registered users spanning dozens of institutions around the world.
-  "
 
 - name: "National Ecological Observatory Network (NEON)"
   website: "http://www.neonscience.org/"
   directorate: "BIO/DBI"
   stage: "Operations"
-  description: "
-    <strong>Science Mission:</strong> Through a Cooperative Agreement with the National Science Foundation, Battelle is constructing the National Ecological Observatory Network (NEON) as a research platform designed to study the biosphere at regional and continental scales and to conduct real-time ecological studies at the scales required to address grand challenges in ecology.
-    <br /><br />
-    <strong>Facility Description:</strong> NEON is a new nationwide, “shared-use” research platform of field-deployed instrumented towers and sensor arrays, sentinel measurements, specimen collection protocols, remote sensing capabilities, natural history archives, and facilities for data analysis, modeling, visualization, and forecasting. NEON assets are managed with a cyberinfrastructure of networked processing routines, repositories, and interfaces. The Observatory also supports multi-sensor aircraft payloads (AOPs) operated from leased Twin Otter aircraft, and five mobile deployment platforms (MDPs) that contain both terrestrial and aquatic instrumentation. NEON construction will be completed within the next year.
-    <br /><br />
-    <strong>Key Products & Services:</strong> The continental-scale cyberinfrastructure serves 181 data products from 20 regional eco-climatic domains which consist of terrestrial, aquatic, and aerial sampling from over 350 staff. To enable researchers to answer major ecological questions, NEON collects data on a suite of biotic and abiotic variables. As a national research platform, infrastructure, sampling methods, and measurements are being standardized and provided via extensive metadata associated with each downloadable data product. Consistency in collection across locations, through the use of standardized sensors, protocols, and processes, is required to ensure the validity and usability of NEON data by the scientific community and other stakeholders. NEON staff, in concert with automated procedures, evaluate data quality.
-    <br /><br />
-    The NEON cyberinfrastructure includes models and related computational resources for delivering a range of value-added “data products” based on the in-situ, experimental, and remote sensing components. These models and algorithms perform quality control processing, classification, scaling and interpolation functions, as well as provide a platform for external researchers accessing the data to detect patterns, test hypotheses, and project ecological forecasts against seamless, continental scale data layers.
-    <br /><br />
-    The cyberinfrastructure, which is headquartered in Colorado, publishes both real-time provisional data, and annual releases of observatory-wide versions of results. The cyberinfrastructure architecture is built across facilities which range from the central, commercial data center, to headquarters development environments, to cloud-based data acquisition/staging applications, to distributed sites with dedicated local unmanned facilities, communications, routing controls, and local data logging. Repository content is managed via a central object store, a portfolio of relational databases, and shared code libraries. The cyberinfrastructure includes numerous operational subsystem including: ingest; archival; calibration; processing pipelines; metadata management; specimen custody management, and publishing functions. NEON’s web presence consists of interactive portals to data assets, community services, and application programming interfaces (API).
-    <br /><br />
-    The cyberinfrastructure development team uses best practices approaches to software development via an iterative approach to development (using industry-standard Agile methodology) that stresses the evolving nature of requirements gathering and development. The team emphasizes best practices engineering principles, including code re-use and definition of interfaces to facilitate object-oriented software integration and provide a basis for future growth. Formalized QA methods are applied to in unit, integrated, and regression testing. Segregated development, test, integration, and production environments control releases. The NEON cyberinfrastructure is designed to invite incremental improvements through incorporation and testing of open-source code from community members.
-    <br /><br />
-    <strong>Management & Community Engagement:</strong> Leadership is conducted from the NEON Project headquarters in Boulder, Colorado, where core science, management, and administrative functions for the Observatory is managed through the 30-year operational life. NEON’s operation is periodically adapted through guidance from the Science, Technology, and Education Advisory Committee (STEAC). Community input is facilitated by 20+ Technical Working Groups. Some NEON products are hosted by community partner organizations: BOLD; SRA; MG-RAST; PhenoCam; AeroNet; AmeriFlux, and DataOne. NEON participants include dozens of laboratories, universities, and agencies. Initial user statistics reflect over 10,000 users from domestic and international organizations.
-  "
 
 - name: "Geodetic Facility for the Advancement of Geoscience (GAGE)"
   website: "http://www.unavco.org/"
   directorate: "GEO/EAR"
   stage: "Operations"
-  description: "
-    UNAVCO, a non-­‐profit university-­‐governed consortium, facilitates geoscience research and education using geodesy.
-    <br /><br />
-    The UNAVCO consortium membership consists of more than 100 US Full Members and over 80 Associate Members (domestic and international). Through our Geodetic Infrastructure and Geodetic Data Services Programs, UNAVCO operates and supports geodetic networks, geophysical and meteorological instruments, a free and open data archive, software tools for data access and processing, cyberinfrastructure management, technological developments, technical support, and geophysical training. The UNAVCO Education and Community Engagement Program provides educational materials, tools and resources for students, teachers, university faculty and the general public.
-    <br /><br />
-    Under a 2013 award from the National Science Foundation (NSF), UNAVCO operates the Geodesy Advancing Geosciences and EarthScope (GAGE) Facility. In this role, UNAVCO deploys and operates instrumentation that collects a variety of data to support geodetic with instrumentation systems are deployed globally. UNAVCO provides data management, curation, archiving and distribution services for geodetic data collected or acquired by UNAVCO and by US investigators performing geodesy research with NSF funding.  Under certain circumstances non-­‐NSF or NASA funded contributed research data and products are also handled. UNAVCO has been a Regular Member of the ICSU World Data System since 2015.
-    <br /><br />
-    The Geodetic Data Services (GDS) program manages a complex set of metadata and data flow operations providing a wide range of geodetic/geophysical observations to scientific and educational communities. Sensors currently include Global Navigation Satellite System (GNSS) (downloaded files and high rate data streaming in real time (RTGNSS), borehole geophysics instrumentation (strainmeters, tiltmeters, seismometers, accelerometers, pore pressure and meteorological sensors), long baseline laser strainmeters, and terrestrial laser scanners. Field data are acquired either from continuously operating sites or episodic “campaign” surveys conducted by the community. UNAVCO also acquires and distributes satellite synthetic aperture radar (SAR) data from foreign space agencies. GDS services include data operations (managing metadata; data downloading, ingesting and preprocessing); data products and services (generating processed results and QA/QC and state-­‐ofhealth monitoring); data management and archiving (distribution and curation); cyberinfrastructure; and information technology (systems and web administration). In order to perform this work, GDS maintains a highly specialized technical staff, onsite and offsite computer facilities with networking, servers and storage, and manages a number of sub awards to university groups who provide additional products, software and training.
-    <br /><br />
-    <h4>Key Data and Products</h4>
-    Key data products include GNSS unprocessed and processed data from over 3,000 continuous stations; Terrestrial and Airborne Laser Scanning swaths, point clouds and rasters; raw and processed space borne SAR (Synthetic Aperture Radar) and InSAR (Interferometric Synthetic Aperture Radar) images; borehole strain and seismic data (raw and processed); and raw and processed meteorological observations collocated at selected geodetic stations. Key software developed and supported by UNAVCO for community use include GNSS preprocessing codes, and GNSS data and metadata management software systems. Through sub awards UNAVCO provides community support for GNSS processing codes.
-    <br /><br />
-    <h4>Facility CI</h4>
-    UNAVCO’s CI is intended to provide robust, reliable, secure hardware and software systems that ensure data and metadata integrity from the field sensor to the user. Data are managed through multiple software and systems processes covering acquisition, data communications, ingestion, quality checking, preprocessing and processing, and archiving. Increasingly, web services are used to deliver capability for internal handling as well as discovery tools, visualization, and data delivery processes. UNAVCO maintains internet connectivity with two routes to the outside: a primary link on Internet2 through the Front Range Gigapop, and a failover Comcast commercial Internet link. In-­‐house virtualization with VMWare on newer (less than 5-­‐year old) Dell servers hosts the majority of services; this is supplemented by older Sun server and storage hardware (ten years old); SAN storage technology (Oracle, Infotrend) is supplemented with cloud-­‐based IaaS. A colocation service is used for critical backups and failover capability.  The wide range of data types and tools for processing and preprocessing is supported by a variety of software stacks developed starting in the 1990’s and evolving through the present with 10 years as the median age. In addition, UNAVCO is investigating deploying several services in the cloud (commercial and NSF XSEDE) through the Earthcube GeoSciCloud project.
-  "
 
 - name: "Seismological Facility for the Advancement of GEoscience (SAGE)"
   website: "https://www.iris.edu/hq/"
   directorate: "GEO/EAR"
   stage: "Operations"
-  description: "
-    The central component of IRIS Data Services (DS) is the IRIS Data Management Center in Seattle, Washington.  The DMC relies on other DS components in Albuquerque, La Jolla, University of Washington, LLNL, and Almaty, Kazakhstan to realize its full functionally but the heart of the DS is the DMC. The major CI components are in place at the DMC. We run a fully functional Auxiliary Data Center that is unmanned at LLNL.
-    <br /><br />
-    The IRIS DMC is a domain specific facility that meets the needs of the seismological community both within and outside the US. The DMC facilitates science within our domain but does not DO any science.
-    <br /><br />
-    Our science mission can be found in our <a href=\"http://www.iris.edu/hq/files/programs/data_services/policies/Strategic_Plan_v7.pdf\" target=\"_blank\">strategic plan</a>. Our science community numbers in the thousands worldwide.
-    <br /><br />
-    <div class=\"quote\">
-      <strong>Mission:</strong> To provide reliable and efficient access to high quality seismological and related geophysical data, generated by IRIS and its domestic and international partners, and to enable all parties interested in using these data to do so in a straightforward and efficient manner.
-      <br /><br />
-      IRIS is university consortium with approximately 125 members (US academic institutions with graduate degrees in seismology) and roughly the same number of foreign affiliates scattered all over the globe. We are a 501c3 Delaware corporation.  We distribute primary data to roughly 25,000 (3rd level IP address) distinct users or IP addresses per quarter from roughly 12,000 distinct organizations (2nd level IP address). IRIS ingests roughly 75 terabytes of new observable data per year and we project we will more than one petabyte in 2017.
-    </div>
-    <br /><br />
-    IRIS’ primary products are (Level 0, raw and Level 1 quality controlled) time series data. The time series come from roughly 30 types of sensors deployed on/in the ground, in the water column or water bottom, and in the atmosphere.  IRIS also produces Level 2 derived products, and manages community developed Level 2 and higher products. (See <a href=\"http://ds.iris.edu/spud/\" target=\"_blank\">http://ds.iris.edu/spud/</a>). Level 0 and 1 products are fully documented (metadata) time series data from geophysical sensors distributed globally generated form NSF and other national and international sources.  We distribute roughly one petabyte of level 0 and 1 data per year.
-    <br /><br />
-    Figure 1 shows volume of time series data shipped from the IRIS DMC to end users and or monitoring agencies since 2001. Major types of shipments include legacy requests in the blue, real time data distribution in the red, and web service distribution in the purple.
-    <br /><br />
-    IRIS also produces a great deal of community software and offers both IRIS developed and community developed software and tools in Redmine and GitHub repositories.  IRIS develops and maintains specific client applications for accessing and working with IRIS data.
-    <br /><br />
-    All IRIS data assets (Level 0-3) are available through service APIs.  Some of the APIs have been adopted internationally (FDSN web services) and other APIs are IRIS developed and maintained and not yet adopted internationally. (see <a href=\"http://service.iris.edu\" target=\"_blank\">http://service.iris.edu</a>). IRIS also maintains comprehensive documentation and is also the source of documentation for the SEED format, which is the international seismological domain format. (www.fdsn.org)
-    <br /><br />
-    The IRIS DMC operates a primary data center in Seattle as well as an unmanned, fully functional Auxiliary Data Center  (ADC) in Livermore California.  Major components of CI at the DMC and ADC consist of the following
-    <br /><br />
-    <ul>
-      <li><strong>Storage –</strong> IRIS operates large volume Hitachi RAID systems that emphasis storage over performance.  We improve performance by indexing the RAID contents in a PostgreSql DBMS. We have roughly 700 terabytes of storage RAID at both the DMC and the ADC.  We also operate high performance RAID systems made by NetApp both for reception of real time data and PostgreSql database transactions.</li>
-      <li><strong>Servers -</strong> IRIS runs virtual servers on physica Dell Servers. Virtualization software is VMWare. IRS operates Forcepoint Firewalls and A10 Load Balancers.  Load Balancers are configured so that a failure at the DMC or the ADC does not remove outsides user’s access to services,</li>
-      <li><strong>LANs -</strong> We run 10 gigabit/second LANs sometimes in parallel to form a data backbone internal to the DMC and ADC. We connect to the Internet through the University of Washington.</li>
-    <br /><br />
-    Storage access to observational data has been abstracted through web services for both internal and external use. Access to data is transitioning from direct SQL access to abstractions thorugh web services. We are very close to running a SOA for both internal and external access.
-    <br /><br />
-    Our goal is to refresh all major computational and storage hardware infrastructure every four years. Budget pressues sometimes pushes this to 5 years.
-    <br /><br />
-    We are currently testing operating our software in XSEDE and AWS to see if this is viable.
-  "
 
 - name: "National High Magnetic Field Laboratory (NHMFL)"
   website: "https://nationalmaglab.org"
   directorate: "MPS/DMR"
   stage: "Operations"
-  description: "
-  The only facility of its kind in the United States, the National High Magnetic Field Laboratory (MagLab) is the largest and highest-powered magnet laboratory in the world. Every year, more than a thousand scientists from dozens of countries come to use our unique magnets with the support of highly experienced staff scientists and technicians. Thanks to funding from the National Science Foundation and the State of Florida, these researchers use our facilities for free, probing fundamental questions about materials, energy and life. Their findings result in more than 400 scientific publications a year in peer-reviewed journals such as Nature, Science and Physical Review Letters.
-  "
 
 - name: "NSF's National Optical‐Infrared Astronomy Research Laboratory (OIR)"
   website: "https://nationalastro.org"
   directorate: "MPS/AST"
   stage: "Operations"
-  description: "
-  NOAO is the US national research & development center for ground-based night-time astronomy. Our mission is to provide public access to qualified professional researchers to forefront scientific capabilities on telescopes operated by NOAO as well as other optical and infrared telescopes. Today, these telescopes range in aperture size from 2-m to 10-m.
-  <br /><br />
-  In support of this mission, NOAO is participating in the development of telescopes with aperture sizes of 20-m and larger as well as a unique 8-m telescope that will make a 10-year movie of the Southern sky. NOAO is also engaged in programs to develop the next generation of instruments and software tools necessary to enable exploration and investigation through the observable Universe, from planets orbiting other stars to the most distant galaxies in the Universe.
-  "
 
 - name: "Gemini Observatory"
   website: "http://www.gemini.edu/"
   directorate: "MPS/AST"
   stage: "Operations"
-  description: "
-    <h4>Facility Description</h4>
-    The Gemini Observatory consists of twin 8.1-meter diameter optical/infrared telescopes located on two of the best observing sites in the world: Maunakea in Hawaii and Cerro Pachon in Chile. From these two locations, Gemini’s telescopes can collectively provide access to the entire sky. Gemini was built and is operated by an international partnership of five countries including the United States, Canada, Brazil, Argentina and Chile. These Participants and the University of Hawaii, which has regular access to Gemini, each maintain a “National Gemini Office” to support their local users. Any astronomer in these countries can apply for time on Gemini, which is allocated in proportion to each Partcipant's financial stake. For the US, Gemini provides the largest publicly-accessible optical/infrared telescopes.
-    <br /><br />
-    Formally, the Mission Statement is “To advance our knowledge of the Universe by providing the international Gemini Community with forefront access to the entire sky.” Gemini’s achieves this by supporting peer-reviewed science proposed by the astronomical communities in the participating nations, and providing competitive instrumentation and observing modes in doing so. Over the five-year period between 2012 and 2016, more than 1000 individual Principal Investigators applied for Gemini observing time, from more than 300 academic institutions across the Gemini Partnership.
-    <br /><br />
-    <h4>Key products/services</h4>
-    The direct product of Gemini observatory is observational data, taken in appropriate observing conditions, and placed in an archive for access by Principal Investigators (PIs). The service provided to PIs, jointly between the observatory and the NGOs, is to help prepare their observations, then to execute them on the telescopes or support the PI in executing them. Some PIs visit the telescope to make observations, others have their observations taken for them by staff operators. Gemini provides the preparation tool for PIs to create their observations. It also provides a data reduction package for all facility-class instruments. Currently this is based on the standard “IRAF” package distributed by NOAO.
-    <br /><br />
-    <h4>Facility CI</h4>
-    The Gemini Observatory CI (computers, storage and networking; we do not include software in the definition) addresses the combined requirements of telescope operations, data handling and administrative support functions. Each of the four Gemini sites operates identical key services; a redundant core network service to support the distributed network environment, a redundant data storage system capable of replicating data offsite/cross-site in real time, a virtual machine cluster, a physical server farm, a virtual tape library backup environment, which also replicates data offsite, and instrumentation support infrastructure - such as per-instrument server hardware, network connectivity, remote power management and system monitoring.
-    <br /><br />
-    The two main Gemini sites (Gemini North and Gemini South) are connected via site-to-site VPN tunnels, that utilize the Internet 2 network infrastructure in the US, with interconnections to the REUNA research network in Chile.
-    <br /><br />
-    Additionally the two base facility sites in La Serena, Chile and Hilo, Hawaii are equipped with high power computers. These units offer Gemini scientist the possibility of efficiently processing data locally to support their research. While for the most part the consumption of these key services and components is separated, non-operational functions, such as research, project and document management, telecommunications and internet access, enjoy the benefits of increased redundancy and high availability.
-    <br /><br />
-    The median age of these key CI components is largely dictated by the manufacturers recommendations and enterprise support capabilities and experience in the field. These numbers are in turn transposed to the observatories longevity/obsolescence plan and are therefore understood in advance of the budget cycles. The networking equipment, for example, has a general operating age of around eight years, at which point the support contracts are no longer offered and spares are difficult to procure. The current core network hardware was replaced in 2014 and is set to be replaced in 2022. Similar examples can be made for each key CI component within Gemini, ensuring that the technology will also meet the observatory’s long term requirements.
-  "
 
 - name: "Vera C. Rubin Observatory (VRO)"
   website: "https://www.vro.org"
   directorate: "MPS/AST"
   stage: "Construction"
-  description: "
-  The LSST is a new kind of telescope. Currently under construction in Chile, it is being built to rapidly survey the night-time sky. Compact and nimble, the LSST will move quickly between images, yet its large mirror and large field of view—almost 10 square degrees of sky, or 40 times the size of the full moon—work together to deliver more light from faint astronomical objects than any optical telescope in the world.
-  <br /><br />
-  From its mountaintop site in the foothills of the Andes, the LSST will take more than 800 panoramic images each night with its 3.2 billion-pixel camera, recording the entire visible sky twice each week. Each patch of sky it images will be visited 1000 times during the survey. With a light-gathering power equal to a 6.7-m diameter primary mirror, each of its 30-second observations will be able to detect objects 10 million times fainter than visible with the human eye. A powerful data system will compare new with previous images to detect changes in brightness and position of objects as big as far-distant galaxy clusters and as small as near-by asteroids.
-  <br /><br />
-  The LSST's combination of telescope, mirror, camera, data processing, and survey will capture changes in billions of faint objects and the data it provides will be used to create an animated, three-dimensional cosmic map with unprecedented depth and detail , giving us an entirely new way to look at the Universe. This map will serve a myriad of purposes, from locating that mysterious substance called dark matter and characterizing the properties of the even more mysterious dark energy, to tracking transient objects, to studying our own Milky Way Galaxy in depth. It will even be used to detect and track potentially hazardous asteroids—asteroids that might impact the Earth and cause significant damage.
-  <br /><br />
-  As with past technological advances that opened new windows of discovery, such a powerful system for exploring the faint and transient Universe will undoubtedly serve up surprises.
-  <br /><br />
-  Plans for sharing the data from LSST with the public are as ambitious as the telescope itself. Anyone with a computer will be able to view the moving map of the Universe created by the LSST, including objects a hundred million times fainter than can be observed with the unaided eye. The LSST project will provide analysis tools to enable both students and the public to participate in the process of scientific discovery. We invite you to learn more about LSST science.
-  <br /><br />
-  The LSST will be unique: no existing telescope or proposed camera could be retrofitted or re-designed to cover ten square degrees of sky with a collecting area of forty square meters. Named the highest priority for ground-based astronomy in the 2010 Decadal Survey, the LSST project formally began construction in July 2014.
-  "
 
 - name: "National Radio Astronomy Observatory (NRAO)"
   website: "https://public.nrao.edu/"
   directorate: "MPS/AST"
   stage: "Operations"
-  description: "
-    <h4>NRAO TELESCOPES</h4>
-    The National Radio Astronomy Observatory (NRAO) operates the Karl G. Jansky Very Large Array (VLA) near Socorro New Mexico, and is the operating partner (Executive) for the North American part of the Atacama Large Millimeter/Submillimeter Array (ALMA), which operates at a high site near San Pedro, Chile.
-    <br /><br />
-    Both telescopes are very general purpose. Telescope time is allocated based on a peer-review process from many sub-fields of astronomy. Hundreds of PI groups per year get data, and in addition once the proprietary period has expired (usually one year), the data may be used by other groups for Archival research.
-    <br /><br />
-    Both telescopes are radio interferometers, which operate by coherently combining the signals of the relocatable antennas (27 for the VLA, 66 for ALMA) in complex central electronics (notably the correlators, which are approximately 0.1 Exa-Op very parallel special purpose supercomputers) which produces raw data, essentially a noisy (electronics, radio-frequency-interference, atmospheric and other environmental effects) irregularly sampled spatial Fourier transform of sky “stacked” over separate frequency channels for up to 4 polarizations.
-    <br /><br />
-    The electronics are capable of sustaining 1 (VLA) and 16 (ALMA) Gigabytes per second of raw data output, although the data rates are usually averaged down (in time, and frequency) to a small fraction of that (typically 25 Megabytes/second for the VLA, and 6 MB/s for ALMA). This averaging is done both to reduce the computing that is needed, and because many times the science application do not need high data rates. However there are some classes of science observations that are not made because computing capacity is not available.
-    <br /><br />
-    The raw data is turned into regularly gridded 2-4 dimensional images (axes: position on the sky, frequency or Doppler velocity, polarization) using multi-million line of code software systems produced by the NRAO and our partners. These images (currently: Giga-pixel, coming Tera-pixel, Possible: Petapixel) are then typically processed through analysis codes (both produced by NRAO and the wider community) to enable the science to be extracted from the data.
-    <br /><br />
-    <h4>CURRENT NRAO COMPUTING PARADIGM</h4>
-    The raw science data from each telescope is buffered at the telescope site (to allow for network outages and periods of high data rate observing), from which it is transferred and ingested into the master archive (in Santiago in the case of ALMA, Socorro NM in the case of the VLA). In the case of ALMA the data is then replicated from the master archive to the “regional” archives, which for North America resides at Charlottesville Virginia. Through an archive search web interface the raw data may be downloaded by operations staff and the PI group that proposed the observations (after QA in the case of ALMA). The raw data may be freely downloaded by anyone after the (typically) 1-year proprietary period has expired.
-    <br /><br />
-    After the raw-data for the entire project has arrived in the archive (this could take several different observing sessions), “pipelines” are executed which automatically make derived data products, currently flagged and calibrated raw data for both telescopes, and reference images for the case of ALMA. After some QA is performed, these data products may be downloaded by the PI groups, or by anyone after the proprietary period has expired. NRAO has initiated a “Science Ready Data Products” (SRDP) project to improve the quality of the automatically generated data products, with a goals that: the images should be directly usable for science, to improve the user interfaces, and to allow a human to be in the loop to optimize via high-level guidance the derived data products to be well suited for use in answering particular science questions.
-    <br /><br />
-    At the moment, almost all VLA derived data products, and many ALMA ones, which are used for the actual science analysis are produced through the manual (including ad-hoc Python scripting) execution of programs from suites of data processing, analysis, and visualization tasks produced by the NRAO. These programs are developed by the NRAO with significant contributions from our ALMA partners, and total about 3M SLOC. This software is available under an open source license, although the NRAO generates executables for common Linux variants and recent versions of MacOS.
-    <br /><br />
-    The software is executed at a combination of NRAO and user facilities. Our software is downloaded several thousand times per year for use by users (laptops through small clusters). In addition the NRAO allows our users to use our in-house computing facilities through a reservation system. Although our resources are relatively modest (150 16-core compute nodes, 2 PB of fast Lustre filesystem with Inifiniband interconnects), they are well tuned to our software stack, have fast access to the raw data archives, and we allow them to be used interactively (we also have batch queues). That is, they are convenient to use and very suitable for modest problem sizes. Our computing resources are used by a few hundred PI groups per year.
-    <br /><br />
-    We have experimented with commercial cloud providers (AWS) and national supercomputing centers (XSEDE), but have not made extensive use of either yet, nor have our users.
-    <br /><br />
-    Key CI improvements areas we would identify are:
-    <br /><br />
-    <ul>
-      <li>In-the-cloud Elastic, Interoperable, Data Center accessibility</li>
-      <li>Machine learning applications (vs. ad-hoc expert knowledge capture in scripts)</li>
-      <li>Software sustainability infrastructure</li>
-      <li>Visualization and information extraction from multi-peta-pixel multi-dimensional image data</li>
-    </ul>
-  "
 
 - name: "National Superconducting Cyclotron Laboratory (NSCL)"
   website: "https://www.nscl.msu.edu/"
   directorate: "MPS/PHY"
   stage: "Operations"
-  description: "
-    The overall mission of the National Superconducting Cyclotron Laboratory (NSCL) at
-    Michigan State University is to provide forefront research opportunities with stable
-    and rare isotope beams. A broad research program is made possible by the large range
-    of accelerated primary and secondary (rare isotope) beams provided by the facility.
-    The major research thrust is to determine the nature and properties of atomic nuclei,
-    especially those near the limits of nuclear stability. Other major activities are
-    related to nuclear properties that influence stellar evolution, explosive phenomena
-    in the cosmos (e.g. supernovae and x-ray bursts), and the synthesis of the heavy
-    elements; and research and development in accelerator and instrumentation physics,
-    including the development of superconducting radiofrequency cavities and design
-    concepts for future accelerators for basic research and societal applications.
-    In all activities an important part of the NSCL program is the training of the next
-    generation of scientists. Upon completion of the DOE-funded Facility for Rare Isotope
-    Beams (FRIB), the laboratory will transition to programs with beams from this facility.
-    <br /><br />
-    NSCL operates two coupled cyclotrons, which accelerate stable ion beams to energies
-    of up 170 MeV/u. Rare isotope beams are produced by projectile fragmentation and
-    separated in-flight in the A1900 fragment separator. For experiments with high-quality
-    rare isotope beams at an energy of a few MeV/u, the high-energy rare isotope beams
-    are transported to a He gas cell for thermalization, and then sent to the ReA
-    linear post-accelerator for reacceleration. Rare isotope beams in this energy range
-    allow nuclear physics experiments such as low-energy Coulomb excitation and transfer
-    reaction studies as well as for the precise study of astrophysical reactions. The
-    facility has produced over 904 rare isotope beams for experiments, and 65 new isotopes
-    have been discovered at NSCL.
-    <br /><br />
-    NSCL is a national user facility and has a large user community with over 800 actual,
-    active users in a given year. Most experiments conducted at NSCL involve international
-    collaborations with about 75% of the experiments lead by a US spokesperson.
-    <br /><br />
-    NSCL provides beams to approximately 30 experiments per year. Experiments are short
-    (~3-7 days) with many changes during and in between experiments. Data acquisition and
-    analysis and simulation framework need to support fast online decision making.
-    Experiments have increased significantly in complexity with an increase of the number
-    of channels read out, often together with high-resolution digitized waveform data.
-    Each experiment can generate up to 10 TB of experimental data set. Storage and backup
-    systems must match such data sizes. Data sets are analyzed on-line during the data
-    acquisition and later off-line either at NSCL or at the spokesperson's institution.
-    Experiments with in-house spokespersons require long-term storage (usually a few years)
-    of the full data set and adequate computing resources for analysis. A computing cluster
-    in the order of 1000 cores dedicated for online analysis is foreseen. Network bandwidths
-    of 100 Gbit/s will be required. External data transfer capabilities must continue to
-    accommodate the needs of a large and distributed user community with increased data
-    set sizes. Data sets are provided to experimenters via magnetic tape, though other
-    methods are available.<br /><br />NSCL CI supports and enables the Laboratory overall
-    mission. CI includes a broad range of functional areas: business support information
-    technology, networking, accelerator controls, experimental controls and DAQ, and
-    offline simulation and analysis. Internally developed and commercial solutions are
-    used. Systems are primarily managed and maintained by Laboratory personnel. CI
-    challenges include increasing security requirements, Laboratory growth with FRIB
-    planning and construction, and increasing and foreseen experimental needs.
-    <br /><br />
-    The Business IT department provides a range of enterprise IT services directly
-    supporting business processes including an internally hosted ERP suite and other
-    customized COTS solutions. Windows based services including Active Directory, Exchange,
-    SharePoint are deployed. More than 500 Windows desktop PCs are maintained.
-    <br /><br />
-    Business IT department also maintains the Lab-wide network, servers and storage
-    used by DAQ and NSCL Controls and is responsible for overall IT security.
-    <br /><br />
-    Internet is provided via MSU with MSU assisting with Internet security. Laboratory
-    wired networks are managed internally with MSU supporting wireless access.
-    <br /><br />
-    The Controls department is responsible for hardware and software controls for
-    accelerators, beamlines, and other experimental equipment. The controls system
-    uses EPICS protocols with graphical monitoring using CS-Studio. NSCL personnel
-    are active in development of both projects. A number of associated systems provide
-    alarms, access controls, archiving etc. for EPICS.<br /><br />With construction of
-    the FRIB accelerator progressing, new accelerator and cryogenic controls networks
-    are being deployed. These are also EPICS based. The designs emphasis security with
-    FRIB Controls network isolated from other Laboratory systems.
-    <br /><br />
-    In house developed software forms the core of the DAQ systems. NSCLDAQ is a modular
-    system supporting a range of experiment arrangements. SpecTcl is a compatible
-    analysis software. DDAS is an internally developed digital-DAQ, supporting XIA
-    Pixie-16 Digitizer and compatible with NSCLDAQ. As a user facility, NSCL provides
-    DAQ assistance to visiting experimenters. Typical experiments produce approximately
-    100 GB of data per day with experiments storing digitized waveforms producing ~1 TB
-    per day. Currently, most experiments’ needs are met with 1GE networking and several
-    DAQ computers. Data is recorded to ZFS/Linux servers. Reliability is critical as
-    experiments' beam times are generally limited for less than one week. Visiting
-    experimenters may make use of DAQ systems while present at NSCL.
-    <br /><br />
-    Increasingly, flexible CPU and software systems are used for DAQ. One purpose is
-    distinguishing overlapping waveform signals from higher rate experiments. The
-    GRETINA experiment is active at NSCL currently utilizing a dedicated farm of
-    approximately 100 PC nodes (1000 cores) for selecting events based on digitized
-    waveforms.
-    <br /><br />
-    Offline simulations and analysis systems are provided for Laboratory students,
-    faculty and staff. Clustered interactive Linux hosts and a small (~50 node)
-    Linux SLURM batch system are available. Approximately 1 PB of networked research
-    storage is available using ZFS/Linux systems with NFS. Increasing detector complexity,
-    data volumes and analysis complexity require increasing simulation and analysis
-    capacity. Free and widely used applications such as ROOT and GEANT are the norm.
-    "
 
 - name: "National Solar Observatory (NSO)"
   website: "http://dkist.nso.edu"
   directorate: "MPS/AST"
   stage: "Operations"
-  description: "
-    <h4>Introduction</h4>
-    The Daniel K. Inouye Solar Telescope (DKIST) is a four-meter, off-axis Gregorian solar telescope currently under construction by the National Solar Observatory and AURA on Haleakala, Maui, Hawai’i. When complete in 2019, it will be the largest solar telescope in the world, providing facility-class, high-resolution solar observations to a small but growing community of students, researchers, and the general public. In full operations, planned to last fifty years, the DKIST will house five complex instruments and a state-of-the-art adaptive optics system, generating over three petabytes of raw data annually. Key to its success, then, is a cyberinfrastructure providing facility and instrument control, scientific and operational data acquisition, and data management, processing, and distribution services. In this whitepaper, we provide a high-level description of primary components of the cyberinfrastructure.
-    <br /><br />
-    <h4>Cyberinfrastructure</h4>
-    The DKIST cyberinfrastructure is comprised of three primary components: the systems and infrastructure providing services to operate the telescope and its supporting subsystems (“Summit”), the core services and infrastructure needed to support science and engineering activities related to observatory operations and network services (“DKIST IT”), and the services and infrastructure performing long-term data management, processing, discovery, and distribution (“Data Center”). These components are highlighted in Figure 1, and discussed in more detail below.
-    <br /><br />
-    <strong>Summit</strong>. The DKIST Summit cyberinfrastructure comprises integrated facility, instrument control and safety systems, enabling telescope and dome control, optical alignment and routing, mechanical controls, observation execution and monitoring, instrument data acquisition, management, and distribution, and environmental monitoring and control. These systems are comprised of a High Level Software suite written primarily in Java and Python, utilizing CORBA. They are deployed through configuration-controlled provisioning stacks, including SaltStack, and sit atop an HPC architecture comprising many dedicated nodes interconnected through 10 Gb Ethernet and FDR InfiniBand. The Summit cyberinfrastructure is currently being readied for integration testing as a prelude to observatory integration efforts coming in the next 12-18 months.
-    <br /><br />
-    <strong>DKIST IT</strong>. The DKIST IT supports the observatory through deployment of core services such as routing, DNS, LDAP, and network maintenance and monitoring for the summit and a remote support building, as well ensuring SLAs and/or contracts with partner organizations (U. Hawai’I in Maui and U. Colorado in Boulder at the NSO Headquarters) are met and maintained. In addition, the DKIST IT provides operational support for physical infrastructure (optical fiber, Ethernet and InfiniBand networking, and routing hardware) on the Summit and the remote support building. Services are deployed through configuration-controlled provisioning stacks, sitting atop commodity equipment including Cisco switching. The DKIST IT is ramping its efforts, particularly with regard to network buildout on the Summit and the remote support facility.
-    <br /><br />
-    <strong>Data Center</strong>. The DKIST Data Center will provide long-term data management, scientific processing, search, and distribution services for the observatory. It will manage 3.2 PB of data per year, comprised of hundreds of millions of observations and tens of billions of metadata, exported by the Summit and, after calibration, intended for end-user consumption. Thus, data management and processing services must scale effectively with little rework, while data search depends on appropriate data modeling and well-developed use cases to allow end-users to effectively target data of interest. Key aspects of the architecture include a combined microservices and virtual machine deployment, provisioned through SaltStack and managed with Elastic and related tooling. While it is planned for the Data Center to reside at the NSO Headquarters, economies of scale are shifting, indicating a need to ensure “deploy-anywhere” (e.g., commercial cloud providers) can be supported effectively. The Data Center is currently completing its design phase, with development expected to occur in 2018-2020, with phased delivery of critical services occurring as DKIST comes online.
-    <br /><br />
-    When combined with a rigorous systems-engineering approach, including detailed requirements and interface controls, these three primary components will support DKIST use and scientific data exploitation. Despite the bespoke nature of the Summit CI, there is a significant focus on leveraging open source technologies in the DKIST, rather than relying on integration of commercial products. This is partly due to the long-term nature of the program and tight budgetary constraints. However, there are no free lunches – significant open source adoption without proactive forward replacement planning can leave obsolesced components underpinning critical systems. Given the long development timeline for the DKIST – the first CI work began in 2005 – these issues are already creeping into a yet-to-operate facility. Yet, the state of system development shows significant progress forward, and a bright future, for the DKIST CI.
-    <br /><br />
-    <h4>Summary</h4>
-    This whitepaper briefly discusses the DKIST end-to-end cyberinfrastructure, focusing on the three primary entities and their roles. Each is in a different developmental state, emphasizing the importance of clear requirements and interfaces, effective team communication strategies, and stakeholder management.
-  "
 
 - name: "Daniel K. Inouye Solar Telescope (DKIST)"
   website: "https://dkist.nso.edu"
   directorate: "MPS/AST"
   stage: "Construction"
-  description: ""
 
 - name: "Ocean Observatories Initiative (OOI)"
   website: "https://oceanobservatories.org/"
   directorate: "GEO/OCE"
   stage: "Operations"
-  description: "
-    The NSF Ocean Observatories Initiative (OOI) is a networked ocean research observatory with arrays of instrumented water column moorings and buoys, profilers, gliders and autonomous underwater vehicles within different open ocean and coastal regions. OOI infrastructure also includes a cabled array of instrumented seafloor platforms and water column moorings on the Juan de Fuca tectonic plate. This networked system of instruments, moored and mobile platforms, and arrays will provide ocean scientists, educators and the public the means to collect sustained, time-series data sets that will enable examination of complex, interlinked physical, chemical, biological, and geological processes operating throughout the coastal regions and open ocean.
-    <br /><br />
-    The seven arrays built and deployed during construction support the core set of OOI multidisciplinary scientific instruments that are integrated into a networked software system that will process, distribute, and store all acquired data. The OOI has been built with an expectation of operation for 25 years. This unprecedented and diverse data flow is coming from 89 platforms carrying over 830 instruments which provide over 100,000 scientific and engineering data products.
-    <br /><br />
-    The OOI is funded by the National Science Foundation and is managed and coordinated by the OOI Program Office at the Consortium for Ocean Leadership (COL). Implementing organizations, subcontractors to COL, are responsible for construction and development of the different components of the program. Woods Hole Oceanographic Institution (WHOI) is responsible for the Coastal Pioneer Array and the four Global Arrays, including all associated vehicles. Oregon State University (OSU) is responsible for the Coastal Endurance Array. The University of Washington (UW) is responsible for cabled seafloor systems and moorings. Rutgers, The State University of New Jersey, is implementing the Cyberinfrastructure (CI) component. The OOI data evaluation and education and public engagement team is co-located with the Cyberinfrastructure group at Rutgers University.
-    <br /><br />
-    <h4>OOI CYBER-INFRASTRUCTURE SERVICES</h4>
-    The primary functions of the OOI CI are data acquisition/collection, storage, processing and delivery.
-    <br /><br />
-    <i>(a) Data Collection and Transmission to the OOI CI:</i> Data is gathered by both cabled and un-cabled (wireless) instruments located across multiple research stations in the Pacific and Atlantic oceans. Once acquired, the raw data (consisting mostly of tables of raw instrument values – counts, volts, etc.) are transmitted to one of three operations centers: Pacific City, directly connected via fiber optic cable to all cabled instruments in the Cabled Array; OSU, an Operational Management Center (OMC) responsible for all un-cabled instrument data on the Pacific coast; and WHOI, the OMC for Atlantic coast-based uncabled instrument data. The data from the operations centers is transferred to the OOI CI for processing, storage and dissemination.
-    <br /><br />
-    <i>(b) Data Management, Storage, and Processing:</i> Two primary CI centers operated by the Rutgers Discovery Informatics Institute (RDI2) are dedicated to OOI data management: the West Coast CI in Portland, OR, and the East Coast CI, at Rutgers University. While data from the Cabled Array components are initially received at the Shore Station in Washington, it is the East Coast CI that houses the primary computing servers, data storage and backup, and front-facing CI portal access point, all of which are then mirrored to the West Coast CI over a highbandwidth Internet2 network link provisioned by MAGPI (Mid-Atlantic GigaPOP in Philadelphia) on the east coast and PNWGP (Pacific-Northwest GigaPOP) on the west coast. The data stores at the OMCs at OSU and WHOI are continuously synchronized with the data repositories located at the East and West Coast CI sites.
-    <br /><br />
-    <i>(c) Data Safety & Integrity:</i> Data safety and protection is ensured in two ways: data security and data integrity. Data security is addressed through the use of a robust and resilient network architecture that employs redundant, highly available next-generation firewalls along with secure virtual private networks. Data integrity is managed through a robust and resilient information life-cycle management architecture.
-    <br /><br />
-    <i>(d) Public Data Access:</i> The OOI CI software ecosystem (OOINet) employs the uFrame software framework that processes the raw data and presents it in visually meaningful and comprehensible ways in response to user queries, which is accessible over the Internet through the CI web-based portal access point. A machine-to-machine (M2M) API provides programmatic access to OOINet through a RESTful API. In addition to the portal and API, OOI CI provides the following data delivery methods: (1) <i>THREDDS Data Server:</i> delivers data products requested through the CI portal (i.e., generated asynchronously); (2) <i>Raw Data Archive:</i> delivers data as they are received directly from the instrument, in instrument-specific format, and (3) <i>Alfresco Server:</i> provide cruise data, including shipboard observations. OOI CI software ecosystem permits 24/7 connectivity to bring sustained ocean observing data to a user any time, any place. Anyone with an Internet connection can create an account or use CILogon and access OOI data.
-    <br /><br />
-    <h4>DESING AND IMPLEMENTATION ISSUES</h4>
-    The OOI CI design and implementation principles are based on industry best practises for the different aspects of the CI. The approach is based on a decentralized but coordinated architecture, which is driven by requirements, e.g., data storage capabilities, system load, security, etc.
-    <br /><br />
-    <i>(a) Redundancy and resiliency:</i> The OOI CI is a mirrored infrastructure for high availability, disaster recovery and business continuity. It implements a resilient information life-cycle management architecture that integrates redundant enterprise storage area network (disk-based) and a robotic library (tape-based). Redundancy is implemented at different layers, for example, an enterprise-level storage network of multiple hard drives managed by an intelligent device manager, reduces the data footprint by reducing data duplication while maintaining data integrity and access performance through storage redundancy, and tape storage, a “last tier” storage that is not dependent on power or cooling, supports longer-term backup and archiving, disaster recovery, and data transport.
-    <br /><br />
-    <i>(b) Service-oriented Architecture:</i> The core of the OOI CI software ecosystem (Uframe-based OOINet) is based on a service oriented architecture, a set of data dataset, instrument, platform drivers and data product algorithms, which plug in to the uFrame framework. Uframe-based OOINet uses latest generation technologies for big management data such as Apache Cassandra, which is a state-of-the-art, scalable and highly available distributed database management system designed to handle large amounts of data. Uframe-based OOINet services are exposed through a RESTful API and are available as the M2M interface for external access through a secure endpoint. The use of a well-defined API based on standard protocols enables other systems to interface and interact with OOI CI programmatically.
-    <br /><br />
-    <i>(c) Cyber-security:</i> The system is based on a multi-tier security approach with dedicated and redundant (highly available) appliances at the CI perimeter. The OOI CI implementation supports encryption of traffic, network traffic segregation, multi-layer traffic filtering, multi-layer access control and comprehensive monitoring. Further, data delivery to external users is implemented through dedicated and distinct storage appliances (i.e., physical and logical isolation from core storage infrastructure) In addition to implementing industry best practices, the OOI CI cyber-security effort includes a comprehensive cybersecurity program based on engagement with the NSF Center for Trustworthy Scientific Cyber-Infrastructure. This program encompasses a set of policies and procedures. Regular vulnerability scans/audits (internally and externally) are also performed to the OOI CI.
-    <br /><br />
-    <h4>CONCLUSION</h4>
-    OOI CI has initiated its operational phase and data (including science, engineering and data products) flowing from those instruments is freely available to users. The OOI CI portal provides all data, metadata and data processed via conventional algorithms or direct retrieval from OOI storage or data archives. Data quality and data management will utilize generally accepted protocols, factory calibrations and at sea calibration procedures.
-    <br /><br />
-    During its early operation (1.5 years), OOI community has been growing every day and is made up of a diverse set of users from 180 different organizations from around the world. At least 500 people has already registered on the OOI Data Portal, which has over 3,000 unique visitors each month1.
-    <br /><br />
-    OOI is a NSF-funded effort and involves teams from Consortium for Ocean Leadership, Woods Hole Oceanographic Institution, Oregon State University, University of Washington, Rutgers University, and Raytheon. This document summarizes the contributions from these teams. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
-  "
-
-
-
-#- name: "The Cornell High Energy Synchrotron Source (CHESS)"
-#  website: "https://www.chess.cornell.edu/"
-#  description: "
-#    The Cornell High Energy Synchrotron Source (CHESS) is a NSF-funded National User Facility located on the Cornell University campus in Ithaca, New York.  The mission of CHESS is to provide a national hard x-ray synchrotron radiation facility for individual investigators, on a competitive, peer reviewed, proposal basis.  With 11 experimental stations, the facility is used by approximately 1,100 investigators per year from over 150 academic, industrial, government, non-profit, and international institutions.  CHESS impacts a wide range of disciplines, serving researchers from the physical, biological, engineering, and life sciences, as well as cultural specialists such as anthropologists and art historians. CHESS users conduct studies encompassing, but not limited to, the atomic and nanoscale structure, properties, operando, and time-resolved behavior of electronic, structural, polymeric and biological materials, protein and virus crystallography, environmental science, radiography  of  solids  and  fluids,  and  micro-elemental  analysis,  and  other technologies  for  x-ray science.
-#    <br /><br />
-#    The CHESS facility is hosted by the Cornell Laboratory for Accelerator-based Sciences
-#    and Education (CLASSE), which also operates the Cornell Electron Storage Ring (CESR) as
-#    the x-ray source for CHESS. Computing services for CHESS are provided centrally by the
-#    CLASSE-IT department.  The primary computing services used by CHESS are:
-#    <br />
-#    <ul>
-#      <li>high-speed data acquisition for x-ray detectors at the CHESS experimental stations</li>
-#      <li>access to and long-term storage of x-ray data collected by CHESS users</li>
-#      <li>software libraries and parallel computation resources for CHESS staff and users.</li>
-#    </ul>
-#    <br />
-#    <h4>CHESS Cyberinfrastructure</h4>
-#    The CLASSE cyberinfrastructure (CI) consists of an interconnected series of high-availability
-#    server clusters (HACs), data acquisition systems, control systems, compute farms, and workstations.
-#    Most of these systems run either Scientific Linux or Windows on commodity 64-bit Intel-based
-#    hardware and are centrally managed using Puppet.  The median age of key CI components is
-#    approximately 5 years, with an average refresh rate of once every 10 years.  The CLASSE CI
-#    components most relevant to CHESS are described below.
-#    <br /><br />
-#    <strong>Central Infrastructure</strong>
-#    <br />
-#    The  central  Linux  infrastructure  cluster  runs  the  core  CLASSE  infrastructure  services,
-#    including  name services, file systems, databases, and web services. Recently, a dedicated oVIrt
-#    cluster has been commissioned to run centrally-provisioned virtual machines.  These clusters
-#    utilize shared 10Gb iSCSI storage domains, and they provide file systems and other basic services
-#    to the rest of the lab.
-#    <br /><br />
-#    <h4>CHESS Data Acquisition (DAQ)</h4>
-#    The CHESS data acquisition system runs on a dedicated HAC and provides 10Gb network connections
-#    to each experimental station.  Data collected at the stations are written directly to the data
-#    acquisition system over  either  NFS  or  Samba,  where  it  can  then  be  processed  on  the
-#    CLASSE  Compute  Farm  or  end-user workstations.  CHESS users can also download their data
-#    remotely using a Globus server endpoint or via SFTP.
-#    <br /><br />
-#    <h4>Compute Farm</h4>
-#    The  CLASSE  Compute  Farm  is  a  central  resource  consisting  of  approximately  60
-#    enterprise-class  Linux nodes (with around 400 cores) with a front-end queueing system that
-#    distributes jobs across the Compute Farm nodes.  This queueing system supports interactive,
-#    batch, parallel, and GPU jobs, and it ensures equal access to the Compute Farm for all users.
-#    <br /><br />
-#    <h4>CESR Control System</h4>
-#    The CESR control system, responsible for running the particle accelerator that produces x-rays
-#    for CHESS, consists of a dedicated Linux HAC. Although the CESR, CLASSE, and CHESS DAQ clusters
-#    are essentially identical, the CESR cluster runs many more control system services and is able
-#    to operate independently from the CLASSE central infrastructure.  This isolation ensures
-#    continuity of CESR operations in the event of a power failure or general network outage.
-#    <br /><br />
-#    <h4>User Connectivity</h4>
-#    Based on their requirements, CHESS users are either granted restricted \"external\" CLASSE
-#    accounts (providing access to station computers and remote access to data) or full CLASSE
-#    accounts (providing access to the CLASSE Compute Farm and full interactive desktops, both
-#    local and remote).
-#    <br /><br />
-#    While  collecting  data  at  the  experimental  stations,  CHESS  users  generally  connect
-#    their  instruments and experimental equipment to a private subnet that is selectively
-#    firewalled from the rest of the CLASSE infrastructure.  If users require direct write access
-#    to the CHESS DAQ filesystems, they may use dedicated station and kiosk computers located at
-#    the experimental stations and in other restricted-access locations. Outside  the  experimental
-#    stations,  CHESS  user  data  is  made  available  for  read-only  access  through  the
-#    CLASSE public network.
-#    "
-#
-#- name: "Advanced Modular Incoherent Scatter Radar (AMISR)"
-#  website: "http://isr.sri.com/iono/amisr/"
-#  description: "
-#  AMISR is a modular, mobile radar facility that will be used by scientists and students from around the world to conduct studies of the upper atmosphere and to observe space weather events.
-#  <br /><br />
-#  SRI International, under a grant from the National Science Foundation, is leading a collaborative effort in the development of AMISR, whose novel modular configuration is designed to allow relative ease of relocation for studying upper atmospheric activity around the globe. Remote operation and electronic beam steering will allow researchers operate and position the radar beam instantaneously to accurately measure rapidly changing space weather events.
-#  <br /><br />
-#  When completed, AMISR will consist of three separate radar faces, with each face comprised of 128 building block-like panels over a 30 x 30 meter roughly square surface. AMISR is being constructed in two stages: the first face in Poker Flat, Alaska, has been completed and is already being used for scientific investigations. The remaining two faces are under construction in Resolute Bay, Nunavut, Canada. Future AMISR locations will be determined by a scientific advisory panel. Since each face of AMISR functions independently, AMISR can be deployed in up to three separate locations at the same time.
-#  "
-#
-#- name: "National Deep Submergence Facility (NDSF)"
-#  website: "https://ndsf.whoi.edu"
-#  description: "
-#  More than half of our planet is covered by water that is at least two miles deep. The unique assets of the NDSF carry humans or a virtual human presence beneath those waters and down to the seafloor.
-#  <br /><br />
-#  The NDSF is sponsored by the National Science Foundation, the Office of Naval Research, and the National Oceanic and Atmospheric Administration and hosted at WHOI. Its operation is  overseen by the University-National Oceanographic Laboratory System (UNOLS), an organization of 58 academic institutions and national laboratories involved in marine research.
-#  <br /><br />
-#  The NDSF operates, maintains, and coordinates the use of three vital deep ocean assets:
-#  <br /><br />
-#  <ul>
-#    <li>The human-occupied vehicle (HOV) Alvin</li>
-#    <li>The remotely operated vehicle (ROV) Jason/Medea</li>
-#    <li>The autonomous underwater vehicle (AUV) Sentry</li>
-#  </ul>
-#  <br /><br />
-#  Whether diving 4,500 meters (14,764 feet) or remaining submerged for several days, each vehicle offers unique tools to explore the mysteries beneath the ocean’s surface. When submitting a proposal for funding, any prospective PI should also complete a formal Ship Time Request and indicate the vehicle or vehicles they require.
-#  "
-#
-#- name: "National Nanotechnology Coordinated Infrastructure (NNCI)"
-#  website: "http://www.nnci.net/"
-#  description: "
-#    The National Nanotechnology Coordinated Infrastructure (NNCI) is an NSF-funded program comprised of 16 sites, located in 17 states and involving 29 universities and other partners. This national network provides researchers from academia, government, and industry with access to university user facilities with leading edge fabrication and characterization tools, instrumentation and expertise within all disciplines of nanoscale science, engineering, and technology. Research undertaken within NNCI facilities is incredibly broad, with applications in electronics, materials, biomedicine, energy, geosciences, environmental sciences, consumer products, and many more. The toolsets of sites are designed to accommodate explorations that span the continuum from materials and processes through devices and systems. There are micro/nanofabrication tools, used in cleanroom environments, as well as extensive characterization capabilities to provide resources for both top-down and bottom-up approaches to nanoscale science and engineering. Georgia Tech serves as the coordinating office for the NNCI.
-#    <br /><br />
-#    Modeling and simulation play a key role in enhancing nanoscale fabrication and characterization as they guide experimental research, reduce the required number of trial and error iterations, and enable more in-depth interpretations of the characterization results. Various NNCI sites provide a diverse set of software and hardware resources and capabilities. Some of these resources are only available to internal users and some to academic users and some to all interested parties. The rest of this white paper describes the rational behind a major cyberinfrastructure at Georgia Tech and its features and capabilities. This computing resource currently serves only students and faculty at Georgia Tech and is not available for external users.
-#    <br /><br />
-#    Science and engineering research is the key to understanding everything in our universe and the best way we can improve the human condition. We are on the cusp of answering fundamental questions in the physical sciences, life sciences, social sciences, and mathematical and computational sciences. As our understanding deepens, we can leverage our basic fundamental knowledge to develop innovative and creative technologies that help drive solutions to the most pressing global problems all enabled by advances in cyberinfrastructure.
-#    <br /><br />
-#    Investment in heterogeneous, sustainable, scalable, secure, and compliant cyberinfrastructure is critical to enable future discoveries. Significant resources are needed to address the storage, network bandwidth, and massive computational power required for simulation and modeling across multiple scales. Data-centric computing is also vital, necessitating high-throughput analysis and mining of massive datasets, as well as the ongoing demand for low cost, long-term, reliable storage. Sustained investment in cybersecurity will support sharing of datasets along with greater multi-institution and multi-disciplinary research collaboration. A significant investment in software engineering will enable researchers to leverage the promise offered by public-private, multi-cloud based cyberinfrastructure and emerging new architectures. Some of the greatest risks are an inability to meet workforce demand and the lack of a sustainable funding model. Addressing these issues includes maximizing the steady pipeline of students entering science and engineering careers; creating professional retooling programs; building specialized local and regional teams; and leveraging a range of investment sources including federal, state, municipal and local entities, as well as public-private partnerships (e.g. academic and industry, government and corporate).
-#    <br /><br />
-#    Future breakthroughs are reliant on continued investment of national level resources in the path to exascale systems. That said, there are real limitations in an approach that primarily relies on \"big iron\" systems. More broadly, the perception is a general lack of resources to accommodate large simulations due to smaller jobs that require high-throughput computing. This problem is not likely to be addressed by reaching exascale capacity as there is essentially unbounded demand yet natural boundaries to scalability at many levels. Few researchers have access to funding to port code to new architecture introduced by these “big iron” systems. The national scale resources are also not well suited for small to medium-sized jobs and local institutional support is uneven and inconsistent.
-#    <br /><br />
-#    Our existing cyberinfrastructure is also limiting for researchers who need more data-centric systems. Many modern computational tasks are \"embarrassingly parallel\" and have strong scalability, but available computer clusters and HPC systems are not designed or optimized for such HTC workloads. Examples include data analytics and deep learning workloads. We must develop new systems that can more efficiently support data intensive applications. There are promising technologies for this including modern memory hierarchies, GPUs, and other heterogeneous environments.
-#    <br /><br />
-#    In 2009, Georgia Tech created a technology model for central hosting of computing resources that would be capable of supporting multiple science disciplines with shared resources, private resources, and a group of expert support personnel, in support of campus research community.  This project is called “Partnership for an Advanced Computing Environment (PACE).” Since its inception, PACE has acquired more than 50,000 cores of high performance computing capability and more than 8 Petabytes of total storage used by approximately 3000 (1500 active) faculty and graduate students. This project provides power, cooling, and high-density racks, as well as a three tiered storage system including home directory, project space, and high transfer rate scratch space across the whole system. On top of storage, compute capabilities are provided both as private resources for a researcher or research group, or as a public resource with access open to researchers on campus through a proposal process for requesting compute cycles. PACE is funded through a mix of central and faculty funding that has proven sustainable is expected to continue with increased growth into the future (Figure 1).  Due to this rapid growth, more hosting capability is being planned.
-#    <br /><br />
-#    A significant investment in software engineering will enable researchers to leverage the promise offered by public-private, multi-cloud based cyberinfrastructure and emerging new architectures. Some of the greatest risks are an inability to meet workforce demand and the lack of a sustainable funding model. Addressing these issues includes maximizing the steady pipeline of students entering science and engineering careers; creating professional retooling programs; building specialized local and regional teams; and leveraging a range of investment sources including federal, state, municipal and local entities, as well as public-private partnerships (e.g. academic and industry, government and corporate).
-#  "
