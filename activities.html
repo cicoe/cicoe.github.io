@@ -24,11 +24,25 @@ permalink: /activities
                             </div>
                             <div class="row content">
                                 {% for a in n.activities %}
-                                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 0.5em">
+                                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 1em">
                                     <strong>{{ a.title }}</strong><br/>
                                     <span style="color: #999; margin-left: 1em">
                                         <i class="far fa-clock"></i> {{ a.timeframe }}
+                                    </span><br/>
+                                    {% if a.video %}
+                                    <span style="color: #999; margin-left: 1em">
+                                        <a href="{{ a.video }}" target="_blank">
+                                            <i class="fab fa-youtube"></i> Video Recording
+                                        </a>
                                     </span>
+                                    {% endif %}
+                                    {% if a.pdf %}
+                                    <span style="color: #999; margin-left: 1em">
+                                        <a href="/presentations/{{ a.pdf }}" target="_blank">
+                                            <i class="fas fa-file-pdf"></i> PDF
+                                        </a>
+                                    </span>
+                                    {% endif %}
                                 </div>
                                 {% endfor %}
                             </div>
