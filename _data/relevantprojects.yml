@@ -3,6 +3,7 @@
   projects:
     - title: "Science Gateways SGCI"
       website: "https://sciencegateways.org/"
+      description: "Brief description"
     - title: "Alliance4CI"
       website: "https://alliance4ci.org/"
     - title: "CI4Resilience"
