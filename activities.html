@@ -19,9 +19,6 @@ permalink: /activities
                     <div class="col-md-12 col-sm-12">
                         <div class="activity"
                              style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #0086B3 {% endif %}">
-                            {% if n.active == false %}
-                            <span class="inactive">Inactive</span>
-                            {% endif %}
                             <div class="title">
                                 {{ n.facility }}
                             </div>
@@ -47,7 +44,7 @@ permalink: /activities
                         <div class="activity"
                              style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #0086B3 {% endif %}">
                             {% if n.active == false %}
-                            <span class="inactive">Inactive</span>
+                            <span class="inactive">Completed</span>
                             {% endif %}
                             <div class="title">
                                 {{ n.facility }}
