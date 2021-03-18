@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CI CoE Pilot - Relevant Projects
+title: Relevant Projects - CI CoE Pilot
 permalink: /materials/projects
 ---
 
@@ -11,17 +11,38 @@ permalink: /materials/projects
                 <div class="section-title">
                     <h1>Relevant Projects</h1>
                 </div>
-                    {% if site.data.relevantprojects.size > 0 %}
-                    {% for n in site.data.relevantprojects %}
-                    <div class="material">
-                        <ul>
-                            <li><a href="{{ n.website }}" target="_blank">{{ n.title }}</a></li>
-                        </ul>
+                <p>&nbsp;</p>
+                {% assign rp = site.data.relevantprojects | sort: 'group' %}
+                {% if rp.size > 0 %}
+                {% for n in rp %}
+                <div class="col-md-12 col-sm-12">
+                    <div class="activity"
+                         style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #0086B3 {% endif %}">
+                        <div class="title">
+                            {{ n.group }}
+                        </div>
+                        {% if n.description.size > 0 %}
+                        <div class="description">
+                            {{ n.description }}
+                        </div>
+                        {% endif %}
+                        <div class="row content">
+                            {% assign projects = n.projects | sort: 'title' %}
+                            {% for p in projects %}
+                            <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 0.5em">
+                                <i class="fas fa-link" style="color: #999"></i>
+                                <a href="{{ p.website }}" target="_blank">
+                                    <strong>{{ p.title }}</strong>
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
                     </div>
-                    {% endfor %}
-                    {% endif %}
                 </div>
+                {% endfor %}
+                {% endif %}
             </div>
         </div>
+    </div>
     </div>
 </section>

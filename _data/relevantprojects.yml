@@ -1,48 +1,63 @@
-- title: "Science Gateways SGCI"
-  website: "https://sciencegateways.org/"
+- group: General CI
+  description: "Brief description"
+  projects:
+    - title: "Science Gateways SGCI"
+      website: "https://sciencegateways.org/"
+    - title: "Alliance4CI"
+      website: "https://alliance4ci.org/"
+    - title: "CI4Resilience"
+      website: "https://ci4resilience.org/"
+    - title: "XSEDE"
+      website: "https://www.xsede.org/"
+    - title: "Ask.CI - Ask.Cyberinfrastructure"
+      website: "https://ask.cyberinfrastructure.org"
 
-- title: "Trusted CI"
-  website: "https://www.trustedci.org/"
-  
-- title: "OSG/PATh"
-  website: "https://opensciencegrid.org/"
-  
-- title: "Chameleon"
-  website: "https://chameleoncloud.org/"
-  
-- title: "FABRIC"
-  website: "https://fabric-testbed.net/"
+- group: Cybersecurity
+  description: ""
+  projects:
+    - title: "Trusted CI"
+      website: "https://www.trustedci.org/"
+    - title: "ResearchSOC"
+      website: "https://researchsoc.iu.edu/"
 
-- title: "ResearchSOC"
-  website: "https://researchsoc.iu.edu/"
-  
-- title: "EPOC"
-  website: "https://epoc.global/"
+- group: High Throughput Computing (HTC)
+  description: ""
+  projects:
+    - title: "OSG/PATh"
+      website: "https://opensciencegrid.org/"
 
-- title: "Alliance4CI"
-  website: "https://alliance4ci.org/"
+- group: Cloud
+  description: ""
+  projects:
+    - title: "Chameleon"
+      website: "https://chameleoncloud.org/"
+    - title: "CloudLab"
+      website: "https://www.cloudlab.us/"
+    - title: "Jetstream"
+      website: "https://jetstream-cloud.org/"
 
-- title: "CI4Resilience"
-  website: "https://ci4resilience.org/"
+- group: Networking
+  description: ""
+  projects:
+    - title: "FABRIC"
+      website: "https://fabric-testbed.net/"
+    - title: "EPOC"
+      website: "https://epoc.global/"
 
-- title: "SCIMMA"
-  website: "https://scimma.org/"
-  
-- title: "IRIS HEP"
-  website: "https://www.iris.edu/hq/"
+- group: Astrophysics
+  description: ""
+  projects:
+    - title: "SCIMMA"
+      website: "https://scimma.org/"
 
-- title: "XSEDE"
-  website: "https://www.xsede.org/"
+- group: High Energy Physics (HEP)
+  description: ""
+  projects:
+    - title: "IRIS HEP"
+      website: "https://www.iris.edu/hq/"
 
-- title: "CloudLab"
-  website: "https://www.cloudlab.us/"
-  
-- title: "Jetstream"
-  website: "https://jetstream-cloud.org/"
-  
-- title: "CARCC: Campus Research Computing Consortium"
-  website: "https://carcc.org/"
-
-- title: "Ask.CI - Ask.Cyberinfrastructure"
-  website: "https://ask.cyberinfrastructure.org"
-
+- group: Workforce Development
+  description: ""
+  projects:
+    - title: "CARCC: Campus Research Computing Consortium"
+      website: "https://carcc.org/"
