@@ -34,6 +34,12 @@ permalink: /materials/projects
                                 <a href="{{ p.website }}" target="_blank">
                                     <strong>{{ p.title }}</strong>
                                 </a>
+                                {% if p.description.size > 0 %}
+                                <br/>
+                                <span style="margin-left: 1.4em; font-size: 0.8em; font-style: italic; color: #666">
+                                    {{ p.description }}
+                                </span>
+                                {% endif %}
                             </div>
                             {% endfor %}
                         </div>
