@@ -49,8 +49,11 @@
   activities:
     - title: Shibboleth Deep Dive
       timeframe: 3/8/2021
+      video: https://iu.mediaspace.kaltura.com/media/t/1_jims98o7
+      pdf: InCommonShibbolethTopics.pdf
     - title: Research Concerns for development of IDM Standards
       timeframe: 2/8/2021
+      video: https://iu.mediaspace.kaltura.com/media/t/1_msj82c89
     - title: IDM Topics for 2021 Discussion
       timeframe: 1/11/2021
     - title: Year in Review, 2021 trends and topics
@@ -61,9 +64,15 @@
       timeframe: 10/12/2020
     - title: Trusted CI Framework discussion with Ryan Kiser and Craig Jackson
       timeframe: 9/14/2020
+      video: https://iu.mediaspace.kaltura.com/media/CI+CoE+Pilot+-+TrustedCI+Identity+Management+Working+Group+-+The+Policy+Lifecycle+/1_69yuddyt
+      pdf: ThePolicyLifecycle_MoreThanWords.pdf
     - title: US ARF engagement update, Policy/Framework development presentation by Trusted CI
       timeframe: 8/10/2020
+      pdf: US ARF Update.pdf
+      video: https://iu.mediaspace.kaltura.com/media/CI+CoE+Pilot+-+TrustedCI+Identity+Management+Working+Group/1_hv3nbvk0
     - title: Presentation - REFEDS and International Federations with Tom Barton and Christopher Whalen
       timeframe: 7/13/2020
+      pdf: "NSF CI PoC IdM WG.pdf"
+      video: "https://iu.mediaspace.kaltura.com/media/t/1_q60uszzu"
 
 
