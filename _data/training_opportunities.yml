@@ -1,11 +1,4 @@
 - categroy: Workshop
-  end_date: March 26, 2021
-  source: XSEDE
-  start_date: March 26, 2021
-  time: ''
-  title: An Introduction to Anvil at Purdue
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2312/session/3972/register"
-- categroy: Workshop
   end_date: March 30, 2021
   source: XSEDE
   start_date: March 30, 2021
@@ -47,12 +40,12 @@
   source: XSEDE
   start_date: April 22, 2021
   time: ''
-  title: Rich data sharing for HPC Users
+  title: Light data sharing for HPC Users
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2315/session/3976/register"
 - categroy: Workshop
   end_date: April 22, 2021
   source: XSEDE
   start_date: April 22, 2021
   time: ''
-  title: Light data sharing for HPC Users
+  title: Rich data sharing for HPC Users
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2315/session/3976/register"
