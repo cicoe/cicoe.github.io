@@ -44,9 +44,9 @@
     - title: Survey Report and Guidance Report Research, Discussion, & Writing
       timeframe: 2/3/2020 - 12/14/2020
     - title: Guidance for Trustworthy Data Management in Science Projects
-      link: https://zenodo.org/record/4323403#.YGIc7K9Kg2x
+      pdf: https://zenodo.org/record/4323403#.YGIc7K9Kg2x
     - title: Scientific Data Security Concerns and Practices: A survey of the community by the Trustworthy Data Working Group
-      link: https://zenodo.org/record/4323141#.YGIdpq9Kg2x
+      pdf: https://zenodo.org/record/4323141#.YGIdpq9Kg2x
   
 - facility: TrustedCI and CI CoE IDM Monthly WG
   active: true
