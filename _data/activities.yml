@@ -1,8 +1,9 @@
 - facility: GAGE
-  active: true
+  active: false
   activities:
     - title: Identity Management (IdM)
       timeframe: 7/1/2020-1/13/2021
+      pdf: GAGE_Final_Report.pdf
 
 - facility: OOI
   active: false
@@ -43,6 +44,10 @@
   activities:
     - title: Survey Report and Guidance Report Research, Discussion, & Writing
       timeframe: 2/3/2020 - 12/14/2020
+    - title: Guidance for Trustworthy Data Management in Science Projects
+      pdf: "https://zenodo.org/record/4323403#.YGIc7K9Kg2x"
+    - title: Scientific Data Security Concerns and Practices: A survey of the community by the Trustworthy Data Working Group
+      pdf: "https://zenodo.org/record/4323141#.YGIdpq9Kg2x"
   
 - facility: TrustedCI and CI CoE IDM Monthly WG
   active: true
