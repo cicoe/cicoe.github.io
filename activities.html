@@ -44,7 +44,7 @@ permalink: /activities
                                     {% endif %}
                                     {% if a.pdf %}
                                     <span style="color: #999; margin-left: 1em">
-                                        <a href="/presentations/{{ a.pdf }}" target="_blank">
+                                        <a href="{% if a.pdf contains 'http' %}{{ a.pdf }}{% else %}/presentations/{{ a.pdf }}{% endif %}" target="_blank">
                                             <i class="fas fa-file-pdf"></i> PDF
                                         </a>
                                     </span>
