@@ -14,46 +14,9 @@ permalink: /activities
                 <div style="padding-top: 2em">
                     {% if site.data.activities.size > 0 %}
                     {% assign activities = site.data.activities | sort: 'facility' %}
-                    {% assign activities = activities | where: 'active', true %}
-                    {% for n in activities %}
-                    <div class="col-md-12 col-sm-12">
-                        <div class="activity"
-                             style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #0086B3 {% endif %}">
-                            <div class="title">
-                                {{ n.facility }}
-                            </div>
-                            <div class="row content">
-                                {% for a in n.activities %}
-                                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 1em">
-                                    <strong>{{ a.title }}</strong><br/>
-                                    <span style="color: #999; margin-left: 1em">
-                                        <i class="far fa-clock"></i> {{ a.timeframe }}
-                                    </span><br/>
-                                    {% if a.video %}
-                                    <span style="color: #999; margin-left: 1em">
-                                        <a href="{{ a.video }}" target="_blank">
-                                            <i class="fab fa-youtube"></i> Video Recording
-                                        </a>
-                                    </span>
-                                    {% endif %}
-                                    {% if a.pdf %}
-                                    <span style="color: #999; margin-left: 1em">
-                                        <a href="/presentations/{{ a.pdf }}" target="_blank">
-                                            <i class="fas fa-file-pdf"></i> PDF
-                                        </a>
-                                    </span>
-                                    {% endif %}
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                    {% endif %}
-                    {% if site.data.activities.size > 0 %}
-                    {% assign activities = site.data.activities | sort: 'facility' %}
-                    {% assign activities = activities | where: 'active', false %}
-                    {% for n in activities %}
+                    {% assign activities = activities | group_by: 'active' | reverse %}
+                    {% for g in activities %}
+                    {% for n in g.items %}
                     <div class="col-md-12 col-sm-12">
                         <div class="activity"
                              style="border-top: 0.4em solid {% if n.color %} #{{ n.color }} {% else %} #0086B3 {% endif %}">
@@ -65,16 +28,33 @@ permalink: /activities
                             </div>
                             <div class="row content">
                                 {% for a in n.activities %}
-                                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 0.5em">
+                                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 1em">
                                     <strong>{{ a.title }}</strong><br/>
+                                    {% if a.timeframe.size > 0 %}
                                     <span style="color: #999; margin-left: 1em">
                                         <i class="far fa-clock"></i> {{ a.timeframe }}
+                                    </span><br/>
+                                    {% endif %}
+                                    {% if a.video %}
+                                    <span style="color: #999; margin-left: 1em">
+                                        <a href="{{ a.video }}" target="_blank">
+                                            <i class="fab fa-youtube"></i> Video Recording
+                                        </a>
                                     </span>
+                                    {% endif %}
+                                    {% if a.pdf %}
+                                    <span style="color: #999; margin-left: 1em">
+                                        <a href="{% if a.pdf contains 'http' %}{{ a.pdf }}{% else %}/presentations/{{ a.pdf }}{% endif %}" target="_blank">
+                                            <i class="fas fa-file-pdf"></i> PDF
+                                        </a>
+                                    </span>
+                                    {% endif %}
                                 </div>
                                 {% endfor %}
                             </div>
                         </div>
                     </div>
+                    {% endfor %}
                     {% endfor %}
                     {% endif %}
                 </div>
