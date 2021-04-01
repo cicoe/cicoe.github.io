@@ -6,12 +6,12 @@
   title: 'XSEDE HPC Workshop: Big Data and Machine Learning - April 6-7, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2313/session/3973/register"
 - categroy: Workshop
-  end_date: April 15, 2021
+  end_date: April 06, 2021
   source: XSEDE
-  start_date: April 15, 2021
+  start_date: April 06, 2021
   time: ''
-  title: New User Training- University of Central Florida
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2303/session/3963/register"
+  title: XSEDE Code Performance and Scaling Training
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2332/session/3993/register"
 - categroy: Workshop
   end_date: April 15, 2021
   source: XSEDE
@@ -20,6 +20,13 @@
   title: XSEDE Webinar - Composable Systems in Expanse, Thursday, April 15, 2021,
     11am-12pm PT
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2314/session/3974/register"
+- categroy: Workshop
+  end_date: April 15, 2021
+  source: XSEDE
+  start_date: April 15, 2021
+  time: ''
+  title: New User Training- University of Central Florida
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2303/session/3963/register"
 - categroy: Workshop
   end_date: April 21, 2021
   source: XSEDE
