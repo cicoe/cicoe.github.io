@@ -1,17 +1,17 @@
 - categroy: Workshop
-  end_date: April 06, 2021
-  source: XSEDE
-  start_date: April 06, 2021
-  time: ''
-  title: XSEDE Code Performance and Scaling Training
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2332/session/3993/register"
-- categroy: Workshop
   end_date: April 07, 2021
   source: XSEDE
   start_date: April 06, 2021
   time: ''
   title: 'XSEDE HPC Workshop: Big Data and Machine Learning - April 6-7, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2313/session/3973/register"
+- categroy: Workshop
+  end_date: April 06, 2021
+  source: XSEDE
+  start_date: April 06, 2021
+  time: ''
+  title: XSEDE Code Performance and Scaling Training
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2332/session/3993/register"
 - categroy: Workshop
   end_date: April 09, 2021
   source: XSEDE
@@ -47,12 +47,12 @@
   source: XSEDE
   start_date: April 22, 2021
   time: ''
-  title: Light data sharing for HPC Users
+  title: Rich data sharing for HPC Users
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2315/session/3976/register"
 - categroy: Workshop
   end_date: April 22, 2021
   source: XSEDE
   start_date: April 22, 2021
   time: ''
-  title: Rich data sharing for HPC Users
+  title: Light data sharing for HPC Users
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2315/session/3976/register"
