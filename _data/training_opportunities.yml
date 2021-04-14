@@ -18,16 +18,16 @@
   source: XSEDE
   start_date: April 21, 2021
   time: ''
-  title: 'XSEDE Webinar: AMD EPYC Advanced User Training on Expanse, Wednesday, April
-    21, 2021, 9am-1:30pm PT'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2311/session/3971/register"
+  title: XSEDE New User Training
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/1771/session/4000/register"
 - categroy: Workshop
   end_date: April 21, 2021
   source: XSEDE
   start_date: April 21, 2021
   time: ''
-  title: XSEDE New User Training
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/1771/session/4000/register"
+  title: 'XSEDE Webinar: AMD EPYC Advanced User Training on Expanse, Wednesday, April
+    21, 2021, 9am-1:30pm PT'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2311/session/3971/register"
 - categroy: Workshop
   end_date: April 22, 2021
   source: XSEDE
@@ -49,6 +49,14 @@
   time: ''
   title: 'XSEDE HPC Workshop: MPI - May 4-5, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2336/session/3999/register"
+- categroy: Workshop
+  end_date: May 20, 2021
+  source: XSEDE
+  start_date: May 20, 2021
+  time: ''
+  title: 'XSEDE Webinar: GPU Computing and Programming on Expanse, Thursday, May 20,
+    2021, 11am-12pm PT'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2337/session/4001/register"
 - categroy: Workshop
   end_date: June 15, 2021
   source: XSEDE
