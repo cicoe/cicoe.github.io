@@ -35,6 +35,13 @@
   title: 'XSEDE HPC Workshop: MPI - May 4-5, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2336/session/3999/register"
 - categroy: Workshop
+  end_date: May 04, 2021
+  source: XSEDE
+  start_date: May 04, 2021
+  time: ''
+  title: 'Webinar: Introduction to Computational Thinking Across the Curriculum'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2334/session/3996/register"
+- categroy: Workshop
   end_date: May 20, 2021
   source: XSEDE
   start_date: May 20, 2021
@@ -42,6 +49,13 @@
   title: 'XSEDE Webinar: GPU Computing and Programming on Expanse, Thursday, May 20,
     2021, 11am-12pm PT'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2337/session/4001/register"
+- categroy: Workshop
+  end_date: May 27, 2021
+  source: XSEDE
+  start_date: May 27, 2021
+  time: ''
+  title: 'Webinar: Introduction to Computational Thinking Across the Curriculum'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2334/session/3997/register"
 - categroy: Workshop
   end_date: June 15, 2021
   source: XSEDE
