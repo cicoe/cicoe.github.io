@@ -6,4 +6,8 @@
 - title: "Identity Management Working Group - Discussion List"
   summary: "The Identity Management working group is a collaborative effort between CI CoE Pilot and Trusted CI to work with Major Facility operators to discover, document, and address issues in identity management practice. This is an open discussion list."
   subscribe: "https://mailman.isi.edu/mailman/listinfo/ci-coe-idm"
+  
+- title: "Cloud Infrastructure Working Group - Discussion List"
+  summary: "The Cloud Infrastructure working group is a collaborative effort between CI CoE Pilot and Major Facility operators to discover, document, and address issues in cloud infrastructure practice. This is an open discussion list."
+  subscribe: "https://mailman.isi.edu/mailman/listinfo/cloud-infrastructure-wg"
 
