@@ -3,29 +3,29 @@
   source: XSEDE
   start_date: April 21, 2021
   time: ''
-  title: 'XSEDE Webinar: AMD EPYC Advanced User Training on Expanse, Wednesday, April
-    21, 2021, 9am-1:30pm PT'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2311/session/3971/register"
+  title: XSEDE New User Training
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/1771/session/4000/register"
 - categroy: Workshop
   end_date: April 21, 2021
   source: XSEDE
   start_date: April 21, 2021
   time: ''
-  title: XSEDE New User Training
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/1771/session/4000/register"
-- categroy: Workshop
-  end_date: April 22, 2021
-  source: XSEDE
-  start_date: April 22, 2021
-  time: ''
-  title: Rich data sharing for HPC Users
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2315/session/3976/register"
+  title: 'XSEDE Webinar: AMD EPYC Advanced User Training on Expanse, Wednesday, April
+    21, 2021, 9am-1:30pm PT'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2311/session/3971/register"
 - categroy: Workshop
   end_date: April 22, 2021
   source: XSEDE
   start_date: April 22, 2021
   time: ''
   title: Light data sharing for HPC Users
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2315/session/3976/register"
+- categroy: Workshop
+  end_date: April 22, 2021
+  source: XSEDE
+  start_date: April 22, 2021
+  time: ''
+  title: Rich data sharing for HPC Users
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2315/session/3976/register"
 - categroy: Workshop
   end_date: May 04, 2021
