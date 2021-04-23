@@ -21,7 +21,7 @@
 - title: "Data Visualization and Dissemination"
   description: "This working group focuses on understanding the access, visualization and user interaction workflows in Major Facilities. In particular, we look at how the users explore and interface with the data (e.g., via APIs) for visualization and analysis purposes. Our goal is to learn best practices and provide solutions to improve the access and usability of the available data."
   icon: "stats-bars"
-  current: 'COVID-19 Initiative. Final report can be found <a href="https://github.com/cicoe/cicoe.github.io/blob/master/presentations/Covid19-CICoE-Final-Report.pdf">here</a>'
+  current: 'COVID-19 Initiative. Final report can be found <a href="https://cicoe-pilot.org/presentations/Covid19-CICoE-Final-Report.pdf">here</a>.'
 
 - title: "Data Life Cycle and Disaster Recovery"
   description: "The goals of this working group are to (1) understand the current practices for Data Life Cycle (DLC) stages and Disaster Recovery (DR) for the NEON facility and other major facilities (LF) by studying the architectural elements of the CI used by LFs, and (2) develop a general set of DR requirements and policies that can inform the LFs about best practices for DR and how those can be adapted for specific facilities."
