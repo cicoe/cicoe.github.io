@@ -1,17 +1,17 @@
 - categroy: Workshop
-  end_date: May 04, 2021
-  source: XSEDE
-  start_date: May 04, 2021
-  time: ''
-  title: 'Webinar: Introduction to Computational Thinking Across the Curriculum'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2334/session/3996/register"
-- categroy: Workshop
   end_date: May 05, 2021
   source: XSEDE
   start_date: May 04, 2021
   time: ''
   title: 'XSEDE HPC Workshop: MPI - May 4-5, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2336/session/3999/register"
+- categroy: Workshop
+  end_date: May 04, 2021
+  source: XSEDE
+  start_date: May 04, 2021
+  time: ''
+  title: 'Webinar: Introduction to Computational Thinking Across the Curriculum'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2334/session/3996/register"
 - categroy: Workshop
   end_date: May 05, 2021
   source: XSEDE
@@ -49,12 +49,28 @@
   title: 'HPC Workshop Series: Summer Boot Camp - June 8-11, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2338/session/4002/register"
 - categroy: Workshop
+  end_date: June 16, 2021
+  source: XSEDE
+  start_date: June 15, 2021
+  time: ''
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
+    Spreadsheets'
+  website: "Registration opens"
+- categroy: Workshop
   end_date: June 18, 2021
   source: XSEDE
   start_date: June 17, 2021
   time: ''
   title: 'Workshop: Advanced Computing for Social Change Curriculum Development'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2335/session/3998/register"
+- categroy: Workshop
+  end_date: June 23, 2021
+  source: XSEDE
+  start_date: June 22, 2021
+  time: ''
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
+    Systems Modeling'
+  website: "Registration opens"
 - categroy: Workshop
   end_date: June 23, 2021
   source: XSEDE
@@ -70,4 +86,12 @@
   time: ''
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Agent
     Modeling'
+  website: "Registration opens"
+- categroy: Workshop
+  end_date: June 30, 2021
+  source: XSEDE
+  start_date: June 29, 2021
+  time: ''
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
+    Agent Modeling'
   website: "Registration opens"
