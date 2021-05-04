@@ -77,7 +77,7 @@
   source: XSEDE
   start_date: June 22, 2021
   time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
     Systems Modeling'
   website: "Registration opens"
 - categroy: Workshop
@@ -85,16 +85,8 @@
   source: XSEDE
   start_date: June 22, 2021
   time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
     Systems Modeling'
-  website: "Registration opens"
-- categroy: Workshop
-  end_date: June 30, 2021
-  source: XSEDE
-  start_date: June 29, 2021
-  time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Agent
-    Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: June 30, 2021
@@ -103,6 +95,14 @@
   time: ''
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
     Agent Modeling'
+  website: "Registration opens"
+- categroy: Workshop
+  end_date: June 30, 2021
+  source: XSEDE
+  start_date: June 29, 2021
+  time: ''
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Agent
+    Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: June 30, 2021
