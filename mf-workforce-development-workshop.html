@@ -1,0 +1,56 @@
+---
+layout: page
+title: CI CoE Pilot - MF Workforce Development Workshop
+permalink: /mf-workforce-development-workshop
+---
+
+<section id="workshop">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h1>MF Workforce Development Workshop</h1>
+                </div>
+
+                <p><strong>Tuesday June 29th, 2021</strong></p>
+
+                <p>Coming soon...</p>
+
+                <h2>Registration</h2>
+
+                <p>Registration is limited to staff at NSF Major Facilities,
+                   related infrastructure projects, and NSF program managers.</p>
+
+                <p>Please register <a href="https://forms.gle/45iAR7qRYLKfae327">here</a></p>
+
+                <h2>Schedule</h2>
+                <table class="schedule">
+                    {% for n in site.data.mf-workforce-development-workshop %}
+                    <tr>
+                        <td>{{ n.time }}</td>
+                        <td><div class="title">{{ n.title }}</div><br>
+                            {{ n.description }}</td>
+                        <td>
+                            {% if n.speaker.size > 0 %}
+                                Speaker: {{ n.speaker }}<br>
+                            {% endif %}
+                            {% if n.panelists.size > 0 %}
+                                Panelists:<br>
+                                <ul>
+                                {% for p in n.panelists %}
+                                  <li> {{ p.person }}
+                                {% endfor %}
+                                </ul><br>
+                            {% endif %}
+                            {% if n.facilitator.size > 0 %}
+                                Facilitator: {{ n.facilitator }}<br>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+
+            </div>
+        </div>
+    </div>
+</section>

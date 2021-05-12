@@ -1,0 +1,55 @@
+- time: "11:00am - 11:15am EST"
+  title: "Introduction"
+  description: "<ul><li>Motivation for the meeting</li><li>Summary of WFD interviews</li><li>Summary of WFD survey</li><li>Summary of survey for this meeting</li></ul>"
+  facilitator: "Laura Christopherson (CICoE / RENCI)"
+
+- time: "11:15am - 11:55am EST"
+  title: "Keynote: TBD"
+  description: ""
+  speaker: "TBD"
+  facilitator: "Ewa Deelman (CICoE / USC-ISI)"
+
+- time: "11:55am - Noon EST"
+  title: "Break"
+  description: ""
+
+- time: "Noon - 1:00pm EST"
+  title: "Remote/Distributed Team Work"
+  description: "Panel and discussion"
+  panelists:
+    - person: "John Haverlack (US Academic Research Fleet)"
+    - person: "Alisdair Davey (National Solar Observatory)"
+    - person: "Wendy Whitcup (CICoE / USC-ISI)"
+    - person: "Kerk Kee (CICoE / TTU)"
+    - person: "IceCube?"
+    - person: "TBD"
+  facilitator: "Jaroslaw Nabrzyski (CICoE / ND)"
+
+- time: "1:00pm - 1:30pm EST"
+  title: "Lunch Break"
+  description: ""
+
+- time: "1:30pm - 2:30pm EST"
+  title: "Intrinsic Motivations in Non-Traditional Work Settings"
+  description: "Panel and discussion"
+  panelists:
+    - person: "Joel Brock (Cornell High-Energy Synchrotron Source)"
+    - person: "Daryl Swensen (Regional Class Research Vessels)"
+    - person: "Christopher Romsos (Regional Class Research Vessels)"
+    - person: "TBD"
+  facilitator: "Mats Rynge (CICoE / USC-ISI)"
+
+- time: "2:30pm - 2:40pm EST"
+  title: "Break"
+  description: ""
+
+- time: "2:40pm - 3:40pm EST"
+  title: "Intrinsic Motivations Workshop Interactive Session"
+  description: "Interactive rap session - how to apply in workspace"
+  facilitator: "Andrew Brown (ND?)"
+
+- time: "3:40pm - 4:00pm EST"
+  title: "Wrap Up"
+  description: ""
+  facilitator: "Rafael (CICoE / USC-ISI)"
+

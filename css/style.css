@@ -483,3 +483,26 @@
     border-bottom: 1px solid #eee;
     color: #999;
 }
+
+.schedule tr:nth-child(odd) {
+    background-color: #c3e3ff;
+}
+
+.schedule tr:nth-child(even) {
+    background-color: #dff;
+}
+
+.schedule td {
+    padding: 15px;
+    vertical-align: top;
+    font-size: 0.9em;
+}
+
+.schedule ul {
+    padding-left: 2em;
+}
+
+.schedule .title {
+    font-weight: bold;
+}
+
