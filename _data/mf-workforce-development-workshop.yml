@@ -1,7 +1,7 @@
 - time: "11:00am - 11:15am EST"
   title: "Introduction"
   description: "<ul><li>Motivation for the meeting</li><li>Summary of WFD interviews</li><li>Summary of WFD survey</li><li>Summary of survey for this meeting</li></ul>"
-  facilitator: "Laura Christopherson (CICoE / RENCI)"
+  speaker: "Laura Christopherson (CICoE / RENCI)"
 
 - time: "11:15am - 11:55am EST"
   title: "Keynote: TBD"
@@ -20,7 +20,7 @@
     - person: "John Haverlack (US Academic Research Fleet)"
     - person: "Alisdair Davey (National Solar Observatory)"
     - person: "Wendy Whitcup (CICoE / USC-ISI)"
-    - person: "Kerk Kee (CICoE / TTU)"
+    - person: "Kerk Kee (CICoE / UTT)"
     - person: "IceCube?"
     - person: "TBD"
   facilitator: "Jaroslaw Nabrzyski (CICoE / ND)"
@@ -33,7 +33,7 @@
   title: "Intrinsic Motivations in Non-Traditional Work Settings"
   description: "Panel and discussion"
   panelists:
-    - person: "Joel Brock (Cornell High-Energy Synchrotron Source)"
+    - person: "Joel Brock (Cornell High Energy Synchrotron Source)"
     - person: "Daryl Swensen (Regional Class Research Vessels)"
     - person: "Christopher Romsos (Regional Class Research Vessels)"
     - person: "TBD"
