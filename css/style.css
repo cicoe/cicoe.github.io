@@ -484,12 +484,29 @@
     color: #999;
 }
 
+.cicoe-workshop {
+    padding: 2em;
+}
+
+.cicoe-workshop p {
+    line-height: 1.4;
+}
+
+.cicoe-workshop ul {
+    padding-left: 2em;
+}
+
+.cicoe-workshop li {
+    line-height: 1.4;
+    padding-top: 1em;
+}
+
 .schedule tr:nth-child(odd) {
-    background-color: #c3e3ff;
+    background-color: #efefef;
 }
 
 .schedule tr:nth-child(even) {
-    background-color: #dff;
+    background-color: #e0e0e0;
 }
 
 .schedule td {
@@ -504,5 +521,9 @@
 
 .schedule .title {
     font-weight: bold;
+}
+
+.schedule li {
+    padding: 0em;
 }
 
