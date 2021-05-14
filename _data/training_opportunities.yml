@@ -40,17 +40,17 @@
   source: XSEDE
   start_date: June 15, 2021
   time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    1) Modeling with Spreadsheets and Web Resources'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2339/session/4003/register"
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
+    Spreadsheets'
+  website: "Registration opens"
 - categroy: Workshop
   end_date: June 16, 2021
   source: XSEDE
   start_date: June 15, 2021
   time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
-    Spreadsheets'
-  website: "Registration opens"
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
+    1) Modeling with Spreadsheets and Web Resources'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2339/session/4003/register"
 - categroy: Workshop
   end_date: June 16, 2021
   source: XSEDE
@@ -111,8 +111,16 @@
   source: XSEDE
   start_date: June 29, 2021
   time: ''
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
+    Agent Modeling'
+  website: "Registration opens"
+- categroy: Workshop
+  end_date: June 30, 2021
+  source: XSEDE
+  start_date: June 29, 2021
+  time: ''
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent-based Modeling'
+    Agent Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: June 30, 2021
@@ -128,15 +136,7 @@
   start_date: June 29, 2021
   time: ''
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent Modeling'
-  website: "Registration opens"
-- categroy: Workshop
-  end_date: June 30, 2021
-  source: XSEDE
-  start_date: June 29, 2021
-  time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
-    Agent Modeling'
+    Agent-based Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: June 30, 2021
