@@ -50,7 +50,7 @@ Many MFs are located in harsh environments (e.g., the Antarctic, around the site
                 <table class="schedule">
                     {% for n in site.data.mf-workforce-development-workshop %}
                     <tr>
-                        <td>{{ n.time }}</td>
+                        <td>{{ n.time | replace: ' ', '&nbsp;'}}</td>
                         <td><div class="title">{% if n.icon.size > 0 %}
                             <img src="{{ n.icon }}" height="11">&nbsp;&nbsp;
                             {% endif %}
@@ -64,7 +64,7 @@ Many MFs are located in harsh environments (e.g., the Antarctic, around the site
                                 Panelists:<br>
                                 <ul>
                                 {% for p in n.panelists %}
-                                  <li> {{ p.person }}
+                                  <li> {{ p.person | replace: ' ', '&nbsp;'}}
                                 {% endfor %}
                                 </ul><br>
                             {% endif %}
