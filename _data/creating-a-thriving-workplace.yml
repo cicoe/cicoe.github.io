@@ -14,7 +14,6 @@
   panelists:
     - person: "Alisdair Davey (National Solar Observatory)"
     - person: "John Haverlack (US Academic Research Fleet)"
-    - person: "Kerk Kee (CI CoE)"
     - person: "David Schultz (IceCube Neutrino Observatory)"
     - person: "Wendy Whitcup (CI CoE)"
   moderator: "Jaroslaw Nabrzyski (CI CoE)"
@@ -42,5 +41,5 @@
 - time: "4:30pm - 4:40pm EST /<br>2:30pm - 2:40pm PST"
   title: "Wrap Up"
   description: ""
-  moderator: "Rafael Ferreira da Silva (CI CoE)"
+  moderator: "Kerk Kee (CI CoE)"
 
