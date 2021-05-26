@@ -101,6 +101,7 @@
   website: "https://www.vro.org"
   directorate: "MPS/AST"
   stage: "Construction"
+  color: "3F898B"
 
 - name: "National Radio Astronomy Observatory (NRAO)"
   website: "https://public.nrao.edu/"
