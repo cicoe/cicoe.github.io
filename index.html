@@ -245,35 +245,34 @@ permalink: /
                     <div class="event-category">
                         From the Community
                     </div>
-                    <div>
-                        <h3><i class="fas fa-chalkboard-teacher"></i> Training Opportunities</h3>
-                        <div style="position: absolute; top: 4em; right: 5em; background-color: #fff; padding-left: 0.5em">
-                        </div>
-                        <div class="training-block">
-                            {% assign training_items = site.data.training_opportunities %}
-                            {% for n in training_items %}
-                            <a href="{{ n.website }}" target="_blank">
-                                <div class="training-item">
-                                    <div class="training-date">
-                                        <div class="start">
-                                            {{ n.start_date | date_to_string | slice: 3,3 }}
-                                            {{ n.start_date | date_to_string | slice: 0,2 }}
-                                            {{ n.start_date | date_to_string | slice: 7,4 }}
-                                        </div>
-                                        <div class="end">
-                                            {{ n.end_date | date_to_string | slice: 3,3 }}
-                                            {{ n.end_date | date_to_string | slice: 0,2 }}
-                                            {{ n.end_date | date_to_string | slice: 7,4 }}
-                                        </div>
+                    <h3><i class="fas fa-chalkboard-teacher"></i> Training Opportunities</h3>
+                    <div style="position: absolute; top: 4em; right: 5em; background-color: #fff; padding-left: 0.5em">
+                    </div>
+                    <div class="training-block">
+                        {% assign training_items = site.data.training_opportunities %}
+                        {% for n in training_items %}
+                        <a href="{{ n.website }}" target="_blank">
+                            <div class="training-item">
+                                <div class="training-date">
+                                    <div class="start">
+                                        {{ n.start_date | date_to_string | slice: 3,3 }}
+                                        {{ n.start_date | date_to_string | slice: 0,2 }}
+                                        {{ n.start_date | date_to_string | slice: 7,4 }}
                                     </div>
-                                    <span style="color: #777; font-size: 0.8em">[{{ n.categroy }}]</span>
-                                    {{ n.title }}
-                                    <p style="color: #999; font-size: 0.7em; line-height: 1.5em">Source: {{ n.source
-                                        }}</p>
+                                    <div class="end">
+                                        {{ n.end_date | date_to_string | slice: 3,3 }}
+                                        {{ n.end_date | date_to_string | slice: 0,2 }}
+                                        {{ n.end_date | date_to_string | slice: 7,4 }}
+                                    </div>
                                 </div>
-                            </a>
-                            {% endfor %}
-                        </div>
+                                <div class="training-type">
+                                    <span style="color: #777; font-size: 0.8em"><strong>{{ n.categroy }}</strong></span>
+                                    <p style="color: #999; font-size: 0.7em; line-height: 1.5em">Source: {{ n.source }}</p>
+                                </div>
+                                {{ n.title }}
+                            </div>
+                        </a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
