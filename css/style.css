@@ -339,7 +339,7 @@
 }
 
 .testimonial .item {
- .transition(10s ease-in-out left);
+. transition(10 s ease-in-out left);
 }
 
 .feedback-button {
@@ -368,9 +368,11 @@
 }
 
 .job {
-    background-color: #f7f7f7;
+    background-color: #fff;
+    border: 1px solid #ccc;
     box-shadow: 5px 5px 5px #ddd;
-    padding: 1em 2.5em;
+    padding: 0 1.5em;
+    text-align: left;
 }
 
 .job h1 {
@@ -378,28 +380,37 @@
     font-weight: bold;
 }
 
-.job h3 {
+.mission h3, .job h3 {
     font-size: 1.5em;
 }
 
-.job {
+.job, .mission {
     color: #666;
 }
 
 .job-list {
-    padding: 0.5em 0em;
-    border-bottom: 1px dashed #ccc;
     margin-bottom: 1em;
+    display: block;
+    border-left: 5px solid #72959D;
+    border-radius: 0.5em;
+    padding-left: 1em;
 }
 
-.job-summary {
-    border-left: 3px solid #72959D;
-    padding: 0 0.5em;
+.job-list:hover {
+    background-color: #f7f7f7;
 }
 
-.job-summary a {
-    /*color: #2B4363;*/
-    color: #86AE52;
+.job-list-no {
+    border-left: 5px solid #72959D;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    margin: 1em 0;
+}
+
+.twitter-box, .mission {
+    box-shadow: 5px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    text-align: left;
 }
 
 .materials {
