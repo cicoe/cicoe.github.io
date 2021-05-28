@@ -2,50 +2,12 @@
   institution: 'University of Notre Dame Research Communications (NDRC)'
   date: '2021-05-04'
   desc: '
-    <h2>The Notre Dame Research Communications (NDRC) team is looking for a Communications Specialist<h2>
-    <p> Inspired by Notre Dame’s mission, our world-class faculty and students are pursuing globally significant, solutions-oriented research in line with President Jenkins’ vision, A great Catholic University for the 21st century, one of the preeminent research institutions in the world. To that end, Notre Dame Research (NDR) supports and encourages innovation in more than twenty core facilities, as well as in a number of key areas of research, including cancer, environmental change, global health, and many more.
-    </p>
-    <p>The Notre Dame Research Communications (NDRC) team provides strategic support and guidance, as well as execution, for ND’s research communications needs, especially within its 24 reporting units. This role specifically supports two of those units, the Center for Research Computing (CRC) and the Children’s Environmental Health Initiative (CEHI), on grant-funded, limited-term work.
-    </p>
-    <p>
-    For more information and applications instructions see:<br/>
-    <a href="https://jobs.nd.edu/postings/20849" target="_blank">
-    https://jobs.nd.edu/postings/20849</a>
-    </p>
-    <p>
-    This position will remain open until filled.
-    </p>
-    <p>
-    We look forward to hearing from you,<br/>NDRC</p>'
+    <h2>NO LONGER ACCEPTING APPLICATIONS The Notre Dame Research Communications (NDRC) team is looking for a Communications Specialist<h2>'
+  active: false
     
 - title: 'PostgreSQL Database Administrator'
   institution: 'IRIS Data Services'
   date: '2020-03-15'
   desc: '
-    <h2>IRIS Data Services is looking for a PostgreSQL Database Administrator to join our team.<h2>
-    <p>
-   We operate the largest repository of seismological data dedicated to supporting researchers worldwide.  Our data center manages a range of data types, and together with our counterpart organization UNAVCO, we have launched a project to move our combined data management operations into a cloud-environment.  This position will play a key role in supporting existing systems and designing the next generation, cloud-based platform for our data center.
-    </p>
-    <h2> You’re not a DBA?  Do you know one?  Please pass this announcement along (thanks!)</h2>
-    <h2>This job is for you if...</h2>
-    <p>
-    You are an experienced PostgreSQL administrator who is well versed in working in a Unix/Linux environment.  You are self-motivated with strong time management skills.  You enjoy puzzling through various use cases to determine the best general solutions then implement them.  You work well with others in small development teams and can also develop a complete project on your own.
-    </p>
-    <p>
-   We are a small, scientific consortium with a global reach.  The work we perform and the services we provide have a significant and direct impact on earthquake and other geoscience research.
-    </p>
-    <p>
-    For more information and applications instructions see:<br/>
-    <a href="https://www.iris.edu/hq/employment/job/iris_postgresql_database_administrator" target="_blank">
-    https://www.iris.edu/hq/employment/job/iris_postgresql_database_administrator</a>
-    </p>
-    <p>
-    This position will remain open until filled.
-    </p>
-    <p>
-    Applicants must be authorized to lawfully work in the U.S.  Temporary/permanent immigration sponsorship is not available for this position.  Some travel (up to 20%) within the US will be required.
-    </p>
-    <p>
-    We look forward to hearing from you,<br/>
-    IRIS Data Services
-    </p>'
+    <h2>NO LONGER ACCEPTING APPLICATIONS IRIS Data Services is looking for a PostgreSQL Database Administrator to join our team.<h2>'
+  active: false

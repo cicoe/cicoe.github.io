@@ -37,68 +37,75 @@ permalink: /
                     </a>
                 </div>
 
-                <div class="col-sm-12 col-md-12 section-title">
-                    <h3>Mission</h3>
-                    <p style="text-align: left; line-height: 1.4em">
-                        CI CoE provides expertise and active support to cyberinfrastructure practitioners at NSF Major
-                        Facilities in order to accelerate the data lifecycle and ensure the integrity and effectiveness
-                        of the cyberinfrastructure upon which research and discovery depends.
+                <div class="col-sm-12 col-md-12 section-title mission">
+                    <h3><i class="fas fa-poll-h"></i> Mission</h3>
+                    <p style="font-style: normal; line-height: 1.2em; margin-bottom: 1em">
+                        CI CoE provides expertise and active support to cyberinfrastructure practitioners at
+                        NSF Major Facilities in order to accelerate the data lifecycle and ensure the integrity and
+                        effectiveness of the cyberinfrastructure upon which research and discovery depends.
                     </p>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-3">
+
+                    <div class="col-sm-12 col-md-6">
                         <div class="service-item">
                             <i class="ion-ios-people"></i>
                             <p>Platform for knowledge sharing and community building</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="service-item">
-                            <i class="ion-social-codepen"></i>
-                            <p>Key partner for the establishment and improvement of Major Facilities with advanced CI
-                                architecture designs
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-12 col-md-6">
                         <div class="service-item">
                             <i class="ion-android-apps"></i>
                             <p>Grounded in re-use of dependable CI tools and solutions</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-12 col-md-6">
                         <div class="service-item">
-                            <i class="ion-leaf"></i>
-                            <p>Forum for discussions about CI sustainability and workforce development and training</p>
+                            <i class="ion-social-codepen"></i>
+                            <p>Key partner for the establishment and improvement of Major Facilities with
+                                advanced
+                                CI
+                                architecture designs
+                            </p>
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="service-item">
+                            <i class="ion-leaf"></i>
+                            <p>Forum for discussions about CI sustainability and workforce development and
+                                training</p>
+                        </div>
+                    </div>
+                    <p style="line-height: 0.5em">&nbsp;</p>
                 </div>
 
                 <!-- JOB LISTINGS -->
-                <div class="col-sm-12 col-md-12 section-title">
-                    <div class="job" style="text-align: left">
-                        <h3><i class="fas fa-briefcase"></i> Job Listings</h3>
-                        <div class="event-category">From the community</div>
-                        <div style="overflow: auto; max-height: 13em; background-color: #fcfcfc; padding: 0.5em; margin-bottom: 0.5em">
-                            {% if site.data.job_listings.size > 0 %}
-                            {% assign jobs = site.data.job_listings | sort: 'date' | reverse %}
-                            {% for j in jobs %}
-                            <div class="job-list">
-                                <div class="job-summary">
-                                    <span style="color: #999; font-size: 0.8em">[{{ j.date | date: "%b %d, %Y" }}]</span>
-                                    <a href="/jobs"><strong>{{ j.title }}</strong></a><br/>
-                                    {{ j.institution }}
-                                </div>
-                            </div>
-                            {% endfor %}
-                            {% endif %}
+                <div class="col-sm-12 col-md-12 job">
+                    <h3><i class="fas fa-briefcase"></i> Job Listings</h3>
+                    <div class="event-category" style="right: 0">From the community</div>
+                    <div style="overflow: auto; max-height: 13em; padding: 0.5em; margin-bottom: 0.5em">
+                        {% assign jobs = site.data.job_listings | where: "active", true | sort: 'date' | reverse
+                        %}
+                        {% if jobs.size > 0 %}
+                        {% for j in jobs %}
+                        <a href="/jobs" class="job-list">
+                            <span style="color: #999; font-size: 0.8em">[{{ j.date | date: "%b %d, %Y" }}]</span>
+                            <strong>{{ j.title }}</strong><br/>
+                            <span style="color: #666; font-size: 0.8em">{{ j.institution }}</span>
+                        </a>
+                        {% endfor %}
+                        {% else %}
+                        <div class="job-list-no">
+                            If you have a job opportunity that you’d like to share with the CI community, we can
+                            help! Please send a link to the post to
+                            <a href="mailto:cicoe-pilot@isi.edu?subject=Job posting for CI CoE website">cicoe-pilot@isi.edu</a>
+                            (or use the yellow Feedback tab on this page).
                         </div>
+                        {% endif %}
                     </div>
                 </div>
 
             </div>
 
-            <div class="col-md-4 col-sm-12" style="padding-top: 2em">
+            <div class="col-md-4 col-sm-12 twitter-box">
                 <a class="twitter-timeline" data-lang="en" data-height="50em" data-width="100%" data-theme="light"
                    href="https://twitter.com/ci_coe?ref_src=twsrc%5Etfw">Tweets by ci_coe</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -190,21 +197,34 @@ permalink: /
                                 </blockquote>
                                 <span><i>– Tom Gulbransen, NEON</i></span>
                             </div>
-                             <div class="item">
+                            <div class="item">
                                 <blockquote>
                                     <img src="img/people/JeffGlatstein.png"/>
-                                    CICoE has been a valuable resource for the Ocean Observatories Initiative CI function.  Their topics are relevant to our needs and have provided beneficial input to help us reach our goals.  I look forward to working with them in the future to continue to meet the unique challenges facing research computing.
+                                    CICoE has been a valuable resource for the Ocean Observatories Initiative CI
+                                    function. Their topics are relevant to our needs and have provided beneficial input
+                                    to help us reach our goals. I look forward to working with them in the future to
+                                    continue to meet the unique challenges facing research computing.
                                 </blockquote>
                                 <span><i>– Jeff Glatstein, OOI</i></span>
                             </div>
-                             <div class="item">
+                            <div class="item">
                                 <blockquote>
                                     <img src="img/people/haverlack-240.jpg"/>
-                                    During the 2020 U.S. Academic Research Fleet Identity Management (IdM) Engagement with CI CoE Pilot, I participated from a customer perspective looking for help solving a complex and custom Identity Management problem on behalf of the fleet.  The CI CoE Pilot was able to provide access to subject matters expertise for consulting and testing.  During the engagement we were able to successfully assess the problem scope,  draft a recommended solution, and proof of concept test several components of that solution.  Following the engagement we have been able to leverage the recommended solution and newly established relationships from the engagement to write a proposal that would implement a Federated Identity Management solution for the  U.S. Academic Research Fleet.  Our engagement with CI CoE Pilot has been instrumental in accelerating efforts to realize this much needed service.
+                                    During the 2020 U.S. Academic Research Fleet Identity Management (IdM) Engagement
+                                    with CI CoE Pilot, I participated from a customer perspective looking for help
+                                    solving a complex and custom Identity Management problem on behalf of the fleet. The
+                                    CI CoE Pilot was able to provide access to subject matters expertise for consulting
+                                    and testing. During the engagement we were able to successfully assess the problem
+                                    scope, draft a recommended solution, and proof of concept test several components of
+                                    that solution. Following the engagement we have been able to leverage the
+                                    recommended solution and newly established relationships from the engagement to
+                                    write a proposal that would implement a Federated Identity Management solution for
+                                    the U.S. Academic Research Fleet. Our engagement with CI CoE Pilot has been
+                                    instrumental in accelerating efforts to realize this much needed service.
                                 </blockquote>
                                 <span><i>– John Haverlack, College of Fisheries and Ocean Science, University of Alaska Fairbanks, U.S. Academic Research Fleet</i></span>
                             </div>
-                            
+
                         </div>
 
                         <!-- Left and right controls -->
@@ -225,35 +245,34 @@ permalink: /
                     <div class="event-category">
                         From the Community
                     </div>
-                    <div>
-                        <h3><i class="fas fa-chalkboard-teacher"></i> Training Opportunities</h3>
-                        <div style="position: absolute; top: 4em; right: 5em; background-color: #fff; padding-left: 0.5em">
-                        </div>
-                        <div class="training-block">
-                            {% assign training_items = site.data.training_opportunities %}
-                            {% for n in training_items %}
-                            <a href="{{ n.website }}" target="_blank">
-                                <div class="training-item">
-                                    <div class="training-date">
-                                        <div class="start">
-                                            {{ n.start_date | date_to_string | slice: 3,3 }}
-                                            {{ n.start_date | date_to_string | slice: 0,2 }}
-                                            {{ n.start_date | date_to_string | slice: 7,4 }}
-                                        </div>
-                                        <div class="end">
-                                            {{ n.end_date | date_to_string | slice: 3,3 }}
-                                            {{ n.end_date | date_to_string | slice: 0,2 }}
-                                            {{ n.end_date | date_to_string | slice: 7,4 }}
-                                        </div>
+                    <h3><i class="fas fa-chalkboard-teacher"></i> Training Opportunities</h3>
+                    <div style="position: absolute; top: 4em; right: 5em; background-color: #fff; padding-left: 0.5em">
+                    </div>
+                    <div class="training-block">
+                        {% assign training_items = site.data.training_opportunities %}
+                        {% for n in training_items %}
+                        <a href="{{ n.website }}" target="_blank">
+                            <div class="training-item">
+                                <div class="training-date">
+                                    <div class="start">
+                                        {{ n.start_date | date_to_string | slice: 3,3 }}
+                                        {{ n.start_date | date_to_string | slice: 0,2 }}
+                                        {{ n.start_date | date_to_string | slice: 7,4 }}
                                     </div>
-                                    <span style="color: #777; font-size: 0.8em">[{{ n.categroy }}]</span>
-                                    {{ n.title }}
-                                    <p style="color: #999; font-size: 0.7em; line-height: 1.5em">Source: {{ n.source
-                                        }}</p>
+                                    <div class="end">
+                                        {{ n.end_date | date_to_string | slice: 3,3 }}
+                                        {{ n.end_date | date_to_string | slice: 0,2 }}
+                                        {{ n.end_date | date_to_string | slice: 7,4 }}
+                                    </div>
                                 </div>
-                            </a>
-                            {% endfor %}
-                        </div>
+                                <div class="training-type">
+                                    <span style="color: #777; font-size: 0.8em"><strong>{{ n.categroy }}</strong></span>
+                                    <p style="color: #999; font-size: 0.7em; line-height: 1.5em">Source: {{ n.source }}</p>
+                                </div>
+                                {{ n.title }}
+                            </div>
+                        </a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
