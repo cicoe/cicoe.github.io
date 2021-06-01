@@ -4,9 +4,20 @@
   speaker: "Laura Christopherson (CI CoE)"
 
 - time: "12:15pm - 1:00pm EST /<br>9:15am - 10:00am PST"
-  title: "Keynote"
-  description: ""
-  speaker: "Clare Reimers (Oregon State University, Regional Class Research Vessels)"
+  title: "Keynote: Creating a Trained and Motivated User Base for Large Research Facilities
+and Their Data"
+  description: "Drawing on lessons learned from four decades of use and engagement with
+management of the US Academic Research Fleet and other Ocean Science research facilities,
+the speaker will advocate for targeted training efforts and programs that help the science
+community understand what Large Research Facilities offer, how they are managed and
+funded, how they are accessed and scheduled, and the full scope of user responsibilities and
+risks. Such training programs can improve workforce retention amongst early career scientists,
+and foster collaboration and outreach. A 10-year retrospective will be given on the “UNOLS
+Chief Scientist Training Program” that was initiated in 2011 to provide such training to sea-
+going oceanographers. Evolving cyber infrastructure tools that may extend to remote facility
+users will also be highlighted."
+  speaker: "Clare E. Reimers, Distinguished Professor, College of Earth Ocean and "
+  speaker2: "Atmospheric Sciences, Oregon State University and Project Scientist for the RCRV Project"
 
 - time: "1:00pm EST - 1:45pm EST /<br>10:00am - 10:45am PST"
   title: "Remote/Distributed Team Work"
