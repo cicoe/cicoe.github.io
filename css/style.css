@@ -174,20 +174,21 @@
 
 .training {
     background: #fff;
-    padding: 1em 0.5em;
-    border: 1em solid #fff;
+    padding: 1em 1em;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ddd;
 }
 
 .training-block {
     background: #fff;
-    min-height: 33em;
-    max-height: 33em;
+    min-height: 35em;
+    max-height: 35em;
     overflow: scroll;
 }
 
 .training h3 {
     font-size: 1.5em;
-    border-bottom: 1px solid #999;
+    color: #666;
     padding-bottom: 0.5em;
     margin-top: 0;
 }
@@ -198,42 +199,56 @@
 }
 
 .training-item {
-    border-bottom: 1px solid #DDd;
+    /*border-bottom: 1px solid;*/
     min-height: 5em;
     max-height: 5em;
     padding-top: 0.8em;
 }
 
 .training-item:hover {
-    background-color: rgba(130, 176, 61, 0.2);
+    background-color: #f7f7f7;
+    box-shadow: #ddd 3px 3px 3px;
 }
 
 .training a {
-    color: #5E7F2D;
+    /*color: #5E7F2D;*/
+    color: #294A75;
+    font-size: 0.9em;
+    /*font-weight: bold;*/
+}
+
+.training-type {
+    float: right;
+    right: 0;
+    margin-left: 1em;
 }
 
 .training-date {
     float: left;
-    border: 1px solid #666;
+    border: 1px solid #294A75;
     min-width: 3em;
     margin-right: 1em;
+    border-radius: 0.3em;
 }
 
 .training-date .start {
-    background-color: #666;
+    background-color: #294A75;
     color: #fff;
     text-align: center;
     font-size: 0.8em;
     font-weight: bold;
     padding: 0.3em 0.5em 0.3em 0.5em;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
 }
 
 .training-date .end {
     text-align: center;
-    color: #999;
+    color: #666;
     background-color: #fff;
     font-size: 0.8em;
     padding: 0.3em 0.5em 0.3em 0.5em;
+    border-radius: 0.3em;
 }
 
 .training-date .month {
@@ -339,7 +354,7 @@
 }
 
 .testimonial .item {
- .transition(10s ease-in-out left);
+. transition(10 s ease-in-out left);
 }
 
 .feedback-button {
@@ -368,9 +383,11 @@
 }
 
 .job {
-    background-color: #f7f7f7;
+    background-color: #fff;
+    border: 1px solid #ccc;
     box-shadow: 5px 5px 5px #ddd;
-    padding: 1em 2.5em;
+    padding: 0 1.5em;
+    text-align: left;
 }
 
 .job h1 {
@@ -378,28 +395,37 @@
     font-weight: bold;
 }
 
-.job h3 {
+.mission h3, .job h3 {
     font-size: 1.5em;
 }
 
-.job {
+.job, .mission {
     color: #666;
 }
 
 .job-list {
-    padding: 0.5em 0em;
-    border-bottom: 1px dashed #ccc;
     margin-bottom: 1em;
+    display: block;
+    border-left: 5px solid #72959D;
+    border-radius: 0.5em;
+    padding-left: 1em;
 }
 
-.job-summary {
-    border-left: 3px solid #72959D;
-    padding: 0 0.5em;
+.job-list:hover {
+    background-color: #f7f7f7;
 }
 
-.job-summary a {
-    /*color: #2B4363;*/
-    color: #86AE52;
+.job-list-no {
+    border-left: 5px solid #72959D;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    margin: 1em 0;
+}
+
+.twitter-box, .mission {
+    box-shadow: 5px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    text-align: left;
 }
 
 .materials {
