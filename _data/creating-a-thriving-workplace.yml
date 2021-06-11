@@ -17,17 +17,25 @@ and foster collaboration and outreach. A 10-year retrospective will be given on 
 Chief Scientist Training Program” that was initiated in 2011 to provide such training to sea-
 going oceanographers. Evolving cyber infrastructure tools that may extend to remote facility
 users will also be highlighted."
-  speaker: "Clare E. Reimers, Distinguished Professor, College of Earth Ocean and "
-  speaker2: "Atmospheric Sciences, Oregon State University and Project Scientist for the RCRV Project"
+  speaker: "Clare E. Reimers, Distinguished Professor, "
+  speaker2: "College of Earth Ocean and Atmospheric Sciences, Oregon State University and Project Scientist for the RCRV Project"
 
 - time: "1:00pm EST - 1:45pm EST /<br>10:00am - 10:45am PST"
   title: "Remote/Distributed Team Work"
   description: "Many MF staff are spread around the globe and have to find ways to coordinate their activities and collaborate effectively without the benefit of physical proximity. Many work in different time zones, different cultures, and different geopolitical situations--all of which can affect how work is done."
   panelists:
-    - person: "Alisdair Davey (National Solar Observatory)"
-    - person: "John Haverlack (US Academic Research Fleet)"
-    - person: "David Schultz (IceCube Neutrino Observatory)"
-    - person: "Wendy Whitcup (CI CoE)"
+    - person:
+        name: "Alisdair Davey"
+        affiliation: "National Solar Observatory"
+    - person: 
+        name : "John Haverlack"
+        affiliation: "US Academic Research Fleet"
+    - person:
+        name: "David Schultz"
+        affiliation: "IceCube Neutrino Observatory"
+    - person: 
+        name: "Wendy Whitcup"
+        affiliation: "CI CoE"
   moderator: "Jaroslaw Nabrzyski (CI CoE)"
 
 - time: "1:45pm - 2:15pm EST /<br>10:45am - 11:15 PST"
@@ -39,10 +47,18 @@ users will also be highlighted."
   title: "Non-Traditional Work Settings"
   description: "Many MFs are located in harsh environments (e.g., the Antarctic, around the sites of volcanoes and frequent earthquakes); or require extended work away from home, family, and friends (e.g., aboard ships on the ocean); or are situated in remote locales away from the hustle and bustle of a big city or a buzzing college campus and the opportunities those locales hold. We all spend a lot of time at work and one's physical work environment can impact health and well-being as well as the ability to be productive and achieve goals."
   panelists:
-    - person: "Ralf Auer (IceCube Neutrino Observatory)"
-    - person: "Joel Brock (Cornell High Energy Synchrotron Source)"
-    - person: "Laura Greene (National High Magnetic Field Laboratory, Florida State University)"
-    - person: "Christopher Romsos (Oregon State University, Regional Class Research Vessels)"
+    - person:
+        name: "Ralf Auer"
+        affiliation: "IceCube Neutrino Observatory"
+    - person:
+        name: "Joel Brock"
+        affiliation: "Cornell High Energy Synchrotron Source"
+    - person: 
+        name: "Laura Greene"
+        affiliation: "National High Magnetic Field Laboratory, Florida State University"
+    - person: 
+        name: "Christopher Romsos"
+        affiliation: "Oregon State University, Regional Class Research Vessels"
   moderator: "Mats Rynge (CI CoE)"
 
 - time: "3:00pm - 4:30pm EST /<br>Noon - 2:30pm PST"

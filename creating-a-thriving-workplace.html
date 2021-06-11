@@ -65,7 +65,8 @@ The workshop will focus on three main topics:
                                 Panelists:<br>
                                 <ul>
                                 {% for p in n.panelists %}
-                                  <li> {{ p.person | replace: ' ', '&nbsp;'}}
+                                  <li> {{ p.person.name | replace: ' ', '&nbsp;'}}<br>
+                                       ({{ p.person.affiliation | replace: ' ', '&nbsp;' }})
                                 {% endfor %}
                                 </ul><br>
                             {% endif %}
