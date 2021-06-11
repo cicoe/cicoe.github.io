@@ -57,6 +57,14 @@
   source: XSEDE
   start_date: June 22, 2021
   time: ''
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
+    Systems Modeling'
+  website: "Registration opens"
+- categroy: Workshop
+  end_date: June 23, 2021
+  source: XSEDE
+  start_date: June 22, 2021
+  time: ''
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
     2) Systems Modeling'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2365/session/4026/register"
@@ -77,12 +85,12 @@
     Modeling'
   website: "Registration opens"
 - categroy: Workshop
-  end_date: June 23, 2021
+  end_date: June 30, 2021
   source: XSEDE
-  start_date: June 22, 2021
+  start_date: June 29, 2021
   time: ''
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
-    Systems Modeling'
+    Agent Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: June 30, 2021
@@ -90,15 +98,7 @@
   start_date: June 29, 2021
   time: ''
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent Modeling'
-  website: "Registration opens"
-- categroy: Workshop
-  end_date: June 30, 2021
-  source: XSEDE
-  start_date: June 29, 2021
-  time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
-    Agent Modeling'
+    Agent-based Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: June 30, 2021
@@ -113,16 +113,16 @@
   source: XSEDE
   start_date: June 29, 2021
   time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Agent
-    Modeling'
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
+    Agent Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: June 30, 2021
   source: XSEDE
   start_date: June 29, 2021
   time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent-based Modeling'
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Agent
+    Modeling'
   website: "Registration opens"
 - categroy: Workshop
   end_date: July 13, 2021
