@@ -2,61 +2,29 @@
   end_date: June 30, 2021
   source: XSEDE
   start_date: June 29, 2021
-  time: ''
+  time: 04:00
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
     3) Agent-based Modeling'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2366/session/4027/register"
 - categroy: Workshop
-  end_date: June 30, 2021
-  source: XSEDE
-  start_date: June 29, 2021
-  time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Using
-    Agent Modeling'
-  website: "Registration opens"
-- categroy: Workshop
-  end_date: June 30, 2021
-  source: XSEDE
-  start_date: June 29, 2021
-  time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent Modeling'
-  website: "Registration opens"
-- categroy: Workshop
-  end_date: June 30, 2021
-  source: XSEDE
-  start_date: June 29, 2021
-  time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent-based Modeling'
-  website: "Registration opens"
-- categroy: Workshop
-  end_date: June 30, 2021
-  source: XSEDE
-  start_date: June 29, 2021
-  time: ''
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum Agent
-    Modeling'
-  website: "Registration opens"
-- categroy: Workshop
   end_date: July 13, 2021
   source: XSEDE
   start_date: July 12, 2021
-  time: ''
+  time: 04:00
   title: Advanced Computing for Social Change (ACSC) Curriculum Development Workshop
     for AUCC
-  website: "Registration opens"
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2369/session/4029/register"
 - categroy: Workshop
   end_date: July 30, 2021
   source: XSEDE
   start_date: July 18, 2021
-  time: ''
+  time: 04:00
   title: IHPCSS 2021 Hands-on Training
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2431/session/4092/register"
 - categroy: Workshop
   end_date: August 11, 2021
   source: XSEDE
   start_date: August 10, 2021
-  time: ''
+  time: 04:00
   title: 'XSEDE HPC Workshop: Big Data and Machine Learning - August 10-11, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2433/session/4094/register"
