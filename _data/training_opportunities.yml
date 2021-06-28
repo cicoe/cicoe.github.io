@@ -35,3 +35,10 @@
   time: 04:00
   title: 'XSEDE HPC Workshop: Big Data and Machine Learning - August 10-11, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2433/session/4094/register"
+- categroy: Workshop
+  end_date: September 24, 2021
+  source: TACC
+  start_date: September 23, 2021
+  time: 04:00
+  title: TACCSTER 20
+  website: "https://learn.tacc.utexas.edu/course/view.php?id=108"
