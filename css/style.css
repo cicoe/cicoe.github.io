@@ -91,18 +91,20 @@
 }
 
 .testimonial {
-    border: 0.5em solid #fff;
+    border: 1px solid #ccc;
+    background-color: #fff;
     margin: 0em 2em 0em 0em;
     padding: 1em;
-    min-height: 40em;
+    min-height: 40.2em;
     max-height: 40em;
+    box-shadow: 5px 5px 5px #ddd;
 }
 
 .testimonial blockquote {
     font-size: 1em;
     color: #666;
     border-left: 4px solid #82AF3D;
-    border-radius: 3%;
+    /*border-top-left-radius: 1em;*/
 }
 
 .testimonial span {
@@ -116,7 +118,8 @@
 }
 
 .testimonial img {
-    border-radius: 50%;
+    border-radius: 0.5em;
+    box-shadow: #666 2px 2px 2px;
     max-width: 4.5em;
     float: left;
     margin-right: 1em;
@@ -186,7 +189,7 @@
     overflow: scroll;
 }
 
-.training h3 {
+.testimonial h3, .training h3 {
     font-size: 1.5em;
     color: #666;
     padding-bottom: 0.5em;
