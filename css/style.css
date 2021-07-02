@@ -556,3 +556,9 @@
     padding: 0em;
 }
 
+.inst li {
+    display: inline;
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
