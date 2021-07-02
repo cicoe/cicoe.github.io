@@ -8,135 +8,204 @@ permalink: /creating-a-thriving-workplace
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <div class="section-title">
-                    <h1>Creating a Thriving Workplace: A conversation about the successes and challenges with building a stellar CI workforce in NSF Major Facilities.</h1>
+                <div class="section-title" style="padding: 2em; margin-bottom: 2em">
+                    <h2>Creating a Thriving Workplace</h2>
+                    <h3 style="margin: 0">A conversation about the successes and challenges with building a
+                        stellar CI workforce in NSF Major Facilities.</h3>
+                </div>
+                <div style="background: #f7f7f7; padding: 0.5em 1em; border-radius: 1em; margin: 0.5em 2em">
+                    <p>
+                        <strong>Sponsored by the CI CoE Pilot and <a
+                                href="https://ci4resilience.org/">CI4Resilience</a></strong>
+                        <br/>
+                        <strong>Tuesday June 29th, 2021 – <i>Online via Zoom</i></strong>
+                        <br/>
+                        <strong style="color: orangered">Materials now available!</strong>
+                    </p>
+
+                    <!--                        <p><strong>If you a have any issues connecting, please send an email to wwhitcup@isi.edu and-->
+                    <!--                            rynge@isi.edu</strong></p>-->
                 </div>
 
                 <div class="cicoe-workshop">
+                    <p>
+                        The CI CoE Pilot and CI4Resilience project is are hosting a one-day workshop on June 29 for NSF
+                        Major Facilities (MFs), on creating a thriving workplace. At the
+                        <a href="https://facilitiesci.github.io/2019/">2019 NSF Workshop on Connecting Large Facilities
+                            and Cyberinfrastructure</a>, participants working in MFs described needs and challenges with
+                        building and developing staff that we had not heard discussed by those working in more
+                        mainstream academic research institutions. To explore this further, the Pilot conducted a series
+                        of interviews with managers at MFs to learn more about their experiences with hiring, retention,
+                        training and mentoring, work culture, rewards and recognition, and loss of personnel. From these
+                        interviews we learned more about how MFs grow and develop their staff, what aspects of their
+                        staffing situations appear to be unique to working in an MF, and what aspects tend to resemble
+                        more typical academic research institutions. To continue to fulfill our mission of supporting
+                        and fostering the work of MFs, we are hosting this workshop to provide a forum for discussion
+                        and idea-sharing around professional development issues specific to MFs.
+                    </p>
 
-                <p><strong>Sponsored by the CI CoE Pilot and <a href="https://ci4resilience.org/">CI4Resilience</a></strong></p>
+                    <p>The workshop will focus on three main topics:</p>
+                    <ul>
+                        <li><strong>Working in remote or distributed teams</strong>
+                        <li><strong>Working in non-traditional physical environments</strong>
+                        <li><strong>Creating a work culture that taps into intrinsic motivations</strong>
+                    </ul>
 
-                <p><strong>Tuesday June 29th, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Online via Zoom</strong></p>
-                
-                <p><strong>If you a have any issues connecting, please send an email to wwhitcup@isi.edu and rynge@isi.edu</strong></p>
+                    <p>&nbsp;</p>
+                    <h2>Target Audience</h2>
+                    <p>
+                    <ul>
+                        <li>This workshop is for MF staff at any level &mdash; new employee to seasoned manager &mdash;
+                            who are interested in professional development and helping their MF achieve its goals in
+                            creating a thriving workplace.
+                        <li>If you work at partner organizations (e.g., SGCI, TrustedCI) or elsewhere in the MF
+                            ecosystem and also have interests in building and developing staff, this workshop may
+                            interest you as well.
+                        <li>If you are employed at NSF and work with MFs, or have particular interest in staffing and
+                            professional development in large research organizations, then we encourage you to attend as
+                            well.
+                    </ul>
+                    </p>
 
-                <p>
-The CI CoE Pilot and CI4Resilience project is are hosting a one-day workshop on June 29 for NSF Major Facilities (MFs), on creating a thriving workplace. At the <a href="https://facilitiesci.github.io/2019/">2019 NSF Workshop on Connecting Large Facilities and Cyberinfrastructure</a>, participants working in MFs described needs and challenges with  building and developing staff that we had not heard discussed by those working in more mainstream academic research institutions. To explore this further, the Pilot conducted a series of interviews with managers at MFs to learn more about their experiences with hiring, retention, training and mentoring, work culture, rewards and recognition, and loss of personnel. From these interviews we learned more about how MFs grow and develop their staff, what aspects of their staffing situations appear to be unique to working in an MF, and what aspects tend to resemble more typical academic research institutions. To continue to fulfill our mission of supporting and fostering the work of MFs, we are hosting this workshop to provide a forum for discussion and idea-sharing around professional development  issues specific to MFs.
-                </p>
+                    <!-- <p><a href="https://forms.gle/45iAR7qRYLKfae327"><img src="/img/icons/register.png"></a></p> -->
 
-                <p>
-The workshop will focus on three main topics:
-                </p>
-
-                <ul>
-                  <li><strong>Working in remote or distributed teams</strong>
-                  <li><strong>Working in non-traditional physical environments</strong>
-                 <li><strong>Creating a work culture that taps into intrinsic motivations</strong>
-                </ul>
-
-                <h2>Who Should Attend</h2>
-                <p>
-                <ul>
-                    <li>This workshop is for MF staff at any level &mdash; new employee to seasoned manager &mdash; who are interested in professional development and helping their MF achieve its goals in creating a thriving workplace.
-                    <li>If you work at partner organizations (e.g., SGCI, TrustedCI) or elsewhere in the MF ecosystem and also have interests in building and developing staff, this workshop may interest you as well.
-                    <li>If you are employed at NSF and work with MFs, or have particular interest in staffing and professional development in large research organizations, then we encourage you to attend as well.
-                </ul>
-                </p>
-
-                <!-- <p><a href="https://forms.gle/45iAR7qRYLKfae327"><img src="/img/icons/register.png"></a></p> -->
-
-                <h2>Schedule</h2>
-                <table class="schedule">
-                    {% for n in site.data.creating-a-thriving-workplace %}
-                    <tr>
-                        <td>{{ n.time | replace: ' ', '&nbsp;'}}</td>
-                        <td><div class="title">{% if n.icon.size > 0 %}
-                            <img src="{{ n.icon }}" height="11">&nbsp;&nbsp;
-                            {% endif %}
-                            {{ n.title }}</div><br>
-                            {{ n.description }}</td>
-                        <td>
-                            {% if n.speaker.size > 0 %}
+                    <p>&nbsp;</p>
+                    <h2>Schedule</h2>
+                    <table class="schedule">
+                        {% for n in site.data.creating-a-thriving-workplace %}
+                        <tr>
+                            <td>{{ n.time | replace: ' ', '&nbsp;'}}</td>
+                            <td>
+                                <div class="title">{% if n.icon.size > 0 %}
+                                    <img src="{{ n.icon }}" height="11">&nbsp;&nbsp;
+                                    {% endif %}
+                                    {% if n.video.size > 0 %}
+                                    <a href="{{ n.video }}" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp;
+                                    {% endif %}
+                                    {{ n.title }}
+                                </div>
+                                <br>
+                                {{ n.description }}
+                            </td>
+                            <td>
+                                {% if n.speaker.size > 0 %}
                                 {{ n.speaker }}<br>
-                            {% endif %}
-                            {% if n.speaker2.size > 0 %}
+                                {% endif %}
+                                {% if n.speaker2.size > 0 %}
                                 {{ n.speaker2 }}<br>
-                            {% endif %}
-                            {% if n.panelists.size > 0 %}
+                                {% endif %}
+                                {% if n.panelists.size > 0 %}
                                 Panelists:<br>
                                 <ul>
-                                {% for p in n.panelists %}
-                                  <li> {{ p.person.name | replace: ' ', '&nbsp;'}}<br>
-                                       ({{ p.person.affiliation | replace: ' ', '&nbsp;' }})
-                                {% endfor %}
-                                </ul><br>
-                            {% endif %}
-                            {% if n.moderator.size > 0 %}
+                                    {% for p in n.panelists %}
+                                    <li> {{ p.person.name | replace: ' ', '&nbsp;'}}<br>
+                                        ({{ p.person.affiliation | replace: ' ', '&nbsp;' }})
+                                        {% endfor %}
+                                </ul>
+                                <br>
+                                {% endif %}
+                                {% if n.moderator.size > 0 %}
                                 Moderator: {{ n.moderator }}<br>
-                            {% endif %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </table>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
 
+                    <p>&nbsp;</p>
+                    <div style="padding: 1em; color: #666;">
+                        <h2>Workshop Code of Conduct</h2>
 
-                <h2>Workshop Code of Conduct</h2>
+                        <p>
+                            This workshop is dedicated to providing a welcoming and supportive environment for all
+                            people,
+                            regardless of background or identity. By participating in this workshop, participants agree
+                            to
+                            abide by this Code of Conduct and accept the procedures by which any Code of Conduct
+                            incidents
+                            are resolved. We do not tolerate behavior that is disrespectful or that excludes,
+                            intimidates,
+                            or causes discomfort to others. We do not tolerate discrimination or harassment based on
+                            characteristics that include, but are not limited to, gender identity and expression, sexual
+                            orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or
+                            social origin, pregnancy, familial status, veteran status, genetic information, religion or
+                            belief (or lack thereof), membership of a national minority, property, age, education,
+                            socio-economic status, technical choices, and experience level.
+                        </p>
 
-<p>
-This workshop is dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. By participating in this workshop, participants agree to abide by this Code of Conduct and accept the procedures by which any Code of Conduct incidents are resolved. We do not tolerate behavior that is disrespectful or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
-</p>
+                        <p>
+                            Everyone who participates in workshop activities is required to conform to this Code of
+                            Conduct.
+                            It applies to all spaces managed by or affiliated with the workshop. Workshop hosts are
+                            expected
+                            to assist with the enforcement of the Code of Conduct. By participating, participants
+                            indicate
+                            their acceptance of the procedures by which the workshop resolves any Code of Conduct
+                            incidents.
+                        </p>
 
-<p>
-Everyone who participates in workshop activities is required to conform to this Code of Conduct. It applies to all spaces managed by or affiliated with the workshop. Workshop hosts are expected to assist with the enforcement of the Code of Conduct. By participating, participants indicate their acceptance of the procedures by which the workshop resolves any Code of Conduct incidents.
-</p>
+                        <h3>Expected behavior</h3>
 
-<h3>Expected behavior</h3>
+                        <p>
+                            All participants in the CI/CS Workshop and communications are expected to show respect and
+                            courtesy to others. All interactions should be professional regardless of platform: either
+                            online or in-person. In order to foster a positive and professional learning environment, we
+                            encourage the following kinds of behaviors in all workshop events and platforms:
+                        </p>
 
-<p>
-All participants in the CI/CS Workshop and communications are expected to show respect and courtesy to others. All interactions should be professional regardless of platform: either online or in-person. In order to foster a positive and professional learning environment, we encourage the following kinds of behaviors in all workshop events and platforms:
-</p>
+                        <ul>
+                            <li>Use welcoming and inclusive language
+                            <li>Be respectful of different viewpoints and experiences
+                            <li>Gracefully accept constructive criticism
+                            <li>Focus on what is best for the community
+                            <li>Show courtesy and respect towards other community members
+                        </ul>
 
-<ul>
-  <li>Use welcoming and inclusive language
-  <li>Be respectful of different viewpoints and experiences
-  <li>Gracefully accept constructive criticism
-  <li>Focus on what is best for the community
-  <li>Show courtesy and respect towards other community members
-</ul>
+                        <h3>Unacceptable behavior</h3>
 
-<h3>Unacceptable behavior</h3>
+                        <p>
+                            Examples of unacceptable behavior by participants at any workshop event/platform include:
+                        </p>
 
-<p>
-Examples of unacceptable behavior by participants at any workshop event/platform include:
-</p>
+                        <ul>
+                            <li>written or verbal comments which have the effect of excluding people on the basis of
+                                membership of any specific group
+                            <li>causing someone to fear for their safety, such as through stalking, following, or
+                                intimidation
+                            <li>violent threats or language directed against another person
+                            <li>the display of sexual or violent images
+                            <li>unwelcome sexual attention
+                            <li>nonconsensual or unwelcome physical contact
+                            <li>sustained disruption of talks, events, or communications
+                            <li>insults or put downs
+                            <li>sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
+                            <li>excessive swearing
+                            <li>incitement to violence, suicide, or self-harm
+                            <li>continuing to initiate interaction (including photography or recording) with someone
+                                after
+                                being asked to stop
+                            <li>publication of private communication without consent
+                        </ul>
 
-<ul>
-  <li>written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
-  <li>causing someone to fear for their safety, such as through stalking, following, or intimidation
-  <li>violent threats or language directed against another person
-  <li>the display of sexual or violent images
-  <li>unwelcome sexual attention
-  <li>nonconsensual or unwelcome physical contact
-  <li>sustained disruption of talks, events, or communications
-  <li>insults or put downs
-  <li>sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
-  <li>excessive swearing
-  <li>incitement to violence, suicide, or self-harm
-  <li>continuing to initiate interaction (including photography or recording) with someone after being asked to stop
-  <li>publication of private communication without consent
-</ul>
+                        <h3>Consequences of Unacceptable behavior</h3>
 
-<h3>Consequences of Unacceptable behavior</h3>
+                        <p>
+                            If you believe someone is violating the Code of Conduct, we ask that you report it to any of
+                            the
+                            workshop organizers. Participants who are asked to stop any inappropriate behavior are
+                            expected
+                            to comply immediately. If a participant engages in behavior that violates this code of
+                            conduct,
+                            the organizers may warn the offender, ask them to leave the event or platform, or
+                            investigate
+                            the Code of Conduct violation and impose appropriate sanctions.
+                        </p>
 
-<p>
-If you believe someone is violating the Code of Conduct, we ask that you report it to any of the workshop organizers. Participants who are asked to stop any inappropriate behavior are expected to comply immediately. If a participant engages in behavior that violates this code of conduct, the organizers may warn the offender, ask them to leave the event or platform, or investigate the Code of Conduct violation and impose appropriate sanctions.
-</p>
-
-<p>
-This code of conduct is adopted from the FABRIC Community Workshop and the excellent code of conduct articulated by Software Carpentry.
-</p>
-
-
+                        <p>
+                            This code of conduct is adopted from the FABRIC Community Workshop and the excellent code of
+                            conduct articulated by Software Carpentry.
+                        </p>
+                    </div>
 
                 </div>
             </div>
