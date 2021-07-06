@@ -15,12 +15,13 @@ permalink: /creating-a-thriving-workplace
                 </div>
                 <div style="background: #f7f7f7; padding: 0.5em 1em; border-radius: 1em; margin: 0.5em 2em">
                     <p>
+                        <strong style="color: orangered">Materials now available: keynote by Clare E. Reimers recording
+                            and PDF of all presentations.</strong>
+                        <br/>
                         <strong>Sponsored by the CI CoE Pilot and <a
                                 href="https://ci4resilience.org/">CI4Resilience</a></strong>
                         <br/>
                         <strong>Tuesday June 29th, 2021 – <i>Online via Zoom</i></strong>
-                        <br/>
-                        <strong style="color: orangered">Materials now available!</strong>
                     </p>
 
                     <!--                        <p><strong>If you a have any issues connecting, please send an email to wwhitcup@isi.edu and-->
@@ -81,6 +82,9 @@ permalink: /creating-a-thriving-workplace
                                     {% endif %}
                                     {% if n.video.size > 0 %}
                                     <a href="{{ n.video }}" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp;
+                                    {% endif %}
+                                    {% if n.pdf.size > 0 %}
+                                    <a href="{{ n.pdf }}" target="_blank"><i class="fas fa-file-pdf"></i></a>
                                     {% endif %}
                                     {{ n.title }}
                                 </div>
