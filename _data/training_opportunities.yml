@@ -10,16 +10,16 @@
   source: CyVerse
   start_date: August 27, 2021
   time: 04:00
-  title: 'Webinar: CyVerse 2021 for Research, Teaching and Open Science'
-  website: "https://cyverse.org/node/243"
+  title: "Webinar: Get It Done with CyVerse: Real Life Stories of\_Research, Teaching\
+    \ and Open Science"
+  website: "https://cyverse.org/cyverse2021"
 - categroy: Workshop
   end_date: August 27, 2021
   source: CyVerse
   start_date: August 27, 2021
   time: 04:00
-  title: "Webinar: Get It Done with CyVerse: Real Life Stories of\_Research, Teaching\
-    \ and Open Science"
-  website: "https://cyverse.org/cyverse2021"
+  title: 'Webinar: CyVerse 2021 for Research, Teaching and Open Science'
+  website: "https://cyverse.org/node/243"
 - categroy: Workshop
   end_date: September 24, 2021
   source: TACC
