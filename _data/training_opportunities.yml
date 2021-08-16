@@ -14,6 +14,13 @@
     \ and Open Science"
   website: "https://cyverse.org/cyverse2021"
 - categroy: Workshop
+  end_date: September 15, 2021
+  source: XSEDE
+  start_date: September 14, 2021
+  time: 04:00
+  title: 'XSEDE HPC Workshop: MPI - September 14-15, 2021'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2498/session/4192/register"
+- categroy: Workshop
   end_date: September 24, 2021
   source: TACC
   start_date: September 23, 2021
