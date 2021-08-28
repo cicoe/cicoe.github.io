@@ -6,6 +6,20 @@
   title: Code Performance and Scaling for Frontera Proposals
   website: "https://learn.tacc.utexas.edu/course/view.php?id=109"
 - categroy: Workshop
+  end_date: September 09, 2021
+  source: CyVerse
+  start_date: September 08, 2021
+  time: 04:00
+  title: 'AG2PI Workshop #7: Unix Skills and Git Skills'
+  website: "https://cyverse.org/ag2pi-workshop-7"
+- categroy: Workshop
+  end_date: September 10, 2021
+  source: CyVerse
+  start_date: September 10, 2021
+  time: 04:00
+  title: 'Webinar: Discover the New Discovery Environment!'
+  website: "https://cyverse.org/newDE"
+- categroy: Workshop
   end_date: September 15, 2021
   source: XSEDE
   start_date: September 14, 2021
