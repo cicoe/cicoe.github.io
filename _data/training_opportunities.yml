@@ -3,15 +3,22 @@
   source: XSEDE
   start_date: September 16, 2021
   time: 04:00
-  title: 'XSEDE Webinar: Accessing and Running Jobs on Expanse'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2530/session/4224/register"
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4258/register"
 - categroy: Workshop
   end_date: September 16, 2021
   source: XSEDE
   start_date: September 16, 2021
   time: 04:00
-  title: Writing a Successful XSEDE Allocation Proposal
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4258/register"
+  title: 'XSEDE Webinar: Accessing and Running Jobs on Expanse'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2530/session/4224/register"
+- categroy: Workshop
+  end_date: September 22, 2021
+  source: XSEDE
+  start_date: September 22, 2021
+  time: 04:00
+  title: XSEDE Code Performance and Scaling Training
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2564/session/4260/register"
 - categroy: Workshop
   end_date: September 24, 2021
   source: TACC
