@@ -13,6 +13,13 @@
   title: TACCSTER 20
   website: "https://learn.tacc.utexas.edu/course/view.php?id=108"
 - categroy: Workshop
+  end_date: September 24, 2021
+  source: CyVerse
+  start_date: September 24, 2021
+  time: 04:00
+  title: 'Webinar: Data Data Data!'
+  website: "https://cyverse.org/data"
+- categroy: Workshop
   end_date: October 06, 2021
   source: XSEDE
   start_date: October 05, 2021
@@ -25,7 +32,7 @@
   start_date: October 06, 2021
   time: 04:00
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent-based Modeling'
+    3) Agent-based Modeling'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2366/session/4257/register"
 - categroy: Workshop
   end_date: October 13, 2021
@@ -33,7 +40,7 @@
   start_date: October 06, 2021
   time: 04:00
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    3) Agent-based Modeling'
+    Agent-based Modeling'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2366/session/4257/register"
 - categroy: Workshop
   end_date: October 21, 2021
