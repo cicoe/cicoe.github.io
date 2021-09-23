@@ -13,6 +13,13 @@
   title: 'Webinar: Data Data Data!'
   website: "https://cyverse.org/data"
 - categroy: Workshop
+  end_date: October 04, 2021
+  source: XSEDE
+  start_date: October 04, 2021
+  time: 04:00
+  title: Webinar - Neocortex Overview and Upcoming Call for Proposals
+  website: "Download"
+- categroy: Workshop
   end_date: October 06, 2021
   source: XSEDE
   start_date: October 05, 2021
