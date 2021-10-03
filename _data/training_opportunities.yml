@@ -6,13 +6,6 @@
   title: Webinar - Neocortex Overview and Upcoming Call for Proposals
   website: "Download"
 - categroy: Workshop
-  end_date: October 05, 2021
-  source: XSEDE
-  start_date: October 05, 2021
-  time: 04:00
-  title: Writing a Successful XSEDE Allocation Proposal
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4263/register"
-- categroy: Workshop
   end_date: October 06, 2021
   source: XSEDE
   start_date: October 05, 2021
@@ -20,13 +13,12 @@
   title: 'XSEDE HPC Workshop: Big Data and Machine Learning - October 5-6, 2021'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2563/session/4259/register"
 - categroy: Workshop
-  end_date: October 13, 2021
+  end_date: October 05, 2021
   source: XSEDE
-  start_date: October 06, 2021
+  start_date: October 05, 2021
   time: 04:00
-  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
-    Agent-based Modeling'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2366/session/4257/register"
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4263/register"
 - categroy: Workshop
   end_date: October 13, 2021
   source: XSEDE
@@ -34,6 +26,14 @@
   time: 04:00
   title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
     3) Agent-based Modeling'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2366/session/4257/register"
+- categroy: Workshop
+  end_date: October 13, 2021
+  source: XSEDE
+  start_date: October 06, 2021
+  time: 04:00
+  title: 'Workshop: Introduction to Computational Thinking Across the Curriculum:
+    Agent-based Modeling'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2366/session/4257/register"
 - categroy: Workshop
   end_date: October 08, 2021
