@@ -22,6 +22,13 @@
   title: 'Webinar: CyVerse VICE: A Virtuous Habit for Your Cloud Addiction'
   website: "https://cyverse.org/VICEwebinar"
 - categroy: Workshop
+  end_date: October 12, 2021
+  source: XSEDE
+  start_date: October 12, 2021
+  time: 04:00
+  title: Writing a Successful XSEDE Allocation Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4264/register"
+- categroy: Workshop
   end_date: October 21, 2021
   source: XSEDE
   start_date: October 21, 2021
