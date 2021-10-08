@@ -29,6 +29,13 @@
   title: 'XSEDE Webinar: Data Management & File Systems on Expanse'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2531/session/4225/register"
 - categroy: Workshop
+  end_date: November 03, 2021
+  source: XSEDE
+  start_date: November 03, 2021
+  time: 04:00
+  title: 'XSEDE HPC Workshop: OpenMP - November 3, 2021'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2567/session/4265/register"
+- categroy: Workshop
   end_date: November 10, 2021
   source: CyVerse
   start_date: November 07, 2021
