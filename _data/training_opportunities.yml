@@ -29,6 +29,13 @@
   title: 'XSEDE Webinar: Data Management & File Systems on Expanse'
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2531/session/4225/register"
 - categroy: Workshop
+  end_date: October 22, 2021
+  source: CyVerse
+  start_date: October 22, 2021
+  time: 04:00
+  title: 'Webinar: All About Apps in CyVerse'
+  website: "https://cyverse.org/apps-webinar"
+- categroy: Workshop
   end_date: November 03, 2021
   source: XSEDE
   start_date: November 03, 2021
