@@ -26,3 +26,10 @@
   time: 05:00
   title: Introduction to Parallel Computing
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2569/session/4267/register"
+- categroy: Workshop
+  end_date: November 17, 2021
+  source: XSEDE
+  start_date: November 17, 2021
+  time: 05:00
+  title: Introduction to Parallel Computing on High-Performance Systems
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2569/session/4267/register"
