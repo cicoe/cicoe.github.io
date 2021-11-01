@@ -40,3 +40,10 @@
   time: 05:00
   title: Introduction to Parallel Computing on High-Performance Systems
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2569/session/4267/register"
+- categroy: Workshop
+  end_date: December 14, 2021
+  source: XSEDE
+  start_date: December 14, 2021
+  time: 05:00
+  title: 'XSEDE Webinar: How-to secure your Jupyter notebook sessions on Expanse'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2596/session/4290/register"
