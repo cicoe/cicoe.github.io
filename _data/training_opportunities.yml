@@ -17,14 +17,14 @@
   source: XSEDE
   start_date: November 17, 2021
   time: 05:00
-  title: Introduction to Parallel Computing
+  title: Introduction to Parallel Computing on High-Performance Systems
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2569/session/4267/register"
 - categroy: Workshop
   end_date: November 17, 2021
   source: XSEDE
   start_date: November 17, 2021
   time: 05:00
-  title: Introduction to Parallel Computing on High-Performance Systems
+  title: Introduction to Parallel Computing
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2569/session/4267/register"
 - categroy: Workshop
   end_date: December 08, 2021
@@ -46,6 +46,13 @@
   start_date: January 20, 2022
   time: 05:00
   title: 'XSEDE Webinar: Parallel Computing Concepts'
+  website: "Registration opens"
+- categroy: Workshop
+  end_date: February 17, 2022
+  source: XSEDE
+  start_date: February 17, 2022
+  time: 05:00
+  title: 'XSEDE Webinar: Accessing and Running Jobs on Expanse'
   website: "Registration opens"
 - categroy: Workshop
   end_date: March 17, 2022
