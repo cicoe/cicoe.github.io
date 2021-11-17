@@ -3,23 +3,15 @@
   source: XSEDE
   start_date: November 17, 2021
   time: 05:00
-  title: Introduction to Parallel Computing
+  title: Introduction to Parallel Computing on High-Performance Systems
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2569/session/4267/register"
 - categroy: Workshop
   end_date: November 17, 2021
   source: XSEDE
   start_date: November 17, 2021
   time: 05:00
-  title: Introduction to Parallel Computing on High-Performance Systems
+  title: Introduction to Parallel Computing
   website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2569/session/4267/register"
-- categroy: Workshop
-  end_date: November 19, 2021
-  source: CyVerse
-  start_date: November 19, 2021
-  time: 05:00
-  title: "Webinar: A Preview of CyVerse\u2019s New Feature That Streamlines Connecting\
-    \ Data to Apps"
-  website: "https://cyverse.org/webinar-CSI-driver"
 - categroy: Workshop
   end_date: November 19, 2021
   source: CyVerse
@@ -27,6 +19,14 @@
   time: 05:00
   title: "Webinar: A Tech Preview of CyVerse\u2019s New Backend Feature That Streamlines\
     \ Connecting Data to Apps"
+  website: "https://cyverse.org/webinar-CSI-driver"
+- categroy: Workshop
+  end_date: November 19, 2021
+  source: CyVerse
+  start_date: November 19, 2021
+  time: 05:00
+  title: "Webinar: A Preview of CyVerse\u2019s New Feature That Streamlines Connecting\
+    \ Data to Apps"
   website: "https://cyverse.org/webinar-CSI-driver"
 - categroy: Workshop
   end_date: December 08, 2021
