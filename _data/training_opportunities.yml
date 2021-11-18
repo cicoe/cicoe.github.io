@@ -3,17 +3,24 @@
   source: CyVerse
   start_date: November 19, 2021
   time: 05:00
-  title: "Webinar: A Tech Preview of CyVerse\u2019s New Backend Feature That Streamlines\
-    \ Connecting Data to Apps"
+  title: "Webinar: A Preview of CyVerse\u2019s New Feature That Streamlines Connecting\
+    \ Data to Apps"
   website: "https://cyverse.org/webinar-CSI-driver"
 - categroy: Workshop
   end_date: November 19, 2021
   source: CyVerse
   start_date: November 19, 2021
   time: 05:00
-  title: "Webinar: A Preview of CyVerse\u2019s New Feature That Streamlines Connecting\
-    \ Data to Apps"
+  title: "Webinar: A Tech Preview of CyVerse\u2019s New Backend Feature That Streamlines\
+    \ Connecting Data to Apps"
   website: "https://cyverse.org/webinar-CSI-driver"
+- categroy: Workshop
+  end_date: December 01, 2021
+  source: XSEDE
+  start_date: December 01, 2021
+  time: 05:00
+  title: Introduction to AMD's EPYC Architecture and Programming Environment on Delta
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2602/session/4295/register"
 - categroy: Workshop
   end_date: December 08, 2021
   source: XSEDE
