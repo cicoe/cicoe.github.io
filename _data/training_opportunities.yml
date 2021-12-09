@@ -10,15 +10,15 @@
   source: XSEDE
   start_date: December 14, 2021
   time: 05:00
-  title: 'XSEDE Webinar: How-to secure your Jupyter notebook sessions on Expanse'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2596/session/4290/register"
+  title: Writing a Successful XSEDE Research Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4323/register"
 - categroy: Workshop
   end_date: December 14, 2021
   source: XSEDE
   start_date: December 14, 2021
   time: 05:00
-  title: Writing a Successful XSEDE Research Proposal
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4323/register"
+  title: 'XSEDE Webinar: How-to secure your Jupyter notebook sessions on Expanse'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2596/session/4290/register"
 - categroy: Workshop
   end_date: January 11, 2022
   source: XSEDE
