@@ -1,1 +1,35 @@
-[]"
+- categroy: Workshop
+  end_date: May 26, 2022
+  source: XSEDE
+  start_date: May 26, 2022
+  time: 04:00
+  title: Data Analysis with R for Educators
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2893/session/4653/register"
+- categroy: Workshop
+  end_date: May 27, 2022
+  source: XSEDE
+  start_date: May 26, 2022
+  time: 04:00
+  title: 'XSEDE HPC Workshop: MPI - May 26-27, 2022'
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2959/session/4686/register"
+- categroy: Workshop
+  end_date: June 21, 2022
+  source: XSEDE
+  start_date: June 13, 2022
+  time: 04:00
+  title: Computational Chemistry for Chemistry Educators Workshop
+  website: "Registration closed"
+- categroy: Workshop
+  end_date: June 14, 2022
+  source: XSEDE
+  start_date: June 14, 2022
+  time: 04:00
+  title: Writing a Successful XSEDE Research Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4522/register"
+- categroy: Workshop
+  end_date: June 30, 2022
+  source: InCommon
+  start_date: June 28, 2022
+  time: 04:00
+  title: COmanage Class
+  website: "'https://service5.internet2.edu/reg/events/coman22-06/registrations '"
