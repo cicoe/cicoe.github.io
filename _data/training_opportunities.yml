@@ -33,3 +33,10 @@
   time: 04:00
   title: COmanage Class
   website: "'https://service5.internet2.edu/reg/events/coman22-06/registrations '"
+- categroy: Workshop
+  end_date: July 08, 2022
+  source: XSEDE
+  start_date: July 08, 2022
+  time: 04:00
+  title: Writing a Successful XSEDE Research Proposal
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/594/session/4719/register"
