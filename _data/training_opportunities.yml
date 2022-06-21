@@ -27,6 +27,13 @@
   title: COmanage Class
   website: "'https://service5.internet2.edu/reg/events/coman22-06/registrations '"
 - categroy: Workshop
+  end_date: June 29, 2022
+  source: XSEDE
+  start_date: June 29, 2022
+  time: 04:00
+  title: Getting Started with Delta for Early Users
+  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/3058/session/4851/register"
+- categroy: Workshop
   end_date: July 08, 2022
   source: XSEDE
   start_date: July 08, 2022
