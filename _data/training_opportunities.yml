@@ -1,18 +1,4 @@
 - categroy: Workshop
-  end_date: June 24, 2022
-  source: XSEDE
-  start_date: June 19, 2022
-  time: 04:00
-  title: IHPCSS 2022 Hands-on Training (Novotel Athenes)
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/3025/session/4785/register"
-- categroy: Workshop
-  end_date: June 24, 2022
-  source: XSEDE
-  start_date: June 24, 2022
-  time: 04:00
-  title: 'Anvil 101: New User Tutorial'
-  website: "https://www.xsede.org/web/xup/course-calendar/-/training-user/class/2630/session/4818/register"
-- categroy: Workshop
   end_date: June 30, 2022
   source: InCommon
   start_date: June 28, 2022
